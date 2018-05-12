@@ -2,12 +2,12 @@
 
 ## About
 
-This project started to give Travis CI a dark style, but it soon became apparent that some other sites coverage was needed. So the Extended version was sort of started.
+This project started to give Travis CI a dark style, but it soon became apparent that some other sites coverage was needed. So the Extended version was sort of started instead.
 
 I drew some inspiration by [StylishThemes/GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) and the idea is to transition smoothly from GitHub Dark to other associated projects used sometimes.
 
-At launch A total of 7 sites are covered either partially or fully.
-There are limitations on a opensource free project to provide full coverage.
+At launch, a total of 7 sites are covered either partially or fully.
+There are some limitations on a opensource free project account to provide :asterisk: full coverage.
 
 if you would like to contribute, please keep reading.
 
@@ -23,19 +23,62 @@ Have fun and save the corneas :smile:
 | [About](https://about.travis-ci.com)     |                    | :heavy_check_mark: |
 | [Docs](https://docs.travis-ci.com/)      |                    | :heavy_check_mark: |
 | [Status](https://www.traviscistatus.com/)| :heavy_check_mark: |                    |
-| [Enterprise](https://travis-ci.org)      | :heavy_check_mark: |                    |
+| [Enterprise](https://enterprise.travis-ci.com)   | :heavy_check_mark: |                    |
 
-Further coverage is not planned at this time, PR's are welcome.
+:asterisk: Further full coverage is not planned at this time, PR's are welcome though.
 
 ## I Found a Bug
 
-At the first instance of finding a bug, have a look if there is already an open issue, if so add your information there.
+At the first instance of finding a bug, have a look if there is already an open issue, if so add the required information as described in the [issue template](.github/ISSUE_TEMPLATE.md).
 
 If your issue is new, please [open an issue](https://github.com/the-j0k3r/travis-ci-dark-extended/issues/new) and report your problem.
 
 ## Contributing
 
 At this time any help is appreciated, so if you can help fix a bug or improve the Travis CI Dark Extended theme, just open a pull request to start the ball rolling.
+
+You will need to ideally:
+
+* [Fork](https://github.com/the-j0k3r/travis-ci-dark-extended/fork) the project.
+
+* Limit to the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K.26R), and **2 SPACE INDENTATION** (no tabs, and not more, and not less than 2 spaces).
+
+  * K&R Example:
+    ```css
+    element[attr='value'] {
+    ··property: value;
+    }
+    ```
+
+  * **Not Allman**
+    ```css
+    element[property='value']
+    {
+    ··property: value;
+    }
+    ```
+
+  * Strict space between the `selector` and the `{`:
+    ```css
+    /* good */
+    element[attr='value'] { }
+
+    /* bad */
+    element[attr='value']{ }
+    ```
+
+  * 2 Space indentation
+    ```css
+    /* good */
+    ··property: value;
+
+    /* bad */
+    ····property: value;
+    ----property: value;
+    ·property: value;
+    ```
+
+:asterisk: Try to wrap lines at around 80 characters.
 
 ## Screens
 
