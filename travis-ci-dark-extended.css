@@ -367,7 +367,7 @@ img {
 	}
 
 	.small-offset-8 {
-		margin-left: 66.66667%!important;
+		margin-left: 66.66667% !important;
 	}
 
 	.small-offset-9 {
@@ -6805,7 +6805,7 @@ select {
 	display: inline-block !important;
 	width: 1.1em !important;
 	height: 1.1em !important;
-	background-image: url(/images/landing-page/twitter.svg) !important;
+	background-image: url(https://cdn.travis-ci.org/images/landing-page/twitter.svg) !important;
 	background-repeat: no-repeat !important;
 	background-size: 100% auto !important;
 	background-position: 0 .2em !important;
@@ -10325,12 +10325,9 @@ li:last-child .tile {
 }
 
 .limit-concurrent-builds input {
-	display: inline-block !important;
-	width: 3em !important;
-	height: 30px !important;
-	margin: 0 .5em !important;
-	text-align: center !important;
-	box-shadow: none !important;
+	background: #111 !important;
+	border-color: #444 !important;
+	color: #eee !important;
 }
 
 .settings-cron,
@@ -10340,47 +10337,14 @@ li:last-child .tile {
 	background-color: #222 !important;
 }
 
-.settings-cron,
-.settings-envvar {
-	padding: .4em .5em !important
-}
-
-.settings-sshkey {
-	padding: .6em .5em !important;
-	display: block !important;
-	margin-bottom: 1rem !important;
-	overflow: hidden !important;
-}
-
-.settings-sshkey span {
-	vertical-align: middle !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.settings-sshkey {
-		overflow: visible !important;
-	}
-}
-
 .env-var-name,
 .ssh-key-name {
-	display: inline-block !important;
-	position: relative !important;
-	vertical-align: middle !important;
-	overflow: hidden !important;
-	white-space: nowrap !important;
 	color: #c0c0c0 !important;
 }
 
 .env-var-name:after,
 .ssh-key-name:after {
 	content: "" !important;
-	display: block !important;
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	width: 2em !important;
-	height: 100% !important;
 	background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
 }
 
@@ -10389,75 +10353,17 @@ li:last-child .tile {
 	margin-bottom: 1em !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.ssh-key-name {
-		width: 32% !important;
-		margin-bottom: 0 !important;
-	}
-}
-
-.env-var-name {
-	width: 100% !important;
-	margin-bottom: 1em !important;
-}
-
 .env-var-value,
 .ssh-key-value {
-	display: inline-block !important;
-	vertical-align: middle !important;
-	overflow: hidden !important;
 	color: #eee !important;
-}
-
-.ssh-key-value {
-	word-break: break-all !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.env-var-name {
-		width: 50% !important;
-		margin-bottom: 0 !important;
-	}
-
-	.ssh-key-value {
-		width: 50% !important;
-		word-break: normal !important;
-		white-space: nowrap !important;
-	}
 }
 
 .env-var-value {
 	background-color: #333 !important;
-	border-radius: 2px !important;
-	width: 76% !important;
-	padding: .3em .7em !important;
 }
 
 .env-var-value input {
-	display: inline-block !important;
-	width: 100% !important;
-	border: none !important;
-	background: 0 0 !important;
 	color: #c0c0c0 !important;
-	font-size: inherit !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.env-var-value {
-		width: 25% !important;
-	}
-}
-
-.newly-created {
-	animation: haze-fade 2s 3s both
-}
-
-.newly-created .env-var-name::after {
-	display: none
-}
-
-.newly-created .env-var-value {
-	animation: canary-fade 2s 3s both
 }
 
 @keyframes canary-fade {
@@ -10478,46 +10384,6 @@ li:last-child .tile {
 	100% {
 		background: #cf2626
 	}
-}
-
-.env-var-action,
-.ssh-key-action {
-	display: inline-block !important;
-	position: relative !important;
-	float: right !important;
-	width: 24% !important;
-	vertical-align: middle !important;
-	text-align: center !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.env-var-action, .ssh-key-action {
-		width: 16.66667% !important;
-	}
-}
-
-@media only screen and (min-width: 90.063em) {
-	.env-var-action, .ssh-key-action {
-		width: 11.11111% !important;
-	}
-}
-
-.env-var-action a {
-	padding: 1em !important;
-}
-
-.ssh-key-action {
-	margin-top: 1em !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.ssh-key-action {
-		margin-top: 0 !important;
-	}
-}
-
-.ssh-key-action .icon-delete {
-	margin: .2em auto 0 !important;
 }
 
 .ssh-key-action .icon-delete-disabled {
@@ -10558,52 +10424,14 @@ li:last-child .tile {
 	}
 }
 
-.cron-job-action,
-.landing .hero.z-1,
-.landing .oss-testing {
-	position: relative !important;
-	text-align: center !important;
-}
-
-.repo-list {
-	list-style: none !important;
-	padding: 0 !important;
-}
-
 .dashboard .centered,
 .dashboard .loading-page {
 	background-color: #222 !important;
 }
 
-.dashboard-header {
-	width: 100% !important;
-	display: flex !important;
-	flex-flow: column-reverse wrap !important;
-	justify-content: space-between !important;
-	padding: 2em 0 !important;
-}
-
-.dashboard-section:not(:last-of-type) {
-	margin-bottom: 4rem !important;
-}
-
-.dashboard-section:first-of-type {
-	margin-top: 4rem !important;
-}
-
 .starred-empty {
 	border: 1px dotted #9d9d9d !important;
-	border-radius: 2px !important;
-	text-align: center !important;
-	padding: 2rem 0 !important;
-	font-size: 18px !important;
 	color: #9d9d9d !important;
-}
-
-.starred-empty span {
-	padding-left: 2em !important;
-	background-size: 24px 24px !important;
-	background-repeat: no-repeat !important;
 }
 
 .layout-features {
@@ -10684,27 +10512,8 @@ li:last-child .tile {
 	stroke: #fff !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.dashboard-header {
-		flex-direction:row !important;
-		align-items: baseline !important;
-	}
-
-	.features-list {
-		width: 54% !important;
-	}
-
-	.travis-pride .broadcasts {
-		left: 115px !important;
-	}
-}
-
-.travis-pride .logo {
-	width: 70px !important;
-}
-
 .travis-pride .logo a {
-	background-image: url(/images/logos/TravisCI-Mascot-pride.svg) !important;
+	background-image: url(https://cdn.travis-ci.org/images/logos/TravisCI-Mascot-pride.svg) !important;
 	background-repeat: no-repeat !important;
 	background-size: 50px !important;
 	background-position: center !important;
@@ -10720,7 +10529,7 @@ li:last-child .tile {
 .travis-pride .logo a:active,
 .travis-pride .logo a:hover {
 	transform: rotateY (180deg) !important;
-	background-image: url(/images/logos/Tessa-pride.svg) !important;
+	background-image: url(https://cdn.travis-ci.org/images/logos/Tessa-pride.svg) !important;
 }
 
 .travis-comicsans * {
@@ -12989,7 +12798,7 @@ pre[class*="language-"] {
 
 @media (min-width: 1280px) {
 	.layout-main {
-		background-image:url(/images/ui/bg-pattern.svg) !important;
+		background-image:url(https://blog.travis-ci.com/images/ui/bg-pattern.svg) !important;
 		background-position: center 80px !important;
 		background-repeat: no-repeat !important;
 	}
@@ -13524,7 +13333,7 @@ pre[class*="language-"] {
 }
 
 .search input {
-	background-image: url(/images/ui/icon-search.svg)!important;
+	background-image: url(https://blog.travis-ci.com/images/ui/icon-search.svg)!important;
 	background-size: 15px !important;
 	background-position: 96% center !important;
 	background-repeat: no-repeat !important;
@@ -13965,10 +13774,10 @@ select {
 
 .column,
 .columns {
-	padding-left: 0.9375rem !important;
-	padding-right: 0.9375rem !important;
-	width: 100% !important;
-	float: left !important;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	width: 100%;
+	float: left;
 }
 
 [class*="column"] + [class*="column"]:last-child {
@@ -15679,7 +15488,7 @@ table tr {
 	border-radius: 50% !important;
 	margin-right: 0.8em !important;
 	vertical-align: middle !important;
-	background-image: url(/images/ui/icon-flag.svg) !important;
+	background-image: url(https://docs.travis-ci.com/images/ui/icon-flag.svg) !important;
 	background-color: #db4545 !important;
 	background-repeat: no-repeat !important;
 	background-size: 70% !important;
@@ -15705,7 +15514,7 @@ table tr {
 	border-radius: 50% !important;
 	margin-right: 0.8em !important;
 	vertical-align: middle !important;
-	background-image: url(/images/ui/icon-flag.svg) !important;
+	background-image: url(https://docs.travis-ci.com/images/ui/icon-flag.svg) !important;
 	background-color: #cdb62c !important;
 	background-repeat: no-repeat !important;
 	background-size: 70% !important;
@@ -16061,7 +15870,7 @@ pre.code-toolbar > .toolbar {
 	padding: 0.4em 0.6em !important;
 	border: 1px solid #444 !important;
 	border-radius: 4px !important;
-	background-image: url(../../images/ui/search.svg) !important;
+	background-image: url(https://docs.travis-ci.com/images/ui/search.svg) !important;
 	background-repeat: no-repeat !important;
 	background-size: 1.4rem !important;
 	background-position: 98% 48% !important;
@@ -16075,7 +15884,7 @@ pre.code-toolbar > .toolbar {
 	padding: 0.4em 0.6em !important;
 	border: 1px solid #555 !important;
 	border-radius: 4px !important;
-	background-image: url(../../images/ui/search.svg) !important;
+	background-image: url(https://blog.travis-ci.com/images/ui/icon-search.svg) !important;
 	background-repeat: no-repeat !important;
 	background-size: 1.4rem !important;
 	background-position: 98% 48% !important;
@@ -16224,7 +16033,7 @@ pre.code-toolbar > .toolbar {
 	right: 0 !important;
 	top: 0.3em !important;
 	transform: rotate(90deg) !important;
-	background-image: url(/images/ui/icon-arrowtabs.svg) !important;
+	background-image: url(https://docs.travis-ci.com/images/ui/icon-arrowtabs.svg) !important;
 	background-repeat: no-repeat !important;
 	background-position: 95% 0 !important;
 }
@@ -18921,11 +18730,11 @@ table tr {
 	outline: none !important;
 	text-indent: -9999px !important;
 	transition: background-color 200ms ease !important;
-	background: url("/assets/svg/travis-ci-logo-ed0ff98548d678f3a8d522928f04a9bc8a64d86d5c6537ba05c3c7c9a93578eb.svg") no-repeat 0 50% !important;
+	background: url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-ed0ff98548d678f3a8d522928f04a9bc8a64d86d5c6537ba05c3c7c9a93578eb.svg") no-repeat 0 50% !important;
 }
 
 .logo a:hover {
-	background: #181818 url("/assets/svg/travis-ci-logo-hover-d275d45f6fdc5b3b44b2e74aa360eba2b4e5f3b7126c11ccb15fe2a2c0011dc4.svg") no-repeat 50% !important;
+	background: #181818 url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-hover-d275d45f6fdc5b3b44b2e74aa360eba2b4e5f3b7126c11ccb15fe2a2c0011dc4.svg") no-repeat 50% !important;
 }
 
 .topbar {
@@ -19256,7 +19065,7 @@ table tr {
 .hero-button {
 	display: inline-block !important;
 	background-color: #3eaaaf !important;
-	background-image: url("/assets/landing/sign-in-mascot-7fb87c8fb7f4252e27d81ef2a41c414e5f2514e5c4c60bad8ed393a43778d8db.svg") !important;
+	background-image: url("https://enterprise.travis-ci.com/assets/landing/sign-in-mascot-7fb87c8fb7f4252e27d81ef2a41c414e5f2514e5c4c60bad8ed393a43778d8db.svg") !important;
 	background-size: 1.7em !important;
 	background-position: 0.8em center !important;
 	background-repeat: no-repeat !important;
@@ -19344,7 +19153,7 @@ table tr {
 	font-size: 27px !important;
 	text-decoration: none !important;
 	background-color: #4dad68 !important;
-	background-image: url("/assets/landing/feature-img-contact-569d16a95c65a4e048599e7c0ad085e04b939954f0abed6c85b398fa8329fc68.svg") !important;
+	background-image: url("https://enterprise.travis-ci.com/assets/landing/feature-img-contact-569d16a95c65a4e048599e7c0ad085e04b939954f0abed6c85b398fa8329fc68.svg") !important;
 	background-size: 1.3em !important;
 	background-position: 0.8em center !important;
 	background-repeat: no-repeat !important;
@@ -19617,7 +19426,7 @@ table tr {
 	line-height: 0.6 !important;
 	border-top-right-radius: 2px !important;
 	border-top-left-radius: 2px !important;
-	background-image: url(/images/icon-select-arrow.svg) !important;
+	background-image: url(https://enterprise.travis-ci.com/images/icon-select-arrow.svg) !important;
 	background-size: 8px !important;
 	background-repeat: no-repeat !important;
 	background-position: 75% !important;
@@ -19625,7 +19434,7 @@ table tr {
 
 .new-license-form .travis-select:before {
 	content: "" !important;
-	background-image: url(/images/icon-select-arrow.svg) !important;
+	background-image: url(https://enterprise.travis-ci.com/images/icon-select-arrow.svg) !important;
 	background-size: 100% !important;
 	background-repeat: no-repeat !important;
 	background-position: center !important;
