@@ -84,4 +84,21 @@ You will need to ideally:
 
 ![history](/screens/travis-ci-inspired-dark-extended.gif)
 
+## Installing
+
+* If you're using a browser extension:
+  * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+  * Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
+  * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
+<!--
+  * Then install this style using:
+    * [userstyles.org](https://userstyles.org/styles/160316)
+    * or, add it
+-->
+  * Then install this style:
+     [manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
+      > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
+* Install directly **[by clicking here](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/raw/master/travis-ci-inspired-dark-extended.user.css)**
+>only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+
 [![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
