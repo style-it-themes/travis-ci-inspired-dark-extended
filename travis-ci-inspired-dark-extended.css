@@ -1,6 +1,6 @@
 @-moz-document domain("travis-ci.org") {
 /*! Name    : Travis CI Inspired Dark Extended */
-/*! Version : Version: 1.03 beta */
+/*! Version : Version: 1.04 beta */
 /*! Author  : style-it-themes: the-j0k3r */
 /*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 /*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
@@ -15311,19 +15311,11 @@ table tr {
 }
 
 .footer {
-	position: relative !important;
-	padding: 20px 0 !important;
 	background-color: #181818 !important;
-	font-size: 12px !important;
-	line-height: 22px !important;
-	color: #666666 !important;
 }
 
 .footer a {
-	display: inline-block !important;
-	vertical-align: middle !important;
-	color: #666666 !important;
-	text-decoration: none !important;
+	color: #666 !important;
 }
 
 .footer a:hover,
@@ -15339,7 +15331,6 @@ table tr {
 
 .footer-title {
 	color: #9d9d9d !important;
-	border-top: solid 4px rgba(157, 157, 157, 0.15) !important;
 }
 
 .status-circle {
