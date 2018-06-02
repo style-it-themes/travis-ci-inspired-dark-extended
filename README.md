@@ -1,4 +1,4 @@
-<h1 align="center"><strong>Travis-CI-Dark-Extended</strong></h1>
+<h1 align="center"><strong>Travis CI Inspired Dark Extended</strong></h1>
 
 ## About
 
@@ -31,22 +31,22 @@ Have fun and save the corneas :smile:
 
 At the first instance of finding a bug, have a look if there is already an open issue, if so add the required information as described in the [issue template](.github/ISSUE_TEMPLATE.md).
 
-If your issue is new, please [open an issue](https://github.com/the-j0k3r/travis-ci-dark-extended/issues/new) and report your problem.
+If your issue is new, please [open an issue](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/issues/new) and report your problem.
 
 ## Contributing
 
-At this time any help is appreciated, so if you can help fix a bug or improve the Travis CI Dark Extended theme, just open a pull request to start the ball rolling.
+At this time any help is appreciated, so if you can help fix a bug or improve the Travis CI Inspired Dark Extended theme, just open a pull request to start the ball rolling.
 
 You will need to ideally:
 
-* [Fork](https://github.com/the-j0k3r/travis-ci-dark-extended/fork) the project.
+* [Fork](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/fork) the project.
 
-* Limit to the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K.26R), and **2 SPACE INDENTATION** (no tabs, and not more, and not less than 2 spaces).
+* Limit to the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K.26R), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
 
   * K&R Example:
     ```css
     element[attr='value'] {
-    ··property: value;
+    -property: value;
     }
     ```
 
@@ -54,7 +54,7 @@ You will need to ideally:
     ```css
     element[property='value']
     {
-    ··property: value;
+    -property: value;
     }
     ```
 
@@ -70,7 +70,7 @@ You will need to ideally:
   * 2 Space indentation
     ```css
     /* good */
-    ··property: value;
+    -property: value;
 
     /* bad */
     ····property: value;
@@ -82,6 +82,6 @@ You will need to ideally:
 
 ## Screens
 
-![history](/screens/travis-ci-dark-extended.gif)
+![history](/screens/travis-ci-inspired-dark-extended.gif)
 
-[![CC--BY--SA--4.0](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
+[![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
