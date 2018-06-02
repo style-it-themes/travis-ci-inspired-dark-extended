@@ -67,7 +67,7 @@ You will need to ideally:
     element[attr='value']{ }
     ```
 
-  * 2 Space indentation
+  * 1 tab indentation
     ```css
     /* good */
     -property: value;
