@@ -1,5 +1,8 @@
 <h1 align="center"><strong>Travis CI Inspired Dark Extended</strong></h1>
 
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20%20directly%20with%20%20-%20%20Stylus%20%20-21d1d0.svg)](https://cdn.rawgit.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)
+[![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
+
 ## About
 
 This project started to give Travis CI a dark style, but it soon became apparent that some other sites coverage was needed. So the Extended version was sort of started instead.
@@ -98,7 +101,5 @@ You will need to ideally:
   * Then install this style:
      [manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
       > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
-* Install directly **[by clicking here](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/raw/master/travis-ci-inspired-dark-extended.user.css)**
->only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
-
-[![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
+* Install directly **[click here](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)**
+  > Only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
