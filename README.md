@@ -1,4 +1,8 @@
-<h1 align="center"><strong>Travis CI Inspired Dark Extended</strong></h1>
+<p align="center">
+  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/master/style-it-themes-logo-full.svg" width="580">
+</p>
+<br>
+<h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20%20directly%20with%20%20-%20%20Stylus%20%20-21d1d0.svg)](https://cdn.rawgit.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)
 [![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
