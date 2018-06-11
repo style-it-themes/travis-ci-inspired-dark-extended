@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/master/style-it-themes-logo-full.svg" width="580">
+  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/29f8d2f32faa0e5e1ba3cc64955fde3d0b90ea64/style-it-themes-logo-full.svg" width="580">
 </p>
 <br>
 <h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
@@ -48,9 +48,9 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/fork) the project.
 
-* Limit to the [K&R Style](https://en.wikipedia.org/wiki/Indentation_style#K.26R), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
+* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
 
-  * K&R Example:
+  * K&R - KNF Variation Example:
     ```css
     element[attr='value'] {
     -property: value;
