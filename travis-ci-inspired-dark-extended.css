@@ -1,6 +1,6 @@
 @-moz-document domain("travis-ci.org") {
 /*! Name    : Travis CI Inspired Dark Extended */
-/*! Version : Version: 1.0.5 beta */
+/*! Version : Version: 1.0.6 beta */
 /*! Author  : Style-it Themes: the-j0k3r */
 /*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 /*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
@@ -23,1217 +23,11 @@ a, body, button, html {
 	color: #888 !important;
 }
 
-.helptext a,
-a,
-a:active,
-a:hover {
+.helptext a, a, a:active, a:hover {
 	text-decoration: none !important;
 }
 
-.label-align,
-.logo,
-.row-li .one-line,
-.row-li .one-line .row-item,
-.row-li .two-line,
-.row-li .two-line .row-item,
-img {
-	vertical-align: middle !important;
-}
-
-.logo a,
-.tofuburger {
-	outline: 0 !important;
-	height: 55px !important;
-}
-
-.badge.message-label,
-.form-label,
-.pagination-button,
-.rows .label,
-.token-actions button {
-	text-transform: uppercase !important;
-}
-
-.build-tiles,
-.row .row.collapse:after,
-.row .row:after,
-.row:after,
-.topbar {
-	clear: both !important;
-}
-
-.row {
-	width: 100% !important;
-	max-width: 100% !important;
-	margin: 0 auto !important;
-}
-
-.row.collapse > .column,
-.row.collapse > .columns {
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-
-.row.collapse .row {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-
-.row .row {
-	width: auto !important;
-	max-width: none !important;
-	margin: 0 -1.07143rem !important;
-}
-
-.row .row.collapse {
-	width: auto !important;
-	margin: 0 !important;
-	max-width: none !important;
-}
-
-.column,
-.columns {
-	padding-left: 1.07143rem !important;
-	padding-right: 1.07143rem !important;
-	width: 100% !important;
-	float: left !important;
-}
-
-[class*=column] + [class*=column]:last-child {
-	float: right !important;
-}
-
-[class*=column] + [class*=column].end {
-	float: left !important;
-}
-
-@media only screen {
-	.column,
-	.columns,
-	.small-pull-0,
-	.small-pull-1,
-	.small-pull-10,
-	.small-pull-11,
-	.small-pull-2,
-	.small-pull-3,
-	.small-pull-4,
-	.small-pull-5,
-	.small-pull-6,
-	.small-pull-7,
-	.small-pull-8,
-	.small-pull-9,
-	.small-push-0,
-	.small-push-1,
-	.small-push-10,
-	.small-push-11,
-	.small-push-2,
-	.small-push-3,
-	.small-push-4,
-	.small-push-5,
-	.small-push-7,
-	.small-push-8,
-	.small-push-9 {
-		position: relative !important;
-	}
-
-	.small-push-0 {
-		left: 0 !important;
-		right: auto !important;
-	}
-
-	.small-pull-0 {
-		right: 0 !important;
-		left: auto !important;
-	}
-
-	.small-push-1 {
-		left: 8.33333% !important;
-		right: auto !important;
-	}
-
-	.small-pull-1 {
-		right: 8.33333% !important;
-		left: auto !important;
-	}
-
-	.small-push-2 {
-		left: 16.66667% !important;
-		right: auto !important;
-	}
-
-	.small-pull-2 {
-		right: 16.66667% !important;
-		left: auto !important;
-	}
-
-	.small-push-3 {
-		left: 25% !important;
-		right: auto !important;
-	}
-
-	.small-pull-3 {
-		right: 25% !important;
-		left: auto !important;
-	}
-
-	.small-push-4 {
-		left: 33.33333% !important;
-		right: auto !important;
-	}
-
-	.small-pull-4 {
-		right: 33.33333% !important;
-		left: auto !important;
-	}
-
-	.small-push-5 {
-		left: 41.66667% !important;
-		right: auto !important;
-	}
-
-	.small-pull-5 {
-		right: 41.66667% !important;
-		left: auto !important;
-	}
-
-	.small-push-6 {
-		position: relative !important;
-		left: 50% !important;
-		right: auto !important;
-	}
-
-	.small-pull-6 {
-		right: 50% !important;
-		left: auto !important;
-	}
-
-	.small-push-7 {
-		left: 58.33333% !important;
-		right: auto !important;
-	}
-
-	.small-pull-7 {
-		right: 58.33333% !important;
-		left: auto !important;
-	}
-
-	.small-push-8 {
-		left: 66.66667% !important;
-		right: auto !important;
-	}
-
-	.small-pull-8 {
-		right: 66.66667% !important;
-		left: auto !important;
-	}
-
-	.small-push-9 {
-		left: 75% !important;
-		right: auto !important;
-	}
-
-	.small-pull-9 {
-		right: 75% !important;
-		left: auto !important;
-	}
-
-	.small-push-10 {
-		left: 83.33333% !important;
-		right: auto !important;
-	}
-
-	.small-pull-10 {
-		right: 83.33333% !important;
-		left: auto !important;
-	}
-
-	.small-push-11 {
-		left: 91.66667% !important;
-		right: auto !important;
-	}
-
-	.small-pull-11 {
-		right: 91.66667% !important;
-		left: auto !important;
-	}
-
-	.column,
-	.columns {
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-
-	.small-1 {
-		width: 8.33333% !important;
-	}
-
-	.small-2 {
-		width: 16.66667% !important;
-	}
-
-	.small-3 {
-		width: 25% !important;
-	}
-
-	.small-4 {
-		width: 33.33333% !important;
-	}
-
-	.small-5 {
-		width: 41.66667% !important;
-	}
-
-	.small-6 {
-		width: 50% !important;
-	}
-
-	.small-7 {
-		width: 58.33333% !important;
-	}
-
-	.small-8 {
-		width: 66.66667% !important;
-	}
-
-	.small-9 {
-		width: 75% !important;
-	}
-
-	.small-10 {
-		width: 83.33333% !important;
-	}
-
-	.small-11 {
-		width: 91.66667% !important;
-	}
-
-	.small-12 {
-		width: 100% !important;
-	}
-
-	.small-offset-0 {
-		margin-left: 0 !important;
-	}
-
-	.small-offset-1 {
-		margin-left: 8.33333% !important;
-	}
-
-	.small-offset-2 {
-		margin-left: 16.66667% !important;
-	}
-
-	.small-offset-3 {
-		margin-left: 25% !important;
-	}
-
-	.small-offset-4 {
-		margin-left: 33.33333% !important;
-	}
-
-	.small-offset-5 {
-		margin-left: 41.66667% !important;
-	}
-
-	.small-offset-6 {
-		margin-left: 50% !important;
-	}
-
-	.small-offset-7 {
-		margin-left: 58.33333% !important;
-	}
-
-	.small-offset-8 {
-		margin-left: 66.66667% !important;
-	}
-
-	.small-offset-9 {
-		margin-left: 75% !important;
-	}
-
-	.small-offset-10 {
-		margin-left: 83.33333% !important;
-	}
-
-	.small-offset-11 {
-		margin-left: 91.66667% !important;
-	}
-
-	.small-reset-order {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		left: auto !important;
-		right: auto !important;
-		float: left !important;
-	}
-
-	.column.small-centered,
-	.columns.small-centered {
-		margin-left: auto !important;
-		margin-right: auto !important;
-		float: none !important;
-	}
-
-	.column.small-uncentered,
-	.columns.small-uncentered {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		float: left !important;
-	}
-
-	.column.small-centered:last-child,
-	.columns.small-centered:last-child {
-		float: none !important;
-	}
-
-	.column.small-uncentered:last-child,
-	.columns.small-uncentered:last-child {
-		float: left !important;
-	}
-
-	.column.small-uncentered.opposite,
-	.columns.small-uncentered.opposite {
-		float: right !important;
-	}
-
-	.row.small-collapse > .column,
-	.row.small-collapse > .columns {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-
-	.row.small-collapse .row {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-	}
-
-	.row.small-uncollapse > .column,
-	.row.small-uncollapse > .columns {
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-}
-
-@media only screen and (min-width: 50.063em) {
-	.medium-pull-0, .medium-pull-1, .medium-pull-10, .medium-pull-11, .medium-pull-2, .medium-pull-3, .medium-pull-4, .medium-pull-5, .medium-pull-6, .medium-pull-7, .medium-pull-8, .medium-pull-9, .medium-push-0, .medium-push-1, .medium-push-10, .medium-push-11, .medium-push-2, .medium-push-3, .medium-push-4, .medium-push-5, .medium-push-6, .medium-push-7, .medium-push-8, .medium-push-9, .pull-0, .pull-1, .pull-10, .pull-11, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .push-0, .push-1, .push-10, .push-11, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9 {
-		position: relative !important;
-	}
-
-	.medium-push-0 {
-		left: 0 !important;
-		right: auto !important;
-	}
-
-	.medium-pull-0 {
-		right: 0 !important;
-		left: auto !important;
-	}
-
-	.medium-push-1 {
-		left: 8.33333% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-1 {
-		right: 8.33333% !important;
-		left: auto !important;
-	}
-
-	.medium-push-2 {
-		left: 16.66667% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-2 {
-		right: 16.66667% !important;
-		left: auto !important;
-	}
-
-	.medium-push-3 {
-		left: 25% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-3 {
-		right: 25% !important;
-		left: auto !important;
-	}
-
-	.medium-push-4 {
-		left: 33.33333% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-4 {
-		right: 33.33333% !important;
-		left: auto !important;
-	}
-
-	.medium-push-5 {
-		left: 41.66667% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-5 {
-		right: 41.66667% !important;
-		left: auto !important;
-	}
-
-	.medium-push-6 {
-		left: 50% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-6 {
-		right: 50% !important;
-		left: auto !important;
-	}
-
-	.medium-push-7 {
-		left: 58.33333% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-7 {
-		right: 58.33333% !important;
-		left: auto !important;
-	}
-
-	.medium-push-8 {
-		left: 66.66667% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-8 {
-		right: 66.66667% !important;
-		left: auto !important;
-	}
-
-	.medium-push-9 {
-		left: 75% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-9 {
-		right: 75% !important;
-		left: auto !important;
-	}
-
-	.medium-push-10 {
-		left: 83.33333% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-10 {
-		right: 83.33333% !important;
-		left: auto !important;
-	}
-
-	.medium-push-11 {
-		left: 91.66667% !important;
-		right: auto !important;
-	}
-
-	.medium-pull-11 {
-		right: 91.66667% !important;
-		left: auto !important;
-	}
-
-	.column,
-	.columns {
-		position: relative !important;
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-
-	.medium-1 {
-		width: 8.33333% !important;
-	}
-
-	.medium-2 {
-		width: 16.66667% !important;
-	}
-
-	.medium-3 {
-		width: 25% !important;
-	}
-
-	.medium-4 {
-		width: 33.33333% !important;
-	}
-
-	.medium-5 {
-		width: 41.66667% !important;
-	}
-
-	.medium-6 {
-		width: 50% !important;
-	}
-
-	.medium-7 {
-		width: 58.33333% !important;
-	}
-
-	.medium-8 {
-		width: 66.66667% !important;
-	}
-
-	.medium-9 {
-		width: 75% !important;
-	}
-
-	.medium-10 {
-		width: 83.33333% !important;
-	}
-
-	.medium-11 {
-		width: 91.66667% !important;
-	}
-
-	.medium-12 {
-		width: 100% !important;
-	}
-
-	.medium-offset-0 {
-		margin-left: 0 !important;
-	}
-
-	.medium-offset-1 {
-		margin-left: 8.33333% !important;
-	}
-
-	.medium-offset-2 {
-		margin-left: 16.66667% !important;
-	}
-
-	.medium-offset-3 {
-		margin-left: 25% !important;
-	}
-
-	.medium-offset-4 {
-		margin-left: 33.33333% !important;
-	}
-
-	.medium-offset-5 {
-		margin-left: 41.66667% !important;
-	}
-
-	.medium-offset-6 {
-		margin-left: 50% !important;
-	}
-
-	.medium-offset-7 {
-		margin-left: 58.33333% !important;
-	}
-
-	.medium-offset-8 {
-		margin-left: 66.66667% !important;
-	}
-
-	.medium-offset-9 {
-		margin-left: 75% !important;
-	}
-
-	.medium-offset-10 {
-		margin-left: 83.33333% !important;
-	}
-
-	.medium-offset-11 {
-		margin-left: 91.66667% !important;
-	}
-
-	.medium-reset-order {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		left: auto !important;
-		right: auto !important;
-		float: left !important;
-	}
-
-	.column.medium-centered,
-	.columns.medium-centered {
-		margin-left: auto !important;
-		margin-right: auto !important;
-		float: none !important;
-	}
-
-	.column.medium-uncentered,
-	.columns.medium-uncentered {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		float: left !important;
-	}
-
-	.column.medium-centered:last-child,
-	.columns.medium-centered:last-child {
-		float: none !important;
-	}
-
-	.column.medium-uncentered:last-child,
-	.columns.medium-uncentered:last-child {
-		float: left !important;
-	}
-
-	.column.medium-uncentered.opposite,
-	.columns.medium-uncentered.opposite {
-		float: right !important;
-	}
-
-	.row.medium-collapse > .column,
-	.row.medium-collapse > .columns {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-
-	.row.medium-collapse .row {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-	}
-
-	.row.medium-uncollapse > .column,
-	.row.medium-uncollapse > .columns {
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-
-	.push-0 {
-		left: 0 !important;
-		right: auto !important;
-	}
-
-	.pull-0 {
-		right: 0 !important;
-		left: auto !important;
-	}
-
-	.push-1 {
-		left: 8.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-1 {
-		right: 8.33333% !important;
-		left: auto !important;
-	}
-
-	.push-2 {
-		left: 16.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-2 {
-		right: 16.66667% !important;
-		left: auto !important;
-	}
-
-	.push-3 {
-		left: 25% !important;
-		right: auto !important;
-	}
-
-	.pull-3 {
-		right: 25% !important;
-		left: auto !important;
-	}
-
-	.push-4 {
-		left: 33.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-4 {
-		right: 33.33333% !important;
-		left: auto !important;
-	}
-
-	.push-5 {
-		left: 41.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-5 {
-		right: 41.66667% !important;
-		left: auto !important;
-	}
-
-	.push-6 {
-		left: 50% !important;
-		right: auto !important;
-	}
-
-	.pull-6 {
-		right: 50% !important;
-		left: auto !important;
-	}
-
-	.push-7 {
-		left: 58.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-7 {
-		right: 58.33333% !important;
-		left: auto !important;
-	}
-
-	.push-8 {
-		left: 66.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-8 {
-		right: 66.66667% !important;
-		left: auto !important;
-	}
-
-	.push-9 {
-		left: 75% !important;
-		right: auto !important;
-	}
-
-	.pull-9 {
-		right: 75% !important;
-		left: auto !important;
-	}
-
-	.push-10 {
-		left: 83.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-10 {
-		right: 83.33333% !important;
-		left: auto !important;
-	}
-
-	.push-11 {
-		left: 91.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-11 {
-		right: 91.66667% !important;
-		left: auto !important;
-	}
-}
-
-@media only screen and (min-width: 64.063em) {
-	.large-pull-0, .large-pull-1, .large-pull-10, .large-pull-11, .large-pull-2, .large-pull-3, .large-pull-4, .large-pull-5, .large-pull-6, .large-pull-7, .large-pull-8, .large-pull-9, .large-push-0, .large-push-1, .large-push-10, .large-push-11, .large-push-2, .large-push-3, .large-push-4, .large-push-5, .large-push-6, .large-push-7, .large-push-8, .large-push-9, .pull-0, .pull-1, .pull-10, .pull-11, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .push-0, .push-1, .push-10, .push-11, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9 {
-		position: relative !important;
-	}
-
-	.large-push-0 {
-		left: 0 !important;
-		right: auto !important;
-	}
-
-	.large-pull-0 {
-		right: 0 !important;
-		left: auto !important;
-	}
-
-	.large-push-1 {
-		left: 8.33333% !important;
-		right: auto !important;
-	}
-
-	.large-pull-1 {
-		right: 8.33333% !important;
-		left: auto !important;
-	}
-
-	.large-push-2 {
-		left: 16.66667% !important;
-		right: auto !important;
-	}
-
-	.large-pull-2 {
-		right: 16.66667% !important;
-		left: auto !important;
-	}
-
-	.large-push-3 {
-		left: 25% !important;
-		right: auto !important;
-	}
-
-	.large-pull-3 {
-		right: 25% !important;
-		left: auto !important;
-	}
-
-	.large-push-4 {
-		left: 33.33333% !important;
-		right: auto !important;
-	}
-
-	.large-pull-4 {
-		right: 33.33333% !important;
-		left: auto !important;
-	}
-
-	.large-push-5 {
-		left: 41.66667% !important;
-		right: auto !important;
-	}
-
-	.large-pull-5 {
-		right: 41.66667% !important;
-		left: auto !important;
-	}
-
-	.large-push-6 {
-		left: 50% !important;
-		right: auto !important;
-	}
-
-	.large-pull-6 {
-		right: 50% !important;
-		left: auto !important;
-	}
-
-	.large-push-7 {
-		left: 58.33333% !important;
-		right: auto !important;
-	}
-
-	.large-pull-7 {
-		right: 58.33333% !important;
-		left: auto !important;
-	}
-
-	.large-push-8 {
-		left: 66.66667% !important;
-		right: auto !important;
-	}
-
-	.large-pull-8 {
-		right: 66.66667% !important;
-		left: auto !important;
-	}
-
-	.large-push-9 {
-		left: 75% !important;
-		right: auto !important;
-	}
-
-	.large-pull-9 {
-		right: 75% !important;
-		left: auto !important;
-	}
-
-	.large-push-10 {
-		left: 83.33333% !important;
-		right: auto !important;
-	}
-
-	.large-pull-10 {
-		right: 83.33333% !important;
-		left: auto !important;
-	}
-
-	.large-push-11 {
-		left: 91.66667% !important;
-		right: auto !important;
-	}
-
-	.large-pull-11 {
-		right: 91.66667% !important;
-		left: auto !important;
-	}
-
-	.column,
-	.columns {
-		position: relative !important;
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-
-	.large-1 {
-		width: 8.33333% !important;
-	}
-
-	.large-2 {
-		width: 16.66667% !important;
-	}
-
-	.large-3 {
-		width: 25% !important;
-	}
-
-	.large-4 {
-		width: 33.33333% !important;
-	}
-
-	.large-5 {
-		width: 41.66667% !important;
-	}
-
-	.large-6 {
-		width: 50% !important;
-	}
-
-	.large-7 {
-		width: 58.33333% !important;
-	}
-
-	.large-8 {
-		width: 66.66667% !important;
-	}
-
-	.large-9 {
-		width: 75% !important;
-	}
-
-	.large-10 {
-		width: 83.33333% !important;
-	}
-
-	.large-11 {
-		width: 91.66667% !important;
-	}
-
-	.large-12 {
-		width: 100% !important;
-	}
-
-	.large-offset-0 {
-		margin-left: 0 !important;
-	}
-
-	.large-offset-1 {
-		margin-left: 8.33333% !important;
-	}
-
-	.large-offset-2 {
-		margin-left: 16.66667% !important;
-	}
-
-	.large-offset-3 {
-		margin-left: 25% !important;
-	}
-
-	.large-offset-4 {
-		margin-left: 33.33333% !important;
-	}
-
-	.large-offset-5 {
-		margin-left: 41.66667% !important;
-	}
-
-	.large-offset-6 {
-		margin-left: 50% !important;
-	}
-
-	.large-offset-7 {
-		margin-left: 58.33333% !important;
-	}
-
-	.large-offset-8 {
-		margin-left: 66.66667% !important;
-	}
-
-	.large-offset-9 {
-		margin-left: 75% !important;
-	}
-
-	.large-offset-10 {
-		margin-left: 83.33333% !important;
-	}
-
-	.large-offset-11 {
-		margin-left: 91.66667% !important;
-	}
-
-	.large-reset-order {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		left: auto !important;
-		right: auto !important;
-		float: left !important;
-	}
-
-	.column.large-centered,
-	.columns.large-centered {
-		margin-left: auto !important;
-		margin-right: auto !important;
-		float: none !important;
-	}
-
-	.column.large-uncentered,
-	.columns.large-uncentered {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-		float: left !important;
-	}
-
-	.column.large-centered:last-child,
-	.columns.large-centered:last-child {
-		float: none !important;
-	}
-
-	.column.large-uncentered:last-child,
-	.columns.large-uncentered:last-child {
-		float: left !important;
-	}
-
-	.column.large-uncentered.opposite,
-	.columns.large-uncentered.opposite {
-		float: right !important;
-	}
-
-	.row.large-collapse > .column,
-	.row.large-collapse > .columns {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-
-	.row.large-collapse .row {
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-	}
-
-	.row.large-uncollapse > .column,
-	.row.large-uncollapse > .columns {
-		padding-left: 1.07143rem !important;
-		padding-right: 1.07143rem !important;
-		float: left !important;
-	}
-
-	.push-0 {
-		left: 0 !important;
-		right: auto !important;
-	}
-
-	.pull-0 {
-		right: 0 !important;
-		left: auto !important;
-	}
-
-	.push-1 {
-		left: 8.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-1 {
-		right: 8.33333% !important;
-		left: auto !important;
-	}
-
-	.push-2 {
-		left: 16.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-2 {
-		right: 16.66667% !important;
-		left: auto !important;
-	}
-
-	.push-3 {
-		left: 25% !important;
-		right: auto !important;
-	}
-
-	.pull-3 {
-		right: 25% !important;
-		left: auto !important;
-	}
-
-	.push-4 {
-		left: 33.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-4 {
-		right: 33.33333% !important;
-		left: auto !important;
-	}
-
-	.push-5 {
-		left: 41.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-5 {
-		right: 41.66667% !important;
-		left: auto !important;
-	}
-
-	.push-6 {
-		left: 50% !important;
-		right: auto !important;
-	}
-
-	.pull-6 {
-		right: 50% !important;
-		left: auto !important;
-	}
-
-	.push-7 {
-		left: 58.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-7 {
-		right: 58.33333% !important;
-		left: auto !important;
-	}
-
-	.push-8 {
-		left: 66.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-8 {
-		right: 66.66667% !important;
-		left: auto !important;
-	}
-
-	.push-9 {
-		left: 75% !important;
-		right: auto !important;
-	}
-
-	.pull-9 {
-		right: 75% !important;
-		left: auto !important;
-	}
-
-	.push-10 {
-		left: 83.33333% !important;
-		right: auto !important;
-	}
-
-	.pull-10 {
-		right: 83.33333% !important;
-		left: auto !important;
-	}
-
-	.push-11 {
-		left: 91.66667% !important;
-		right: auto !important;
-	}
-
-	.pull-11 {
-		right: 91.66667% !important;
-		left: auto !important;
-	}
-}
-
-*,
- :after,
- :before {
-	box-sizing: border-box !important;
-}
-
-body,
-html {
+body, html {
 	height: 100% !important;
 	padding: 0 !important;
 	margin: 0 !important;
@@ -1242,38 +36,10 @@ html {
 	background-color: #222 !important;
 }
 
-img {
-	max-width: 100% !important;
-	height: auto !important;
-	-ms-interpolation-mode: bicubic !important;
-	display: inline-block !important;
-}
-
 button {
 	background: #222 !important;
 	border: none !important;
 	font-size: inherit !important;
-}
-
-textarea {
-	height: auto !important;
-	min-height: 50px !important;
-}
-
-.display {
-	display: block !important;
-}
-
-.display-inline {
-	display: inline-block !important;
-}
-
-.hidden {
-	display: none !important;
-}
-
-.pointer {
-	cursor: pointer !important;
 }
 
 .helptext {
@@ -1288,59 +54,23 @@ textarea {
 	transition: color .2s ease, border .2s ease !important;
 }
 
-.helptext a:active,
-.helptext a:hover {
+.helptext a:active, .helptext a:hover {
 	color: #9d9d9d !important;
 	text-decoration: none !important;
 	border-color: transparent !important;
 }
 
-.warning,
-.warning a {
+.warning, .warning a {
 	color: #c00 !important;
-}
-
-span.emoji.emoji-sizer {
-	width: 20px !important;
-	height: 20px !important;
-	margin: -4px 0 !important;
-	display: inline-block !important;
-	background-size: contain !important;
 }
 
 .warning a {
 	text-decoration: underline !important;
 }
 
-.small-title,
-.stage .section-title,
-.stage .stage-header .stage-duration {
+.small-title, .stage .section-title, .stage .stage-header .stage-duration {
 	font-size: 18px !important;
 	color: #3eaaaf !important;
-}
-
-.blank-list {
-	margin: 0 !important;
-	padding: 0 !important;
-	list-style: none !important;
-}
-
-.monospace {
-	font-family: Cousine, monospace !important;
-	font-size: 13px !important;
-	line-height: 1 !important;
-}
-
-.float-right {
-	float: right !important;
-}
-
-.m-l-s {
-	margin-left: .6rem !important;
-}
-
-.margin-left-s {
-	margin-left: 10px !important;
 }
 
 .logo {
@@ -1379,75 +109,9 @@ span.emoji.emoji-sizer {
 	float: right !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.navigation-toggle {
-		display:none !important;
-	}
-}
-
-.navigation {
-	height: 0 !important;
-	will-change: height !important;
-	transition: height .2s ease !important;
-	overflow: hidden !important;
-}
-
-.notice a,
-.notice--blue a,
-.notice--red a,
-.notice--yellow a,
-.notice-banner--green a,
-.notice-banner--red a,
-.notice-banner--yellow a {
+.notice a, .notice--blue a, .notice--red a, .notice--yellow a,
+.notice-banner--green a, .notice-banner--red a, .notice-banner--yellow a {
 	transition: color .2s ease, border .2s ease !important;
-}
-
-.navigation > ul {
-	padding: 0 !important;
-	margin: 0 !important;
-	list-style: none !important;
-}
-
-.navigation li {
-	display: block !important;
-}
-
-.navigation.is-open {
-	height: 100% !important;
-}
-
-.navigation .profile {
-	float: right !important;
-	line-height: 55px !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.navigation>ul>li, .navigation>ul>li:first-of-type a {
-		margin-left: -.5em !important;
-	}
-
-	.navigation {
-		overflow: visible !important;
-	}
-
-	.navigation > ul > li {
-		display: inline-block !important;
-		white-space: nowrap !important;
-	}
-
-	.navigation .profile {
-		margin-right: 0 !important;
-	}
-
-	.navigation .profile > a {
-		padding-right: 0 !important;
-	}
-}
-
-.navigation-anchor {
-	display: block !important;
-	width: 100% !important;
-	line-height: 35px !important;
 }
 
 .navigation-anchor:hover {
@@ -1455,48 +119,13 @@ span.emoji.emoji-sizer {
 	cursor: pointer !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.navigation-anchor {
-		line-height: 56px !important;
-		padding: 0 1em !important;
-	}
-}
-
 .deployment-version {
 	border: 1px solid #9d9d9d !important;
-	font-size: 50% !important;
-	padding: 6px !important;
-	border-radius: 15px !important;
-	display: inline !important;
-	position: relative !important;
-	top: -2px !important;
-}
-
-.navigation-nested {
-	margin: 0 !important;
-	padding: 0 0 0 1em !important;
-	list-style: none !important;
-	line-height: 35px !important;
 }
 
 @media only screen and (min-width: 50.063em) {
 	.navigation-nested {
-		display:none !important;
-		position: absolute !important;
-		padding: 0 !important;
-		margin: -1px 0 0 !important;
-		z-index: 40 !important;
 		background-color: #181818 !important;
-	}
-
-	.navigation-nested li {
-		display: block !important;
-		text-align: left !important;
-	}
-
-	.navigation-nested a {
-		display: block !important;
-		padding: 0 2em !important;
 	}
 
 	.navigation-nested a:hover {
@@ -1508,45 +137,14 @@ span.emoji.emoji-sizer {
 		background-color: #444 !important;
 	}
 
-	.fade-out {
-		white-space: nowrap !important;
-		overflow: hidden !important;
-	}
-
 	.fade-out:after {
-		content: "" !important;
-		display: block !important;
-		position: absolute !important;
-		top: 0 !important;
-		right: 0 !important;
-		width: 2em !important;
-		height: 100% !important;
 		background: linear-gradient(-90deg, #222 30%, rgba(255, 255, 255, 0) 100%) !important;
 	}
-}
-
-.navigation-anchor:hover ~ .navigation-nested,
-.navigation-nested:hover {
-	display: block !important;
-}
-
-.loader-large,
-.loader-medium,
-.loader-small,
-.row-li {
-	position: relative !important;
-}
-
-.label-align {
-	line-height: 1.5 !important;
 }
 
 .rows {
 	border-radius: 2px !important;
 	border: 1px solid #444 !important;
-	display: flex !important;
-	flex-flow: column wrap !important;
-	margin-bottom: 1rem !important;
 }
 
 .rows.passed .color {
@@ -1558,9 +156,7 @@ span.emoji.emoji-sizer {
 	text-decoration: none !important;
 }
 
-.rows.errored .color,
-.rows.failed .color,
-.rows.failed .color a {
+.rows.errored .color, .rows.failed .color, .rows.failed .color a {
 	color: #db4545 !important;
 }
 
@@ -1569,59 +165,36 @@ span.emoji.emoji-sizer {
 	border-bottom: 1px solid #39aa56 !important;
 }
 
-.rows.errored .color a:active,
-.rows.errored .color a:hover,
-.rows.failed .color a:active,
-.rows.failed .color a:hover {
+.rows.errored .color a:active, .rows.errored .color a:hover,
+.rows.failed .color a:active, .rows.failed .color a:hover {
 	border-bottom: 1px solid #db4545 !important;
 }
 
-.rows.passed .request-icon circle,
-.rows.passed .request-icon ellipse,
-.rows.passed .request-icon line,
-.rows.passed .request-icon path,
-.rows.passed .request-icon polygon,
-.rows.passed .request-icon polyline,
-.rows.passed .request-icon rect,
-.rows.passed .status-icon circle,
-.rows.passed .status-icon ellipse,
-.rows.passed .status-icon line,
-.rows.passed .status-icon path,
-.rows.passed .status-icon polygon,
-.rows.passed .status-icon polyline,
-.rows.passed .status-icon rect {
+.rows.passed .request-icon circle, .rows.passed .request-icon ellipse,
+.rows.passed .request-icon line, .rows.passed .request-icon path,
+.rows.passed .request-icon polygon, .rows.passed .request-icon polyline,
+.rows.passed .request-icon rect, .rows.passed .status-icon circle,
+.rows.passed .status-icon ellipse, .rows.passed .status-icon line,
+.rows.passed .status-icon path, .rows.passed .status-icon polygon,
+.rows.passed .status-icon polyline, .rows.passed .status-icon rect {
 	fill: none !important;
 	stroke: #39aa56 !important;
 }
 
-.rows.errored .request-icon circle,
-.rows.errored .request-icon ellipse,
-.rows.errored .request-icon line,
-.rows.errored .request-icon path,
-.rows.errored .request-icon polygon,
-.rows.errored .request-icon polyline,
-.rows.errored .request-icon rect,
-.rows.errored .status-icon circle,
-.rows.errored .status-icon ellipse,
-.rows.errored .status-icon line,
-.rows.errored .status-icon path,
-.rows.errored .status-icon polygon,
-.rows.errored .status-icon polyline,
-.rows.errored .status-icon rect,
-.rows.failed .request-icon circle,
-.rows.failed .request-icon ellipse,
-.rows.failed .request-icon line,
-.rows.failed .request-icon path,
-.rows.failed .request-icon polygon,
-.rows.failed .request-icon polyline,
-.rows.failed .request-icon rect,
-.rows.failed .status-icon circle,
-.rows.failed .status-icon ellipse,
-.rows.failed .status-icon line,
-.rows.failed .status-icon path,
-.rows.failed .status-icon polygon,
-.rows.failed .status-icon polyline,
-.rows.failed .status-icon rect {
+.rows.errored .request-icon circle, .rows.errored .request-icon ellipse,
+.rows.errored .request-icon line, .rows.errored .request-icon path,
+.rows.errored .request-icon polygon, .rows.errored .request-icon polyline,
+.rows.errored .request-icon rect, .rows.errored .status-icon circle,
+.rows.errored .status-icon ellipse, .rows.errored .status-icon line,
+.rows.errored .status-icon path, .rows.errored .status-icon polygon,
+.rows.errored .status-icon polyline, .rows.errored .status-icon rect,
+.rows.failed .request-icon circle, .rows.failed .request-icon ellipse,
+.rows.failed .request-icon line, .rows.failed .request-icon path,
+.rows.failed .request-icon polygon, .rows.failed .request-icon polyline,
+.rows.failed .request-icon rect, .rows.failed .status-icon circle,
+.rows.failed .status-icon ellipse, .rows.failed .status-icon line,
+.rows.failed .status-icon path, .rows.failed .status-icon polygon,
+.rows.failed .status-icon polyline, .rows.failed .status-icon rect {
 	stroke: #db4545 !important;
 	fill: none !important;
 }
@@ -1653,112 +226,64 @@ span.emoji.emoji-sizer {
 	text-decoration: none !important;
 }
 
-.rows.canceled .color a:active,
-.rows.canceled .color a:hover {
+.rows.canceled .color a:active, .rows.canceled .color a:hover {
 	border-bottom: 1px solid #9d9d9d !important;
 }
 
-.rows.booting .color a:active,
-.rows.booting .color a:hover,
-.rows.created .color a:active,
-.rows.created .color a:hover,
-.rows.queued .color a:active,
-.rows.queued .color a:hover,
-.rows.received .color a:active,
-.rows.received .color a:hover,
-.rows.started .color a:active,
-.rows.started .color a:hover {
+.rows.booting .color a:active, .rows.booting .color a:hover,
+.rows.created .color a:active, .rows.created .color a:hover,
+.rows.queued .color a:active, .rows.queued .color a:hover,
+.rows.received .color a:active, .rows.received .color a:hover,
+.rows.started .color a:active, .rows.started .color a:hover {
 	border-bottom: 1px solid #cdb62c !important;
 }
 
-.rows.canceled .request-icon circle,
-.rows.canceled .request-icon ellipse,
-.rows.canceled .request-icon line,
-.rows.canceled .request-icon path,
-.rows.canceled .request-icon polygon,
-.rows.canceled .request-icon polyline,
-.rows.canceled .request-icon rect,
-.rows.canceled .status-icon circle,
-.rows.canceled .status-icon ellipse,
-.rows.canceled .status-icon line,
-.rows.canceled .status-icon path,
-.rows.canceled .status-icon polygon,
-.rows.canceled .status-icon polyline,
-.rows.canceled .status-icon rect {
+.rows.canceled .request-icon circle, .rows.canceled .request-icon ellipse,
+.rows.canceled .request-icon line, .rows.canceled .request-icon path,
+.rows.canceled .request-icon polygon, .rows.canceled .request-icon polyline,
+.rows.canceled .request-icon rect, .rows.canceled .status-icon circle,
+.rows.canceled .status-icon ellipse, .rows.canceled .status-icon line,
+.rows.canceled .status-icon path, .rows.canceled .status-icon polygon,
+.rows.canceled .status-icon polyline, .rows.canceled .status-icon rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-.rows.booting .request-icon circle,
-.rows.booting .request-icon ellipse,
-.rows.booting .request-icon line,
-.rows.booting .request-icon path,
-.rows.booting .request-icon polygon,
-.rows.booting .request-icon polyline,
-.rows.booting .request-icon rect,
-.rows.booting .status-icon circle,
-.rows.booting .status-icon ellipse,
-.rows.booting .status-icon line,
-.rows.booting .status-icon path,
-.rows.booting .status-icon polygon,
-.rows.booting .status-icon polyline,
-.rows.booting .status-icon rect,
-.rows.created .request-icon circle,
-.rows.created .request-icon ellipse,
-.rows.created .request-icon line,
-.rows.created .request-icon path,
-.rows.created .request-icon polygon,
-.rows.created .request-icon polyline,
-.rows.created .request-icon rect,
-.rows.created .status-icon circle,
-.rows.created .status-icon ellipse,
-.rows.created .status-icon line,
-.rows.created .status-icon path,
-.rows.created .status-icon polygon,
-.rows.created .status-icon polyline,
-.rows.created .status-icon rect,
-.rows.queued .request-icon circle,
-.rows.queued .request-icon ellipse,
-.rows.queued .request-icon line,
-.rows.queued .request-icon path,
-.rows.queued .request-icon polygon,
-.rows.queued .request-icon polyline,
-.rows.queued .request-icon rect,
-.rows.queued .status-icon circle,
-.rows.queued .status-icon ellipse,
-.rows.queued .status-icon line,
-.rows.queued .status-icon path,
-.rows.queued .status-icon polygon,
-.rows.queued .status-icon polyline,
-.rows.queued .status-icon rect,
-.rows.received .request-icon circle,
-.rows.received .request-icon ellipse,
-.rows.received .request-icon line,
-.rows.received .request-icon path,
-.rows.received .request-icon polygon,
-.rows.received .request-icon polyline,
-.rows.received .request-icon rect,
-.rows.received .status-icon circle,
-.rows.received .status-icon ellipse,
-.rows.received .status-icon line,
-.rows.received .status-icon path,
-.rows.received .status-icon polygon,
-.rows.received .status-icon polyline,
-.rows.received .status-icon rect,
-.rows.started .request-icon circle,
-.rows.started .request-icon ellipse,
-.rows.started .request-icon line,
-.rows.started .request-icon path,
-.rows.started .request-icon polygon,
-.rows.started .request-icon polyline,
-.rows.started .request-icon rect,
-.rows.started .status-icon circle,
-.rows.started .status-icon ellipse,
-.rows.started .status-icon line,
-.rows.started .status-icon path,
-.rows.started .status-icon polygon,
-.rows.started .status-icon polyline,
-.rows.started .status-icon rect {
+.rows.booting .request-icon circle, .rows.booting .request-icon ellipse,
+.rows.booting .request-icon line, .rows.booting .request-icon path,
+.rows.booting .request-icon polygon, .rows.booting .request-icon polyline,
+.rows.booting .request-icon rect, .rows.booting .status-icon circle,
+.rows.booting .status-icon ellipse, .rows.booting .status-icon line,
+.rows.booting .status-icon path, .rows.booting .status-icon polygon,
+.rows.booting .status-icon polyline, .rows.booting .status-icon rect,
+.rows.created .request-icon circle, .rows.created .request-icon ellipse,
+.rows.created .request-icon line, .rows.created .request-icon path,
+.rows.created .request-icon polygon, .rows.created .request-icon polyline,
+.rows.created .request-icon rect, .rows.created .status-icon circle,
+.rows.created .status-icon ellipse, .rows.created .status-icon line,
+.rows.created .status-icon path, .rows.created .status-icon polygon,
+.rows.created .status-icon polyline, .rows.created .status-icon rect,
+.rows.queued .request-icon circle, .rows.queued .request-icon ellipse,
+.rows.queued .request-icon line, .rows.queued .request-icon path,
+.rows.queued .request-icon polygon, .rows.queued .request-icon polyline,
+.rows.queued .request-icon rect, .rows.queued .status-icon circle,
+.rows.queued .status-icon ellipse, .rows.queued .status-icon line,
+.rows.queued .status-icon path, .rows.queued .status-icon polygon,
+.rows.queued .status-icon polyline, .rows.queued .status-icon rect,
+.rows.received .request-icon circle, .rows.received .request-icon ellipse,
+.rows.received .request-icon line, .rows.received .request-icon path,
+.rows.received .request-icon polygon, .rows.received .request-icon polyline,
+.rows.received .request-icon rect, .rows.received .status-icon circle,
+.rows.received .status-icon ellipse, .rows.received .status-icon line,
+.rows.received .status-icon path, .rows.received .status-icon polygon,
+.rows.received .status-icon polyline, .rows.received .status-icon rect,
+.rows.started .request-icon circle, .rows.started .request-icon ellipse,
+.rows.started .request-icon line, .rows.started .request-icon path,
+.rows.started .request-icon polygon, .rows.started .request-icon polyline,
+.rows.started .request-icon rect, .rows.started .status-icon circle,
+.rows.started .status-icon ellipse, .rows.started .status-icon line,
+.rows.started .status-icon path, .rows.started .status-icon polygon,
+.rows.started .status-icon polyline, .rows.started .status-icon rect {
 	stroke: #edde3f !important;
 	fill: none !important;
 }
@@ -1767,10 +292,8 @@ span.emoji.emoji-sizer {
 	background-color: #9d9d9d !important;
 }
 
-.rows.booting .background,
-.rows.created .background,
-.rows.queued .background,
-.rows.received .background,
+.rows.booting .background, .rows.created .background,
+.rows.queued .background, .rows.received .background,
 .rows.started .background {
 	background-color: #edde3f !important;
 }
@@ -1865,69 +388,44 @@ span.emoji.emoji-sizer {
 	background: linear-gradient(to right, #39aa56 0, #39aa56 10px, #222 10px, #222 100%) no-repeat !important;
 }
 
-.row-li.errored,
-.row-li.failed {
+.row-li.errored, .row-li.failed {
 	background: linear-gradient(to right, #db4545 0, #db4545 10px, #222 10px, #222 100%) no-repeat !important;
 }
 
-.row-li .passed,
-.row-li .passed a {
+.row-li .passed, .row-li .passed a {
 	color: #39aa56 !important;
 }
 
-.row-li .errored,
-.row-li .errored a,
-.row-li .failed,
-.row-li .failed a {
+.row-li .errored, .row-li .errored a,
+.row-li .failed, .row-li .failed a {
 	color: #db4545 !important;
 }
 
-.row-li .request-icon.passed circle,
-.row-li .request-icon.passed ellipse,
-.row-li .request-icon.passed line,
-.row-li .request-icon.passed path,
-.row-li .request-icon.passed polygon,
-.row-li .request-icon.passed polyline,
-.row-li .request-icon.passed rect,
-.row-li .status-icon.passed circle,
-.row-li .status-icon.passed ellipse,
-.row-li .status-icon.passed line,
-.row-li .status-icon.passed path,
-.row-li .status-icon.passed polygon,
-.row-li .status-icon.passed polyline,
-.row-li .status-icon.passed rect {
+.row-li .request-icon.passed circle, .row-li .request-icon.passed ellipse,
+.row-li .request-icon.passed line, .row-li .request-icon.passed path,
+.row-li .request-icon.passed polygon, .row-li .request-icon.passed polyline,
+.row-li .request-icon.passed rect, .row-li .status-icon.passed circle,
+.row-li .status-icon.passed ellipse, .row-li .status-icon.passed line,
+.row-li .status-icon.passed path, .row-li .status-icon.passed polygon,
+.row-li .status-icon.passed polyline, .row-li .status-icon.passed rect {
 	fill: none !important;
 	stroke: #39aa56 !important;
 }
 
-.row-li .request-icon.errored circle,
-.row-li .request-icon.errored ellipse,
-.row-li .request-icon.errored line,
-.row-li .request-icon.errored path,
-.row-li .request-icon.errored polygon,
-.row-li .request-icon.errored polyline,
-.row-li .request-icon.errored rect,
-.row-li .request-icon.failed circle,
-.row-li .request-icon.failed ellipse,
-.row-li .request-icon.failed line,
-.row-li .request-icon.failed path,
-.row-li .request-icon.failed polygon,
-.row-li .request-icon.failed polyline,
-.row-li .request-icon.failed rect,
-.row-li .status-icon.errored circle,
-.row-li .status-icon.errored ellipse,
-.row-li .status-icon.errored line,
-.row-li .status-icon.errored path,
-.row-li .status-icon.errored polygon,
-.row-li .status-icon.errored polyline,
-.row-li .status-icon.errored rect,
-.row-li .status-icon.failed circle,
-.row-li .status-icon.failed ellipse,
-.row-li .status-icon.failed line,
-.row-li .status-icon.failed path,
-.row-li .status-icon.failed polygon,
-.row-li .status-icon.failed polyline,
-.row-li .status-icon.failed rect {
+.row-li .request-icon.errored circle, .row-li .request-icon.errored ellipse,
+.row-li .request-icon.errored line, .row-li .request-icon.errored path,
+.row-li .request-icon.errored polygon, .row-li .request-icon.errored polyline,
+.row-li .request-icon.errored rect, .row-li .request-icon.failed circle,
+.row-li .request-icon.failed ellipse, .row-li .request-icon.failed line,
+.row-li .request-icon.failed path, .row-li .request-icon.failed polygon,
+.row-li .request-icon.failed polyline, .row-li .request-icon.failed rect,
+.row-li .status-icon.errored circle, .row-li .status-icon.errored ellipse,
+.row-li .status-icon.errored line, .row-li .status-icon.errored path,
+.row-li .status-icon.errored polygon, .row-li .status-icon.errored polyline,
+.row-li .status-icon.errored rect, .row-li .status-icon.failed circle,
+.row-li .status-icon.failed ellipse, .row-li .status-icon.failed line,
+.row-li .status-icon.failed path, .row-li .status-icon.failed polygon,
+.row-li .status-icon.failed polyline, .row-li .status-icon.failed rect {
 	stroke: #db4545 !important;
 	fill: none !important;
 }
@@ -1936,127 +434,74 @@ span.emoji.emoji-sizer {
 	background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px, #222 10px, #222 100%) no-repeat !important;
 }
 
-.row-li.booting,
-.row-li.created,
-.row-li.queued,
-.row-li.received,
-.row-li.started {
+.row-li.booting, .row-li.created, .row-li.queued,
+.row-li.received, .row-li.started {
 	background: linear-gradient(to right, #edde3f 0, #edde3f 10px, #222 10px, #222 100%) no-repeat !important;
 }
 
-.row-li .canceled,
-.row-li .canceled a {
+.row-li .canceled, .row-li .canceled a {
 	color: #9d9d9d !important;
 }
 
-.row-li .booting,
-.row-li .booting a,
-.row-li .created,
-.row-li .created a,
-.row-li .queued,
-.row-li .queued a,
-.row-li .received,
-.row-li .received a,
-.row-li .started,
-.row-li .started a {
+.row-li .booting, .row-li .booting a,
+.row-li .created, .row-li .created a,
+.row-li .queued, .row-li .queued a,
+.row-li .received, .row-li .received a,
+.row-li .started, .row-li .started a {
 	color: #cdb62c !important;
 }
 
-.row-li .request-icon.canceled circle,
-.row-li .request-icon.canceled ellipse,
-.row-li .request-icon.canceled line,
-.row-li .request-icon.canceled path,
-.row-li .request-icon.canceled polygon,
-.row-li .request-icon.canceled polyline,
-.row-li .request-icon.canceled rect,
-.row-li .status-icon.canceled circle,
-.row-li .status-icon.canceled ellipse,
-.row-li .status-icon.canceled line,
-.row-li .status-icon.canceled path,
-.row-li .status-icon.canceled polygon,
-.row-li .status-icon.canceled polyline,
-.row-li .status-icon.canceled rect {
+.row-li .request-icon.canceled circle, .row-li .request-icon.canceled ellipse,
+.row-li .request-icon.canceled line, .row-li .request-icon.canceled path,
+.row-li .request-icon.canceled polygon, .row-li .request-icon.canceled polyline,
+.row-li .request-icon.canceled rect, .row-li .status-icon.canceled circle,
+.row-li .status-icon.canceled ellipse, .row-li .status-icon.canceled line,
+.row-li .status-icon.canceled path, .row-li .status-icon.canceled polygon,
+.row-li .status-icon.canceled polyline, .row-li .status-icon.canceled rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-.row-li .request-icon.booting circle,
-.row-li .request-icon.booting ellipse,
-.row-li .request-icon.booting line,
-.row-li .request-icon.booting path,
-.row-li .request-icon.booting polygon,
-.row-li .request-icon.booting polyline,
-.row-li .request-icon.booting rect,
-.row-li .request-icon.created circle,
-.row-li .request-icon.created ellipse,
-.row-li .request-icon.created line,
-.row-li .request-icon.created path,
-.row-li .request-icon.created polygon,
-.row-li .request-icon.created polyline,
-.row-li .request-icon.created rect,
-.row-li .request-icon.queued circle,
-.row-li .request-icon.queued ellipse,
-.row-li .request-icon.queued line,
-.row-li .request-icon.queued path,
-.row-li .request-icon.queued polygon,
-.row-li .request-icon.queued polyline,
-.row-li .request-icon.queued rect,
-.row-li .request-icon.received circle,
-.row-li .request-icon.received ellipse,
-.row-li .request-icon.received line,
-.row-li .request-icon.received path,
-.row-li .request-icon.received polygon,
-.row-li .request-icon.received polyline,
-.row-li .request-icon.received rect,
-.row-li .request-icon.started circle,
-.row-li .request-icon.started ellipse,
-.row-li .request-icon.started line,
-.row-li .request-icon.started path,
-.row-li .request-icon.started polygon,
-.row-li .request-icon.started polyline,
-.row-li .request-icon.started rect,
-.row-li .status-icon.booting circle,
-.row-li .status-icon.booting ellipse,
-.row-li .status-icon.booting line,
-.row-li .status-icon.booting path,
-.row-li .status-icon.booting polygon,
-.row-li .status-icon.booting polyline,
-.row-li .status-icon.booting rect,
-.row-li .status-icon.created circle,
-.row-li .status-icon.created ellipse,
-.row-li .status-icon.created line,
-.row-li .status-icon.created path,
-.row-li .status-icon.created polygon,
-.row-li .status-icon.created polyline,
-.row-li .status-icon.created rect,
-.row-li .status-icon.queued circle,
-.row-li .status-icon.queued ellipse,
-.row-li .status-icon.queued line,
-.row-li .status-icon.queued path,
-.row-li .status-icon.queued polygon,
-.row-li .status-icon.queued polyline,
-.row-li .status-icon.queued rect,
-.row-li .status-icon.received circle,
-.row-li .status-icon.received ellipse,
-.row-li .status-icon.received line,
-.row-li .status-icon.received path,
-.row-li .status-icon.received polygon,
-.row-li .status-icon.received polyline,
-.row-li .status-icon.received rect,
-.row-li .status-icon.started circle,
-.row-li .status-icon.started ellipse,
-.row-li .status-icon.started line,
-.row-li .status-icon.started path,
-.row-li .status-icon.started polygon,
-.row-li .status-icon.started polyline,
-.row-li .status-icon.started rect {
+.row-li .request-icon.booting circle, .row-li .request-icon.booting ellipse,
+.row-li .request-icon.booting line, .row-li .request-icon.booting path,
+.row-li .request-icon.booting polygon, .row-li .request-icon.booting polyline,
+.row-li .request-icon.booting rect, .row-li .request-icon.created circle,
+.row-li .request-icon.created ellipse, .row-li .request-icon.created line,
+.row-li .request-icon.created path, .row-li .request-icon.created polygon,
+.row-li .request-icon.created polyline, .row-li .request-icon.created rect,
+.row-li .request-icon.queued circle, .row-li .request-icon.queued ellipse,
+.row-li .request-icon.queued line, .row-li .request-icon.queued path,
+.row-li .request-icon.queued polygon, .row-li .request-icon.queued polyline,
+.row-li .request-icon.queued rect, .row-li .request-icon.received circle,
+.row-li .request-icon.received ellipse, .row-li .request-icon.received line,
+.row-li .request-icon.received path, .row-li .request-icon.received polygon,
+.row-li .request-icon.received polyline, .row-li .request-icon.received rect,
+.row-li .request-icon.started circle, .row-li .request-icon.started ellipse,
+.row-li .request-icon.started line, .row-li .request-icon.started path,
+.row-li .request-icon.started polygon, .row-li .request-icon.started polyline,
+.row-li .request-icon.started rect, .row-li .status-icon.booting circle,
+.row-li .status-icon.booting ellipse, .row-li .status-icon.booting line,
+.row-li .status-icon.booting path, .row-li .status-icon.booting polygon,
+.row-li .status-icon.booting polyline, .row-li .status-icon.booting rect,
+.row-li .status-icon.created circle, .row-li .status-icon.created ellipse,
+.row-li .status-icon.created line, .row-li .status-icon.created path,
+.row-li .status-icon.created polygon, .row-li .status-icon.created polyline,
+.row-li .status-icon.created rect, .row-li .status-icon.queued circle,
+.row-li .status-icon.queued ellipse, .row-li .status-icon.queued line,
+.row-li .status-icon.queued path, .row-li .status-icon.queued polygon,
+.row-li .status-icon.queued polyline, .row-li .status-icon.queued rect,
+.row-li .status-icon.received circle, .row-li .status-icon.received ellipse,
+.row-li .status-icon.received line, .row-li .status-icon.received path,
+.row-li .status-icon.received polygon, .row-li .status-icon.received polyline,
+.row-li .status-icon.received rect, .row-li .status-icon.started circle,
+.row-li .status-icon.started ellipse, .row-li .status-icon.started line,
+.row-li .status-icon.started path, .row-li .status-icon.started polygon,
+.row-li .status-icon.started polyline, .row-li .status-icon.started rect {
 	stroke: #cdb62c !important;
 	fill: none !important;
 }
 
-.row-li h2,
-.row-li h3,
-.row-li small {
+.row-li h2, .row-li h3, .row-li small {
 	margin: 0 !important;
 	font-size: 16px !important;
 }
@@ -2077,8 +522,7 @@ span.emoji.emoji-sizer {
 	padding-left: 1em !important;
 }
 
-.row-li .row-item a:active,
-.row-li .row-item a:focus,
+.row-li .row-item a:active, .row-li .row-item a:focus,
 .row-li .row-item a:hover {
 	text-decoration: none !important;
 }
@@ -2087,136 +531,6 @@ span.emoji.emoji-sizer {
 .row-li .row-item a:focus .inner-underline,
 .row-li .row-item a:hover .inner-underline {
 	text-decoration: underline !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.rows {
-		position:relative !important;
-		flex-flow: row nowrap !important;
-		justify-content: space-between !important;
-		align-items: center !important;
-	}
-
-	.row-li {
-		display: flex !important;
-		justify-content: flex-start !important;
-		align-items: center !important;
-	}
-
-	.row-li .row-item {
-		display: inline-block !important;
-		padding-left: 0 !important;
-	}
-
-	.row-li .one-line,
-	.row-li .two-line {
-		display: inline-block !important;
-	}
-}
-
-.row-li .two-line {
-	padding: .4em 0 !important;
-	margin-left: 1em !important;
-	text-align: left !important;
-}
-
-.row-li .one-line .row-item {
-	display: inline-block !important;
-}
-
-.row-li .one-line .row-nav {
-	display: none !important;
-	text-align: center !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.row-li .two-line {
-		margin-left: 0 !important;
-	}
-
-	.row-li .one-line .row-nav {
-		display: block !important;
-	}
-}
-
-#loader-container-large {
-	margin-top: 2em !important;
-	height: 70px !important;
-	text-align: center !important;
-}
-
-#loader-container-large .load-text {
-	font-size: 25px !important;
-	line-height: 30px !important;
-	margin-top: 20px !important;
-	font-weight: 400 !important;
-}
-
-.loader-large {
-	width: 60px !important;
-	height: 60px !important;
-	margin: 0 auto !important;
-}
-
-#loader-container-medium {
-	height: 40px !important;
-	margin-top: 15px !important;
-	text-align: center !important;
-}
-
-#loader-container-medium .load-text {
-	vertical-align: 10px !important;
-	display: inline-block !important;
-}
-
-.loader-medium {
-	width: 30px !important;
-	height: 30px !important;
-	display: inline-block !important;
-	margin: 0 10px 0 auto !important;
-}
-
-#loader-container-small {
-	height: 20px !important;
-	margin-top: 22px !important;
-	text-align: center !important;
-}
-
-#loader-container-small .load-text {
-	vertical-align: 3px !important;
-	display: inline-block !important;
-}
-
-.icon,
-.icon--l,
-.icon--m,
-.icon-help,
-.landing .landing-features-list li:before,
-.list--plans .plan-icon,
-.repo-gh,
-.request-icon,
-.status-icon {
-	display: inline-block !important;
-	vertical-align: middle !important;
-}
-
-.loader-small {
-	width: 15px !important;
-	height: 15px !important;
-	display: inline-block !important;
-	margin: 0 5px 0 auto !important;
-}
-
-.load-circle1,
-.load-circle2 {
-	width: 100% !important;
-	height: 100% !important;
-	border-radius: 50% !important;
-	opacity: .7 !important;
-	position: absolute !important;
-	top: 0 !important;
-	left: 0 !important;
-	animation: bounce 1.5s infinite ease-in-out !important;
 }
 
 .load-circle1 {
@@ -2228,389 +542,193 @@ span.emoji.emoji-sizer {
 	animation-delay: -.5s !important;
 }
 
-@keyframes bounce {
-	0%,
-	100% {
-		transform: scale(0)
-	}
 
-	60% {
-		transform: scale(1)
-	}
-}
-
-.icon {
-	width: 15px !important;
-	height: 16px !important;
-	margin-right: 4px !important;
-}
-
-.icon--m {
-	width: 18px !important;
-	height: 19px !important;
-	margin-right: 1px !important;
-}
-
-.icon--l,
-.repo-gh {
-	width: 30px !important;
-	height: 30px !important;
-	margin-right: 7px !important;
-}
-
-.icon svg circle,
-.icon svg ellipse,
-.icon svg line,
-.icon svg path,
-.icon svg polygon,
-.icon svg polyline,
-.icon svg rect,
-svg.icon circle,
-svg.icon ellipse,
-svg.icon line,
-svg.icon path,
-svg.icon polygon,
-svg.icon polyline,
-svg.icon rect,
-svg.icon--l circle,
-svg.icon--l ellipse,
-svg.icon--l line,
-svg.icon--l path,
-svg.icon--l polygon,
-svg.icon--l polyline,
-svg.icon--l rect,
-svg.icon--m circle,
-svg.icon--m ellipse,
-svg.icon--m line,
-svg.icon--m path,
-svg.icon--m polygon,
-svg.icon--m polyline,
-svg.icon--m rect,
-svg.repo-gh circle,
-svg.repo-gh ellipse,
-svg.repo-gh line,
-svg.repo-gh path,
-svg.repo-gh polygon,
-svg.repo-gh polyline,
-svg.repo-gh rect {
+.icon svg circle, .icon svg ellipse, .icon svg line, .icon svg path,
+.icon svg polygon, .icon svg polyline, .icon svg rect,
+svg.icon circle, svg.icon ellipse, svg.icon line, svg.icon path,
+svg.icon polygon, svg.icon polyline, svg.icon rect, svg.icon--l circle,
+svg.icon--l ellipse, svg.icon--l line, svg.icon--l path,
+svg.icon--l polygon, svg.icon--l polyline, svg.icon--l rect,
+svg.icon--m circle, svg.icon--m ellipse, svg.icon--m line, svg.icon--m path,
+svg.icon--m polygon, svg.icon--m polyline, svg.icon--m rect,
+svg.repo-gh circle, svg.repo-gh ellipse, svg.repo-gh line, svg.repo-gh path,
+svg.repo-gh polygon, svg.repo-gh polyline, svg.repo-gh rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-svg.icon--l.passed circle,
-svg.icon--l.passed ellipse,
-svg.icon--l.passed line,
-svg.icon--l.passed path,
-svg.icon--l.passed polygon,
-svg.icon--l.passed polyline,
-svg.icon--l.passed rect,
-svg.icon--m.passed circle,
-svg.icon--m.passed ellipse,
-svg.icon--m.passed line,
-svg.icon--m.passed path,
-svg.icon--m.passed polygon,
-svg.icon--m.passed polyline,
-svg.icon--m.passed rect,
-svg.icon.passed circle,
-svg.icon.passed ellipse,
-svg.icon.passed line,
-svg.icon.passed path,
-svg.icon.passed polygon,
-svg.icon.passed polyline,
-svg.icon.passed rect,
-svg.passed.repo-gh circle,
-svg.passed.repo-gh ellipse,
-svg.passed.repo-gh line,
-svg.passed.repo-gh path,
-svg.passed.repo-gh polygon,
-svg.passed.repo-gh polyline,
-svg.passed.repo-gh rect {
+svg.icon--l.passed circle, svg.icon--l.passed ellipse,
+svg.icon--l.passed line, svg.icon--l.passed path,
+svg.icon--l.passed polygon, svg.icon--l.passed polyline,
+svg.icon--l.passed rect, svg.icon--m.passed circle,
+svg.icon--m.passed ellipse, svg.icon--m.passed line,
+svg.icon--m.passed path, svg.icon--m.passed polygon,
+svg.icon--m.passed polyline, svg.icon--m.passed rect,
+svg.icon.passed circle, svg.icon.passed ellipse,
+svg.icon.passed line, svg.icon.passed path,
+svg.icon.passed polygon, svg.icon.passed polyline,
+svg.icon.passed rect, svg.passed.repo-gh circle,
+svg.passed.repo-gh ellipse, svg.passed.repo-gh line,
+svg.passed.repo-gh path, svg.passed.repo-gh polygon,
+svg.passed.repo-gh polyline, svg.passed.repo-gh rect {
 	fill: none !important;
 	stroke: #39aa56 !important;
 }
 
-svg.errored.repo-gh circle,
-svg.errored.repo-gh ellipse,
-svg.errored.repo-gh line,
-svg.errored.repo-gh path,
-svg.errored.repo-gh polygon,
-svg.errored.repo-gh polyline,
-svg.errored.repo-gh rect,
-svg.failed.repo-gh circle,
-svg.failed.repo-gh ellipse,
-svg.failed.repo-gh line,
-svg.failed.repo-gh path,
-svg.failed.repo-gh polygon,
-svg.failed.repo-gh polyline,
-svg.failed.repo-gh rect,
-svg.icon--l.errored circle,
-svg.icon--l.errored ellipse,
-svg.icon--l.errored line,
-svg.icon--l.errored path,
-svg.icon--l.errored polygon,
-svg.icon--l.errored polyline,
-svg.icon--l.errored rect,
-svg.icon--l.failed circle,
-svg.icon--l.failed ellipse,
-svg.icon--l.failed line,
-svg.icon--l.failed path,
-svg.icon--l.failed polygon,
-svg.icon--l.failed polyline,
-svg.icon--l.failed rect,
-svg.icon--m.errored circle,
-svg.icon--m.errored ellipse,
-svg.icon--m.errored line,
-svg.icon--m.errored path,
-svg.icon--m.errored polygon,
-svg.icon--m.errored polyline,
-svg.icon--m.errored rect,
-svg.icon--m.failed circle,
-svg.icon--m.failed ellipse,
-svg.icon--m.failed line,
-svg.icon--m.failed path,
-svg.icon--m.failed polygon,
-svg.icon--m.failed polyline,
-svg.icon--m.failed rect,
-svg.icon.errored circle,
-svg.icon.errored ellipse,
-svg.icon.errored line,
-svg.icon.errored path,
-svg.icon.errored polygon,
-svg.icon.errored polyline,
-svg.icon.errored rect,
-svg.icon.failed circle,
-svg.icon.failed ellipse,
-svg.icon.failed line,
-svg.icon.failed path,
-svg.icon.failed polygon,
-svg.icon.failed polyline,
-svg.icon.failed rect {
+svg.errored.repo-gh circle, svg.errored.repo-gh ellipse,
+svg.errored.repo-gh line, svg.errored.repo-gh path,
+svg.errored.repo-gh polygon, svg.errored.repo-gh polyline,
+svg.errored.repo-gh rect, svg.failed.repo-gh circle,
+svg.failed.repo-gh ellipse, svg.failed.repo-gh line,
+svg.failed.repo-gh path, svg.failed.repo-gh polygon,
+svg.failed.repo-gh polyline, svg.failed.repo-gh rect,
+svg.icon--l.errored circle, svg.icon--l.errored ellipse,
+svg.icon--l.errored line, svg.icon--l.errored path,
+svg.icon--l.errored polygon, svg.icon--l.errored polyline,
+svg.icon--l.errored rect, svg.icon--l.failed circle,
+svg.icon--l.failed ellipse, svg.icon--l.failed line,
+svg.icon--l.failed path, svg.icon--l.failed polygon,
+svg.icon--l.failed polyline, svg.icon--l.failed rect,
+svg.icon--m.errored circle, svg.icon--m.errored ellipse,
+svg.icon--m.errored line, svg.icon--m.errored path,
+svg.icon--m.errored polygon, svg.icon--m.errored polyline,
+svg.icon--m.errored rect, svg.icon--m.failed circle,
+svg.icon--m.failed ellipse, svg.icon--m.failed line,
+svg.icon--m.failed path, svg.icon--m.failed polygon,
+svg.icon--m.failed polyline, svg.icon--m.failed rect,
+svg.icon.errored circle, svg.icon.errored ellipse,
+svg.icon.errored line, svg.icon.errored path,
+svg.icon.errored polygon, svg.icon.errored polyline,
+svg.icon.errored rect, svg.icon.failed circle,
+svg.icon.failed ellipse, svg.icon.failed line,
+svg.icon.failed path, svg.icon.failed polygon,
+svg.icon.failed polyline, svg.icon.failed rect {
 	fill: none !important;
 	stroke: #db4545 !important;
 }
 
-svg.canceled.repo-gh circle,
-svg.canceled.repo-gh ellipse,
-svg.canceled.repo-gh line,
-svg.canceled.repo-gh path,
-svg.canceled.repo-gh polygon,
-svg.canceled.repo-gh polyline,
-svg.canceled.repo-gh rect,
-svg.icon--l.canceled circle,
-svg.icon--l.canceled ellipse,
-svg.icon--l.canceled line,
-svg.icon--l.canceled path,
-svg.icon--l.canceled polygon,
-svg.icon--l.canceled polyline,
-svg.icon--l.canceled rect,
-svg.icon--m.canceled circle,
-svg.icon--m.canceled ellipse,
-svg.icon--m.canceled line,
-svg.icon--m.canceled path,
-svg.icon--m.canceled polygon,
-svg.icon--m.canceled polyline,
-svg.icon--m.canceled rect,
-svg.icon.canceled circle,
-svg.icon.canceled ellipse,
-svg.icon.canceled line,
-svg.icon.canceled path,
-svg.icon.canceled polygon,
-svg.icon.canceled polyline,
-svg.icon.canceled rect {
+svg.canceled.repo-gh circle, svg.canceled.repo-gh ellipse,
+svg.canceled.repo-gh line, svg.canceled.repo-gh path,
+svg.canceled.repo-gh polygon, svg.canceled.repo-gh polyline,
+svg.canceled.repo-gh rect, svg.icon--l.canceled circle,
+svg.icon--l.canceled ellipse, svg.icon--l.canceled line,
+svg.icon--l.canceled path, svg.icon--l.canceled polygon,
+svg.icon--l.canceled polyline, svg.icon--l.canceled rect,
+svg.icon--m.canceled circle, svg.icon--m.canceled ellipse,
+svg.icon--m.canceled line, svg.icon--m.canceled path,
+svg.icon--m.canceled polygon, svg.icon--m.canceled polyline,
+svg.icon--m.canceled rect, svg.icon.canceled circle,
+svg.icon.canceled ellipse, svg.icon.canceled line,
+svg.icon.canceled path, svg.icon.canceled polygon,
+svg.icon.canceled polyline, svg.icon.canceled rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-svg.booting.repo-gh circle,
-svg.booting.repo-gh ellipse,
-svg.booting.repo-gh line,
-svg.booting.repo-gh path,
-svg.booting.repo-gh polygon,
-svg.booting.repo-gh polyline,
-svg.booting.repo-gh rect,
-svg.created.repo-gh circle,
-svg.created.repo-gh ellipse,
-svg.created.repo-gh line,
-svg.created.repo-gh path,
-svg.created.repo-gh polygon,
-svg.created.repo-gh polyline,
-svg.created.repo-gh rect,
-svg.icon--l.booting circle,
-svg.icon--l.booting ellipse,
-svg.icon--l.booting line,
-svg.icon--l.booting path,
-svg.icon--l.booting polygon,
-svg.icon--l.booting polyline,
-svg.icon--l.booting rect,
-svg.icon--l.created circle,
-svg.icon--l.created ellipse,
-svg.icon--l.created line,
-svg.icon--l.created path,
-svg.icon--l.created polygon,
-svg.icon--l.created polyline,
-svg.icon--l.created rect,
-svg.icon--l.queued circle,
-svg.icon--l.queued ellipse,
-svg.icon--l.queued line,
-svg.icon--l.queued path,
-svg.icon--l.queued polygon,
-svg.icon--l.queued polyline,
-svg.icon--l.queued rect,
-svg.icon--l.received circle,
-svg.icon--l.received ellipse,
-svg.icon--l.received line,
-svg.icon--l.received path,
-svg.icon--l.received polygon,
-svg.icon--l.received polyline,
-svg.icon--l.received rect,
-svg.icon--l.started circle,
-svg.icon--l.started ellipse,
-svg.icon--l.started line,
-svg.icon--l.started path,
-svg.icon--l.started polygon,
-svg.icon--l.started polyline,
-svg.icon--l.started rect,
-svg.icon--m.booting circle,
-svg.icon--m.booting ellipse,
-svg.icon--m.booting line,
-svg.icon--m.booting path,
-svg.icon--m.booting polygon,
-svg.icon--m.booting polyline,
-svg.icon--m.booting rect,
-svg.icon--m.created circle,
-svg.icon--m.created ellipse,
-svg.icon--m.created line,
-svg.icon--m.created path,
-svg.icon--m.created polygon,
-svg.icon--m.created polyline,
-svg.icon--m.created rect,
-svg.icon--m.queued circle,
-svg.icon--m.queued ellipse,
-svg.icon--m.queued line,
-svg.icon--m.queued path,
-svg.icon--m.queued polygon,
-svg.icon--m.queued polyline,
-svg.icon--m.queued rect,
-svg.icon--m.received circle,
-svg.icon--m.received ellipse,
-svg.icon--m.received line,
-svg.icon--m.received path,
-svg.icon--m.received polygon,
-svg.icon--m.received polyline,
-svg.icon--m.received rect,
-svg.icon--m.started circle,
-svg.icon--m.started ellipse,
-svg.icon--m.started line,
-svg.icon--m.started path,
-svg.icon--m.started polygon,
-svg.icon--m.started polyline,
-svg.icon--m.started rect,
-svg.icon.booting circle,
-svg.icon.booting ellipse,
-svg.icon.booting line,
-svg.icon.booting path,
-svg.icon.booting polygon,
-svg.icon.booting polyline,
-svg.icon.booting rect,
-svg.icon.created circle,
-svg.icon.created ellipse,
-svg.icon.created line,
-svg.icon.created path,
-svg.icon.created polygon,
-svg.icon.created polyline,
-svg.icon.created rect,
-svg.icon.queued circle,
-svg.icon.queued ellipse,
-svg.icon.queued line,
-svg.icon.queued path,
-svg.icon.queued polygon,
-svg.icon.queued polyline,
-svg.icon.queued rect,
-svg.icon.received circle,
-svg.icon.received ellipse,
-svg.icon.received line,
-svg.icon.received path,
-svg.icon.received polygon,
-svg.icon.received polyline,
-svg.icon.received rect,
-svg.icon.started circle,
-svg.icon.started ellipse,
-svg.icon.started line,
-svg.icon.started path,
-svg.icon.started polygon,
-svg.icon.started polyline,
-svg.icon.started rect,
-svg.queued.repo-gh circle,
-svg.queued.repo-gh ellipse,
-svg.queued.repo-gh line,
-svg.queued.repo-gh path,
-svg.queued.repo-gh polygon,
-svg.queued.repo-gh polyline,
-svg.queued.repo-gh rect,
-svg.received.repo-gh circle,
-svg.received.repo-gh ellipse,
-svg.received.repo-gh line,
-svg.received.repo-gh path,
-svg.received.repo-gh polygon,
-svg.received.repo-gh polyline,
-svg.received.repo-gh rect,
-svg.started.repo-gh circle,
-svg.started.repo-gh ellipse,
-svg.started.repo-gh line,
-svg.started.repo-gh path,
-svg.started.repo-gh polygon,
-svg.started.repo-gh polyline,
-svg.started.repo-gh rect {
+svg.booting.repo-gh circle, svg.booting.repo-gh ellipse,
+svg.booting.repo-gh line, svg.booting.repo-gh path,
+svg.booting.repo-gh polygon, svg.booting.repo-gh polyline,
+svg.booting.repo-gh rect, svg.created.repo-gh circle,
+svg.created.repo-gh ellipse, svg.created.repo-gh line,
+svg.created.repo-gh path, svg.created.repo-gh polygon,
+svg.created.repo-gh polyline, svg.created.repo-gh rect,
+svg.icon--l.booting circle, svg.icon--l.booting ellipse,
+svg.icon--l.booting line, svg.icon--l.booting path,
+svg.icon--l.booting polygon, svg.icon--l.booting polyline,
+svg.icon--l.booting rect, svg.icon--l.created circle,
+svg.icon--l.created ellipse, svg.icon--l.created line,
+svg.icon--l.created path, svg.icon--l.created polygon,
+svg.icon--l.created polyline, svg.icon--l.created rect,
+svg.icon--l.queued circle, svg.icon--l.queued ellipse,
+svg.icon--l.queued line, svg.icon--l.queued path,
+svg.icon--l.queued polygon, svg.icon--l.queued polyline,
+svg.icon--l.queued rect, svg.icon--l.received circle,
+svg.icon--l.received ellipse, svg.icon--l.received line,
+svg.icon--l.received path, svg.icon--l.received polygon,
+svg.icon--l.received polyline, svg.icon--l.received rect,
+svg.icon--l.started circle, svg.icon--l.started ellipse,
+svg.icon--l.started line, svg.icon--l.started path,
+svg.icon--l.started polygon, svg.icon--l.started polyline,
+svg.icon--l.started rect, svg.icon--m.booting circle,
+svg.icon--m.booting ellipse, svg.icon--m.booting line,
+svg.icon--m.booting path, svg.icon--m.booting polygon,
+svg.icon--m.booting polyline, svg.icon--m.booting rect,
+svg.icon--m.created circle, svg.icon--m.created ellipse,
+svg.icon--m.created line, svg.icon--m.created path,
+svg.icon--m.created polygon, svg.icon--m.created polyline,
+svg.icon--m.created rect, svg.icon--m.queued circle,
+svg.icon--m.queued ellipse, svg.icon--m.queued line,
+svg.icon--m.queued path, svg.icon--m.queued polygon,
+svg.icon--m.queued polyline, svg.icon--m.queued rect,
+svg.icon--m.received circle, svg.icon--m.received ellipse,
+svg.icon--m.received line, svg.icon--m.received path,
+svg.icon--m.received polygon, svg.icon--m.received polyline,
+svg.icon--m.received rect, svg.icon--m.started circle,
+svg.icon--m.started ellipse, svg.icon--m.started line,
+svg.icon--m.started path, svg.icon--m.started polygon,
+svg.icon--m.started polyline, svg.icon--m.started rect,
+svg.icon.booting circle, svg.icon.booting ellipse,
+svg.icon.booting line, svg.icon.booting path,
+svg.icon.booting polygon, svg.icon.booting polyline,
+svg.icon.booting rect, svg.icon.created circle,
+svg.icon.created ellipse, svg.icon.created line,
+svg.icon.created path, svg.icon.created polygon,
+svg.icon.created polyline, svg.icon.created rect,
+svg.icon.queued circle, svg.icon.queued ellipse,
+svg.icon.queued line, svg.icon.queued path,
+svg.icon.queued polygon, svg.icon.queued polyline,
+svg.icon.queued rect, svg.icon.received circle,
+svg.icon.received ellipse, svg.icon.received line,
+svg.icon.received path, svg.icon.received polygon,
+svg.icon.received polyline, svg.icon.received rect,
+svg.icon.started circle, svg.icon.started ellipse,
+svg.icon.started line, svg.icon.started path,
+svg.icon.started polygon, svg.icon.started polyline,
+svg.icon.started rect, svg.queued.repo-gh circle,
+svg.queued.repo-gh ellipse, svg.queued.repo-gh line,
+svg.queued.repo-gh path, svg.queued.repo-gh polygon,
+svg.queued.repo-gh polyline, svg.queued.repo-gh rect,
+svg.received.repo-gh circle, svg.received.repo-gh ellipse,
+svg.received.repo-gh line, svg.received.repo-gh path,
+svg.received.repo-gh polygon, svg.received.repo-gh polyline,
+svg.received.repo-gh rect, svg.started.repo-gh circle,
+svg.started.repo-gh ellipse, svg.started.repo-gh line,
+svg.started.repo-gh path, svg.started.repo-gh polygon,
+svg.started.repo-gh polyline, svg.started.repo-gh rect {
 	fill: none !important;
 	stroke: #cdb62c !important;
 }
 
-.icon-hover:active circle,
-.icon-hover:active ellipse,
-.icon-hover:active line,
-.icon-hover:active path,
-.icon-hover:active polygon,
-.icon-hover:active polyline,
-.icon-hover:active rect,
-.icon-hover:hover circle,
-.icon-hover:hover ellipse,
-.icon-hover:hover line,
-.icon-hover:hover path,
-.icon-hover:hover polygon,
-.icon-hover:hover polyline,
-.icon-hover:hover rect {
+.icon-hover:active circle, .icon-hover:active ellipse,
+.icon-hover:active line, .icon-hover:active path,
+.icon-hover:active polygon, .icon-hover:active polyline,
+.icon-hover:active rect, .icon-hover:hover circle,
+.icon-hover:hover ellipse, .icon-hover:hover line,
+.icon-hover:hover path, .icon-hover:hover polygon,
+.icon-hover:hover polyline, .icon-hover:hover rect {
 	fill: none !important;
 	stroke: #3eaaaf !important;
 }
 
-.icon.white circle,
-.icon.white ellipse,
-.icon.white line,
-.icon.white path,
-.icon.white polygon,
-.icon.white polyline,
+.icon.white circle, .icon.white ellipse,
+.icon.white line, .icon.white path,
+.icon.white polygon, .icon.white polyline,
 .icon.white rect {
 	fill: none !important;
 	stroke: #fff !important;
 }
 
-.icon.green circle,
-.icon.green ellipse,
-.icon.green line,
-.icon.green path,
-.icon.green polygon,
-.icon.green polyline,
+.icon.green circle, .icon.green ellipse,
+.icon.green line, .icon.green path,
+.icon.green polygon, .icon.green polyline,
 .icon.green rect {
 	fill: none !important;
 	stroke: #39aa56 !important;
 }
 
-.icon.red circle,
-.icon.red ellipse,
-.icon.red line,
-.icon.red path,
-.icon.red polygon,
-.icon.red polyline,
+.icon.red circle, .icon.red ellipse,
+.icon.red line, .icon.red path,
+.icon.red polygon, .icon.red polyline,
 .icon.red rect {
 	fill: none !important;
 	stroke: #db4545 !important;
@@ -2620,73 +738,42 @@ svg.started.repo-gh rect {
 	border: 1px solid #ccc !important;
 }
 
-.icon-help circle,
-.icon-help ellipse,
-.icon-help line,
-.icon-help path,
-.icon-help polygon,
-.icon-help polyline,
+.icon-help circle, .icon-help ellipse,
+.icon-help line, .icon-help path,
+.icon-help polygon, .icon-help polyline,
 .icon-help rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-.action-button--cancel:active circle,
-.action-button--cancel:active ellipse,
-.action-button--cancel:active line,
-.action-button--cancel:active path,
-.action-button--cancel:active polygon,
-.action-button--cancel:active polyline,
-.action-button--cancel:active rect,
-.action-button--cancel:hover circle,
-.action-button--cancel:hover ellipse,
-.action-button--cancel:hover line,
-.action-button--cancel:hover path,
-.action-button--cancel:hover polygon,
-.action-button--cancel:hover polyline,
-.action-button--cancel:hover rect,
-.action-button--debug:active circle,
-.action-button--debug:active ellipse,
-.action-button--debug:active line,
-.action-button--debug:active path,
-.action-button--debug:active polygon,
-.action-button--debug:active polyline,
-.action-button--debug:active rect,
-.action-button--debug:hover circle,
-.action-button--debug:hover ellipse,
-.action-button--debug:hover line,
-.action-button--debug:hover path,
-.action-button--debug:hover polygon,
-.action-button--debug:hover polyline,
-.action-button--debug:hover rect,
-.action-button--restart:active circle,
-.action-button--restart:active ellipse,
-.action-button--restart:active line,
-.action-button--restart:active path,
-.action-button--restart:active polygon,
-.action-button--restart:active polyline,
-.action-button--restart:active rect,
-.action-button--restart:hover circle,
-.action-button--restart:hover ellipse,
-.action-button--restart:hover line,
-.action-button--restart:hover path,
-.action-button--restart:hover polygon,
-.action-button--restart:hover polyline,
-.action-button--restart:hover rect,
-.icon-help:active circle,
-.icon-help:active ellipse,
-.icon-help:active line,
-.icon-help:active path,
-.icon-help:active polygon,
-.icon-help:active polyline,
-.icon-help:active rect,
-.icon-help:hover circle,
-.icon-help:hover ellipse,
-.icon-help:hover line,
-.icon-help:hover path,
-.icon-help:hover polygon,
-.icon-help:hover polyline,
-.icon-help:hover rect {
+.action-button--cancel:active circle, .action-button--cancel:active ellipse,
+.action-button--cancel:active line, .action-button--cancel:active path,
+.action-button--cancel:active polygon, .action-button--cancel:active polyline,
+.action-button--cancel:active rect, .action-button--cancel:hover circle,
+.action-button--cancel:hover ellipse, .action-button--cancel:hover line,
+.action-button--cancel:hover path, .action-button--cancel:hover polygon,
+.action-button--cancel:hover polyline, .action-button--cancel:hover rect,
+.action-button--debug:active circle, .action-button--debug:active ellipse,
+.action-button--debug:active line, .action-button--debug:active path,
+.action-button--debug:active polygon, .action-button--debug:active polyline,
+.action-button--debug:active rect, .action-button--debug:hover circle,
+.action-button--debug:hover ellipse, .action-button--debug:hover line,
+.action-button--debug:hover path, .action-button--debug:hover polygon,
+.action-button--debug:hover polyline, .action-button--debug:hover rect,
+.action-button--restart:active circle, .action-button--restart:active ellipse,
+.action-button--restart:active line, .action-button--restart:active path,
+.action-button--restart:active polygon, .action-button--restart:active polyline,
+.action-button--restart:active rect, .action-button--restart:hover circle,
+.action-button--restart:hover ellipse, .action-button--restart:hover line,
+.action-button--restart:hover path, .action-button--restart:hover polygon,
+.action-button--restart:hover polyline, .action-button--restart:hover rect,
+.icon-help:active circle, .icon-help:active ellipse,
+.icon-help:active line, .icon-help:active path,
+.icon-help:active polygon, .icon-help:active polyline,
+.icon-help:active rect, .icon-help:hover circle,
+.icon-help:hover ellipse, .icon-help:hover line,
+.icon-help:hover path, .icon-help:hover polygon,
+.icon-help:hover polyline, .icon-help:hover rect {
 	fill: none !important;
 	stroke: #3eaaaf !important;
 }
@@ -2696,41 +783,13 @@ svg.started.repo-gh rect {
 	border-color: #3eaaaf !important;
 }
 
-.icon--plus {
-	width: 1.1rem !important;
-	height: 1.4rem !important;
-}
-
 .icon--plus:after {
 	content: "+" !important;
 	font-size: 16px !important;
 	color: #666 !important;
 }
 
-.activate-repo-button,
-.auth-button,
-.auth-button--white,
-.button,
-.button--blue,
-.content-button {
-	display: inline-block !important;
-	padding: .7em .8rem .6em !important;
-	cursor: pointer !important;
-	white-space: nowrap !important;
-	border-radius: 2px !important;
-	border: none !important;
-	vertical-align: middle !important;
-	line-height: 1 !important;
-	text-decoration: none !important;
-	font-family: inherit !important;
-	font-size: 14px !important;
-}
-
 .button {
-	position: relative !important;
-	overflow: visible !important;
-	outline: 0 !important;
-	text-align: center !important;
 	color: #fff !important;
 	background-color: #444 !important;
 }
@@ -2741,10 +800,8 @@ svg.started.repo-gh rect {
 	cursor: pointer !important;
 }
 
-.button.active,
-.button:active,
-.button:focus,
-.button:hover {
+.button.active, .button:active,
+.button:focus, .button:hover {
 	border-color: #444 !important;
 	background-color: #666 !important;
 }
@@ -2756,26 +813,11 @@ svg.started.repo-gh rect {
 	background-color: #39aa56 !important;
 }
 
-.auth-button .label-align {
-	line-height: 1.4 !important
-}
-
-.auth-button .loading-indicator,
-.auth-button .loading-indicator--white {
-	vertical-align: top !important;
-	margin-left: .3em !important;
-}
-
 .auth-button .loading-indicator i,
 .auth-button .loading-indicator--white i {
 	background-color: #fff !important;
 	width: 6px !important;
 	height: 6px !important;
-}
-
-.auth-button.signed-out .icon {
-	margin: 0 0 0 4px !important;
-	vertical-align: top !important;
 }
 
 .auth-button.signed-out:active,
@@ -2791,8 +833,7 @@ svg.started.repo-gh rect {
 	font-size: inherit !important;
 }
 
-.auth-button--white:active,
-.auth-button--white:focus,
+.auth-button--white:active, .auth-button--white:focus,
 .auth-button--white:hover {
 	color: #3eaaaf !important;
 	border-color: #3eaaaf !important;
@@ -2804,14 +845,11 @@ svg.started.repo-gh rect {
 	background-color: #3eaaaf !important;
 }
 
-.button--blue:active,
-.button--blue:hover {
+.button--blue:active, .button--blue:hover {
 	background-color: #318589 !important;
 }
 
-.inactive,
-.inactive:active,
-.inactive:hover {
+.inactive, .inactive:active, .inactive:hover {
 	background: #de2222 !important;
 }
 
@@ -2820,13 +858,7 @@ svg.started.repo-gh rect {
 	color: #fff !important;
 }
 
-#auth #navigation .auth-button {
-	display: none !important;
-}
-
-.action-button--cancel,
-.action-button--debug,
-.action-button--restart {
+.action-button--cancel, .action-button--debug, .action-button--restart {
 	display: block !important;
 	width: 8em !important;
 	padding: 0 .5em !important;
@@ -2836,48 +868,21 @@ svg.started.repo-gh rect {
 	white-space: nowrap !important;
 }
 
-.action-button--cancel:active,
-.action-button--cancel:focus,
-.action-button--debug:active,
-.action-button--debug:focus,
-.action-button--restart:active,
-.action-button--restart:focus {
-	outline: dotted thin !important;
-}
-
-.dropup-tofu:active,
-.dropup-tofu:focus,
-.dropup-tofu:hover,
-.dropup.is-open .dropup-tofu,
-.option-display:focus {
-	outline: 0 !important;
-}
-
-.action-button--cancel:active,
-.action-button--cancel:hover,
-.action-button--debug:active,
-.action-button--debug:hover,
-.action-button--restart:active,
-.action-button--restart:hover {
+.action-button--cancel:active, .action-button--cancel:hover,
+.action-button--debug:active, .action-button--debug:hover,
+.action-button--restart:active, .action-button--restart:hover {
 	border-color: #3eaaaf !important;
 	color: #3eaaaf !important;
 	text-decoration: none !important;
 }
 
-.action-button--cancel:active circle,
-.action-button--cancel:active ellipse,
-.action-button--cancel:active line,
-.action-button--cancel:active path,
-.action-button--cancel:active polygon,
-.action-button--cancel:active polyline,
-.action-button--cancel:active rect,
-.action-button--cancel:hover circle,
-.action-button--cancel:hover ellipse,
-.action-button--cancel:hover line,
-.action-button--cancel:hover path,
-.action-button--cancel:hover polygon,
-.action-button--cancel:hover polyline,
-.action-button--cancel:hover rect,
+.action-button--cancel:active circle, .action-button--cancel:active ellipse,
+.action-button--cancel:active line, .action-button--cancel:active path,
+.action-button--cancel:active polygon, .action-button--cancel:active polyline,
+.action-button--cancel:active rect, .action-button--cancel:hover circle,
+.action-button--cancel:hover ellipse, .action-button--cancel:hover line,
+.action-button--cancel:hover path, .action-button--cancel:hover polygon,
+.action-button--cancel:hover polyline,.action-button--cancel:hover rect,
 .repo-main-tools.labelless .action-button--cancel:active circle,
 .repo-main-tools.labelless .action-button--cancel:active ellipse,
 .repo-main-tools.labelless .action-button--cancel:active line,
@@ -2896,8 +901,7 @@ svg.started.repo-gh rect {
 	fill: none !important;
 }
 
-.action-button--cancel:active,
-.action-button--cancel:hover {
+.action-button--cancel:active, .action-button--cancel:hover {
 	border-color: #db4545 !important;
 	color: #db4545 !important;
 }
@@ -2920,25 +924,9 @@ svg.started.repo-gh rect {
 	transform: translate(0, 1px) scale(.85) !important;
 }
 
-.repo-main-tools.labelless .action-button--debug,
-.repo-main-tools.labelless button .label-align {
-	display: none !important;
-}
-
 .repo-main-tools.labelless button:active,
 .repo-main-tools.labelless button:hover {
 	border-color: #3eaaaf !important;
-}
-
-.repo-main-tools.labelless .action-button--restart .icon {
-	-ms-transform: scale(.75) translate(4px, -2px) !important;
-	transform: scale(.75) translate(4px, -2px) !important;
-}
-
-.repo-main-tools.labelless .action-button--cancel .icon {
-	-ms-transform: scale(.65) translate(1px, -2px) !important;
-	transform: scale(.65) translate(1px, -2px) !important;
-	margin-right: 1px !important;
 }
 
 .repo-main-tools.labelless .action-button--cancel:active,
@@ -2947,80 +935,33 @@ svg.started.repo-gh rect {
 	color: #db4545 !important;
 }
 
-.jobs-item .repo-main-tools {
-	-ms-transform: translate(-5px, -2px) !important;
-	transform: translate(-5px, -2px) !important;
-}
-
-.jobs-item .repo-main-tools button {
-	background: 0 0 !important;
-}
-
 .download-log-button,
 .remove-log-button,
 .toggle-log-button--dark {
-	display: inline-block !important;
-	height: 28px !important;
-	padding: 0 .8em !important;
 	border: 1px solid #444 !important;
 	color: #eee !important;
-	border-radius: 2px !important;
-	text-align: center !important;
-	line-height: 1.8 !important;
-	font-size: 14px !important;
-	font-weight: 300 !important;
-	background-color: inherit !important;
-	cursor: pointer !important;
 }
 
-.download-log-button [class^=icon],
-.remove-log-button [class^=icon],
-.toggle-log-button--dark [class^=icon] {
-	margin-right: .3em !important;
-}
-
-.download-log-button .icon circle,
-.download-log-button .icon ellipse,
-.download-log-button .icon line,
-.download-log-button .icon path,
-.download-log-button .icon polygon,
-.download-log-button .icon polyline,
-.download-log-button .icon rect,
-.remove-log-button .icon circle,
-.remove-log-button .icon ellipse,
-.remove-log-button .icon line,
-.remove-log-button .icon path,
-.remove-log-button .icon polygon,
-.remove-log-button .icon polyline,
-.remove-log-button .icon rect,
-.toggle-log-button--dark .icon circle,
-.toggle-log-button--dark .icon ellipse,
-.toggle-log-button--dark .icon line,
-.toggle-log-button--dark .icon path,
-.toggle-log-button--dark .icon polygon,
-.toggle-log-button--dark .icon polyline,
+.download-log-button .icon circle, .download-log-button .icon ellipse,
+.download-log-button .icon line, .download-log-button .icon path,
+.download-log-button .icon polygon, .download-log-button .icon polyline,
+.download-log-button .icon rect, .remove-log-button .icon circle,
+.remove-log-button .icon ellipse, .remove-log-button .icon line,
+.remove-log-button .icon path, .remove-log-button .icon polygon,
+.remove-log-button .icon polyline, .remove-log-button .icon rect,
+.toggle-log-button--dark .icon circle, .toggle-log-button--dark .icon ellipse,
+.toggle-log-button--dark .icon line, .toggle-log-button--dark .icon path,
+.toggle-log-button--dark .icon polygon, .toggle-log-button--dark .icon polyline,
 .toggle-log-button--dark .icon rect {
 	fill: none !important;
 	stroke: #eee !important;
 }
 
-.remove-log-button {
-	display: none !important;
-}
-
-.remove-log-button:active,
-.remove-log-button:hover {
+.remove-log-button:active, .remove-log-button:hover {
 	background-color: #d94341 !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.remove-log-button {
-		display: inline-block !important;
-	}
-}
-
-.download-log-button:active,
-.download-log-button:hover {
+.download-log-button:active, .download-log-button:hover {
 	background-color: #666 !important;
 }
 
@@ -3110,8 +1051,7 @@ svg.started.repo-gh rect {
 	line-height: 2 !important;
 }
 
-.option-display .avatar,
-.option-display .avatar--small {
+.option-display .avatar, .option-display .avatar--small {
 	max-width: 20px !important;
 	max-height: 20px !important;
 	margin-right: .5em !important;
@@ -3120,8 +1060,7 @@ svg.started.repo-gh rect {
 	overflow: hidden !important;
 }
 
-.option-arrow,
-.option-tofu {
+.option-arrow, .option-tofu {
 	width: 2em !important;
 	height: 2em !important;
 	display: inline-block !important;
@@ -3138,12 +1077,9 @@ svg.started.repo-gh rect {
 	height: 2rem !important;
 }
 
-.option-tofu .icon-tofu circle,
-.option-tofu .icon-tofu ellipse,
-.option-tofu .icon-tofu line,
-.option-tofu .icon-tofu path,
-.option-tofu .icon-tofu polygon,
-.option-tofu .icon-tofu polyline,
+.option-tofu .icon-tofu circle, .option-tofu .icon-tofu ellipse,
+.option-tofu .icon-tofu line, .option-tofu .icon-tofu path,
+.option-tofu .icon-tofu polygon, .option-tofu .icon-tofu polyline,
 .option-tofu .icon-tofu rect {
 	fill: #9d9d9d !important;
 	stroke: none !important;
@@ -3158,12 +1094,9 @@ svg.started.repo-gh rect {
 	float: right !important;
 }
 
-.option-arrow circle,
-.option-arrow ellipse,
-.option-arrow line,
-.option-arrow path,
-.option-arrow polygon,
-.option-arrow polyline,
+.option-arrow circle, .option-arrow ellipse,
+.option-arrow line, .option-arrow path,
+.option-arrow polygon, .option-arrow polyline,
 .option-arrow rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
@@ -3188,8 +1121,7 @@ svg.started.repo-gh rect {
 	border: 1px solid #3eaaaf !important;
 }
 
-.option-dropdown a,
-.option-dropdown button {
+.option-dropdown a, .option-dropdown button {
 	display: block !important;
 	width: 100% !important;
 	margin-bottom: 0 !important;
@@ -3199,8 +1131,7 @@ svg.started.repo-gh rect {
 	cursor: pointer !important;
 }
 
-.option-dropdown a:hover,
-.option-dropdown button:hover {
+.option-dropdown a:hover, .option-dropdown button:hover {
 	color: #fff !important;
 	background-color: #3eaaaf !important;
 }
@@ -3236,12 +1167,9 @@ svg.started.repo-gh rect {
 	display: block !important;
 }
 
-.dropup.is-open .dropup-tofu circle,
-.dropup.is-open .dropup-tofu ellipse,
-.dropup.is-open .dropup-tofu line,
-.dropup.is-open .dropup-tofu path,
-.dropup.is-open .dropup-tofu polygon,
-.dropup.is-open .dropup-tofu polyline,
+.dropup.is-open .dropup-tofu circle, .dropup.is-open .dropup-tofu ellipse,
+.dropup.is-open .dropup-tofu line, .dropup.is-open .dropup-tofu path,
+.dropup.is-open .dropup-tofu polygon, .dropup.is-open .dropup-tofu polyline,
 .dropup.is-open .dropup-tofu rect {
 	fill: #3eaaaf !important;
 	stroke: none !important;
@@ -3261,31 +1189,21 @@ svg.started.repo-gh rect {
 	vertical-align: middle !important;
 }
 
-.dropup-tofu .icon-tofu circle,
-.dropup-tofu .icon-tofu ellipse,
-.dropup-tofu .icon-tofu line,
-.dropup-tofu .icon-tofu path,
-.dropup-tofu .icon-tofu polygon,
-.dropup-tofu .icon-tofu polyline,
+.dropup-tofu .icon-tofu circle, .dropup-tofu .icon-tofu ellipse,
+.dropup-tofu .icon-tofu line, .dropup-tofu .icon-tofu path,
+.dropup-tofu .icon-tofu polygon, .dropup-tofu .icon-tofu polyline,
 .dropup-tofu .icon-tofu rect {
 	fill: #9d9d9d !important;
 	stroke: none !important;
 }
 
-.dropup-tofu:active circle,
-.dropup-tofu:active ellipse,
-.dropup-tofu:active line,
-.dropup-tofu:active path,
-.dropup-tofu:active polygon,
-.dropup-tofu:active polyline,
-.dropup-tofu:active rect,
-.dropup-tofu:hover circle,
-.dropup-tofu:hover ellipse,
-.dropup-tofu:hover line,
-.dropup-tofu:hover path,
-.dropup-tofu:hover polygon,
-.dropup-tofu:hover polyline,
-.dropup-tofu:hover rect {
+.dropup-tofu:active circle, .dropup-tofu:active ellipse,
+.dropup-tofu:active line, .dropup-tofu:active path,
+.dropup-tofu:active polygon, .dropup-tofu:active polyline,
+.dropup-tofu:active rect, .dropup-tofu:hover circle,
+.dropup-tofu:hover ellipse, .dropup-tofu:hover line,
+.dropup-tofu:hover path, .dropup-tofu:hover polygon,
+.dropup-tofu:hover polyline, .dropup-tofu:hover rect {
 	fill: #3eaaaf !important;
 	stroke: none !important;
 }
@@ -3302,8 +1220,7 @@ svg.started.repo-gh rect {
 	display: inline-block !important;
 }
 
-.dropup-list a,
-.dropup-list button {
+.dropup-list a, .dropup-list button {
 	display: inline-block !important;
 	width: 100% !important;
 	padding: .5em 1em !important;
@@ -3311,58 +1228,37 @@ svg.started.repo-gh rect {
 	cursor: pointer !important;
 }
 
-.dropup-list a [class^=icon-],
-.dropup-list button [class^=icon-] {
+.dropup-list a [class^=icon-], .dropup-list button [class^=icon-] {
 	margin-right: .3rem !important;
 }
 
-.dropup-list a:active,
-.dropup-list a:hover,
-.dropup-list button:active,
-.dropup-list button:hover {
+.dropup-list a:active, .dropup-list a:hover,
+.dropup-list button:active, .dropup-list button:hover {
 	background: #3eaaaf !important;
 	color: #fff !important;
 }
 
-.travistab-nav a.active,
-.travistab-nav a:active,
-.travistab-nav a:hover,
-.travistab-nav li.active a,
-.travistab-nav--secondary a.active,
-.travistab-nav--secondary a:active,
-.travistab-nav--secondary a:hover,
-.travistab-nav--secondary li.active a {
+.travistab-nav a.active, .travistab-nav a:active,
+.travistab-nav a:hover, .travistab-nav li.active a,
+.travistab-nav--secondary a.active, .travistab-nav--secondary a:active,
+.travistab-nav--secondary a:hover, .travistab-nav--secondary li.active a {
 	color: #3eaaaf !important;
 }
 
-.dropup-list a:active circle,
-.dropup-list a:active ellipse,
-.dropup-list a:active line,
-.dropup-list a:active path,
-.dropup-list a:active polygon,
-.dropup-list a:active polyline,
-.dropup-list a:active rect,
-.dropup-list a:hover circle,
-.dropup-list a:hover ellipse,
-.dropup-list a:hover line,
-.dropup-list a:hover path,
-.dropup-list a:hover polygon,
-.dropup-list a:hover polyline,
-.dropup-list a:hover rect,
-.dropup-list button:active circle,
-.dropup-list button:active ellipse,
-.dropup-list button:active line,
-.dropup-list button:active path,
-.dropup-list button:active polygon,
-.dropup-list button:active polyline,
-.dropup-list button:active rect,
-.dropup-list button:hover circle,
-.dropup-list button:hover ellipse,
-.dropup-list button:hover line,
-.dropup-list button:hover path,
-.dropup-list button:hover polygon,
-.dropup-list button:hover polyline,
-.dropup-list button:hover rect {
+.dropup-list a:active circle, .dropup-list a:active ellipse,
+.dropup-list a:active line, .dropup-list a:active path,
+.dropup-list a:active polygon, .dropup-list a:active polyline,
+.dropup-list a:active rect, .dropup-list a:hover circle,
+.dropup-list a:hover ellipse, .dropup-list a:hover line,
+.dropup-list a:hover path, .dropup-list a:hover polygon,
+.dropup-list a:hover polyline, .dropup-list a:hover rect,
+.dropup-list button:active circle, .dropup-list button:active ellipse,
+.dropup-list button:active line, .dropup-list button:active path,
+.dropup-list button:active polygon, .dropup-list button:active polyline,
+.dropup-list button:active rect, .dropup-list button:hover circle,
+.dropup-list button:hover ellipse, .dropup-list button:hover line,
+.dropup-list button:hover path, .dropup-list button:hover polygon,
+.dropup-list button:hover polyline, .dropup-list button:hover rect {
 	fill: none !important;
 	stroke: #fff !important;
 }
@@ -3409,20 +1305,17 @@ svg.started.repo-gh rect {
 	}
 }
 
-.travistab-nav--secondary a,
-.travistab-nav.travistab-nav--underline {
+.travistab-nav--secondary a, .travistab-nav.travistab-nav--underline {
 	border-bottom: 2px solid #444 !important;
 }
 
-.travistab-nav ul,
-.travistab-nav--secondary ul {
+.travistab-nav ul, .travistab-nav--secondary ul {
 	padding: 0 !important;
 	margin: 0 !important;
 	list-style: none !important;
 }
 
-.travistab-nav li,
-.travistab-nav--secondary li {
+.travistab-nav li, .travistab-nav--secondary li {
 	display: inline-block !important;
 	vertical-align: bottom !important;
 }
@@ -3438,17 +1331,14 @@ svg.started.repo-gh rect {
 	background-color: #3eaaaf !important;
 }
 
-.travistab-nav a,
-.travistab-nav--secondary a {
+.travistab-nav a, .travistab-nav--secondary a {
 	position: relative !important;
 	display: block !important;
 	padding: .5em 0 !important;
 }
 
-.travistab-nav a.active:after,
-.travistab-nav a:active:after,
-.travistab-nav a:hover:after,
-.travistab-nav--secondary a.active:after,
+.travistab-nav a.active:after, .travistab-nav a:active:after,
+.travistab-nav a:hover:after, .travistab-nav--secondary a.active:after,
 .travistab-nav--secondary a:active:after,
 .travistab-nav--secondary a:hover:after {
 	content: "" !important;
@@ -3468,8 +1358,7 @@ svg.started.repo-gh rect {
 	margin-right: 1.5em !important;
 }
 
-.travistab-nav a.active:after,
-.travistab-nav a:active:after,
+.travistab-nav a.active:after, .travistab-nav a:active:after,
 .travistab-nav a:hover:after {
 	background-color: #3eaaaf !important;
 }
@@ -3575,9 +1464,8 @@ svg.started.repo-gh rect {
 }
 
 .flash .success {
-	color: #39aa56 !important;
-	background-color: #deecdc !important;
-	animation: fadeFlashOut 7s 1 ease forwards !important;
+	color:  #eee !important;
+	background-color:  #39aa56 !important;
 }
 
 .flash .success circle,
@@ -3587,14 +1475,8 @@ svg.started.repo-gh rect {
 .flash .success polygon,
 .flash .success polyline,
 .flash .success rect {
-	fill: #39aa56 !important;
+	fill: #eee !important;
 	stroke: none !important;
-}
-
-.flash .success .flash-message svg {
-	height: 38px !important;
-	width: 32px !important;
-	margin-top: -5px !important;
 }
 
 .flash .error {
@@ -3653,46 +1535,8 @@ svg.started.repo-gh rect {
 	stroke: #cdb62c !important;
 }
 
-.flash-message {
-	display: flex !important;
-	align-items: center !important;
-	padding: 0 !important;
-	margin: 0 !important;
-	line-height: 1 !important;
-	font-size: 1.14rem !important;
-}
-
-.flash-message .preamble {
-	font-weight: 700 !important;
-	padding-right: .5rem !important;
-}
-
-@keyframes fadeFlashOut {
-	0%,
-	98% {
-		opacity: 1
-	}
-
-	100% {
-		opacity: 0
-	}
-}
-
-.org-info {
-	display: flex !important;
-	flex-flow: row nowrap !important;
-	justify-content: flex-start !important;
-	padding: .5rem .3rem !important;
-	align-items: flex-start !important;
-	align-items: center !important;
-}
-
-.org-info > .account-info {
-	margin-left: 1rem !important;
-}
 
 .org-info > .account-avatar {
-	border-radius: 50% !important;
 	border: 2px solid transparent !important;
 }
 
@@ -3708,31 +1552,6 @@ svg.started.repo-gh rect {
 
 .org-info.active > .account-avatar {
 	border: 2px solid #3eaaaf !important;
-}
-
-.account-name {
-	margin: 0 !important;
-	font-size: 14px !important;
-	font-weight: 600 !important;
-	width: 180px !important;
-	white-space: nowrap !important;
-	text-overflow: ellipsis !important;
-	overflow: hidden !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.account-name {
-		width: 240px !important;
-	}
-
-	.form--sshkey .form-elem {
-		max-width: 460px !important;
-	}
-}
-
-.account-repo-count,
-.account-token {
-	margin: 0 !important;
 }
 
 .switch .switch-inner {
@@ -4663,35 +2482,12 @@ select {
 	background-color: #111 !important;
 	border: 1px solid #444 !important;
 	font-family: Cousine, monospace !important;
-	font-size: 14px !important;
-	padding: 2px !important;
-	border-radius: 2px !important;
-}
-
-.avatar,
-.avatar--small {
-	display: inline-block !important;
-	width: 2.3em !important;
-	height: 2.3em !important;
-	position: relative !important;
-	vertical-align: middle !important;
-	border-radius: 50% !important;
-	overflow: hidden !important;
 }
 
 .avatar .pseudo-avatar,
 .avatar--small .pseudo-avatar {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	margin: auto !important;
 	border: 1px solid #9d9d9d !important;
-	border-radius: 50% !important;
 	background: #fff !important;
-	-ms-transform: scale(.95) !important;
-	transform: scale(.95) !important;
 }
 
 .account .pseudo-avatar ~ .real-avatar,
@@ -4701,40 +2497,7 @@ select {
 
 .avatar .pseudo-avatar:after,
 .avatar--small .pseudo-avatar:after {
-	content: attr(data-initials) !important;
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	margin: auto !important;
 	color: #9d9d9d !important;
-	font-weight: 600 !important;
-	text-align: center !important;
-	font-size: 1.4em !important;
-	line-height: 1.6 !important;
-	text-transform: uppercase !important;
-}
-
-.avatar .real-avatar,
-.avatar--small .real-avatar {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	margin: auto !important;
-	border-radius: 50% !important;
-	width: 100% !important;
-	height: 100% !important;
-	line-height: .9 !important;
-	overflow: hidden !important;
-}
-
-.profile .avatar,
-.profile .avatar--small {
-	margin-left: 1em !important;
-	top: -3px !important;
 }
 
 .avatar--small {
@@ -4757,107 +2520,34 @@ select {
 	padding: 2em !important;
 }
 
-.ember-modal-dialog.emd-in-place {
-	position: static !important;
-}
-
-.ember-modal-wrapper.emd-static.emd-wrapper-target-attachment-center .ember-modal-dialog {
-	top: 50% !important;
-	left: 50% !important;
-	-ms-transform: translate(-50%, -50%) !important;
-	transform: translate(-50%, -50%) !important;
-}
-
-.ember-modal-wrapper.emd-animatable.emd-wrapper-target-attachment-center {
-	width: 100vw !important;
-	height: 100vh !important;
-	position: fixed !important;
-	top: 0 !important;
-	left: 0 !important;
-	display: flex !important;
-	align-items: center !important;
-	justify-content: center !important;
-}
-
-.ember-modal-wrapper.emd-animatable.emd-wrapper-target-attachment-center .ember-modal-overlay {
-	display: flex !important;
-	align-items: center !important;
-	justify-content: center !important;
-}
-
-.ember-modal-wrapper.emd-animatable .ember-modal-dialog {
-	position: relative !important;
-}
-
-.ember-modal-overlay {
-	width: 100vw !important;
-	height: 100vh !important;
-	position: fixed !important;
-	top: 0 !important;
-	left: 0 !important;
-	z-index: 50 !important;
-}
-
 .ember-modal-overlay.translucent {
 	background-color: rgba(157, 157, 157, .6) !important;
 }
 
 .modal-close {
-	position: absolute !important;
-	top: 1em !important;
-	right: 1em !important;
+	background: none !important;
 }
 
-.status-images {
-	width: 100% !important;
+.modal-close:hover {
+	filter: brightness(180%) !important;
+}
+/* these selctors are reused for message popups like remove log*/
+.plans-button--red {
+	border-radius: 3px !important;
+	color: #111 !important;
+	background: #9d9d9d !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.status-images {
-		width: 600px !important;
-	}
-}
-
-.status-images select,
-.status-images textarea {
-	margin-bottom: 1em !important;
-}
-
-.stage .stage-header .status-images .stage-duration,
-.stage .status-images .section-title,
-.status-images .small-title,
-.status-images .stage .section-title,
-.status-images .stage .stage-header .stage-duration {
-	margin: .3em 0 .8em !important;
-}
-
-.lastbuilds {
-	list-style: none !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	width: 100% !important;
-	display: flex !important;
-	justify-content: flex-start !important;
-}
-
-@media only screen and (max-width: 50em) {
-	.lastbuilds {
-		flex-flow: row wrap !important;
-		margin-top: 1em !important;
-	}
-}
-
-.lastbuilds li {
-	flex: 0 0 20% !important;
-	height: 30px !important;
+.plans-button--red:active, .plans-button--red:hover {
+	background-color: #db4545 !important;
+	color: #eee !important;
 }
 
 .lastbuilds li.passed {
 	background-color: #39aa56 !important;
 }
 
-.lastbuilds li.errored,
-.lastbuilds li.failed {
+.lastbuilds li.errored, .lastbuilds li.failed {
 	background-color: #db4545 !important;
 }
 
@@ -4865,36 +2555,14 @@ select {
 	background-color: #9d9d9d !important;
 }
 
-.lastbuilds li.booting,
-.lastbuilds li.created,
-.lastbuilds li.queued,
-.lastbuilds li.received,
+.lastbuilds li.booting, .lastbuilds li.created,
+.lastbuilds li.queued, .lastbuilds li.received,
 .lastbuilds li.started {
 	background-color: #cdb62c !important;
 }
 
-@media only screen and (min-width: 50.063em) {
-	.lastbuilds li {
-		flex: 0 0 10% !important;
-		margin-right: 2px !important;
-		-ms-transform: translateY(25px) !important;
-		transform: translateY(25px) !important;
-		transition: transform 150ms ease !important;
-	}
-
-	.lastbuilds li:hover {
-		-ms-transform: translateY(0) !important;
-		transform: translateY(0) !important;
-	}
-}
-
 .lastbuilds a {
-	display: block !important;
-	width: 100% !important;
-	height: 30% !important;
-	padding-top: 4px !important;
 	color: #fff !important;
-	text-align: center !important;
 }
 
 .lastbuilds .status-icon svg * {
@@ -4905,21 +2573,8 @@ select {
 	border-color: #fff !important;
 }
 
-.sync-button {
-	vertical-align: middle !important;
-	display: flex !important;
-	flex-flow: row-reverse wrap !important;
-	position: relative !important;
-}
-
 .sync-button .button {
-	position: relative !important;
-	z-index: 20 !important;
-	height: 2.6rem !important;
-	padding: .6em .8em !important;
 	background-color: #3eaaaf !important;
-	border: none !important;
-	border-radius: 2px !important;
 }
 
 .sync-button .button:hover {
@@ -4927,78 +2582,26 @@ select {
 }
 
 .sync-button .sync-last {
-	position: absolute !important;
-	right: 9em !important;
-	top: 0 !important;
-	width: 170% !important;
-	z-index: -10 !important;
-	transition: transform 150ms ease, opacity 250ms ease !important;
-	-ms-transform: translateX(80%) !important;
-	transform: translateX(80%) !important;
-	opacity: 0 !important;
 	background: #666 !important;
 }
 
-.beta-features,
 .sync-button .is-syncing {
 	background-color: #3eaaaf !important;
 }
 
-.sync-button .button:hover ~ .sync-last {
-	-ms-transform: translateX(0) !important;
-	transform: translateX(0) !important;
-	opacity: 1 !important;
-	z-index: 10 !important;
-}
-
-.sync-button .loading-indicator--white {
-	vertical-align: middle !important;
-	margin-right: .5em !important;
-}
-
 .sync-last {
-	display: inline-block !important;
-	margin: 0 1em !important;
 	color: #eee !important;
-	text-align: center !important;
-	line-height: 3 !important;
-	font-size: .9rem !important;
 }
 
 .beta-features {
-	vertical-align: middle !important;
-	color: #fff !important;
-	border-radius: 2px !important;
-	font-size: .9rem !important;
-	width: 60% !important;
+	color: #aaa !important;
 }
 
-.beta-features:hover {
-	background-color: #229191 !important;
-}
-
-.loading-indicator,
-.loading-indicator--white {
-	display: inline-block !important;
-	vertical-align: middle !important;
-}
-
-.loading-indicator i,
-.loading-indicator--white i {
-	position: relative !important;
-	display: inline-block !important;
-	width: 8px !important;
-	height: 8px !important;
+.loading-indicator i, .loading-indicator--white i {
 	background-color: #A6ADAD !important;
-	border-radius: 50% !important;
-	line-height: 0 !important;
-	-ms-transform-origin: center center !important;
-	transform-origin: center center !important;
-	animation: bouncedelay 1.3s infinite linear !important;
 }
 
-.loading-indicator--white i,
-.white .loading-indicator i,
+.loading-indicator--white i, .white .loading-indicator i,
 .white .loading-indicator--white i {
 	background-color: #fff !important;
 }
@@ -5008,50 +2611,7 @@ select {
 	animation-delay: .3s !important;
 }
 
-.loading-indicator i:nth-child(3),
-.loading-indicator--white i:nth-child(3) {
-	animation-delay: .6s !important;
-}
-
-@keyframes bouncedelay {
-	0%,
-	100%,
-	80% {
-		transform: scale(0)
-	}
-
-	40% {
-		transform: scale(1)
-	}
-}
-
-.loading-container {
-	text-align: center !important;
-	padding: 1.5em 1em !important;
-}
-
-.inline-block {
-	display: inline-block !important;
-}
-
-.icon-height .loading-indicator,
-.icon-height .loading-indicator--white {
-	height: 28px !important;
-	margin-bottom: .5em !important;
-}
-
-.build-tiles {
-	height: 4.7em !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	list-style: none !important;
-}
-
 .build-tiles li {
-	position: relative !important;
-	height: 100% !important;
-	float: left !important;
-	width: 20% !important;
 	background-color: #292929 !important;
 	border-right: 1px solid #444 !important
 }
@@ -5088,7 +2648,6 @@ select {
 	width: auto !important;
 	text-align: center !important;
 	position: absolute !important;
-	-ms-transform: scale(.7) !important;
 	transform: scale(.7) !important;
 	opacity: 0 !important;
 	color: #eee !important;
@@ -5099,20 +2658,12 @@ select {
 	left: 0 !important;
 }
 
-#left,
-.dash-body,
-.dash-default,
-.dash-header,
-.main {
-	position: relative !important;
-}
 
 .build-tiles li:hover .status-icon {
 	top: -1.4em !important;
 }
 
 .build-tiles li:hover .build-tile-number {
-	-ms-transform: scale(1) !important;
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
@@ -5429,26 +2980,18 @@ select {
 	stroke-width: 2px !important;
 }
 
-.request-icon circle,
-.request-icon ellipse,
-.request-icon line,
-.request-icon path,
-.request-icon polygon,
-.request-icon polyline,
-.request-icon rect,
-.status-icon circle,
-.status-icon ellipse,
-.status-icon line,
-.status-icon path,
-.status-icon polygon,
-.status-icon polyline,
-.status-icon rect {
+.request-icon circle, .request-icon ellipse,
+.request-icon line, .request-icon path,
+.request-icon polygon, .request-icon polyline,
+.request-icon rect, .status-icon circle,
+.status-icon ellipse, .status-icon line,
+.status-icon path, .status-icon polygon,
+.status-icon polyline, .status-icon rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-.request-icon *,
-.status-icon * {
+.request-icon *, .status-icon * {
 	stroke-linecap: round !important;
 	stroke-linejoin: round !important;
 	stroke-miterlimit: 10 !important;
@@ -5548,17 +3091,13 @@ select {
 	padding: 0 .3em !important;
 }
 
-.dash-star:active svg path,
-.dash-star:hover svg path {
+.dash-star:active svg path, .dash-star:hover svg path {
 	stroke-width: 2px !important;
 }
 
-.dash-star.is-starred circle,
-.dash-star.is-starred ellipse,
-.dash-star.is-starred line,
-.dash-star.is-starred path,
-.dash-star.is-starred polygon,
-.dash-star.is-starred polyline,
+.dash-star.is-starred circle, .dash-star.is-starred ellipse,
+.dash-star.is-starred line, .dash-star.is-starred path,
+.dash-star.is-starred polygon, .dash-star.is-starred polyline,
 .dash-star.is-starred rect {
 	fill: #edde3f !important;
 	stroke: #cdb62c !important;
@@ -5682,512 +3221,310 @@ select {
 	color: #39aa56 !important;
 }
 
-.dash-default.passed .color a,
-.dash-last.passed .color a {
+.dash-default.passed .color a, .dash-last.passed .color a {
 	color: #39aa56 !important;
 	text-decoration: none !important;
 }
 
-.dash-default.passed .color a:active,
-.dash-default.passed .color a:hover,
-.dash-last.passed .color a:active,
-.dash-last.passed .color a:hover {
+.dash-default.passed .color a:active, .dash-default.passed .color a:hover,
+.dash-last.passed .color a:active, .dash-last.passed .color a:hover {
 	border-bottom: 1px solid #39aa56 !important;
 }
 
-.dash-default.errored .color a:active,
-.dash-default.errored .color a:hover,
-.dash-default.failed .color a:active,
-.dash-default.failed .color a:hover,
-.dash-last.errored .color a:active,
-.dash-last.errored .color a:hover,
-.dash-last.failed .color a:active,
-.dash-last.failed .color a:hover {
+.dash-default.errored .color a:active, .dash-default.errored .color a:hover,
+.dash-default.failed .color a:active, .dash-default.failed .color a:hover,
+.dash-last.errored .color a:active, .dash-last.errored .color a:hover,
+.dash-last.failed .color a:active, .dash-last.failed .color a:hover {
 	border-bottom: 1px solid #db4545 !important;
 }
 
-.dash-default.passed .request-icon circle,
-.dash-default.passed .request-icon ellipse,
-.dash-default.passed .request-icon line,
-.dash-default.passed .request-icon path,
-.dash-default.passed .request-icon polygon,
-.dash-default.passed .request-icon polyline,
-.dash-default.passed .request-icon rect,
-.dash-default.passed .status-icon circle,
-.dash-default.passed .status-icon ellipse,
-.dash-default.passed .status-icon line,
-.dash-default.passed .status-icon path,
-.dash-default.passed .status-icon polygon,
-.dash-default.passed .status-icon polyline,
-.dash-default.passed .status-icon rect,
-.dash-last.passed .request-icon circle,
-.dash-last.passed .request-icon ellipse,
-.dash-last.passed .request-icon line,
-.dash-last.passed .request-icon path,
-.dash-last.passed .request-icon polygon,
-.dash-last.passed .request-icon polyline,
-.dash-last.passed .request-icon rect,
-.dash-last.passed .status-icon circle,
-.dash-last.passed .status-icon ellipse,
-.dash-last.passed .status-icon line,
-.dash-last.passed .status-icon path,
-.dash-last.passed .status-icon polygon,
-.dash-last.passed .status-icon polyline,
-.dash-last.passed .status-icon rect {
+.dash-default.passed .request-icon circle, .dash-default.passed .request-icon ellipse,
+.dash-default.passed .request-icon line, .dash-default.passed .request-icon path,
+.dash-default.passed .request-icon polygon, .dash-default.passed .request-icon polyline,
+.dash-default.passed .request-icon rect, .dash-default.passed .status-icon circle,
+.dash-default.passed .status-icon ellipse, .dash-default.passed .status-icon line,
+.dash-default.passed .status-icon path, .dash-default.passed .status-icon polygon,
+.dash-default.passed .status-icon polyline, .dash-default.passed .status-icon rect,
+.dash-last.passed .request-icon circle, .dash-last.passed .request-icon ellipse,
+.dash-last.passed .request-icon line, .dash-last.passed .request-icon path,
+.dash-last.passed .request-icon polygon, .dash-last.passed .request-icon polyline,
+.dash-last.passed .request-icon rect, .dash-last.passed .status-icon circle,
+.dash-last.passed .status-icon ellipse, .dash-last.passed .status-icon line,
+.dash-last.passed .status-icon path, .dash-last.passed .status-icon polygon,
+.dash-last.passed .status-icon polyline, .dash-last.passed .status-icon rect {
 	fill: none !important;
 	stroke: #39aa56 !important;
 }
 
-.dash-default.errored .request-icon circle,
-.dash-default.errored .request-icon ellipse,
-.dash-default.errored .request-icon line,
-.dash-default.errored .request-icon path,
-.dash-default.errored .request-icon polygon,
-.dash-default.errored .request-icon polyline,
-.dash-default.errored .request-icon rect,
-.dash-default.errored .status-icon circle,
-.dash-default.errored .status-icon ellipse,
-.dash-default.errored .status-icon line,
-.dash-default.errored .status-icon path,
-.dash-default.errored .status-icon polygon,
-.dash-default.errored .status-icon polyline,
-.dash-default.errored .status-icon rect,
-.dash-default.failed .request-icon circle,
-.dash-default.failed .request-icon ellipse,
-.dash-default.failed .request-icon line,
-.dash-default.failed .request-icon path,
-.dash-default.failed .request-icon polygon,
-.dash-default.failed .request-icon polyline,
-.dash-default.failed .request-icon rect,
-.dash-default.failed .status-icon circle,
-.dash-default.failed .status-icon ellipse,
-.dash-default.failed .status-icon line,
-.dash-default.failed .status-icon path,
-.dash-default.failed .status-icon polygon,
-.dash-default.failed .status-icon polyline,
-.dash-default.failed .status-icon rect,
-.dash-last.errored .request-icon circle,
-.dash-last.errored .request-icon ellipse,
-.dash-last.errored .request-icon line,
-.dash-last.errored .request-icon path,
-.dash-last.errored .request-icon polygon,
-.dash-last.errored .request-icon polyline,
-.dash-last.errored .request-icon rect,
-.dash-last.errored .status-icon circle,
-.dash-last.errored .status-icon ellipse,
-.dash-last.errored .status-icon line,
-.dash-last.errored .status-icon path,
-.dash-last.errored .status-icon polygon,
-.dash-last.errored .status-icon polyline,
-.dash-last.errored .status-icon rect,
-.dash-last.failed .request-icon circle,
-.dash-last.failed .request-icon ellipse,
-.dash-last.failed .request-icon line,
-.dash-last.failed .request-icon path,
-.dash-last.failed .request-icon polygon,
-.dash-last.failed .request-icon polyline,
-.dash-last.failed .request-icon rect,
-.dash-last.failed .status-icon circle,
-.dash-last.failed .status-icon ellipse,
-.dash-last.failed .status-icon line,
-.dash-last.failed .status-icon path,
-.dash-last.failed .status-icon polygon,
-.dash-last.failed .status-icon polyline,
-.dash-last.failed .status-icon rect {
+.dash-default.errored .request-icon circle, .dash-default.errored .request-icon ellipse,
+.dash-default.errored .request-icon line, .dash-default.errored .request-icon path,
+.dash-default.errored .request-icon polygon, .dash-default.errored .request-icon polyline,
+.dash-default.errored .request-icon rect, .dash-default.errored .status-icon circle,
+.dash-default.errored .status-icon ellipse, .dash-default.errored .status-icon line,
+.dash-default.errored .status-icon path, .dash-default.errored .status-icon polygon,
+.dash-default.errored .status-icon polyline, .dash-default.errored .status-icon rect,
+.dash-default.failed .request-icon circle, .dash-default.failed .request-icon ellipse,
+.dash-default.failed .request-icon line, .dash-default.failed .request-icon path,
+.dash-default.failed .request-icon polygon, .dash-default.failed .request-icon polyline,
+.dash-default.failed .request-icon rect, .dash-default.failed .status-icon circle,
+.dash-default.failed .status-icon ellipse, .dash-default.failed .status-icon line,
+.dash-default.failed .status-icon path, .dash-default.failed .status-icon polygon,
+.dash-default.failed .status-icon polyline, .dash-default.failed .status-icon rect,
+.dash-last.errored .request-icon circle, .dash-last.errored .request-icon ellipse,
+.dash-last.errored .request-icon line, .dash-last.errored .request-icon path,
+.dash-last.errored .request-icon polygon, .dash-last.errored .request-icon polyline,
+.dash-last.errored .request-icon rect, .dash-last.errored .status-icon circle,
+.dash-last.errored .status-icon ellipse, .dash-last.errored .status-icon line,
+.dash-last.errored .status-icon path, .dash-last.errored .status-icon polygon,
+.dash-last.errored .status-icon polyline, .dash-last.errored .status-icon rect,
+.dash-last.failed .request-icon circle, .dash-last.failed .request-icon ellipse,
+.dash-last.failed .request-icon line, .dash-last.failed .request-icon path,
+.dash-last.failed .request-icon polygon, .dash-last.failed .request-icon polyline,
+.dash-last.failed .request-icon rect, .dash-last.failed .status-icon circle,
+.dash-last.failed .status-icon ellipse, .dash-last.failed .status-icon line,
+.dash-last.failed .status-icon path, .dash-last.failed .status-icon polygon,
+.dash-last.failed .status-icon polyline, .dash-last.failed .status-icon rect {
 	stroke: #db4545 !important;
 	fill: none !important;
 }
 
-.dash-default.passed .background,
-.dash-last.passed .background {
+.dash-default.passed .background, .dash-last.passed .background {
 	background-color: #39aa56 !important;
 }
 
-.dash-default.errored .background,
-.dash-default.failed .background,
-.dash-last.errored .background,
-.dash-last.failed .background {
+.dash-default.errored .background, .dash-default.failed .background,
+.dash-last.errored .background, .dash-last.failed .background {
 	background-color: #db4545 !important;
 }
 
-.dash-default.failed .color,
-.dash-last.failed .color {
+.dash-default.failed .color, .dash-last.failed .color {
 	color: #db4545 !important;
 }
 
-.dash-default.failed .color a,
-.dash-last.failed .color a {
+.dash-default.failed .color a, .dash-last.failed .color a {
 	color: #db4545 !important;
 	text-decoration: none !important;
 }
 
-.dash-default.errored .color,
-.dash-last.errored .color {
+.dash-default.errored .color, .dash-last.errored .color {
 	color: #db4545 !important;
 }
 
-.dash-default.errored .color a,
-.dash-last.errored .color a {
+.dash-default.errored .color a, .dash-last.errored .color a {
 	color: #db4545 !important;
 	text-decoration: none !important;
 }
 
-.dash-default.canceled .color,
-.dash-last.canceled .color {
+.dash-default.canceled .color, .dash-last.canceled .color {
 	color: #9d9d9d !important;
 }
 
-.dash-default.canceled .color a,
-.dash-last.canceled .color a {
+.dash-default.canceled .color a, .dash-last.canceled .color a {
 	color: #9d9d9d !important;
 	text-decoration: none !important;
 }
 
-.dash-default.canceled .color a:active,
-.dash-default.canceled .color a:hover,
-.dash-last.canceled .color a:active,
-.dash-last.canceled .color a:hover {
+.dash-default.canceled .color a:active, .dash-default.canceled .color a:hover,
+.dash-last.canceled .color a:active, .dash-last.canceled .color a:hover {
 	border-bottom: 1px solid #9d9d9d !important;
 }
 
-.dash-default.booting .color a:active,
-.dash-default.booting .color a:hover,
-.dash-default.created .color a:active,
-.dash-default.created .color a:hover,
-.dash-default.queued .color a:active,
-.dash-default.queued .color a:hover,
-.dash-default.received .color a:active,
-.dash-default.received .color a:hover,
-.dash-default.started .color a:active,
-.dash-default.started .color a:hover,
-.dash-last.booting .color a:active,
-.dash-last.booting .color a:hover,
-.dash-last.created .color a:active,
-.dash-last.created .color a:hover,
-.dash-last.queued .color a:active,
-.dash-last.queued .color a:hover,
-.dash-last.received .color a:active,
-.dash-last.received .color a:hover,
-.dash-last.started .color a:active,
-.dash-last.started .color a:hover {
+.dash-default.booting .color a:active, .dash-default.booting .color a:hover,
+.dash-default.created .color a:active, .dash-default.created .color a:hover,
+.dash-default.queued .color a:active, .dash-default.queued .color a:hover,
+.dash-default.received .color a:active, .dash-default.received .color a:hover,
+.dash-default.started .color a:active, .dash-default.started .color a:hover,
+.dash-last.booting .color a:active, .dash-last.booting .color a:hover,
+.dash-last.created .color a:active, .dash-last.created .color a:hover,
+.dash-last.queued .color a:active, .dash-last.queued .color a:hover,
+.dash-last.received .color a:active, .dash-last.received .color a:hover,
+.dash-last.started .color a:active, .dash-last.started .color a:hover {
 	border-bottom: 1px solid #cdb62c !important;
 }
 
-.dash-default.canceled .request-icon circle,
-.dash-default.canceled .request-icon ellipse,
-.dash-default.canceled .request-icon line,
-.dash-default.canceled .request-icon path,
-.dash-default.canceled .request-icon polygon,
-.dash-default.canceled .request-icon polyline,
-.dash-default.canceled .request-icon rect,
-.dash-default.canceled .status-icon circle,
-.dash-default.canceled .status-icon ellipse,
-.dash-default.canceled .status-icon line,
-.dash-default.canceled .status-icon path,
-.dash-default.canceled .status-icon polygon,
-.dash-default.canceled .status-icon polyline,
-.dash-default.canceled .status-icon rect,
-.dash-last.canceled .request-icon circle,
-.dash-last.canceled .request-icon ellipse,
-.dash-last.canceled .request-icon line,
-.dash-last.canceled .request-icon path,
-.dash-last.canceled .request-icon polygon,
-.dash-last.canceled .request-icon polyline,
-.dash-last.canceled .request-icon rect,
-.dash-last.canceled .status-icon circle,
-.dash-last.canceled .status-icon ellipse,
-.dash-last.canceled .status-icon line,
-.dash-last.canceled .status-icon path,
-.dash-last.canceled .status-icon polygon,
-.dash-last.canceled .status-icon polyline,
-.dash-last.canceled .status-icon rect {
+.dash-default.canceled .request-icon circle, .dash-default.canceled .request-icon ellipse,
+.dash-default.canceled .request-icon line, .dash-default.canceled .request-icon path,
+.dash-default.canceled .request-icon polygon, .dash-default.canceled .request-icon polyline,
+.dash-default.canceled .request-icon rect, .dash-default.canceled .status-icon circle,
+.dash-default.canceled .status-icon ellipse, .dash-default.canceled .status-icon line,
+.dash-default.canceled .status-icon path, .dash-default.canceled .status-icon polygon,
+.dash-default.canceled .status-icon polyline, .dash-default.canceled .status-icon rect,
+.dash-last.canceled .request-icon circle, .dash-last.canceled .request-icon ellipse,
+.dash-last.canceled .request-icon line, .dash-last.canceled .request-icon path,
+.dash-last.canceled .request-icon polygon, .dash-last.canceled .request-icon polyline,
+.dash-last.canceled .request-icon rect, .dash-last.canceled .status-icon circle,
+.dash-last.canceled .status-icon ellipse, .dash-last.canceled .status-icon line,
+.dash-last.canceled .status-icon path, .dash-last.canceled .status-icon polygon,
+.dash-last.canceled .status-icon polyline, .dash-last.canceled .status-icon rect {
 	fill: none !important;
 	stroke: #9d9d9d !important;
 }
 
-.dash-default.booting .request-icon circle,
-.dash-default.booting .request-icon ellipse,
-.dash-default.booting .request-icon line,
-.dash-default.booting .request-icon path,
-.dash-default.booting .request-icon polygon,
-.dash-default.booting .request-icon polyline,
-.dash-default.booting .request-icon rect,
-.dash-default.booting .status-icon circle,
-.dash-default.booting .status-icon ellipse,
-.dash-default.booting .status-icon line,
-.dash-default.booting .status-icon path,
-.dash-default.booting .status-icon polygon,
-.dash-default.booting .status-icon polyline,
-.dash-default.booting .status-icon rect,
-.dash-default.created .request-icon circle,
-.dash-default.created .request-icon ellipse,
-.dash-default.created .request-icon line,
-.dash-default.created .request-icon path,
-.dash-default.created .request-icon polygon,
-.dash-default.created .request-icon polyline,
-.dash-default.created .request-icon rect,
-.dash-default.created .status-icon circle,
-.dash-default.created .status-icon ellipse,
-.dash-default.created .status-icon line,
-.dash-default.created .status-icon path,
-.dash-default.created .status-icon polygon,
-.dash-default.created .status-icon polyline,
-.dash-default.created .status-icon rect,
-.dash-default.queued .request-icon circle,
-.dash-default.queued .request-icon ellipse,
-.dash-default.queued .request-icon line,
-.dash-default.queued .request-icon path,
-.dash-default.queued .request-icon polygon,
-.dash-default.queued .request-icon polyline,
-.dash-default.queued .request-icon rect,
-.dash-default.queued .status-icon circle,
-.dash-default.queued .status-icon ellipse,
-.dash-default.queued .status-icon line,
-.dash-default.queued .status-icon path,
-.dash-default.queued .status-icon polygon,
-.dash-default.queued .status-icon polyline,
-.dash-default.queued .status-icon rect,
-.dash-default.received .request-icon circle,
-.dash-default.received .request-icon ellipse,
-.dash-default.received .request-icon line,
-.dash-default.received .request-icon path,
-.dash-default.received .request-icon polygon,
-.dash-default.received .request-icon polyline,
-.dash-default.received .request-icon rect,
-.dash-default.received .status-icon circle,
-.dash-default.received .status-icon ellipse,
-.dash-default.received .status-icon line,
-.dash-default.received .status-icon path,
-.dash-default.received .status-icon polygon,
-.dash-default.received .status-icon polyline,
-.dash-default.received .status-icon rect,
-.dash-default.started .request-icon circle,
-.dash-default.started .request-icon ellipse,
-.dash-default.started .request-icon line,
-.dash-default.started .request-icon path,
-.dash-default.started .request-icon polygon,
-.dash-default.started .request-icon polyline,
-.dash-default.started .request-icon rect,
-.dash-default.started .status-icon circle,
-.dash-default.started .status-icon ellipse,
-.dash-default.started .status-icon line,
-.dash-default.started .status-icon path,
-.dash-default.started .status-icon polygon,
-.dash-default.started .status-icon polyline,
-.dash-default.started .status-icon rect,
-.dash-last.booting .request-icon circle,
-.dash-last.booting .request-icon ellipse,
-.dash-last.booting .request-icon line,
-.dash-last.booting .request-icon path,
-.dash-last.booting .request-icon polygon,
-.dash-last.booting .request-icon polyline,
-.dash-last.booting .request-icon rect,
-.dash-last.booting .status-icon circle,
-.dash-last.booting .status-icon ellipse,
-.dash-last.booting .status-icon line,
-.dash-last.booting .status-icon path,
-.dash-last.booting .status-icon polygon,
-.dash-last.booting .status-icon polyline,
-.dash-last.booting .status-icon rect,
-.dash-last.created .request-icon circle,
-.dash-last.created .request-icon ellipse,
-.dash-last.created .request-icon line,
-.dash-last.created .request-icon path,
-.dash-last.created .request-icon polygon,
-.dash-last.created .request-icon polyline,
-.dash-last.created .request-icon rect,
-.dash-last.created .status-icon circle,
-.dash-last.created .status-icon ellipse,
-.dash-last.created .status-icon line,
-.dash-last.created .status-icon path,
-.dash-last.created .status-icon polygon,
-.dash-last.created .status-icon polyline,
-.dash-last.created .status-icon rect,
-.dash-last.queued .request-icon circle,
-.dash-last.queued .request-icon ellipse,
-.dash-last.queued .request-icon line,
-.dash-last.queued .request-icon path,
-.dash-last.queued .request-icon polygon,
-.dash-last.queued .request-icon polyline,
-.dash-last.queued .request-icon rect,
-.dash-last.queued .status-icon circle,
-.dash-last.queued .status-icon ellipse,
-.dash-last.queued .status-icon line,
-.dash-last.queued .status-icon path,
-.dash-last.queued .status-icon polygon,
-.dash-last.queued .status-icon polyline,
-.dash-last.queued .status-icon rect,
-.dash-last.received .request-icon circle,
-.dash-last.received .request-icon ellipse,
-.dash-last.received .request-icon line,
-.dash-last.received .request-icon path,
-.dash-last.received .request-icon polygon,
-.dash-last.received .request-icon polyline,
-.dash-last.received .request-icon rect,
-.dash-last.received .status-icon circle,
-.dash-last.received .status-icon ellipse,
-.dash-last.received .status-icon line,
-.dash-last.received .status-icon path,
-.dash-last.received .status-icon polygon,
-.dash-last.received .status-icon polyline,
-.dash-last.received .status-icon rect,
-.dash-last.started .request-icon circle,
-.dash-last.started .request-icon ellipse,
-.dash-last.started .request-icon line,
-.dash-last.started .request-icon path,
-.dash-last.started .request-icon polygon,
-.dash-last.started .request-icon polyline,
-.dash-last.started .request-icon rect,
-.dash-last.started .status-icon circle,
-.dash-last.started .status-icon ellipse,
-.dash-last.started .status-icon line,
-.dash-last.started .status-icon path,
-.dash-last.started .status-icon polygon,
-.dash-last.started .status-icon polyline,
-.dash-last.started .status-icon rect,
-.enterprise-banner .icon circle,
-.enterprise-banner .icon ellipse,
-.enterprise-banner .icon line,
-.enterprise-banner .icon path,
-.enterprise-banner .icon polygon,
-.enterprise-banner .icon polyline,
-.enterprise-banner .icon rect {
+.dash-default.booting .request-icon circle, .dash-default.booting .request-icon ellipse,
+.dash-default.booting .request-icon line, .dash-default.booting .request-icon path,
+.dash-default.booting .request-icon polygon, .dash-default.booting .request-icon polyline,
+.dash-default.booting .request-icon rect, .dash-default.booting .status-icon circle,
+.dash-default.booting .status-icon ellipse, .dash-default.booting .status-icon line,
+.dash-default.booting .status-icon path, .dash-default.booting .status-icon polygon,
+.dash-default.booting .status-icon polyline, .dash-default.booting .status-icon rect,
+.dash-default.created .request-icon circle, .dash-default.created .request-icon ellipse,
+.dash-default.created .request-icon line, .dash-default.created .request-icon path,
+.dash-default.created .request-icon polygon, .dash-default.created .request-icon polyline,
+.dash-default.created .request-icon rect, .dash-default.created .status-icon circle,
+.dash-default.created .status-icon ellipse, .dash-default.created .status-icon line,
+.dash-default.created .status-icon path, .dash-default.created .status-icon polygon,
+.dash-default.created .status-icon polyline, .dash-default.created .status-icon rect,
+.dash-default.queued .request-icon circle, .dash-default.queued .request-icon ellipse,
+.dash-default.queued .request-icon line, .dash-default.queued .request-icon path,
+.dash-default.queued .request-icon polygon, .dash-default.queued .request-icon polyline,
+.dash-default.queued .request-icon rect, .dash-default.queued .status-icon circle,
+.dash-default.queued .status-icon ellipse, .dash-default.queued .status-icon line,
+.dash-default.queued .status-icon path, .dash-default.queued .status-icon polygon,
+.dash-default.queued .status-icon polyline, .dash-default.queued .status-icon rect,
+.dash-default.received .request-icon circle, .dash-default.received .request-icon ellipse,
+.dash-default.received .request-icon line, .dash-default.received .request-icon path,
+.dash-default.received .request-icon polygon, .dash-default.received .request-icon polyline,
+.dash-default.received .request-icon rect, .dash-default.received .status-icon circle,
+.dash-default.received .status-icon ellipse, .dash-default.received .status-icon line,
+.dash-default.received .status-icon path, .dash-default.received .status-icon polygon,
+.dash-default.received .status-icon polyline, .dash-default.received .status-icon rect,
+.dash-default.started .request-icon circle, .dash-default.started .request-icon ellipse,
+.dash-default.started .request-icon line, .dash-default.started .request-icon path,
+.dash-default.started .request-icon polygon, .dash-default.started .request-icon polyline,
+.dash-default.started .request-icon rect, .dash-default.started .status-icon circle,
+.dash-default.started .status-icon ellipse, .dash-default.started .status-icon line,
+.dash-default.started .status-icon path, .dash-default.started .status-icon polygon,
+.dash-default.started .status-icon polyline, .dash-default.started .status-icon rect,
+.dash-last.booting .request-icon circle, .dash-last.booting .request-icon ellipse,
+.dash-last.booting .request-icon line, .dash-last.booting .request-icon path,
+.dash-last.booting .request-icon polygon, .dash-last.booting .request-icon polyline,
+.dash-last.booting .request-icon rect, .dash-last.booting .status-icon circle,
+.dash-last.booting .status-icon ellipse, .dash-last.booting .status-icon line,
+.dash-last.booting .status-icon path, .dash-last.booting .status-icon polygon,
+.dash-last.booting .status-icon polyline, .dash-last.booting .status-icon rect,
+.dash-last.created .request-icon circle, .dash-last.created .request-icon ellipse,
+.dash-last.created .request-icon line, .dash-last.created .request-icon path,
+.dash-last.created .request-icon polygon, .dash-last.created .request-icon polyline,
+.dash-last.created .request-icon rect, .dash-last.created .status-icon circle,
+.dash-last.created .status-icon ellipse, .dash-last.created .status-icon line,
+.dash-last.created .status-icon path, .dash-last.created .status-icon polygon,
+.dash-last.created .status-icon polyline, .dash-last.created .status-icon rect,
+.dash-last.queued .request-icon circle, .dash-last.queued .request-icon ellipse,
+.dash-last.queued .request-icon line, .dash-last.queued .request-icon path,
+.dash-last.queued .request-icon polygon, .dash-last.queued .request-icon polyline,
+.dash-last.queued .request-icon rect, .dash-last.queued .status-icon circle,
+.dash-last.queued .status-icon ellipse, .dash-last.queued .status-icon line,
+.dash-last.queued .status-icon path, .dash-last.queued .status-icon polygon,
+.dash-last.queued .status-icon polyline, .dash-last.queued .status-icon rect,
+.dash-last.received .request-icon circle, .dash-last.received .request-icon ellipse,
+.dash-last.received .request-icon line, .dash-last.received .request-icon path,
+.dash-last.received .request-icon polygon, .dash-last.received .request-icon polyline,
+.dash-last.received .request-icon rect, .dash-last.received .status-icon circle,
+.dash-last.received .status-icon ellipse, .dash-last.received .status-icon line,
+.dash-last.received .status-icon path, .dash-last.received .status-icon polygon,
+.dash-last.received .status-icon polyline, .dash-last.received .status-icon rect,
+.dash-last.started .request-icon circle, .dash-last.started .request-icon ellipse,
+.dash-last.started .request-icon line, .dash-last.started .request-icon path,
+.dash-last.started .request-icon polygon, .dash-last.started .request-icon polyline,
+.dash-last.started .request-icon rect, .dash-last.started .status-icon circle,
+.dash-last.started .status-icon ellipse, .dash-last.started .status-icon line,
+.dash-last.started .status-icon path, .dash-last.started .status-icon polygon,
+.dash-last.started .status-icon polyline, .dash-last.started .status-icon rect,
+.enterprise-banner .icon circle, .enterprise-banner .icon ellipse,
+.enterprise-banner .icon line, .enterprise-banner .icon path,
+.enterprise-banner .icon polygon, .enterprise-banner .icon polyline, .enterprise-banner .icon rect {
 	stroke: #cdb62c !important;
 	fill: none !important;
 }
 
-.dash-default.canceled .background,
-.dash-last.canceled .background {
+.dash-default.canceled .background, .dash-last.canceled .background {
 	background-color: #9d9d9d !important;
 }
 
-.dash-default.booting .background,
-.dash-default.created .background,
-.dash-default.queued .background,
-.dash-default.received .background,
-.dash-default.started .background,
-.dash-last.booting .background,
-.dash-last.created .background,
-.dash-last.queued .background,
-.dash-last.received .background,
-.dash-last.started .background {
+.dash-default.booting .background, .dash-default.created .background,
+.dash-default.queued .background, .dash-default.received .background,
+.dash-default.started .background, .dash-last.booting .background,
+.dash-last.created .background, .dash-last.queued .background,
+.dash-last.received .background, .dash-last.started .background {
 	background-color: #cdb62c !important;
 }
 
-.dash-default.created .color,
-.dash-last.created .color {
+.dash-default.created .color, .dash-last.created .color {
 	color: #cdb62c !important;
 }
 
-.dash-default.created .color a,
-.dash-last.created .color a {
+.dash-default.created .color a, .dash-last.created .color a {
 	color: #cdb62c !important;
 	text-decoration: none !important;
 }
 
-.dash-default.started .color,
-.dash-last.started .color {
+.dash-default.started .color, .dash-last.started .color {
 	color: #cdb62c !important;
 }
 
-.dash-default.started .color a,
-.dash-last.started .color a {
+.dash-default.started .color a, .dash-last.started .color a {
 	color: #cdb62c !important;
 	text-decoration: none !important;
 }
 
-.dash-default.booting .color,
-.dash-last.booting .color {
+.dash-default.booting .color, .dash-last.booting .color {
 	color: #cdb62c !important;
 }
 
-.dash-default.booting .color a,
-.dash-last.booting .color a {
+.dash-default.booting .color a, .dash-last.booting .color a {
 	color: #cdb62c !important;
 	text-decoration: none !important;
 }
 
-.dash-default.queued .color,
-.dash-last.queued .color {
+.dash-default.queued .color, .dash-last.queued .color {
 	color: #cdb62c !important;
 }
 
-.dash-default.queued .color a,
-.dash-last.queued .color a {
+.dash-default.queued .color a, .dash-last.queued .color a {
 	color: #cdb62c !important;
 	text-decoration: none !important;
 }
 
-.dash-default.received .color,
-.dash-last.received .color {
+.dash-default.received .color, .dash-last.received .color {
 	color: #cdb62c !important;
 }
 
-.dash-default.received .color a,
-.dash-last.received .color a {
+.dash-default.received .color a, .dash-last.received .color a {
 	color: #cdb62c !important;
 	text-decoration: none !important;
-}
-
-.pagination-navigation {
-	display: flex !important;
-	justify-content: center !important;
-}
-
-.pagination-navigation ul {
-	display: flex !important;
-	align-items: baseline !important;
-	flex-wrap: wrap !important;
-	justify-content: center !important;
-	padding: 0 !important;
-	list-style: none !important;
-}
-
-.pagination-navigation li {
-	margin: 0 .5em !important;
 }
 
 .pagination-button {
 	padding: .4em .5em !important;
-	border: 1px solid #f1f1f1 !important;
+	border: 1px solid #444 !important;
 	border-radius: 2px !important;
 }
 
-.pagination-button:active,
-.pagination-button:hover {
+.pagination-button:active, .pagination-button:hover {
 	color: #3eaaaf !important;
 	border-color: #3eaaaf !important;
 }
 
 .pagination-link {
-	display: inline-block !important;
-	width: 2.5em !important;
-	height: 2.5em !important;
-	line-height: 2.5 !important;
-	border-radius: 50% !important;
-	text-align: center !important;
 	border: 1px solid transparent !important;
 }
 
-.pagination-link:active,
-.pagination-link:hover {
+.pagination-link:active, .pagination-link:hover {
 	color: #3eaaaf !important;
 	border-color: #3eaaaf !important;
 }
 
 .pagination-link.active {
 	color: #3eaaaf !important;
-	font-weight: 600 !important;
-	background-color: rgba(182, 214, 217, .3) !important;
+	font-weight: 900 !important;
+	background-color: #555 !important;
 }
 
-.ansi .bold,
-.enterprise-banner strong {
+.ansi .bold, .enterprise-banner strong {
 	font-weight: 700 !important;
 }
 
-#tracer-button a,
-#tracer-panel {
+#tracer-button a, #tracer-panel {
 	font-family: monospace !important;
 	position: fixed !important;
 	left: 10px !important;
@@ -6199,11 +3536,6 @@ select {
 	padding: 5px 8px !important;
 	color: #F8F8F0 !important;
 	border-radius: 8px !important;
-	-webkit-user-select: none !important;
-	-moz-user-select: none !important;
-	-ms-user-select: none !important;
-	user-select: none !important;
-	text-decoration: none !important;
 }
 
 #tracer-button a:hover {
@@ -6327,36 +3659,6 @@ select {
 
 .enterprise-banner.alert a {
 	color: #db4545 !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.tractor {
-		width: 258px !important;
-		height: 188px !important;
-	}
-
-	.tractor-arm {
-		width: 90px !important;
-		height: 71px !important;
-		-ms-transform-origin: 89px 70px !important;
-		transform-origin: 89px 70px !important;
-		animation: armMovement 1.5s 1 ease !important;
-	}
-}
-
-@keyframes armMovement {
-	0%,
-	100% {
-		transform: rotateZ(0)
-	}
-
-	40% {
-		transform: rotateZ(-20deg)
-	}
-
-	70% {
-		transform: rotateZ(10deg)
-	}
 }
 
 .barricade .reflector path:last-child {
@@ -7275,73 +4577,14 @@ li:last-child .tile {
 	border-bottom: solid 2px #444 !important;
 }
 
-.profile-page {
-	display: flex !important;
-	padding-top: 20px !important;
-}
-
-.profile-page .profile-aside section {
+.profile-aside section {
 	padding-bottom: 1rem !important;
 	border-bottom: solid 2px #444 !important;
 }
 
-@media (max-width: 600px) {
-	.profile-page {
-		flex-flow: column-reverse !important;
-	}
-
-	.profile-aside {
-		margin-top: 55px !important;
-	}
-}
-
-.profile-main {
-	flex-grow: 1 !important;
-}
-
-.profile-aside {
-	flex: 0 0 180px !important;
-	margin-right: 55px !important;
-}
-
-@media only screen and (min-width: 50.063em) {
-	.profile-aside {
-		flex: 0 0 290px !important;
-	}
-}
-
-@media (min-width: 600px) {
-	.profile-aside {
-		display:flex !important;
-		flex-flow: column wrap !important;
-	}
-
-	.profile-aside .profile-user {
-		order: 1 !important;
-	}
-
-	.profile-aside .profile-betafeatures {
-		order: 2 !important;
-	}
-
-	.profile-aside .profile-orgs {
-		order: 3 !important;
-	}
-
-	.profile-aside .profile-additional {
-		order: 4 !important;
-	}
-}
-
-.profile-aside ul {
-	padding: 0 !important;
-	margin: 0 !important;
-	list-style-type: none !important;
-}
-
-.profile-aside h2 {
-	font-size: 14px !important;
-	border-bottom: solid 2px #444 !important;
+.profile-page .profile-aside section.no-divider {
+	padding-bottom: 0 !important;
+	border-bottom-width: 0 !important;
 }
 
 .profile-header {
@@ -11222,21 +8465,16 @@ li:last-child .tile {
 	cursor: pointer !important;
 }
 
-.h1--grey a,
-.landing-pro .section--feature .list--check li a,
-.landing-pro .text-logo a,
-.text-big a,
-.text-medium a,
-.text-small a {
+.h1--grey a, .landing-pro .section--feature .list--check li a,
+.landing-pro .text-logo a, .text-big a,
+.text-medium a, .text-small a {
 	padding-bottom: .1rem !important;
 	transition: color .2s ease, border .2s ease !important;
 	text-decoration: none !important;
 }
 
-.hero-button:active,
-.hero-button:hover,
-.landing-button:active,
-.landing-button:hover {
+.hero-button:active, .hero-button:hover,
+.landing-button:active, .landing-button:hover {
 	color: #fff !important;
 	background-color: #2f8b47 !important;
 }
@@ -11252,10 +8490,8 @@ li:last-child .tile {
 	margin: 2em auto !important;
 }
 
-.h1--green,
-.h1--grey,
-.h1--red,
-.h1--teal {
+.h1--green, .h1--grey,
+.h1--red, .h1--teal {
 	margin: 0 !important;
 	font-size: 54px !important;
 	font-weight: 200 !important;
@@ -11263,22 +8499,21 @@ li:last-child .tile {
 }
 
 .h1--grey {
-	color: #666 !important;
+	color: #777 !important;
 }
 
 .h1--grey a {
 	border-bottom: 1px solid #9d9d9d;
 }
 
-.h1--grey a:active,
-.h1--grey a:hover {
+.h1--grey a:active, .h1--grey a:hover {
 	color: #9d9d9d !important;
 	text-decoration: none !important;
 	border-color: transparent !important;
 }
 
 .h1--grey a {
-	color: #666 !important;
+	color: #777 !important;
 }
 
 .h1--teal {
@@ -11294,10 +8529,8 @@ li:last-child .tile {
 	color: #db4545 !important;
 }
 
-.h2--green,
-.h2--grey,
-.h2--red,
-.h2--teal {
+.h2--green, .h2--grey,
+.h2--red, .h2--teal {
 	margin: 0 0 .5em !important;
 	font-size: 36px !important;
 	font-weight: 200 !important;
@@ -11312,12 +8545,9 @@ li:last-child .tile {
 	color: #db4545 !important;
 }
 
-.h3,
-.h3--green,
-.h3--plans,
-.h3--red,
-.h3--teal,
-.h3--yellow {
+.h3, .h3--green,
+.h3--plans, .h3--red,
+.h3--teal, .h3--yellow {
 	margin: .5em 0 !important;
 	font-size: 22px !important;
 	font-weight: 300 !important;
@@ -12303,7 +9533,6 @@ p,
 	background-color: #222 !important;
 	border: 1px solid #3eaaaf !important;
 }
-
 }
 
 @-moz-document domain("blog.travis-ci.com"), domain("about.travis-ci.com") {
