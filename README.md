@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/29f8d2f32faa0e5e1ba3cc64955fde3d0b90ea64/style-it-themes-logo-full.svg" width="580">
+  <img alt="style-it-themes-logo" src="https://cdn.rawgit.com/style-it-themes/style-it-themes-logos/864bb0c047a612c2c07089901e33d33199c81ef9/style-it-themes-logo-full.svg" width="580">
 </p>
 <br>
 <h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
