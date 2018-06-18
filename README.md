@@ -51,39 +51,39 @@ You will need to ideally:
 * Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
 
   * K&R - KNF Variation Example:
-    ```css
-    element[attr='value'] {
-    -property: value;
-    }
-    ```
+	```css
+	element[attr='value'] {
+	-property: value;
+	}
+	```
 
   * **Not Allman**
-    ```css
-    element[property='value']
-    {
-    -property: value;
-    }
-    ```
+	```css
+	element[property='value']
+	{
+	-property: value;
+	}
+	```
 
   * Strict space between the `selector` and the `{`:
-    ```css
-    /* good */
-    element[attr='value'] { }
+	```css
+	/* good */
+	element[attr='value'] { }
 
-    /* bad */
-    element[attr='value']{ }
-    ```
+	/* bad */
+	element[attr='value']{ }
+	```
 
   * 1 tab indentation
-    ```css
-    /* good */
-    -property: value;
+	```css
+	/* good */
+	-property: value;
 
-    /* bad */
-    ····property: value;
-    ----property: value;
-    ·property: value;
-    ```
+	/* bad */
+	····property: value;
+	----property: value;
+	·property: value;
+	```
 
 :asterisk: Try to wrap lines at around 80 characters.
 
@@ -99,11 +99,11 @@ You will need to ideally:
   * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
 <!--
   * Then install this style using:
-    * [userstyles.org](https://userstyles.org/styles/160316)
-    * or, add it
+	* [userstyles.org](https://userstyles.org/styles/160316)
+	* or, add it
 -->
   * Then install this style:
-     [manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
-      > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
+	 [manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
+	  > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
 * Install directly **[click here](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)**
   > Only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
