@@ -4,9 +4,6 @@
 <br>
 <h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20%20directly%20with%20%20-%20%20Stylus%20%20-21d1d0.svg)](https://cdn.rawgit.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)
-[![MIT](https://img.shields.io/badge/License-%20MIT%20-blue.svg)](LICENSE)
-
 ## About
 
 This project started to give Travis CI a dark style, but it soon became apparent that some other sites coverage was needed. So the Extended version was sort of started instead.
@@ -33,6 +30,23 @@ Have fun and save the corneas :smile:
 | [Enterprise](https://enterprise.travis-ci.com)   | :heavy_check_mark: |                    |
 
 :asterisk: Further full coverage is not planned at this time, PR's are welcome though.
+
+## Installing
+
+#### If you're using a browser extension:
+* Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+* Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
+* FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
+<!--
+#### Then install this style using:
+:right_arrow: [userstyles.org](https://userstyles.org/styles/160316)
+-->
+#### Then install this style:
+:arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://cdn.rawgit.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)
+  > Only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+
+:arrow_right: [Manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
+  > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
 
 ## I Found a Bug
 
@@ -91,19 +105,4 @@ You will need to ideally:
 
 ![history](/screens/travis-ci-inspired-dark-extended.gif)
 
-## Installing
-
-* If you're using a browser extension:
-  * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
-  * Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
-  * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
-<!--
-  * Then install this style using:
-	* [userstyles.org](https://userstyles.org/styles/160316)
-	* or, add it
--->
-  * Then install this style:
-	 [manually](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.css) into the editor.
-	  > Please refer to the [installation documentation](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/wiki/Install) for more details.
-* Install directly **[click here](https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)**
-  > Only available using Stylus or FreeStyler (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+[![MIT](https://img.shields.io/badge/License-MIT-blue.svg?longCache=true&style=for-the-badge)](LICENSE)
