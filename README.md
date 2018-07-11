@@ -19,15 +19,15 @@ Have fun and save the corneas :smile:
 
 ## Sites Covered
 
-| Site Name                                | Partial            | Full               |
-| ---------------------------------------- | ------------------ | ------------------ |
-| [Travis CI.org](https://travis-ci.org)   |                    | :heavy_check_mark: |
-| [Travis CI.com](https://travis-ci.com)   | :heavy_check_mark: |                    |
-| [Blog](https://blog.travis-ci.com/)      |                    | :heavy_check_mark: |
-| [About](https://about.travis-ci.com)     |                    | :heavy_check_mark: |
-| [Docs](https://docs.travis-ci.com/)      |                    | :heavy_check_mark: |
-| [Status](https://www.traviscistatus.com/)| :heavy_check_mark: |                    |
-| [Enterprise](https://enterprise.travis-ci.com)   | :heavy_check_mark: |                    |
+| Site Name                                      | Partial            | Full               |
+| ---------------------------------------------- | ------------------ | ------------------ |
+| [Travis CI.org](https://travis-ci.org)         |                    | :heavy_check_mark: |
+| [Travis CI.com](https://travis-ci.com)         | :heavy_check_mark: |                    |
+| [Blog](https://blog.travis-ci.com/)            |                    | :heavy_check_mark: |
+| [About](https://about.travis-ci.com)           |                    | :heavy_check_mark: |
+| [Docs](https://docs.travis-ci.com/)            |                    | :heavy_check_mark: |
+| [Status](https://www.traviscistatus.com/)      | :heavy_check_mark: |                    |
+| [Enterprise](https://enterprise.travis-ci.com) | :heavy_check_mark: |                    |
 
 :asterisk: Further full coverage is not planned at this time, PR's are welcome though.
 
@@ -35,7 +35,6 @@ Have fun and save the corneas :smile:
 
 #### If you're using a browser extension:
 * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
-* Stylish - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Opera](https://addons.opera.com/en/extensions/details/stylish/), [Safari](http://sobolev.us/stylish/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
 * FreeStyler is available for [Chrome](https://chrome.google.com/webstore/detail/freestyler/hihigldmabkodfpehkgdemjklmaebmca).  
 <!--
 #### Then install this style using:
