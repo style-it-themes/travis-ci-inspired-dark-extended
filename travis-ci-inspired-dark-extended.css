@@ -1,4 +1,4 @@
-@-moz-document domain("travis-ci.org") {
+@-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
 	/*! Name    : Travis CI Inspired Dark Extended */
 	/*! Version : Version: 1.0.9 beta */
 	/*! Author  : Style-it Themes: the-j0k3r */
@@ -1820,289 +1820,289 @@
 		animation-delay: .3s !important;
 	}
 
-	.build-tiles li {
+	.repo-tiles li {
 		background-color: #292929 !important;
 		border-right: 1px solid #444 !important
 	}
 
-	.build-tiles li:last-of-type {
+	.repo-tiles li:last-of-type {
 		border-right: none !important;
 	}
 
-	.build-tiles li .status-icon {
+	.repo-tiles li .status-icon {
 		background-color: transparent !important;
 	}
 
-	.build-tiles li .build-tile-number {
+	.repo-tiles li .build-tile-number {
 		color: #eee !important;
 	}
 
-	.build-tiles > .passed {
+	.repo-tiles > .passed {
 		background-color: #164322 !important;
 	}
 
-	.build-tiles > .passed .status-icon circle,
-	.build-tiles > .passed .status-icon ellipse,
-	.build-tiles > .passed .status-icon line,
-	.build-tiles > .passed .status-icon path,
-	.build-tiles > .passed .status-icon polygon,
-	.build-tiles > .passed .status-icon polyline,
-	.build-tiles > .passed .status-icon rect {
+	.repo-tiles > .passed .status-icon circle,
+	.repo-tiles > .passed .status-icon ellipse,
+	.repo-tiles > .passed .status-icon line,
+	.repo-tiles > .passed .status-icon path,
+	.repo-tiles > .passed .status-icon polygon,
+	.repo-tiles > .passed .status-icon polyline,
+	.repo-tiles > .passed .status-icon rect {
 		fill: none !important;
 		stroke: #39aa56 !important;
 	}
 
-	.build-tiles > .passed:hover {
+	.repo-tiles > .passed:hover {
 		background-color: #39aa56 !important;
 	}
 
-	.build-tiles > .passed:hover .status-icon circle,
-	.build-tiles > .passed:hover .status-icon ellipse,
-	.build-tiles > .passed:hover .status-icon line,
-	.build-tiles > .passed:hover .status-icon path,
-	.build-tiles > .passed:hover .status-icon polygon,
-	.build-tiles > .passed:hover .status-icon polyline,
-	.build-tiles > .passed:hover .status-icon rect {
+	.repo-tiles > .passed:hover .status-icon circle,
+	.repo-tiles > .passed:hover .status-icon ellipse,
+	.repo-tiles > .passed:hover .status-icon line,
+	.repo-tiles > .passed:hover .status-icon path,
+	.repo-tiles > .passed:hover .status-icon polygon,
+	.repo-tiles > .passed:hover .status-icon polyline,
+	.repo-tiles > .passed:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .failed {
+	.repo-tiles > .failed {
 		background-color: #431414 !important;
 	}
 
-	.build-tiles > .failed .status-icon circle,
-	.build-tiles > .failed .status-icon ellipse,
-	.build-tiles > .failed .status-icon line,
-	.build-tiles > .failed .status-icon path,
-	.build-tiles > .failed .status-icon polygon,
-	.build-tiles > .failed .status-icon polyline,
-	.build-tiles > .failed .status-icon rect {
+	.repo-tiles > .failed .status-icon circle,
+	.repo-tiles > .failed .status-icon ellipse,
+	.repo-tiles > .failed .status-icon line,
+	.repo-tiles > .failed .status-icon path,
+	.repo-tiles > .failed .status-icon polygon,
+	.repo-tiles > .failed .status-icon polyline,
+	.repo-tiles > .failed .status-icon rect {
 		fill: none !important;
 		stroke: #db4545 !important;
 	}
 
-	.build-tiles > .failed:hover {
+	.repo-tiles > .failed:hover {
 		background-color: #db4545 !important;
 	}
 
-	.build-tiles > .failed:hover .status-icon circle,
-	.build-tiles > .failed:hover .status-icon ellipse,
-	.build-tiles > .failed:hover .status-icon line,
-	.build-tiles > .failed:hover .status-icon path,
-	.build-tiles > .failed:hover .status-icon polygon,
-	.build-tiles > .failed:hover .status-icon polyline,
-	.build-tiles > .failed:hover .status-icon rect {
+	.repo-tiles > .failed:hover .status-icon circle,
+	.repo-tiles > .failed:hover .status-icon ellipse,
+	.repo-tiles > .failed:hover .status-icon line,
+	.repo-tiles > .failed:hover .status-icon path,
+	.repo-tiles > .failed:hover .status-icon polygon,
+	.repo-tiles > .failed:hover .status-icon polyline,
+	.repo-tiles > .failed:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .errored {
+	.repo-tiles > .errored {
 		background-color: #431414 !important;
 	}
 
-	.build-tiles > .errored .status-icon circle,
-	.build-tiles > .errored .status-icon ellipse,
-	.build-tiles > .errored .status-icon line,
-	.build-tiles > .errored .status-icon path,
-	.build-tiles > .errored .status-icon polygon,
-	.build-tiles > .errored .status-icon polyline,
-	.build-tiles > .errored .status-icon rect {
+	.repo-tiles > .errored .status-icon circle,
+	.repo-tiles > .errored .status-icon ellipse,
+	.repo-tiles > .errored .status-icon line,
+	.repo-tiles > .errored .status-icon path,
+	.repo-tiles > .errored .status-icon polygon,
+	.repo-tiles > .errored .status-icon polyline,
+	.repo-tiles > .errored .status-icon rect {
 		fill: none !important;
 		stroke: #db4545 !important;
 	}
 
-	.build-tiles > .errored:hover {
+	.repo-tiles > .errored:hover {
 		background-color: #db4545 !important;
 	}
 
-	.build-tiles > .errored:hover .status-icon circle,
-	.build-tiles > .errored:hover .status-icon ellipse,
-	.build-tiles > .errored:hover .status-icon line,
-	.build-tiles > .errored:hover .status-icon path,
-	.build-tiles > .errored:hover .status-icon polygon,
-	.build-tiles > .errored:hover .status-icon polyline,
-	.build-tiles > .errored:hover .status-icon rect {
+	.repo-tiles > .errored:hover .status-icon circle,
+	.repo-tiles > .errored:hover .status-icon ellipse,
+	.repo-tiles > .errored:hover .status-icon line,
+	.repo-tiles > .errored:hover .status-icon path,
+	.repo-tiles > .errored:hover .status-icon polygon,
+	.repo-tiles > .errored:hover .status-icon polyline,
+	.repo-tiles > .errored:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .canceled {
+	.repo-tiles > .canceled {
 		background-color: #292929 !important;
 	}
 
-	.build-tiles > .canceled .status-icon circle,
-	.build-tiles > .canceled .status-icon ellipse,
-	.build-tiles > .canceled .status-icon line,
-	.build-tiles > .canceled .status-icon path,
-	.build-tiles > .canceled .status-icon polygon,
-	.build-tiles > .canceled .status-icon polyline,
-	.build-tiles > .canceled .status-icon rect {
+	.repo-tiles > .canceled .status-icon circle,
+	.repo-tiles > .canceled .status-icon ellipse,
+	.repo-tiles > .canceled .status-icon line,
+	.repo-tiles > .canceled .status-icon path,
+	.repo-tiles > .canceled .status-icon polygon,
+	.repo-tiles > .canceled .status-icon polyline,
+	.repo-tiles > .canceled .status-icon rect {
 		fill: none !important;
 		stroke: #9d9d9d !important;
 	}
 
-	.build-tiles > .canceled:hover {
+	.repo-tiles > .canceled:hover {
 		background-color: #9d9d9d !important;
 	}
 
-	.build-tiles > .canceled:hover .status-icon circle,
-	.build-tiles > .canceled:hover .status-icon ellipse,
-	.build-tiles > .canceled:hover .status-icon line,
-	.build-tiles > .canceled:hover .status-icon path,
-	.build-tiles > .canceled:hover .status-icon polygon,
-	.build-tiles > .canceled:hover .status-icon polyline,
-	.build-tiles > .canceled:hover .status-icon rect {
+	.repo-tiles > .canceled:hover .status-icon circle,
+	.repo-tiles > .canceled:hover .status-icon ellipse,
+	.repo-tiles > .canceled:hover .status-icon line,
+	.repo-tiles > .canceled:hover .status-icon path,
+	.repo-tiles > .canceled:hover .status-icon polygon,
+	.repo-tiles > .canceled:hover .status-icon polyline,
+	.repo-tiles > .canceled:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .created {
+	.repo-tiles > .created {
 		background-color: #564f26 !important;
 	}
 
-	.build-tiles > .created .status-icon circle,
-	.build-tiles > .created .status-icon ellipse,
-	.build-tiles > .created .status-icon line,
-	.build-tiles > .created .status-icon path,
-	.build-tiles > .created .status-icon polygon,
-	.build-tiles > .created .status-icon polyline,
-	.build-tiles > .created .status-icon rect {
+	.repo-tiles > .created .status-icon circle,
+	.repo-tiles > .created .status-icon ellipse,
+	.repo-tiles > .created .status-icon line,
+	.repo-tiles > .created .status-icon path,
+	.repo-tiles > .created .status-icon polygon,
+	.repo-tiles > .created .status-icon polyline,
+	.repo-tiles > .created .status-icon rect {
 		fill: none !important;
 		stroke: #cdb62c !important;
 	}
 
-	.build-tiles > .created:hover {
+	.repo-tiles > .created:hover {
 		background-color: #cdb62c !important;
 	}
 
-	.build-tiles > .created:hover .status-icon circle,
-	.build-tiles > .created:hover .status-icon ellipse,
-	.build-tiles > .created:hover .status-icon line,
-	.build-tiles > .created:hover .status-icon path,
-	.build-tiles > .created:hover .status-icon polygon,
-	.build-tiles > .created:hover .status-icon polyline,
-	.build-tiles > .created:hover .status-icon rect {
+	.repo-tiles > .created:hover .status-icon circle,
+	.repo-tiles > .created:hover .status-icon ellipse,
+	.repo-tiles > .created:hover .status-icon line,
+	.repo-tiles > .created:hover .status-icon path,
+	.repo-tiles > .created:hover .status-icon polygon,
+	.repo-tiles > .created:hover .status-icon polyline,
+	.repo-tiles > .created:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .started {
+	.repo-tiles > .started {
 		background-color: #564f26 !important;
 	}
 
-	.build-tiles > .started .status-icon circle,
-	.build-tiles > .started .status-icon ellipse,
-	.build-tiles > .started .status-icon line,
-	.build-tiles > .started .status-icon path,
-	.build-tiles > .started .status-icon polygon,
-	.build-tiles > .started .status-icon polyline,
-	.build-tiles > .started .status-icon rect {
+	.repo-tiles > .started .status-icon circle,
+	.repo-tiles > .started .status-icon ellipse,
+	.repo-tiles > .started .status-icon line,
+	.repo-tiles > .started .status-icon path,
+	.repo-tiles > .started .status-icon polygon,
+	.repo-tiles > .started .status-icon polyline,
+	.repo-tiles > .started .status-icon rect {
 		fill: none !important;
 		stroke: #cdb62c !important;
 	}
 
-	.build-tiles > .started:hover {
+	.repo-tiles > .started:hover {
 		background-color: #cdb62c !important;
 	}
 
-	.build-tiles > .started:hover .status-icon circle,
-	.build-tiles > .started:hover .status-icon ellipse,
-	.build-tiles > .started:hover .status-icon line,
-	.build-tiles > .started:hover .status-icon path,
-	.build-tiles > .started:hover .status-icon polygon,
-	.build-tiles > .started:hover .status-icon polyline,
-	.build-tiles > .started:hover .status-icon rect {
+	.repo-tiles > .started:hover .status-icon circle,
+	.repo-tiles > .started:hover .status-icon ellipse,
+	.repo-tiles > .started:hover .status-icon line,
+	.repo-tiles > .started:hover .status-icon path,
+	.repo-tiles > .started:hover .status-icon polygon,
+	.repo-tiles > .started:hover .status-icon polyline,
+	.repo-tiles > .started:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .booting {
+	.repo-tiles > .booting {
 		background-color: #564f26 !important;
 	}
 
-	.build-tiles > .booting .status-icon circle,
-	.build-tiles > .booting .status-icon ellipse,
-	.build-tiles > .booting .status-icon line,
-	.build-tiles > .booting .status-icon path,
-	.build-tiles > .booting .status-icon polygon,
-	.build-tiles > .booting .status-icon polyline,
-	.build-tiles > .booting .status-icon rect {
+	.repo-tiles > .booting .status-icon circle,
+	.repo-tiles > .booting .status-icon ellipse,
+	.repo-tiles > .booting .status-icon line,
+	.repo-tiles > .booting .status-icon path,
+	.repo-tiles > .booting .status-icon polygon,
+	.repo-tiles > .booting .status-icon polyline,
+	.repo-tiles > .booting .status-icon rect {
 		fill: none !important;
 		stroke: #cdb62c !important;
 	}
 
-	.build-tiles > .booting:hover {
+	.repo-tiles > .booting:hover {
 		background-color: #cdb62c !important;
 	}
 
-	.build-tiles > .booting:hover .status-icon circle,
-	.build-tiles > .booting:hover .status-icon ellipse,
-	.build-tiles > .booting:hover .status-icon line,
-	.build-tiles > .booting:hover .status-icon path,
-	.build-tiles > .booting:hover .status-icon polygon,
-	.build-tiles > .booting:hover .status-icon polyline,
-	.build-tiles > .booting:hover .status-icon rect {
+	.repo-tiles > .booting:hover .status-icon circle,
+	.repo-tiles > .booting:hover .status-icon ellipse,
+	.repo-tiles > .booting:hover .status-icon line,
+	.repo-tiles > .booting:hover .status-icon path,
+	.repo-tiles > .booting:hover .status-icon polygon,
+	.repo-tiles > .booting:hover .status-icon polyline,
+	.repo-tiles > .booting:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .queued {
+	.repo-tiles > .queued {
 		background-color: #564f26 !important;
 	}
 
-	.build-tiles > .queued .status-icon circle,
-	.build-tiles > .queued .status-icon ellipse,
-	.build-tiles > .queued .status-icon line,
-	.build-tiles > .queued .status-icon path,
-	.build-tiles > .queued .status-icon polygon,
-	.build-tiles > .queued .status-icon polyline,
-	.build-tiles > .queued .status-icon rect {
+	.repo-tiles > .queued .status-icon circle,
+	.repo-tiles > .queued .status-icon ellipse,
+	.repo-tiles > .queued .status-icon line,
+	.repo-tiles > .queued .status-icon path,
+	.repo-tiles > .queued .status-icon polygon,
+	.repo-tiles > .queued .status-icon polyline,
+	.repo-tiles > .queued .status-icon rect {
 		fill: none !important;
 		stroke: #cdb62c !important;
 	}
 
-	.build-tiles > .queued:hover {
+	.repo-tiles > .queued:hover {
 		background-color: #cdb62c !important;
 	}
 
-	.build-tiles > .queued:hover .status-icon circle,
-	.build-tiles > .queued:hover .status-icon ellipse,
-	.build-tiles > .queued:hover .status-icon line,
-	.build-tiles > .queued:hover .status-icon path,
-	.build-tiles > .queued:hover .status-icon polygon,
-	.build-tiles > .queued:hover .status-icon polyline,
-	.build-tiles > .queued:hover .status-icon rect {
+	.repo-tiles > .queued:hover .status-icon circle,
+	.repo-tiles > .queued:hover .status-icon ellipse,
+	.repo-tiles > .queued:hover .status-icon line,
+	.repo-tiles > .queued:hover .status-icon path,
+	.repo-tiles > .queued:hover .status-icon polygon,
+	.repo-tiles > .queued:hover .status-icon polyline,
+	.repo-tiles > .queued:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
 
-	.build-tiles > .received {
+	.repo-tiles > .received {
 		background-color: #564f26 !important;
 	}
 
-	.build-tiles > .received .status-icon circle,
-	.build-tiles > .received .status-icon ellipse,
-	.build-tiles > .received .status-icon line,
-	.build-tiles > .received .status-icon path,
-	.build-tiles > .received .status-icon polygon,
-	.build-tiles > .received .status-icon polyline,
-	.build-tiles > .received .status-icon rect {
+	.repo-tiles > .received .status-icon circle,
+	.repo-tiles > .received .status-icon ellipse,
+	.repo-tiles > .received .status-icon line,
+	.repo-tiles > .received .status-icon path,
+	.repo-tiles > .received .status-icon polygon,
+	.repo-tiles > .received .status-icon polyline,
+	.repo-tiles > .received .status-icon rect {
 		fill: none !important;
 		stroke: #cdb62c !important;
 	}
 
-	.build-tiles > .received:hover {
+	.repo-tiles > .received:hover {
 		background-color: #cdb62c !important;
 	}
 
-	.build-tiles > .received:hover .status-icon circle,
-	.build-tiles > .received:hover .status-icon ellipse,
-	.build-tiles > .received:hover .status-icon line,
-	.build-tiles > .received:hover .status-icon path,
-	.build-tiles > .received:hover .status-icon polygon,
-	.build-tiles > .received:hover .status-icon polyline,
-	.build-tiles > .received:hover .status-icon rect {
+	.repo-tiles > .received:hover .status-icon circle,
+	.repo-tiles > .received:hover .status-icon ellipse,
+	.repo-tiles > .received:hover .status-icon line,
+	.repo-tiles > .received:hover .status-icon path,
+	.repo-tiles > .received:hover .status-icon polygon,
+	.repo-tiles > .received:hover .status-icon polyline,
+	.repo-tiles > .received:hover .status-icon rect {
 		fill: none !important;
 		stroke: #eee !important;
 	}
@@ -6247,52 +6247,52 @@
 		}
 	}
 
-	.build-tiles li {
+	.repo-tiles li {
 		background-color: #292929 !important;
 		border-right: 1px solid #444 !important
 	}
 
-	.build-tiles li:last-of-type {
+	.repo-tiles li:last-of-type {
 		border-right: none !important;
 	}
 
-	.build-tiles li .status-icon {
+	.repo-tiles li .status-icon {
 		background-color: transparent !important;
 	}
 
-	.build-tiles li .build-tile-number {
+	.repo-tiles li .build-tile-number {
 		color: #eee !important;
 	}
 
-	.build-tiles > .passed {
+	.repo-tiles > .passed {
 		background-color: #164322 !important;
 	}
 
-	.build-tiles > .passed:hover {
+	.repo-tiles > .passed:hover {
 		background-color: #39aa56 !important;
 	}
 
-	.build-tiles > .failed {
+	.repo-tiles > .failed {
 		background-color: #431414 !important;
 	}
 
-	.build-tiles > .failed:hover {
+	.repo-tiles > .failed:hover {
 		background-color: #db4545 !important;
 	}
 
-	.build-tiles > .errored {
+	.repo-tiles > .errored {
 		background-color: #431414 !important;
 	}
 
-	.build-tiles > .errored:hover {
+	.repo-tiles > .errored:hover {
 		background-color: #db4545 !important;
 	}
 
-	.build-tiles > .canceled {
+	.repo-tiles > .canceled {
 		background-color: #292929 !important;
 	}
 
-	.build-tiles > .canceled:hover {
+	.repo-tiles > .canceled:hover {
 		background-color: #9d9d9d !important;
 	}
 
