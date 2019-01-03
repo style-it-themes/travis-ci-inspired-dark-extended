@@ -2,19 +2,19 @@
 @name         Travis CI Inspired Dark Extended
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/travis-ci-inspired-dark-extended
-@version      1.0.9
+@version      1.1.0
 @updateURL    https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css
 @description  A Travis CI and associated websites dark theme. -The definitive Travis CI dark theme.
 @author       Style-it Themes the-j0k3r
 @license      MIT
 ==/UserStyle== */
-@-moz-document domain("travis-ci.org") {
+@-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
 	/*! Name    : Travis CI Inspired Dark Extended */
-	/*! Version : Version: 1.0.9 beta */
+	/*! Version : Version: 1.1.0 beta */
 	/*! Author  : Style-it Themes: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
-	/*! Type    : Main Travis CI org*/
+	/*! Type    : Main Travis CI org/com*/
 	.row .row.collapse:after, .row .row.collapse:before, .row .row:after,
 	.row .row:before, .row:after, .row:before {
 		content: " " !important;
@@ -43,6 +43,15 @@
 
 	button {
 		background: #222 !important;
+	}
+
+	.button--green {
+		color: #fff !important;
+		background-color: #39aa56 !important;
+	}
+
+	.button--green:active, .button--green:hover {
+		background-color: #2c8443 !important;
 	}
 
 	.helptext {
@@ -1059,16 +1068,8 @@
 		}
 
 		.dropup-list {
-			position: absolute !important;
-			right: 0 !important;
-			bottom: 4.5em !important;
-			margin: 0 !important;
-			background-color: #fff !important;
+			background-color: #222 !important;
 			border: 1px solid #3eaaaf !important;
-			border-radius: 2px !important;
-			display: none !important;
-			z-index: 10 !important;
-			text-align: left !important;
 		}
 
 		.dropup-list li {
@@ -1076,18 +1077,8 @@
 		}
 
 		.dropup-list li:last-of-type:after {
-			content: "" !important;
-			display: block !important;
-			width: 1.6em !important;
-			height: 1.6em !important;
 			border: 1px solid #3eaaaf !important;
-			background: #fff !important;
-			-ms-transform: rotate(45deg) !important;
-			transform: rotate(45deg) !important;
-			position: absolute !important;
-			bottom: -.7em !important;
-			right: 1.7em !important;
-			z-index: -10 !important;
+			background: #222 !important;
 		}
 
 		#tab_build {
@@ -1828,27 +1819,6 @@
 	.loading-indicator i:nth-child(2),
 	.loading-indicator--white i:nth-child(2) {
 		animation-delay: .3s !important;
-	}
-
-	.build-tiles li {
-		background-color: #292929 !important;
-		border-right: 1px solid #444 !important
-	}
-
-	.build-tiles li:last-of-type {
-		border-right: none !important;
-	}
-
-	.build-tiles li .status-icon {
-		background-color: transparent !important;
-	}
-
-	.build-tiles li .build-tile-number {
-		color: #eee !important;
-	}
-
-	.build-tiles > .passed {
-		background-color: #164322 !important;
 	}
 
 	.build-tiles > .passed .status-icon circle,
@@ -2765,11 +2735,6 @@
 		}
 	}
 
-	#left {
-		padding: 0 0 110px !important;
-		border-right: 2px solid #444 !important;
-	}
-
 	.ansi .italic {
 		font-style: italic !important;
 	}
@@ -3174,14 +3139,17 @@
 	}
 
 	.tile {
-		height: auto !important;
-		padding: .8em .5em .8em 1.5em !important;
-		margin-bottom: .46rem !important;
+
 		background-color: #222 !important;
 		border-radius: 0 !important;
 	}
 
-	.tile.passed {
+	.owner-tile {
+		background: linear-gradient(to right,#444 0,#444 10px,
+			#222 10px,#222 100%) no-repeat !important;
+	}
+
+	.tile.passed, .owner-tile.passed  {
 		background: linear-gradient(to right, #39aa56 0, #39aa56 8px,
 			#222 8px, #222 100%) no-repeat !important;
 	}
@@ -3440,12 +3408,8 @@
 		background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
 	}
 
-	.profile-repo.non-admin {
-		color: rgba(0, 0, 0, .45) !important;
-	}
-
 	.profile-repo.non-admin:hover {
-		background-color: rgba(241, 241, 241, .5) !important;
+		background-color: #d4d4d4 !important;
 	}
 
 	.profile-repo.non-admin:hover:after {
@@ -4839,7 +4803,7 @@
 	}
 
 	.request-item.highlighted.rejected {
-		box-shadow: 0 0 3px 3px #fce8e2 !important;
+		box-shadow: 0 0 5px 1px #db4545 !important;
 	}
 
 	.request-item.highlighted,
@@ -5505,7 +5469,6 @@
 	.landing .landing-features-list li:before {
 		content: "" !important;
 		background-image: url('https://cdn.travis-ci.org/images/landing-page/features-check-76131a9aab1311faa978039d45f943be.svg') !important;
-
 	}
 
 	.quote-container {
@@ -5814,12 +5777,14 @@
 	/*! Author  : Style-it Themes: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
-	/*! Type    : Code/Colors - Travis CI org - Builder*/
+	/*! Type    : Shared code - Travis CI org/com - Builder*/
 	.codedisplay {
-		border: 1px solid #444 !important;
 		white-space: pre-wrap !important;
 		background-color: #111 !important;
-		font-size: 12px !important;
+	}
+
+	.inner-yaml-container button {
+		border: 1px solid #555 !important;
 	}
 
 	code[class*=language-],
@@ -5843,11 +5808,20 @@
 	pre[class*=language-]::selection {
 		text-shadow: none !important;
 		background: #b3d4fc !important;
+		color: #000 !important;
+	}
+
+	pre.codedisplay[class*="language-"] {
+		background-color: #111 !important;
 	}
 
 	:not(pre) > code[class*=language-],
 	pre[class*=language-] {
 		background: #111 !important;
+	}
+
+	.inner-yaml-container {
+		border: 1px solid #555 !important;
 	}
 
 	.token.cdata, .token.comment,
@@ -5927,6 +5901,145 @@
 		opacity: 1 !important;
 		transition-duration: .1s !important;
 	}
+
+	#left {
+		border-right: 2px solid #444 !important;
+	}
+
+	.navigation-nested {
+		background-color: #111 !important;
+		border: 1px solid #444 !important;
+		box-shadow: 0 0 5px 2px rgba(0,0,0,.15) !important;
+	}
+
+	.navigation-nested :hover {
+		background-color: #333 !important;
+		border: none !important;
+	}
+
+	.navigation-nested .username {
+		color: #999 !important;
+		background: #222 !important;
+	}
+
+	.navigation-nested .username :hover {
+		background: transparent !important;
+	}
+
+	.username span:after  {
+		border-color: #999 !important;
+		background: transparent !important;
+	}
+
+	@media only screen and (min-width:50.063em) {
+		.navigation-nested .nav-nested {
+			background-color: #282828 !important;
+		}
+	}
+
+	.profile-page nav.travistab-nav {
+		border-bottom: 2px #444 solid !important;
+	}
+
+	.profile-page .profile-aside section {
+		border-bottom: 2px solid #555 !important;
+	}
+
+	.profile-page .profile-aside section.no-divider {
+		border-bottom: transparent !important;
+	}
+
+	.profile-repo.non-admin {
+		color: #888 !important;
+	}
+
+	.profile-repo.non-admin:hover,
+	.active .profile-repo.non-admin:hover {
+		background-color: #333 !important;
+	}
+
+	#github-apps-invitation {
+		box-shadow: 0 0 15px 3px #555 !important;
+	}
+
+	.account-token .token-field {
+		background-color: #111 !important;
+	}
+
+	.user-settings > section {
+		border-bottom: 2px solid #555 !important;
+	}
+
+	.dropup-list {
+		background-color: #222 !important;
+		border: 1px solid #3eaaaf !important;
+	}
+
+	.dropup-list a, .dropup-list button {
+		background-color: #222 !important;
+	}
+
+	.dropup.is-open::after {
+		border-color: #0010ff !important;
+		outline: 2px solid #ff2 !important;
+	}
+
+	.my-build .message-and-branch .row-content::after,.my-build .repo .row-content::after {
+	 background:linear-gradient(-90deg,#222 0,rgba(255,255,255,0) 100%)
+	}
+
+	.job-matrix-name-separator {
+		border-top: 1px #444 solid;
+	}
+
+	.build-tiles li {
+		background-color: #292929 !important;
+		border-right: 1px solid #444 !important
+	}
+
+	.build-tiles li:last-of-type {
+		border-right: none !important;
+	}
+
+	.build-tiles li .status-icon {
+		background-color: transparent !important;
+	}
+
+	.build-tiles li .build-tile-number {
+		color: #eee !important;
+	}
+
+	.build-tiles > .passed {
+		background-color: #164322 !important;
+	}
+
+	.build-tiles > .passed:hover {
+		background-color: #39aa56 !important;
+	}
+
+	.build-tiles > .failed {
+		background-color: #431414 !important;
+	}
+
+	.build-tiles > .failed:hover {
+		background-color: #db4545 !important;
+	}
+
+	.build-tiles > .errored {
+		background-color: #431414 !important;
+	}
+
+	.build-tiles > .errored:hover {
+		background-color: #db4545 !important;
+	}
+
+	.build-tiles > .canceled {
+		background-color: #292929 !important;
+	}
+
+	.build-tiles > .canceled:hover {
+		background-color: #9d9d9d !important;
+	}
 }
 @-moz-document domain("travis-ci.com") {
 	/*! Name    : Travis CI Inspired Dark Extended */
@@ -5990,10 +6103,7 @@
 		border-left: 1px solid #444 !important;
 	}
 
-	nav a {
-		color: #999 !important;
-	}
-
+	nav a,
 	p,
 	.customers-header,
 	.list-check-container,
@@ -6031,6 +6141,21 @@
 
 	.owner-info:after {
 		background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+	}
+
+	button {
+		background: #222 !important;
+	}
+
+	.button {
+		color: #fff !important;
+		background-color: #444 !important;
+	}
+
+	.button.active, .button:active,
+	.button:focus, .button:hover {
+		border-color: #444 !important;
+		background-color: #666 !important;
 	}
 
 	@media only screen and (min-width: 50.063em) {
@@ -6092,21 +6217,6 @@
 			background: linear-gradient(-90deg, #222 30%,
 				rgba(255, 255, 255, 0) 100%) !important;
 		}
-	}
-
-	button {
-		background: #222 !important;
-	}
-
-	.button {
-		color: #fff !important;
-		background-color: #444 !important;
-	}
-
-	.button.active, .button:active,
-	.button:focus, .button:hover {
-		border-color: #444 !important;
-		background-color: #666 !important;
 	}
 
 	.option-display {
@@ -6255,55 +6365,6 @@
 			background: linear-gradient(360deg, #222 5%,
 				rgba(255, 255, 255, 0) 100%) !important;
 		}
-	}
-
-	.build-tiles li {
-		background-color: #292929 !important;
-		border-right: 1px solid #444 !important
-	}
-
-	.build-tiles li:last-of-type {
-		border-right: none !important;
-	}
-
-	.build-tiles li .status-icon {
-		background-color: transparent !important;
-	}
-
-	.build-tiles li .build-tile-number {
-		color: #eee !important;
-	}
-
-	.build-tiles > .passed {
-		background-color: #164322 !important;
-	}
-
-	.build-tiles > .passed:hover {
-		background-color: #39aa56 !important;
-	}
-
-	.build-tiles > .failed {
-		background-color: #431414 !important;
-	}
-
-	.build-tiles > .failed:hover {
-		background-color: #db4545 !important;
-	}
-
-	.build-tiles > .errored {
-		background-color: #431414 !important;
-	}
-
-	.build-tiles > .errored:hover {
-		background-color: #db4545 !important;
-	}
-
-	.build-tiles > .canceled {
-		background-color: #292929 !important;
-	}
-
-	.build-tiles > .canceled:hover {
-		background-color: #9d9d9d !important;
 	}
 
 	.section--feature.section--white,
@@ -9814,12 +9875,12 @@
 	}
 }
 
-@-moz-document domain("enterprise.travis-ci.com"), domain("enterprise-changelog.travis-ci.com") {
+@-moz-document domain("enterprise.travis-ci.com"), domain("enterprise-changelog.travis-ci.com"), domain("changelog.travis-ci.com") {
 	/*! Name    : Travis CI Inspired Dark Extended */
 	/*! Author  : Style-it Themes: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
-	/*! Type    : Enterprise Travis CI com - Landing page */
+	/*! Type    : Enterprise Travis CI com - Landing page + Changelog */
 	body, header {
 		background: #222 !important;
 		color: #eee !important;
@@ -9843,7 +9904,6 @@
 
 	.changelogItem .content code, .changelogItem .content pre {
 		background: #111 !important;
-		border: 1px solid #555 !important;
 		color: #ccc !important;
 	}
 
@@ -9885,8 +9945,16 @@
 		color: #666 !important;
 	}
 
+	h1.hasLogo a {
+		color: #999 !important;
+	}
+
+	h1.hasLogo a strong:nth-child(2), h1.hasLogo {
+		font-weight: 900 !important;
+	}
+
 	a {
-		color: #686868 !important;
+		color: #229191 !important;
 	}
 
 	a:hover {
