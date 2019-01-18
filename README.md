@@ -3,6 +3,11 @@
 </p>
 <br>
 <h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
+<p align="center">
+  <a href="https://discord.gg/MhwZjV">
+    <img src="https://img.shields.io/badge/style--it--themes-discord%20channel-blue.svg?style=for-the-badge" alt="Style-it-themes Discord Channel">
+  </a>
+</p>
 
 ## About
 
