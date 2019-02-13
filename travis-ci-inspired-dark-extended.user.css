@@ -2,7 +2,7 @@
 @name         Travis CI Inspired Dark Extended
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/travis-ci-inspired-dark-extended
-@version      1.1.0
+@version      1.1.1
 @updateURL    https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css
 @description  A Travis CI and associated websites dark theme. -The definitive Travis CI dark theme.
 @author       Style-it Themes the-j0k3r
@@ -10,7 +10,7 @@
 ==/UserStyle== */
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
 	/*! Name    : Travis CI Inspired Dark Extended */
-	/*! Version : Version: 1.1.0 beta */
+	/*! Version : Version: 1.1.1 beta */
 	/*! Author  : Style-it Themes: the-j0k3r */
 	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
 	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
@@ -5174,7 +5174,7 @@
 		color: #c0c0c0 !important;
 	}
 
-	.env-var-name:after, .ssh-key-name:after {
+	.env-var-name:after, .ssh-key-name:after, .closeEnv:after, .detail-job-env:after {
 		background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
 	}
 
@@ -5216,7 +5216,7 @@
 		 animation: haze-fade 2s 3s both;
 	}
 
-	.newly-created .env-var-name::after {
+	.newly-created .env-var-name:after {
 		 display: none !important;
 	}
 
@@ -5979,17 +5979,17 @@
 		background-color: #222 !important;
 	}
 
-	.dropup.is-open::after {
+	.dropup.is-open:after {
 		border-color: #0010ff !important;
 		outline: 2px solid #ff2 !important;
 	}
 
-	.my-build .message-and-branch .row-content::after,.my-build .repo .row-content::after {
-	 background:linear-gradient(-90deg,#222 0,rgba(255,255,255,0) 100%)
+	.my-build .message-and-branch .row-content:after,.my-build .repo .row-content:after {
+		background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
 	}
 
 	.job-matrix-name-separator {
-		border-top: 1px #444 solid;
+		border-top: 1px #444 solid !important;
 	}
 
 	.build-tiles li {
@@ -9812,7 +9812,7 @@
 		border-color: #444 !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-yellow::after,
+	.layout-content.status-index .components-statuses .component-container.status-yellow:after,
 	.layout-content.status-full-history .month .incident-container .impact-minor,
 	.layout-content.status-incident .incident-name.impact-minor,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -9823,7 +9823,7 @@
 		color: #efcc00 !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-yellow::after,
+	.layout-content.status-index .components-statuses .component-container.status-yellow:after,
 	.layout-content.status-full-history .month .incident-container .impact-minor,
 	.layout-content.status-incident .incident-name.impact-minor,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -9834,7 +9834,7 @@
 		color: #efcc00 !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-orange::after,
+	.layout-content.status-index .components-statuses .component-container.status-orange:after,
 	.layout-content.status-full-history .month .incident-container .impact-major,
 	.layout-content.status-incident .incident-name.impact-major,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -9844,7 +9844,7 @@
 		color: #FF8C3E !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-orange::after,
+	.layout-content.status-index .components-statuses .component-container.status-orange:after,
 	.layout-content.status-full-history .month .incident-container .impact-major,
 	.layout-content.status-incident .incident-name.impact-major,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -9854,7 +9854,7 @@
 		color: #FF8C3E !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-blue::after,
+	.layout-content.status-index .components-statuses .component-container.status-blue:after,
 	.layout-content.status-full-history .month .incident-container .impact-maintenance,
 	.layout-content.status-incident .incident-name.impact-maintenance,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
@@ -9864,7 +9864,7 @@
 		color: #0068FF !important;
 	}
 
-	.layout-content.status-index .components-statuses .component-container.status-blue::after,
+	.layout-content.status-index .components-statuses .component-container.status-blue:after,
 	.layout-content.status-full-history .month .incident-container .impact-maintenance,
 	.layout-content.status-incident .incident-name.impact-maintenance,
 	.layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
@@ -10220,7 +10220,7 @@
 		position: relative !important;
 	}
 
-	.new-license-form .travis-select::after {
+	.new-license-form .travis-select:after {
 		color: #eee !important;
 		background-color: #3eaaaf !important;
 		background-image: url('https://enterprise.travis-ci.com/images/icon-select-arrow.svg') !important;
@@ -10234,7 +10234,7 @@
 		color: #555 !important;
 	}
 
-	.new-license-form [disabled="disabled"] + .travis-select::after {
+	.new-license-form [disabled="disabled"] + .travis-select:after {
 		background-color: #444 !important;
 	}
 
