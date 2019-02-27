@@ -3697,6 +3697,10 @@
 		border-bottom: 2px solid transparent !important;
 	}
 
+	.job-waiting-stages-container {
+		border: 2px #555 !important;
+	}
+
 	.jobs-item.passed .passed,
 	.jobs-item.passed .passed a,
 	.jobs-item.passed.passed .color {
