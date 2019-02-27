@@ -31,7 +31,7 @@
 		background-color: #222 !important;
 	}
 
-	button {
+	button:not(.no-button) {
 		background: #222 !important;
 	}
 
