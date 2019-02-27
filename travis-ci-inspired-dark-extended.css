@@ -5355,8 +5355,8 @@
 		letter-spacing: -1.1px !important;
 	}
 
-	.landing h1 {
-		color: rgba(102, 102, 102, .8) !important;
+	.landing h1, .customers-header {
+		color: #ccc !important;
 	}
 
 	.landing .build-flows,
@@ -5525,6 +5525,10 @@
 	.landing-button:active, .landing-button:hover {
 		color: #fff !important;
 		background-color: #2f8b47 !important;
+	}
+
+	.landing .section--feature .list-check li, p.text-small {
+		color: #888 !important;
 	}
 
 	.h1--grey {
