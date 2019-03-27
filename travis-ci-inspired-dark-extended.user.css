@@ -2,18 +2,13 @@
 @name         Travis CI Inspired Dark Extended
 @namespace    Style-it Themes
 @homepageURL  https://github.com/style-it-themes/travis-ci-inspired-dark-extended
-@version      1.1.1
+@version      1.1.2
 @updateURL    https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css
 @description  A Travis CI and associated websites dark theme. -The definitive Travis CI dark theme.
 @author       Style-it Themes the-j0k3r
 @license      MIT
 ==/UserStyle== */
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
-	/*! Name    : Travis CI Inspired Dark Extended */
-	/*! Version : Version: 1.1.1 beta */
-	/*! Author  : Style-it Themes: the-j0k3r */
-	/*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended */
-	/*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE */
 	/*! Type    : Main Travis CI org/com*/
 	.row .row.collapse:after, .row .row.collapse:before, .row .row:after,
 	.row .row:before, .row:after, .row:before {
