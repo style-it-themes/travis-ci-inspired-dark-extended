@@ -779,14 +779,6 @@
 		border: 1px solid #444 !important;
 		color: #eee !important;
 	}
-	.option-display .avatar, .option-display .avatar--small {
-		max-width: 40px !important;
-		max-height: 40px !important;
-		margin-right: .5em !important;
-		margin-top: -.1em !important;
-		border-radius: 50% !important;
-		overflow: hidden !important;
-	}
 	.option-tofu {
 		border-left: 1px solid #444 !important;
 	}
@@ -1555,7 +1547,10 @@
 		color: #aaa !important;
 	}
 	.loading-indicator i, .loading-indicator--white i {
-		background-color: #A6ADAD !important;
+		background-color: #ccc !important;
+	}
+	.loading-overlay__backdrop, .overlay-backdrop {
+		background: rgba(68, 68, 68, .6)  !important;
 	}
 	.loading-indicator--white i, .white .loading-indicator i,
 	.white .loading-indicator--white i {
@@ -2887,7 +2882,7 @@
 			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
 		}
 	}
-	.profile-repo.admin:hover, .sidebar-list ul {
+	.sidebar-list ul {
 		background-color: #333 !important;
 	}
 	#tab_new a:hover .icon--plus:after {
@@ -2909,7 +2904,7 @@
 	}
 	/* fix offset of icon in button and fix it to center */
 	.switch .off .icon-off, .switch .on .icon-on {
-		padding-bottom: 6px !important;
+		padding-bottom: .5em !important;
 	}
 	.profile-page .profile-aside h2 {
 		color: #999 !important;
@@ -2929,6 +2924,9 @@
 		fill: none !important;
 		stroke: rgba(0, 0, 0, .2) !important;
 	}
+	.profile-repo.admin:hover {
+		color: #ccc !important;
+	}
 	.profile-repo.admin:hover:after {
 		background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
 	}
@@ -2939,13 +2937,13 @@
 		background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
 	}
 	.profile-repo.non-admin:hover {
-		background-color: #d4d4d4 !important;
+		color: #ddd !important;
 	}
 	.profile-repo.non-admin:hover:after {
 		background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
 	}
 	.active .profile-repo.non-admin:hover {
-		background-color: rgba(182, 214, 217, .5) !important;
+		color: #b6d6d9 !important;
 	}
 	.active .profile-repo.non-admin:hover:after {
 		background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
@@ -2988,6 +2986,19 @@
 	}
 	.profile-repositories-filter .search::placeholder {
 		color: #999 !important;
+	}
+	.travis-form .travis-form__field .travis-form__clear {
+		color: #fff !important;
+		background-color: #9d9d9d !important;
+		padding-bottom: .1em !important;
+	}
+	.travis-form .travis-form__field.travis-form__field--focused .travis-form__field-component,
+	.travis-form .travis-form__field:not(.travis-form__field--without-frame) .travis-form__field-component:active,
+	.travis-form .travis-form__field:not(.travis-form__field--without-frame) .travis-form__field-component:focus {
+		border-color: rgba(62, 170, 175, .7) !important;
+	}
+  .travis-form .travis-form__field:not(.travis-form__field--without-frame) .travis-form__field-component {
+		box-shadow: inset 0 0 1px 1px #555 !important;
 	}
 	.token-actions button {
 		background-color: transparent !important;
@@ -5126,10 +5137,6 @@
 	.profile-repo.non-admin {
 		color: #888 !important;
 	}
-	.profile-repo.non-admin:hover,
-	.active .profile-repo.non-admin:hover {
-		background-color: #333 !important;
-	}
 	#github-apps-invitation {
 		box-shadow: 0 0 15px 3px #555 !important;
 	}
@@ -5138,6 +5145,9 @@
 	}
 	.user-settings > section {
 		border-bottom: 2px solid #555 !important;
+	}
+	.user-settings > section:last-child {
+		border-bottom: 0 !important;
 	}
 	.dropup-list {
 		background-color: #222 !important;
