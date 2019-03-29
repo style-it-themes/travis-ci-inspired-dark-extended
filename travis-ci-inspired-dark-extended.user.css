@@ -4568,6 +4568,23 @@
 	.layout-features {
 		background: #fff !important;
 	}
+	.layout-striped .layout-striped-section.layout-striped-section--with-bg {
+		background-color: #282828 !important;
+	}
+	.subheading {
+		color: #aaa !important;
+	}
+	.travis-status.none .status-link {
+		border-color: #39aa56 !important;
+		color: #39aa56 !important;
+	}
+	.help-page .help-page__top a {
+		border-color: #444 !important;
+	}
+	.help-page .help-page__top a:hover {
+		color: #aaa !important;
+		border-color: #aaa !important;
+	}
 	.features-hero {
 		padding-top: 2em !important;
 		margin-bottom: 3em !important;
