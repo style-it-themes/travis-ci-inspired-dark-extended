@@ -262,17 +262,17 @@
 		border-bottom: 1px solid #666 !important;
 	}
 	.row-li {
-		background: linear-gradient(to right, #444 0, #444 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #444 0,
+			#444 10px, #222 10px, #222 100%) no-repeat !important;
 		border: 1px solid #444 !important;
 	}
 	.row-li.passed {
-		background: linear-gradient(to right, #39aa56 0, #39aa56 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #39aa56 0,
+			#39aa56 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li.errored, .row-li.failed {
-		background: linear-gradient(to right, #db4545 0, #db4545 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #db4545 0,
+			#db4545 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li .passed, .row-li .passed a {
 		color: #39aa56 !important;
@@ -309,13 +309,13 @@
 		fill: none !important;
 	}
 	.row-li.canceled {
-		background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #9d9d9d 0,
+			#9d9d9d 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li.booting, .row-li.created, .row-li.queued,
 	.row-li.received, .row-li.started {
-		background: linear-gradient(to right, #edde3f 0, #edde3f 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #edde3f 0,
+			#edde3f 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li .canceled, .row-li .canceled a {
 		color: #9d9d9d !important;
@@ -1238,12 +1238,12 @@
 		border: 1px solid #444 !important;
 	}
 	.build-header.passed {
-		background: linear-gradient(to right, #39aa56 0, #39aa56 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #39aa56 0,
+			#39aa56 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header.errored, .build-header.failed {
-		background: linear-gradient(to right, #db4545 0, #db4545 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #db4545 0,
+			#db4545 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header .passed, .build-header .passed a {
 		color: #39aa56 !important;
@@ -1301,14 +1301,14 @@
 		fill: none !important;
 	}
 	.build-header.canceled {
-		background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #9d9d9d 0,
+			#9d9d9d 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header.booting, .build-header.created,
 	.build-header.queued, .build-header.received,
 	.build-header.started {
-		background: linear-gradient(to right, #edde3f 0, #edde3f 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #edde3f 0,
+			#edde3f 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header .canceled, .build-header .canceled a {
 		color: #9d9d9d !important;
@@ -2544,8 +2544,8 @@
 		background-position: 0 .2em !important;
 	}
 	.error500 .error-bg {
-		background: linear-gradient(0deg, #dcc682, #dcc682 38.9%,
-			#ccebf7 39%, #222 60%, #222) !important;
+		background: linear-gradient(0deg, #dcc682,
+			#dcc682 38.9%, #ccebf7 39%, #222 60%, #222) !important;
 	}
 	.error500 .hill-left {
 		background-image: url('https://cdn.travis-ci.org/images/error/500-hills-left-8e36e3cc504b2dc1ed2b6b24914ebed1.svg') !important;
@@ -2584,8 +2584,8 @@
 		}
 	}
 	.error404 .error-bg {
-		background: linear-gradient(0deg, #bbcac6, #bbcac6 38.9%,
-			#ccebf7 39%, #222 60%, #222) !important;
+		background: linear-gradient(0deg, #bbcac6,
+			#bbcac6 38.9%, #ccebf7 39%, #222 60%, #222) !important;
 	}
 	@media only screen and (min-width: 50.063em) {
 		.error404 .hill-left {
@@ -2628,8 +2628,8 @@
 		}
 	}
 	.maintenance .maintenance-bg {
-		background: linear-gradient(0deg, #8cad7d, #8cad7d 38.9%,
-			#ccebf7 39%, #222 60%, #222) !important;
+		background: linear-gradient(0deg, #8cad7d,
+			#8cad7d 38.9%, #ccebf7 39%, #222 60%, #222) !important;
 	}
 	.maintenance .hill-left {
 		background-image: url('https://cdn.travis-ci.org/images/error/maintenance-hills-left-568adcbbca4fb751178706e86ddef93a.svg') !important;
@@ -2697,17 +2697,17 @@
 		border-radius: 0 !important;
 	}
 	.owner-tile {
-		background: linear-gradient(to right,#444 0,#444 10px,
-			#222 10px,#222 100%) no-repeat !important;
+		background: linear-gradient(to right, #444 0,
+			#444 10px, #222 10px,#222 100%) no-repeat !important;
 	}
 	.tile.passed, .owner-tile.passed  {
-		background: linear-gradient(to right, #39aa56 0, #39aa56 8px,
-			#222 8px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #39aa56 0,
+			#39aa56 8px, #222 8px, #222 100%) no-repeat !important;
 	}
 	.tile.errored,
 	.tile.failed {
-		background: linear-gradient(to right, #db4545 0, #db4545 8px,
-			#222 8px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #db4545 0,
+			#db4545 8px, #222 8px, #222 100%) no-repeat !important;
 	}
 	.tile .passed, .tile .passed a {
 		color: #39aa56 !important;
@@ -2765,14 +2765,14 @@
 		fill: none !important;
 	}
 	.tile.canceled {
-		background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 8px,
-			#222 8px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #9d9d9d 0,
+			#9d9d9d 8px, #222 8px, #222 100%) no-repeat !important;
 	}
 	.tile.booting, .tile.created,
 	.tile.queued, .tile.received,
 	.tile.started {
-		background: linear-gradient(to right, #edde3f 0, #edde3f 8px,
-			#222 8px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #edde3f 0,
+			#edde3f 8px, #222 8px, #222 100%) no-repeat !important;
 	}
 	.tile .canceled, .tile .canceled a {
 		color: #9d9d9d !important;
@@ -2879,7 +2879,8 @@
 	}
 	@media only screen and (min-width: 50.063em) {
 		.tile h2:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 	}
 	.sidebar-list ul {
@@ -2928,25 +2929,29 @@
 		color: #ccc !important;
 	}
 	.profile-repo.admin:hover:after {
-		background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
+		background: linear-gradient(-90deg, #444 0,
+			rgba(241, 241, 241, 0) 100%) !important;
 	}
 	.active .profile-repo.admin:hover {
 		background-color: #444 !important;
 	}
 	.active .profile-repo.admin:hover:after {
-		background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
+		background: linear-gradient(-90deg, #444 0,
+			rgba(182, 214, 217, 0) 100%) !important;
 	}
 	.profile-repo.non-admin:hover {
 		color: #ddd !important;
 	}
 	.profile-repo.non-admin:hover:after {
-		background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
+		background: linear-gradient(-90deg, #444 0,
+			rgba(241, 241, 241, 0) 100%) !important;
 	}
 	.active .profile-repo.non-admin:hover {
 		color: #b6d6d9 !important;
 	}
 	.active .profile-repo.non-admin:hover:after {
-		background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
+		background: linear-gradient(-90deg, #444 0,
+			rgba(182, 214, 217, 0) 100%) !important;
 	}
 	.profile-additional a, .profile-text a {
 		color: #999 !important;
@@ -3066,7 +3071,8 @@
 		background-color: #f1f1f1 !important;
 	}
 	.owner-info:after {
-		background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+		background: linear-gradient(-90deg, #222 0,
+			rgba(255, 255, 255, 0) 100%) !important;
 	}
 	@media only screen and (min-width: 50.063em) {
 		.branch-row .row-last-build:before {
@@ -3364,7 +3370,8 @@
 	@media only screen and (min-width: 50.063em) {
 		.jobs-item.passed:hover .job-env:after,
 		.jobs-item.passed:hover .job-lang:after {
-			background: linear-gradient(-90deg, #164322 0, rgba(222, 236, 220, 0) 100%) !important;
+			background: linear-gradient(-90deg, #164322 0,
+				rgba(222, 236, 220, 0) 100%) !important;
 		}
 		.jobs-item.passed:hover .job-env:hover,
 		.jobs-item.passed:hover .job-lang:hover {
@@ -3385,8 +3392,10 @@
 		border-left: 3px solid #db4545 !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.failed:hover .job-env:after, .jobs-item.failed:hover .job-lang:after {
-			background: linear-gradient(-90deg, #431414 0, rgba(252, 232, 226, 0) 100%) !important;
+		.jobs-item.failed:hover .job-env:after,
+		.jobs-item.failed:hover .job-lang:after {
+			background: linear-gradient(-90deg, #431414 0,
+				rgba(252, 232, 226, 0) 100%) !important;
 		}
 		.jobs-item.failed:hover .job-env:hover,
 		.jobs-item.failed:hover .job-lang:hover {
@@ -3444,8 +3453,10 @@
 		border-left: 3px solid #db4545 !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.errored:hover .job-env:after, .jobs-item.errored:hover .job-lang:after {
-			background: linear-gradient(-90deg, #431414 0, rgba(252, 232, 226, 0) 100%) !important;
+		.jobs-item.errored:hover .job-env:after,
+		.jobs-item.errored:hover .job-lang:after {
+			background: linear-gradient(-90deg, #431414 0,
+				rgba(252, 232, 226, 0) 100%) !important;
 		}
 		.jobs-item.errored:hover .job-env:hover,
 		.jobs-item.errored:hover .job-lang:hover {
@@ -3633,8 +3644,10 @@
 		border-left: 3px solid #9d9d9d !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.canceled:hover .job-env:after, .jobs-item.canceled:hover .job-lang:after {
-			background: linear-gradient(-90deg, #454545 0, rgba(241, 241, 241, 0) 100%) !important;
+		.jobs-item.canceled:hover .job-env:after,
+		.jobs-item.canceled:hover .job-lang:after {
+			background: linear-gradient(-90deg, #454545 0,
+				rgba(241, 241, 241, 0) 100%) !important;
 		}
 		.jobs-item.canceled:hover .job-env:hover,
 		.jobs-item.canceled:hover .job-lang:hover {
@@ -3656,7 +3669,8 @@
 	}
 	@media only screen and (min-width: 50.063em) {
 		.jobs-item.created:hover .job-env:after, .jobs-item.created:hover .job-lang:after {
-			background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
+			background: linear-gradient(-90deg, #564f26 0,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 		.jobs-item.created:hover .job-env:hover,
 		.jobs-item.created:hover .job-lang:hover {
@@ -3677,8 +3691,10 @@
 		border-left: 3px solid #cdb62c !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.started:hover .job-env:after, .jobs-item.started:hover .job-lang:after {
-			background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
+		.jobs-item.started:hover .job-env:after,
+		.jobs-item.started:hover .job-lang:after {
+			background: linear-gradient(-90deg, #564f26 0,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 		.jobs-item.started:hover .job-env:hover,
 		.jobs-item.started:hover .job-lang:hover {
@@ -3719,8 +3735,10 @@
 		border-left: 3px solid #cdb62c !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.booting:hover .job-env:after, .jobs-item.booting:hover .job-lang:after {
-			background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
+		.jobs-item.booting:hover .job-env:after,
+		.jobs-item.booting:hover .job-lang:after {
+			background: linear-gradient(-90deg, #564f26 0,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 		.jobs-item.booting:hover .job-env:hover,
 		.jobs-item.booting:hover .job-lang:hover {
@@ -3741,8 +3759,10 @@
 		border-left: 3px solid #cdb62c !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.queued:hover .job-env:after, .jobs-item.queued:hover .job-lang:after {
-			background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
+		.jobs-item.queued:hover .job-env:after,
+		.jobs-item.queued:hover .job-lang:after {
+			background: linear-gradient(-90deg, #564f26 0,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 		.jobs-item.queued:hover .job-env:hover,
 		.jobs-item.queued:hover .job-lang:hover {
@@ -3763,8 +3783,10 @@
 		border-left: 3px solid #cdb62c !important;
 	}
 	@media only screen and (min-width: 50.063em) {
-		.jobs-item.received:hover .job-env:after, .jobs-item.received:hover .job-lang:after {
-			background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
+		.jobs-item.received:hover .job-env:after,
+		.jobs-item.received:hover .job-lang:after {
+			background: linear-gradient(-90deg, #564f26 0,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 		.jobs-item.received:hover .job-env:hover,
 		.jobs-item.received:hover .job-lang:hover {
@@ -3853,15 +3875,18 @@
 			border-right: 1px solid #444 !important;
 		}
 		.job-lang:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.job-env:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 	}
 	@media only screen and (min-width: 50.063em) {
 		.pr-row .row-branch:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.pr-row .row-branch:hover:after {
 			content: none !important;
@@ -3870,7 +3895,8 @@
 			background-color: #222 !important;
 		}
 		.pr-row .row-message:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.pr-row .two-line:first-of-type {
 			border-right: 1px solid #444 !important;
@@ -4115,14 +4141,8 @@
 			background-color: #deecdc !important;
 		}
 		.request-item.approved:hover .fade-out:after {
-			content: "" !important;
-			display: block !important;
-			position: absolute !important;
-			top: 0 !important;
-			right: 0 !important;
-			width: 2em !important;
-			height: 100% !important;
-			background: linear-gradient(-90deg, #164322 30%, rgba(222, 236, 220, 0) 100%) !important;
+			background: linear-gradient(-90deg, #164322 30%,
+				rgba(222, 236, 220, 0) 100%) !important;
 		}
 	}
 	.request-item.rejected.rejected .color a {
@@ -4192,14 +4212,8 @@
 			background-color: #fce8e2 !important;
 		}
 		.request-item.rejected:hover .fade-out:after {
-			content: "" !important;
-			display: block !important;
-			position: absolute !important;
-			top: 0 !important;
-			right: 0 !important;
-			width: 2em !important;
-			height: 100% !important;
-			background: linear-gradient(-90deg, #431414 30%, rgba(252, 232, 226, 0) 100%) !important;
+			background: linear-gradient(-90deg, #431414 30%,
+				rgba(252, 232, 226, 0) 100%) !important;
 		}
 	}
 	.request-item.pending.pending .color a {
@@ -4285,14 +4299,8 @@
 			background-color: #faf6db !important;
 		}
 		.request-item.pending:hover .fade-out:after {
-			content: "" !important;
-			display: block !important;
-			position: absolute !important;
-			top: 0 !important;
-			right: 0 !important;
-			width: 2em !important;
-			height: 100% !important;
-			background: linear-gradient(-90deg, #564f26 30%, rgba(250, 246, 219, 0) 100%) !important;
+			background: linear-gradient(-90deg, #564f26 30%,
+				rgba(250, 246, 219, 0) 100%) !important;
 		}
 	}
 	.request-item strong {
@@ -4494,8 +4502,10 @@
 	.env-var-name, .ssh-key-name {
 		color: #c0c0c0 !important;
 	}
-	.env-var-name:after, .ssh-key-name:after, .closeEnv:after, .detail-job-env:after {
-		background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
+	.env-var-name:after, .ssh-key-name:after,
+	.closeEnv:after, .detail-job-env:after {
+		background: linear-gradient(-90deg, #222 0,
+			rgba(241, 241, 241, 0) 100%) !important;
 	}
 	.env-var-value, .ssh-key-value {
 		color: #eee !important;
@@ -4551,7 +4561,8 @@
 	}
 	@media only screen and (min-width: 50.063em) {
 		.cron-job-text:after {
-			background: linear-gradient(-90deg, #333 0, rgba(241, 241, 241, 0) 100%) !important;
+			background: linear-gradient(-90deg, #333 0,
+				rgba(241, 241, 241, 0) 100%) !important;
 		}
 		.cron-job-delete {
 			background: #333 !important;
@@ -4618,16 +4629,16 @@
 		color: #fff !important;
 	}
 	.travis-pride .top {
-		background: linear-gradient(to bottom,
-				#e2453c 0, #e07e39 16%, #e5d667 32%,
-				#51b95b 48%, #1e72b7 66%, #6f5ba7 86%)
-				no-repeat !important;
+		background: linear-gradient(to bottom, #e2453c 0,
+			#e07e39 16%, #e5d667 32%,
+			#51b95b 48%, #1e72b7 66%,
+			#6f5ba7 86%) no-repeat !important;
 	}
 	.travis-pride .navigation-nested {
-		background: linear-gradient(to top,
-			#e2453c 0, #e07e39 16%, #e5d667 32%,
-			#51b95b 48%, #1e72b7 66%, #6f5ba7 86%)
-			no-repeat !important;
+		background: linear-gradient(to top, #e2453c 0,
+			#e07e39 16%, #e5d667 32%,
+			#51b95b 48%, #1e72b7 66%,
+			#6f5ba7 86%) no-repeat !important;
 	}
 	.travis-pride .navigation-nested a:active,
 	.travis-pride .navigation-nested a:hover {
@@ -5090,7 +5101,8 @@
 	}
 	.line-highlight {
 		background: hsla(24, 20%, 50%, .08) !important;
-		background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0)) !important;
+		background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%,
+			hsla(24, 20%, 50%, 0)) !important;
 	}
 	.line-highlight:before,
 	.line-highlight[data-end]:after {
@@ -5178,7 +5190,8 @@
 		outline: 2px solid #ff2 !important;
 	}
 	.my-build .message-and-branch .row-content:after,.my-build .repo .row-content:after {
-		background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+		background: linear-gradient(-90deg, #222 0,
+			rgba(255, 255, 255, 0) 100%) !important;
 	}
 	.job-matrix-name-separator {
 		border-top: 1px #444 solid !important;
@@ -5303,7 +5316,8 @@
 		color: #000 !important;
 	}
 	.owner-info:after {
-		background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+		background: linear-gradient(-90deg, #222 0,
+			rgba(255, 255, 255, 0) 100%) !important;
 	}
 	button {
 		background: #222 !important;
@@ -5327,15 +5341,18 @@
 			border-right: 1px solid #444 !important;
 		}
 		.job-lang:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.job-env:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 	}
 	@media only screen and (min-width: 50.063em) {
 		.pr-row .row-branch:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.pr-row .row-branch:hover:after {
 			content: none !important;
@@ -5344,7 +5361,8 @@
 			background-color: #222 !important;
 		}
 		.pr-row .row-message:after {
-			background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
+			background: linear-gradient(-90deg, #222 0,
+				rgba(255, 255, 255, 0) 100%) !important;
 		}
 		.pr-row .two-line:first-of-type {
 			border-right: 1px solid #444 !important;
@@ -5441,40 +5459,40 @@
 		border-bottom: 1px solid #666 !important;
 	}
 	.row-li {
-		background: linear-gradient(to right, #444 0, #444 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #444 0,
+			#444 10px, #222 10px, #222 100%) no-repeat !important;
 		border: 1px solid #444 !important;
 	}
 	.row-li.passed {
-		background: linear-gradient(to right, #39aa56 0, #39aa56 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #39aa56 0,
+			#39aa56 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li.errored, .row-li.failed {
-		background: linear-gradient(to right, #db4545 0, #db4545 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #db4545 0,
+			#db4545 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li.canceled {
-		background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #9d9d9d 0,
+			#9d9d9d 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.row-li .canceled, .row-li .canceled a {
 		color: #9d9d9d !important;
 	}
 	.row-li.booting, .row-li.created, .row-li.queued,
 	.row-li.received, .row-li.started {
-		background: linear-gradient(to right, #edde3f 0, #edde3f 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #edde3f 0,
+			#edde3f 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header {
 		border: 1px solid #444 !important;
 	}
 	.build-header.passed {
-		background: linear-gradient(to right, #39aa56 0, #39aa56 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #39aa56 0,
+			#39aa56 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-header.errored, .build-header.failed {
-		background: linear-gradient(to right, #db4545 0, #db4545 10px,
-			#222 10px, #222 100%) no-repeat !important;
+		background: linear-gradient(to right, #db4545 0,
+			#db4545 10px, #222 10px, #222 100%) no-repeat !important;
 	}
 	.build-commit:after {
 		background: linear-gradient(-90deg, #222 20%,
