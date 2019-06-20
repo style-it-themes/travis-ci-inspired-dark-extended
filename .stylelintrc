@@ -20,6 +20,7 @@ rules:
   declaration-colon-space-before: never
   font-family-name-quotes: always-where-recommended
   font-family-no-duplicate-names: true
+  function-linear-gradient-no-nonstandard-direction: null
   function-url-quotes: null
   indentation: null
   max-empty-lines: 0
