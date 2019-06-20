@@ -27,25 +27,21 @@ Have fun and save the corneas :smile:
 | Site Name                                      | Partial            | Full               |
 | ---------------------------------------------- | ------------------ | ------------------ |
 | [Travis CI.org](https://travis-ci.org)         |                    | :heavy_check_mark: |
-| [Travis CI.com](https://travis-ci.com)         | :heavy_check_mark: |                    |
+| [Travis CI.com](https://travis-ci.com)         |                    | :heavy_check_mark: |
 | [Blog](https://blog.travis-ci.com/)            |                    | :heavy_check_mark: |
 | [About](https://about.travis-ci.com)           |                    | :heavy_check_mark: |
 | [Docs](https://docs.travis-ci.com/)            |                    | :heavy_check_mark: |
-| [Status](https://www.traviscistatus.com/)      | :heavy_check_mark: |                    |
+| [Status](https://www.traviscistatus.com/)      |                    | :heavy_check_mark: |
 | [Enterprise](https://enterprise.travis-ci.com) | :heavy_check_mark: |                    |
 
 :asterisk: Further full coverage is not planned at this time, PR's are welcome though.
 
 ## Installing
 
-#### If you're using a browser extension:
-* Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+* Stylus - install the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
 
-<!--
-#### Then install this style using:
-:right_arrow: [userstyles.org](https://userstyles.org/styles/160316)
--->
-#### Then install this style:
+#### Then install this style using:  
+
 :arrow_right: [![INSTALL DIRECTLY WITH - STYLUS Stylus](https://img.shields.io/badge/Install_directly_with-Stylus-21d1d0.svg?longCache=true&style=for-the-badge)](https://cdn.rawgit.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css)
   > Only available using Stylus (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
 
@@ -66,42 +62,42 @@ You will need to ideally:
 
 * [Fork](https://github.com/style-it-themes/travis-ci-inspired-dark-extended/fork) the project.
 
-* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **1 TAB INDENTATION** (not more, and not less than 1 tab).
+* Limit to the [K&R (KNF variation style)](https://en.wikipedia.org/wiki/Indentation_style#Variant:_BSD_KNF), and **2 SPACE INDENTATION** (no tabs, and no less than 2 spaces).
 
-  * K&R - KNF Variation Example:
-	```css
-	element[attr='value'] {
-	-property: value;
-	}
-	```
+* K&R - KNF Variation Example:
+  ```css
+  element[attr='value'] {
+  ··property: value;
+  }
+  ```
 
-  * **Not Allman**
-	```css
-	element[property='value']
-	{
-	-property: value;
-	}
-	```
+* **Not Allman**
+  ```css
+  element[property='value']
+  {
+  ··property: value;
+  }
+  ```
 
-  * Strict space between the `selector` and the `{`:
-	```css
-	/* good */
-	element[attr='value'] { }
+* Strict space between the `selector` and the `{`:
+  ```css
+  /* good */
+  element[attr='value'] { }
 
-	/* bad */
-	element[attr='value']{ }
-	```
+  /* bad */
+  element[attr='value']{ }
+  ```
 
-  * 1 tab indentation
-	```css
-	/* good */
-	-property: value;
+* 2 Space indentation
+  ```css
+  /* good */
+  ··property: value;
 
-	/* bad */
-	····property: value;
-	----property: value;
-	·property: value;
-	```
+  /* bad */
+  ····property: value;
+  ----property: value;
+  ·property: value;
+  ```
 
 :asterisk: Try to wrap lines at around 80 characters.
 
