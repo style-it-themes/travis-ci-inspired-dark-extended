@@ -4723,7 +4723,8 @@
     color: #888 !important;
   }
   #github-apps-invitation {
-    box-shadow: 0 0 15px 3px #555 !important;
+    box-shadow: 0 0 15px 1px #333 !important;
+    border: 1px solid #444 !important;
   }
   .account-token .token-field {
     background-color: #111 !important;
@@ -4733,6 +4734,14 @@
   }
   .user-settings > section:last-child {
     border-bottom: 0 !important;
+  }
+  .visibility-setting-list {
+    color: #9d9d9d;
+    background-color: #252525;
+  }
+  .insights-settings .visibility-setting-list-item__description {
+    background-color: #252525 !important;
+    color: #9d9d9d !important;
   }
   .dropup-list {
     background-color: #222 !important;
