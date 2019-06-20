@@ -1,0 +1,34 @@
+{
+  "name": "travis-ci-inspired-dark-extended",
+  "title": "Travis CI Inspired Dark",
+  "description": "An Inspired dark theme for Travis CI and related websites.",
+  "version": "1.1.4",
+  "repository": "style-it-themes/travis-ci-inspired-dark-extended",
+  "homepage": "https://github.com/style-it-themes/travis-ci-inspired-dark-extended",
+  "main": "travis-ci-inspired-dark-extended.user.css",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-silverwind": "^3.0.3",
+    "perfectionist": "^2.4.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "updates": "^8.1.0",
+    "ver": "^5.0.1"
+  },
+  "scripts": {
+    "clean": "npm run perfectionist && node tools/fix-perfectionist.js && npm run lint",
+    "eslint": "eslint --quiet --color tools/*.js",
+    "lint": "npm run eslint && npm run stylelint",
+    "patch": "npx ver -p patch *.user.css",
+    "minor": "npx ver -p minor *.user.css",
+    "major": "npx ver -p major *.user.css",
+    "perfectionist": "npx perfectionist travis-ci-inspired-dark-extended.user.css travis-ci-inspired-dark-extended.user.css --indentSize 2 --maxAtRuleLength 250",
+    "stylelint": "npx stylelint --quiet --color --fix -- travis-ci-inspired-dark-extended.user.css",
+    "test": "npm run eslint && npm run stylelint",
+    "update": "npx updates -cu && npm install"
+  }
+}
