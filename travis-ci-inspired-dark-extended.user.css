@@ -10,8 +10,8 @@
 ==/UserStyle== */
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
   /*! Type    : Main Travis CI org/com*/
-  .row .row.collapse:after, .row .row.collapse:before, .row .row:after,
-  .row .row:before, .row:after, .row:before {
+  .row .row.collapse::after, .row .row.collapse::before, .row .row::after,
+  .row .row::before, .row::after, .row::before {
     content: " " !important;
     display: table !important;
   }
@@ -90,7 +90,7 @@
     .navigation-nested a.active:hover {
       background-color: #444 !important;
     }
-    .fade-out:after {
+    .fade-out::after {
       background: linear-gradient(-90deg, #222 30%, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
@@ -585,7 +585,7 @@
   .icon-help:active, .icon-help:hover {
     border-color: #3eaaaf !important;
   }
-  .icon--plus:after {
+  .icon--plus::after {
     content: "+" !important;
     color: #666 !important;
   }
@@ -897,7 +897,7 @@
     .dropup-list li {
       display: block !important;
     }
-    .dropup-list li:last-of-type:after {
+    .dropup-list li:last-of-type::after {
       border: 1px solid #3eaaaf !important;
       background: #222 !important;
     }
@@ -908,22 +908,22 @@
   .travistab-nav--secondary a, .travistab-nav.travistab-nav--underline {
     border-bottom: 2px solid #444 !important;
   }
-  .travistab-nav li.active a:after, .travistab-nav--secondary li.active a:after {
+  .travistab-nav li.active a::after, .travistab-nav--secondary li.active a::after {
     background-color: #3eaaaf !important;
   }
-  .travistab-nav a.active:after, .travistab-nav a:active:after,
-  .travistab-nav a:hover:after, .travistab-nav--secondary a.active:after,
-  .travistab-nav--secondary a:active:after,
-  .travistab-nav--secondary a:hover:after {
+  .travistab-nav a.active::after, .travistab-nav a:active::after,
+  .travistab-nav a:hover::after, .travistab-nav--secondary a.active::after,
+  .travistab-nav--secondary a:active::after,
+  .travistab-nav--secondary a:hover::after {
     background-color: #3eaaaf !important;
   }
-  .travistab-nav a.active:after, .travistab-nav a:active:after,
-  .travistab-nav a:hover:after {
+  .travistab-nav a.active::after, .travistab-nav a:active::after,
+  .travistab-nav a:hover::after {
     background-color: #3eaaaf !important;
   }
-  .travistab-nav--secondary a.active:after,
-  .travistab-nav--secondary a:active:after,
-  .travistab-nav--secondary a:hover:after {
+  .travistab-nav--secondary a.active::after,
+  .travistab-nav--secondary a:active::after,
+  .travistab-nav--secondary a:hover::after {
     background-color: #3eaaaf !important;
   }
   .flash .success {
@@ -1352,10 +1352,10 @@
     fill: none !important;
     stroke: #cdb62c !important;
   }
-  .build-commit:after {
+  .build-commit::after {
     background: linear-gradient(-90deg, #222 20%, rgba(255, 255, 255, 0) 100%) !important;
   }
-  .fade-commit-message:after {
+  .fade-commit-message::after {
     background: linear-gradient(360deg, #222 5%, rgba(255, 255, 255, 0) 100%);
   }
   .yml-messages {
@@ -1416,7 +1416,7 @@
     background-color: #f1f1f1 !important;
     border-radius: 2 !important;
   }
-  .avatar .pseudo-avatar:after, .avatar--small .pseudo-avatar:after {
+  .avatar .pseudo-avatar::after, .avatar--small .pseudo-avatar::after {
     color: #9d9d9d !important;
   }
   .ember-modal-dialog {
@@ -2672,14 +2672,14 @@
     margin-bottom: 0 !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .tile h2:after {
+    .tile h2::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
   .sidebar-list ul {
     background-color: #333 !important;
   }
-  #tab_new a:hover .icon--plus:after {
+  #tab_new a:hover .icon--plus::after {
     color: #3eaaaf !important;
   }
   .sidebar-list ul {
@@ -2720,25 +2720,25 @@
   .profile-repo.admin:hover {
     color: #ccc !important;
   }
-  .profile-repo.admin:hover:after {
+  .profile-repo.admin:hover::after {
     background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
   }
   .active .profile-repo.admin:hover {
     color: #a0d7dc !important;
   }
-  .active .profile-repo.admin:hover:after {
+  .active .profile-repo.admin:hover::after {
     background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
   }
   .profile-repo.non-admin:hover {
     color: #ddd !important;
   }
-  .profile-repo.non-admin:hover:after {
+  .profile-repo.non-admin:hover::after {
     background: linear-gradient(-90deg, #444 0, rgba(241, 241, 241, 0) 100%) !important;
   }
   .active .profile-repo.non-admin:hover {
     color: #b6d6d9 !important;
   }
-  .active .profile-repo.non-admin:hover:after {
+  .active .profile-repo.non-admin:hover::after {
     background: linear-gradient(-90deg, #444 0, rgba(182, 214, 217, 0) 100%) !important;
   }
   .profile-additional a, .profile-text a {
@@ -2760,7 +2760,7 @@
   .repositories-error p a {
     color: #db4545 !important;
   }
-  .repositories-error p:after {
+  .repositories-error p::after {
     background: #900 !important;
   }
   .profile-repositories-filter .search {
@@ -2843,10 +2843,10 @@
   .topbar, .topbar a {
     color: #c0c0c0 !important;
   }
-  .top .cta p:after {
+  .top .cta p::after {
     background: rgba(157, 157, 157, .1) !important;
   }
-  .top .cta p:before {
+  .top .cta p::before {
     background: #333 !important;
     border-top: 1px solid #444 !important;
     border-left: 1px solid #444 !important;
@@ -2871,18 +2871,18 @@
   .owner-header img {
     background-color: #f1f1f1 !important;
   }
-  .owner-info:after {
+  .owner-info::after {
     background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .branch-row .row-last-build:before {
+    .branch-row .row-last-build::before {
       background-color: #282828 !important;
     }
   }
   .broadcasts {
     background-color: #333 !important;
   }
-  .broadcasts:after {
+  .broadcasts::after {
     background: #333 !important;
     border-top: solid 2px #444 !important;
     border-left: solid 2px #444 !important;
@@ -3131,8 +3131,8 @@
     border-left: 3px solid #39aa56 !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.passed:hover .job-env:after,
-    .jobs-item.passed:hover .job-lang:after {
+    .jobs-item.passed:hover .job-env::after,
+    .jobs-item.passed:hover .job-lang::after {
       background: linear-gradient(-90deg, #164322 0, rgba(222, 236, 220, 0) 100%) !important;
     }
     .jobs-item.passed:hover .job-env:hover,
@@ -3153,8 +3153,8 @@
     border-left: 3px solid #db4545 !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.failed:hover .job-env:after,
-    .jobs-item.failed:hover .job-lang:after {
+    .jobs-item.failed:hover .job-env::after,
+    .jobs-item.failed:hover .job-lang::after {
       background: linear-gradient(-90deg, #431414 0, rgba(252, 232, 226, 0) 100%) !important;
     }
     .jobs-item.failed:hover .job-env:hover,
@@ -3211,8 +3211,8 @@
     border-left: 3px solid #db4545 !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.errored:hover .job-env:after,
-    .jobs-item.errored:hover .job-lang:after {
+    .jobs-item.errored:hover .job-env::after,
+    .jobs-item.errored:hover .job-lang::after {
       background: linear-gradient(-90deg, #431414 0, rgba(252, 232, 226, 0) 100%) !important;
     }
     .jobs-item.errored:hover .job-env:hover,
@@ -3391,8 +3391,8 @@
     border-left: 3px solid #9d9d9d !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.canceled:hover .job-env:after,
-    .jobs-item.canceled:hover .job-lang:after {
+    .jobs-item.canceled:hover .job-env::after,
+    .jobs-item.canceled:hover .job-lang::after {
       background: linear-gradient(-90deg, #454545 0, rgba(241, 241, 241, 0) 100%) !important;
     }
     .jobs-item.canceled:hover .job-env:hover,
@@ -3413,8 +3413,8 @@
     border-left: 3px solid #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.created:hover .job-env:after,
-    .jobs-item.created:hover .job-lang:after {
+    .jobs-item.created:hover .job-env::after,
+    .jobs-item.created:hover .job-lang::after {
       background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
     }
     .jobs-item.created:hover .job-env:hover,
@@ -3435,8 +3435,8 @@
     border-left: 3px solid #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.started:hover .job-env:after,
-    .jobs-item.started:hover .job-lang:after {
+    .jobs-item.started:hover .job-env::after,
+    .jobs-item.started:hover .job-lang::after {
       background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
     }
     .jobs-item.started:hover .job-env:hover,
@@ -3477,8 +3477,8 @@
     border-left: 3px solid #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.booting:hover .job-env:after,
-    .jobs-item.booting:hover .job-lang:after {
+    .jobs-item.booting:hover .job-env::after,
+    .jobs-item.booting:hover .job-lang::after {
       background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
     }
     .jobs-item.booting:hover .job-env:hover,
@@ -3499,8 +3499,8 @@
     border-left: 3px solid #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.queued:hover .job-env:after,
-    .jobs-item.queued:hover .job-lang:after {
+    .jobs-item.queued:hover .job-env::after,
+    .jobs-item.queued:hover .job-lang::after {
       background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
     }
     .jobs-item.queued:hover .job-env:hover,
@@ -3521,8 +3521,8 @@
     border-left: 3px solid #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .jobs-item.received:hover .job-env:after,
-    .jobs-item.received:hover .job-lang:after {
+    .jobs-item.received:hover .job-env::after,
+    .jobs-item.received:hover .job-lang::after {
       background: linear-gradient(-90deg, #564f26 0, rgba(250, 246, 219, 0) 100%) !important;
     }
     .jobs-item.received:hover .job-env:hover,
@@ -3595,24 +3595,24 @@
     .job-number {
       border-right: 1px solid #444 !important;
     }
-    .job-lang:after {
+    .job-lang::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
-    .job-env:after {
+    .job-env::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
   @media only screen and (min-width: 50.063em) {
-    .pr-row .row-branch:after {
+    .pr-row .row-branch::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
-    .pr-row .row-branch:hover:after {
+    .pr-row .row-branch:hover::after {
       content: none !important;
     }
     .pr-row .row-branch:hover a {
       background-color: #222 !important;
     }
-    .pr-row .row-message:after {
+    .pr-row .row-message::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
     .pr-row .two-line:first-of-type {
@@ -3636,7 +3636,7 @@
   .log .log-tail .tail-status {
     background-color: #9d9d9d !important;
   }
-  .log .log-tail .tail-status:after {
+  .log .log-tail .tail-status::after {
     background: #f1f1f1 !important;
   }
   .log .log-tail.active .tail-status {
@@ -3843,7 +3843,7 @@
     .request-item.approved:hover .status-icon.api svg {
       background-color: #deecdc !important;
     }
-    .request-item.approved:hover .fade-out:after {
+    .request-item.approved:hover .fade-out::after {
       background: linear-gradient(-90deg, #164322 30%, rgba(222, 236, 220, 0) 100%) !important;
     }
   }
@@ -3910,7 +3910,7 @@
     .request-item.rejected:hover .status-icon.api svg {
       background-color: #fce8e2 !important;
     }
-    .request-item.rejected:hover .fade-out:after {
+    .request-item.rejected:hover .fade-out::after {
       background: linear-gradient(-90deg, #431414 30%, rgba(252, 232, 226, 0) 100%) !important;
     }
   }
@@ -3968,7 +3968,7 @@
     .request-item.pending:hover .status-icon.api svg {
       background-color: #faf6db !important;
     }
-    .request-item.pending:hover .fade-out:after {
+    .request-item.pending:hover .fade-out::after {
       background: linear-gradient(-90deg, #564f26 30%, rgba(250, 246, 219, 0) 100%) !important;
     }
   }
@@ -4123,8 +4123,8 @@
   .env-var-name, .ssh-key-name {
     color: #c0c0c0 !important;
   }
-  .env-var-name:after, .ssh-key-name:after, .closeEnv:after,
-  .detail-job-env:after {
+  .env-var-name::after, .ssh-key-name::after, .closeEnv::after,
+  .detail-job-env::after {
     background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
   }
   .env-var-value, .ssh-key-value {
@@ -4162,7 +4162,7 @@
   .newly-created {
     animation: haze-fade 2s 3s both;
   }
-  .newly-created .env-var-name:after {
+  .newly-created .env-var-name::after {
     display: none !important;
   }
   .newly-created .env-var-value {
@@ -4185,7 +4185,7 @@
     }
   }
   @media only screen and (min-width: 50.063em) {
-    .cron-job-text:after {
+    .cron-job-text::after {
       background: linear-gradient(-90deg, #333 0, rgba(241, 241, 241, 0) 100%) !important;
     }
     .cron-job-delete {
@@ -4391,7 +4391,7 @@
   .landing .landing-features-list #f-co-4 {
     background-image: url("https://cdn.travis-ci.org/images/landing-page/features-callouts-4-ca55d75384676da0a0edfe5f167c884b.svg") !important;
   }
-  .landing .landing-features-list li:before {
+  .landing .landing-features-list li::before {
     content: "" !important;
     background-image: url("https://cdn.travis-ci.org/images/landing-page/features-check-76131a9aab1311faa978039d45f943be.svg") !important;
   }
@@ -4487,7 +4487,7 @@
   .h3--yellow {
     color: #cdb62c !important;
   }
-  [class*="values-"] li:before {
+  [class*="values-"] li::before {
     filter: brightness(200%) !important;
   }
   .landing-pro .section--feature .list--check li a, .text-big a {
@@ -4541,7 +4541,7 @@
     text-decoration: none !important;
     border-color: transparent !important;
   }
-  .getting-started-steps h2:before {
+  .getting-started-steps h2::before {
     background-color: #35a764 !important;
     color: #fff !important;
   }
@@ -4678,7 +4678,7 @@
     background: hsla(24, 20%, 50%, .08) !important;
     background: linear-gradient(to right, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0)) !important;
   }
-  .line-highlight:before, .line-highlight[data-end]:after {
+  .line-highlight::before, .line-highlight[data-end]::after {
     background-color: hsla(24, 20%, 50%, .4) !important;
     color: #f4f1ef !important;
     box-shadow: 0 1px #fff !important;
@@ -4709,7 +4709,7 @@
     border: 1px solid transparent !important;
     border-radius: 4px !important;
   }
-  .ember-power-select-dropdown:after {
+  .ember-power-select-dropdown::after {
     border-radius: 0 0 4px 4px !important;
     box-shadow: inset 0 -2px 1px -1px rgba(62, 170, 175, .7),
      inset 2px 0 1px -1px rgba(62, 170, 175, .7),
@@ -4759,7 +4759,7 @@
   .navigation-nested .username :hover {
     background: transparent !important;
   }
-  .username span:after {
+  .username span::after {
     border-color: #999 !important;
     background: transparent !important;
   }
@@ -4867,12 +4867,12 @@
   .dropup-list a, .dropup-list button {
     background-color: #222 !important;
   }
-  .dropup.is-open:after {
+  .dropup.is-open::after {
     border-color: #0010ff !important;
     outline: 2px solid #ff2 !important;
   }
-  .my-build .message-and-branch .row-content:after,
-  .my-build .repo .row-content:after {
+  .my-build .message-and-branch .row-content::after,
+  .my-build .repo .row-content::after {
     background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
   }
   .job-matrix-name-separator {
@@ -4950,13 +4950,13 @@
   .travistab-nav--secondary a, .travistab-nav.travistab-nav--underline {
     border-bottom: 2px solid #444 !important;
   }
-  .travistab-nav a.active:after, .travistab-nav a:active:after,
-  .travistab-nav a:hover:after {
+  .travistab-nav a.active::after, .travistab-nav a:active::after,
+  .travistab-nav a:hover::after {
     background-color: #3eaaaf !important;
   }
-  .travistab-nav--secondary a.active:after,
-  .travistab-nav--secondary a:active:after,
-  .travistab-nav--secondary a:hover:after {
+  .travistab-nav--secondary a.active::after,
+  .travistab-nav--secondary a:active::after,
+  .travistab-nav--secondary a:hover::after {
     background-color: #3eaaaf !important;
   }
   @media only screen and (min-width: 50.063em) {
@@ -4971,10 +4971,10 @@
     position: relative !important;
     margin: auto !important;
   }
-  .top .cta p:after {
+  .top .cta p::after {
     background: rgba(157, 157, 157, .1) !important;
   }
-  .top .cta p:before {
+  .top .cta p::before {
     background: #333 !important;
     border-top: 1px solid #444 !important;
     border-left: 1px solid #444 !important;
@@ -5005,7 +5005,7 @@
     filter: brightness(110%) !important;
     color: #000 !important;
   }
-  .owner-info:after {
+  .owner-info::after {
     background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
   }
   button {
@@ -5029,7 +5029,7 @@
     filter: brightness(90%);
   }
   @media only screen and (min-width: 50.063em) {
-    .branch-row .row-last-build:before {
+    .branch-row .row-last-build::before {
       background-color: #282828 !important;
     }
   }
@@ -5037,24 +5037,24 @@
     .job-number {
       border-right: 1px solid #444 !important;
     }
-    .job-lang:after {
+    .job-lang::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
-    .job-env:after {
+    .job-env::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
   @media only screen and (min-width: 50.063em) {
-    .pr-row .row-branch:after {
+    .pr-row .row-branch::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
-    .pr-row .row-branch:hover:after {
+    .pr-row .row-branch:hover::after {
       content: none !important;
     }
     .pr-row .row-branch:hover a {
       background-color: #222 !important;
     }
-    .pr-row .row-message:after {
+    .pr-row .row-message::after {
       background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
     }
     .pr-row .two-line:first-of-type {
@@ -5071,7 +5071,7 @@
     .navigation-nested a.active:hover {
       background-color: #444 !important;
     }
-    .fade-out:after {
+    .fade-out::after {
       background: linear-gradient(-90deg, #222 30%, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
@@ -5175,11 +5175,11 @@
   .build-header.errored, .build-header.failed {
     background: linear-gradient(to right, #db4545 0, #db4545 10px, #222 10px, #222 100%) no-repeat !important;
   }
-  .build-commit:after {
+  .build-commit::after {
     background: linear-gradient(-90deg, #222 20%, rgba(255, 255, 255, 0) 100%) !important;
   }
   @media only screen and (min-width: 50.063em) {
-    .commit-description:after {
+    .commit-description::after {
       background: linear-gradient(360deg, #222 5%, rgba(255, 255, 255, 0) 100%) !important;
     }
   }
@@ -5950,7 +5950,7 @@
     text-decoration: none !important;
     border-color: transparent !important;
   }
-  .toc li:before {
+  .toc li::before {
     background-color: #3eaaaf !important;
   }
   .toc a {
@@ -5969,7 +5969,7 @@
   .alpha p {
     color: #db4545 !important;
   }
-  .alpha p:before {
+  .alpha p::before {
     content: "" !important;
     display: inline-block !important;
     width: 1.7em !important;
@@ -5992,7 +5992,7 @@
   .beta p, .beta a {
     color: #ddd !important;
   }
-  .beta p:before {
+  .beta p::before {
     background-image: url("https://docs.travis-ci.com/images/ui/icon-flag.svg") !important;
     background-color: #cdb62c !important;
   }
@@ -6000,14 +6000,14 @@
     border: solid 1px #9d9d9d !important;
     color: #9d9d9d !important;
   }
-  .button-pen:before {
+  .button-pen::before {
     background-image: url("data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiAgICAgIHk9IjBweCIgdmlld0JveD0iMCAwIDE0Ljg3NCAxNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQuODc0IDE1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+ICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MHtmaWxsOiM2NjY3NjY7fS5zdDF7ZmlsbDpub25lO3N0cm9rZTojNjY2NzY2O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9ICAgIDwvc3R5bGU+ICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zLjIyNiwxLjQxNGw4LjY4NCw4LjY4NGMwLjI3NSwwLjI3NSwwLjY0NSwwLjg4NSwwLjc2MiwxLjI1NWwwLjY0NSwyLjA0MWwtMS45NDQtMC42ODIgICAgICAgICBjLTAuMzc1LTAuMTMxLTAuOTk0LTAuNTIxLTEuMjc1LTAuODAyTDEuNDE0LDMuMjI2bDEuODA5LTEuODFjMCwwLDAuMDAxLDAsMC4wMDMsMEwzLjIyNiwxLjQxNCBNMy4yMjYsMC40MTUgICAgICAgICBjLTAuMjU2LDAtMC41MTMsMC4wOTctMC43MDcsMC4yOTJMMC43MDcsMi41MTljLTAuMzg5LDAuMzg5LTAuMzg5LDEuMDI1LDAsMS40MTRsOC42ODQsOC42ODRjMC4zODksMC4zODksMS4xMzIsMC44NTYsMS42NTEsMS4wMzggICAgICAgICBsMi44ODksMS4wMTRjMC4xMDcsMC4wMzgsMC4yMDUsMC4wNTYsMC4yOTEsMC4wNTZjMC4zMjgsMCwwLjQ4My0wLjI2MiwwLjM1MS0wLjY3OGwtMC45NDctMi45OTUgICAgICAgICBjLTAuMTY2LTAuNTI0LTAuNjItMS4yNzItMS4wMDktMS42NjFMMy45MzMsMC43MDdDMy43MzgsMC41MTMsMy40ODIsMC40MTUsMy4yMjYsMC40MTVMMy4yMjYsMC40MTV6Ii8+ICAgIDxsaW5lIGNsYXNzPSJzdDEiIHgxPSIxMy4wMDciIHkxPSIxMy43MTciIHgyPSIxMy42NzciIHkyPSIxMy4wNTgiLz4gICAgPGxpbmUgY2xhc3M9InN0MSIgeDE9IjIuMDkiIHkxPSI0LjUwMiIgeDI9IjQuNDk2IiB5Mj0iMi4wOTYiLz4gICAgPGxpbmUgY2xhc3M9InN0MSIgeDE9IjEwLjE5NiIgeTE9IjEyLjQ0OCIgeDI9IjEyLjE5NiIgeTI9IjEwLjQ0OCIvPjwvc3ZnPg==") !important;
   }
   .button-pen:active, .button-pen:hover, .button-pen:focus {
     border-color: #3eaaaf !important;
     color: #3eaaaf !important;
   }
-  .button-pen:active:before, .button-pen:hover:before, .button-pen:focus:before {
+  .button-pen:active::before, .button-pen:hover::before, .button-pen:focus::before {
     background-image: url("data:image/svg+xml;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiAgICAgIHk9IjBweCIgdmlld0JveD0iMCAwIDE0Ljg3NCAxNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTQuODc0IDE1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+ICAgIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+LnN0MHtmaWxsOiMzZWFhYWY7fS5zdDF7ZmlsbDpub25lO3N0cm9rZTojM2VhYWFmO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9ICAgIDwvc3R5bGU+ICAgIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zLjIyNiwxLjQxNGw4LjY4NCw4LjY4NGMwLjI3NSwwLjI3NSwwLjY0NSwwLjg4NSwwLjc2MiwxLjI1NWwwLjY0NSwyLjA0MWwtMS45NDQtMC42ODIgICAgICAgICBjLTAuMzc1LTAuMTMxLTAuOTk0LTAuNTIxLTEuMjc1LTAuODAyTDEuNDE0LDMuMjI2bDEuODA5LTEuODFjMCwwLDAuMDAxLDAsMC4wMDMsMEwzLjIyNiwxLjQxNCBNMy4yMjYsMC40MTUgICAgICAgICBjLTAuMjU2LDAtMC41MTMsMC4wOTctMC43MDcsMC4yOTJMMC43MDcsMi41MTljLTAuMzg5LDAuMzg5LTAuMzg5LDEuMDI1LDAsMS40MTRsOC42ODQsOC42ODRjMC4zODksMC4zODksMS4xMzIsMC44NTYsMS42NTEsMS4wMzggICAgICAgICBsMi44ODksMS4wMTRjMC4xMDcsMC4wMzgsMC4yMDUsMC4wNTYsMC4yOTEsMC4wNTZjMC4zMjgsMCwwLjQ4My0wLjI2MiwwLjM1MS0wLjY3OGwtMC45NDctMi45OTUgICAgICAgICBjLTAuMTY2LTAuNTI0LTAuNjItMS4yNzItMS4wMDktMS42NjFMMy45MzMsMC43MDdDMy43MzgsMC41MTMsMy40ODIsMC40MTUsMy4yMjYsMC40MTVMMy4yMjYsMC40MTV6Ii8+ICAgIDxsaW5lIGNsYXNzPSJzdDEiIHgxPSIxMy4wMDciIHkxPSIxMy43MTciIHgyPSIxMy42NzciIHkyPSIxMy4wNTgiLz4gICAgPGxpbmUgY2xhc3M9InN0MSIgeDE9IjIuMDkiIHkxPSI0LjUwMiIgeDI9IjQuNDk2IiB5Mj0iMi4wOTYiLz4gICAgPGxpbmUgY2xhc3M9InN0MSIgeDE9IjEwLjE5NiIgeTE9IjEyLjQ0OCIgeDI9IjEyLjE5NiIgeTI9IjEwLjQ0OCIvPjwvc3ZnPg==") !important;
   }
   .logo a {
@@ -6067,7 +6067,7 @@
     position: relative !important;
     padding-top: 1.9em !important;
   }
-  [data-file]:before {
+  [data-file]::before {
     content: attr(data-file) !important;
     position: absolute !important;
     top: 1.1em !important;
@@ -6151,7 +6151,7 @@
   .sidebar-notice {
     border-top: 2px solid #333 !important;
   }
-  .sidebar-navigation.has-js h3:after {
+  .sidebar-navigation.has-js h3::after {
     background-image: url("https://docs.travis-ci.com/images/ui/icon-arrowtabs.svg") !important;
   }
   .sidebar-navigation.has-js a {
@@ -6197,7 +6197,7 @@
     color: #888;
     background: #282828 !important;
   }
-  body .gist .blob-num:before {
+  body .gist .blob-num::before {
     padding-left: 5px;
   }
   body .gist .blob-num:hover {
@@ -6369,10 +6369,10 @@
     border-color: #888 !important;
     color: #eee !important;
   }
-  .layout-content.status.status-full-history .history-header .left-arrow:before,
-  .layout-content.status.status-full-history .uptime-header .left-arrow:before,
-  .layout-content.status.status-full-history .history-header .right-arrow:before,
-  .layout-content.status.status-full-history .uptime-header .right-arrow:before {
+  .layout-content.status.status-full-history .history-header .left-arrow::before,
+  .layout-content.status.status-full-history .uptime-header .left-arrow::before,
+  .layout-content.status.status-full-history .history-header .right-arrow::before,
+  .layout-content.status.status-full-history .uptime-header .right-arrow::before {
     color: #666 !important;
   }
   .history-nav.border-color {
@@ -6385,7 +6385,7 @@
     border-top: 3px solid #444 !important;
     color: #afafaf !important;
   }
-  .button.border-color:before {
+  .button.border-color::before {
     color: #eee !important;
   }
   .button.current.border-color {
@@ -6603,10 +6603,10 @@
   .help-inline {
     color: #aaa;
   }
-  .checkmark-inline:before {
+  .checkmark-inline::before {
     color: #2ecc71;
   }
-  .alert-inline:before {
+  .alert-inline::before {
     color: #f1c40f;
   }
   .controls.prepend label, .controls.append label {
@@ -6816,13 +6816,13 @@
     border: 1px solid rgba(0, 0, 0, .2);
     background: #fff;
   }
-  .datepicker:before {
+  .datepicker::before {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 7px solid #ccc;
     border-bottom-color: rgba(0, 0, 0, .2);
   }
-  .datepicker:after {
+  .datepicker::after {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: 6px solid #fff;
@@ -7128,7 +7128,7 @@
   .loader-overlay {
     background-color: rgba(255, 255, 255, .8);
   }
-  .sk-fading-circle .sk-circle:before {
+  .sk-fading-circle .sk-circle::before {
     background-color: #333;
   }
   .modal {
@@ -7256,28 +7256,28 @@
   .popover.top .arrow {
     border-top-color: #999;
   }
-  .popover.top .arrow:after {
+  .popover.top .arrow::after {
     border-top-color: #fff;
   }
   .popover.right .arrow {
     border-right-color: #999;
   }
-  .popover.right .arrow:after {
+  .popover.right .arrow::after {
     border-right-color: #fff;
   }
   .popover.bottom .arrow {
     border-bottom-color: #999;
   }
-  .popover.bottom .arrow:after {
+  .popover.bottom .arrow::after {
     border-bottom-color: #fff;
   }
   .popover.left .arrow {
     border-left-color: #999;
   }
-  .popover.left .arrow:after {
+  .popover.left .arrow::after {
     border-left-color: #fff;
   }
-  .popover .arrow, .popover .arrow:after {
+  .popover .arrow, .popover .arrow::after {
     border-color: transparent;
   }
   .popover .popover-title {
@@ -7393,10 +7393,10 @@
   .cpt-tabs:not(.unstyled).mobile {
     border: 1px solid #e0e0e0;
   }
-  .cpt-tabs:not(.unstyled).mobile:after {
+  .cpt-tabs:not(.unstyled).mobile::after {
     color: #ccc;
   }
-  .cpt-tabs:not(.unstyled).mobile.open:before {
+  .cpt-tabs:not(.unstyled).mobile.open::before {
     color: #afafaf;
   }
   .cpt-tabs:not(.unstyled).mobile.open li:last-of-type {
@@ -7757,22 +7757,22 @@
   .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .metrics-display-graph.uptime .uptime-display .units-row .unit-container.red {
     background-color: #e74c3c;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-0:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-0::before {
     background-color: #3498db;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-1:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-1::before {
     background-color: #3545db;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-2:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.item-2::before {
     background-color: #35dbcb;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.green:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.green::before {
     background-color: #2ecc71;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.yellow:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.yellow::before {
     background-color: #f1c40f;
   }
-  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.red:before {
+  .layout-content.status.status-index .custom-metrics-container .metrics-container .metric .graph-key .key-item.red::before {
     background-color: #e74c3c;
   }
   .layout-content.status.status-full-history .show-filter.open {
@@ -7823,7 +7823,7 @@
   .layout-content.status.status-incident .components-affected {
     border-color: #444 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-index .components-statuses .component-container.status-yellow::after,
   .layout-content.status-full-history .month .incident-container .impact-minor,
   .layout-content.status-incident .incident-name.impact-minor,
   .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -7833,7 +7833,7 @@
   .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
     color: #efcc00 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-index .components-statuses .component-container.status-yellow::after,
   .layout-content.status-full-history .month .incident-container .impact-minor,
   .layout-content.status-incident .incident-name.impact-minor,
   .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
@@ -7843,7 +7843,7 @@
   .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
     color: #efcc00 !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-index .components-statuses .component-container.status-orange::after,
   .layout-content.status-full-history .month .incident-container .impact-major,
   .layout-content.status-incident .incident-name.impact-major,
   .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -7852,7 +7852,7 @@
   .components-container .component-inner-container.status-orange .icon-indicator {
     color: #ff8c3e !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-index .components-statuses .component-container.status-orange::after,
   .layout-content.status-full-history .month .incident-container .impact-major,
   .layout-content.status-incident .incident-name.impact-major,
   .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
@@ -7861,7 +7861,7 @@
   .components-container .component-inner-container.status-orange .icon-indicator {
     color: #ff8c3e !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-index .components-statuses .component-container.status-blue::after,
   .layout-content.status-full-history .month .incident-container .impact-maintenance,
   .layout-content.status-incident .incident-name.impact-maintenance,
   .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
@@ -7870,7 +7870,7 @@
   .components-container .component-inner-container.status-blue .icon-indicator {
     color: #0068ff !important;
   }
-  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-index .components-statuses .component-container.status-blue::after,
   .layout-content.status-full-history .month .incident-container .impact-maintenance,
   .layout-content.status-incident .incident-name.impact-maintenance,
   .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
@@ -8106,16 +8106,16 @@
   .new_contact_request .form-group input[type="text"].field_with_errors {
     border: 1px solid #db4545 !important;
   }
-  .new_contact_request .form-group label.field_with_errors:after {
+  .new_contact_request .form-group label.field_with_errors::after {
     color: #db4545 !important;
   }
-  .new_contact_request .form-group input[type=checkbox] + label.field_with_errors:before {
+  .new_contact_request .form-group input[type=checkbox] + label.field_with_errors::before {
     border: 1px solid #db4545 !important;
   }
   .new_contact_request .form-group input[type="text"] {
     border: 2px solid #444 !important;
   }
-  .new_contact_request [disabled="disabled"] + .travis-select:after {
+  .new_contact_request [disabled="disabled"] + .travis-select::after {
     background-color: #444 !important;
   }
   .new_contact_request .eula {
@@ -8126,10 +8126,10 @@
     filter: invert(100%) grayscale(3) !important;
     mix-blend-mode: exclusion !important;
   }
-  .new_contact_request .accept input[type=checkbox] + label:before {
+  .new_contact_request .accept input[type=checkbox] + label::before {
     border: 1px solid #555 !important;
   }
-  .new_contact_request .accept input[type=checkbox]:checked + label:before {
+  .new_contact_request .accept input[type=checkbox]:checked + label::before {
     background: #3eaaaf !important;
     color: #eee !important;
     content: "✓" !important;
