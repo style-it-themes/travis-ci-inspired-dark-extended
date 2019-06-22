@@ -4608,7 +4608,7 @@
   }
 }
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    : Shared code - Travis CI org/com - Builder*/
+  /*! Type    : Shared code - Travis CI org/com - Builder*/
   .codedisplay {
     white-space: pre-wrap !important;
     background-color: #111 !important;
@@ -4913,6 +4913,22 @@
   }
   .build-tiles > .canceled:hover {
     background-color: #9d9d9d !important;
+  }
+  @media only screen and (min-width: 50.063em) {
+    .my-build .dash-head.passed {
+      border-right: 3px solid #39aa56 !important;
+    }
+    .my-build .dash-head.errored, .my-build .dash-head.failed {
+      border-right: 3px solid #db4545 !important;
+    }
+    .my-build .dash-head.canceled {
+      border-right: 3px solid #9d9d9d !important;
+    }
+    .my-build .dash-head.booting, .my-build .dash-head.created,
+    .my-build .dash-head.queued, .my-build .dash-head.received,
+    .my-build .dash-head.started {
+      border-right: 3px solid #cdb62c !important;
+    }
   }
 }
 @-moz-document domain("travis-ci.com") {
@@ -5310,7 +5326,7 @@
   }
 }
 @-moz-document domain("blog.travis-ci.com"), domain("about.travis-ci.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    :  Blog/About Travis CI com */
+  /*! Type    :  Blog/About Travis CI com */
   .topbar {
     font-size: 18px;
     background-color: #181818 !important;
@@ -5682,7 +5698,7 @@
   }
 }
 @-moz-document domain("docs.travis-ci.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    : Travis CI com - documentation website */
+  /*! Type    : Travis CI com - documentation website */
   .index-intro, .index-main h2, .sidebar h2, .sidebar h3 {
     border-bottom: solid #333 2px !important;
   }
@@ -6142,7 +6158,7 @@
   }
 }
 @-moz-document domain("docs.travis-ci.com") {
-  /*! Remix   : https://github.com/StylishThemes/GitHub-Dark/blob/master/themes/codemirror/twilight.min.css *//*! Type    : CodeMirror Twilight Theme - documentation website */
+  /*! Type    : CodeMirror Twilight Theme - documentation website remix from GH */
   body .gist .gist-file {
     border: 1px solid #555;
   }
@@ -6281,7 +6297,7 @@
   }
 }
 @-moz-document domain("developer.travis-ci.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    : Developer Travis CI */
+  /*! Type    : Developer Travis CI */
   html {
     background: #191919 !important;
   }
@@ -6290,7 +6306,7 @@
   }
 }
 @-moz-document domain("traviscistatus.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    : Travis CI Status */
+  /*! Type    : Travis CI Status */
   .name, .span3, .message, .message:hover, .month-title, .month-name, .date,
   div .impact-none.incident-title.font-large {
     color: #999;
@@ -7846,7 +7862,7 @@
   }
 }
 @-moz-document domain("enterprise.travis-ci.com"), domain("enterprise-changelog.travis-ci.com"), domain("changelog.travis-ci.com") {
-  /*! Name    : Travis CI Inspired Dark Extended *//*! Author  : Style-it Themes: the-j0k3r *//*! Repo    : https://github.com/style-it-themes/travis-ci-inspired-dark-extended *//*! License : MIT https://github.com/style-it-themes/travis-ci-inspired-dark-extended/LICENCE *//*! Type    : Enterprise Travis CI com - Landing page + Changelog */
+  /*! Type    : Enterprise Travis CI com - Landing page + Changelog */
   body, header {
     background: #222 !important;
     color: #eee !important;
