@@ -1355,11 +1355,6 @@
   .build-commit:after {
     background: linear-gradient(-90deg, #222 20%, rgba(255, 255, 255, 0) 100%) !important;
   }
-  @media only screen and (min-width: 50.063em) {
-    .commit-description:after {
-      background: linear-gradient(360deg, #222 5%, rgba(255, 255, 255, 0) 100%) !important;
-    }
-  }
   .yml-messages {
     border-radius: 2px !important;
     border: 1px solid #444 !important;
@@ -1486,8 +1481,11 @@
   .loading-indicator i, .loading-indicator--white i {
     background-color: #ccc !important;
   }
-  .loading-overlay__backdrop, .overlay-backdrop {
+  .loading-overlay__backdrop {
     background: rgba(68, 68, 68, .6) !important;
+  }
+  .overlay-backdrop {
+    background: rgba(34, 34, 34, .8) !important;
   }
   .loading-indicator--white i, .white .loading-indicator i,
   .white .loading-indicator--white i {
@@ -3772,11 +3770,11 @@
     list-style: none !important;
   }
   .request-item {
-    position: relative !important;
-    margin-bottom: 5px !important;
-    padding-left: 1em !important;
-    font-size: 15px !important;
     border: 1px solid #444 !important;
+  }
+  /* fix upstream bug with status icon alignment in requests view */
+  .requests .request-item .status-icon {
+    margin-left: .3rem !important;
   }
   .request-item.approved.approved .color a {
     color: #39aa56 !important;
