@@ -2,7 +2,7 @@
   "name": "travis-ci-inspired-dark-extended",
   "title": "Travis CI Inspired Dark",
   "description": "An Inspired dark theme for Travis CI and related websites.",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "repository": "style-it-themes/travis-ci-inspired-dark-extended",
   "homepage": "https://github.com/style-it-themes/travis-ci-inspired-dark-extended",
   "main": "travis-ci-inspired-dark-extended.user.css",
