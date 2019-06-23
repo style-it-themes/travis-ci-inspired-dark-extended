@@ -30,16 +30,16 @@ Have fun and save the corneas 😊
 
 ## Sites Covered
 
-| Site Name                                      | :Partial: |  :Full:  |
-| ---------------------------------------------- | --------- | -------- |
-| [Travis CI.org](https://travis-ci.org)         |          |    ✔️    |
-| [Travis CI.com](https://travis-ci.com)         |          |    ✔️    |
-| [Blog](https://blog.travis-ci.com/)            |          |    ✔️    |
-| [About](https://about.travis-ci.com)           |          |    ✔️    |
-| [Docs](https://docs.travis-ci.com/)            |          |    ✔️    |
-| [Status](https://www.traviscistatus.com/)      |          |    ✔️    |
-| [Enterprise](https://enterprise.travis-ci.com) |    ✔️    |          |
-| [Support](https://support.travis-ci.com)       |          |    ✔️    |
+| Site Name                                      | Partial |  Full  |
+| ---------------------------------------------- | :-----: | :----: |
+| [Travis CI.org](https://travis-ci.org)         |         |   ✔️   |
+| [Travis CI.com](https://travis-ci.com)         |         |   ✔️   |
+| [Blog](https://blog.travis-ci.com/)            |         |   ✔️   |
+| [About](https://about.travis-ci.com)           |         |   ✔️   |
+| [Docs](https://docs.travis-ci.com/)            |         |   ✔️   |
+| [Status](https://www.traviscistatus.com/)      |         |   ✔️   |
+| [Enterprise](https://enterprise.travis-ci.com) |   ✔️    |        |
+| [Support](https://support.travis-ci.com)       |         |   ✔️   |
 
 ✳️ Further full coverage is not planned at this time, PR's are welcome though.
 
