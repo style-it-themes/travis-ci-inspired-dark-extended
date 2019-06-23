@@ -10,7 +10,7 @@
   <a href="https://github.com/style-it-themes/travis-ci-inspired-dark-extended/releases">
     <img src="https://img.shields.io/github/tag/style-it-themes/travis-ci-inspired-dark-extended.svg?label=Current%20Version&style=for-the-badge" alt="Style-it-themes Current Version">
   </a>
-  <a href="https://discord.gg/MhwZjV">
+  <a href="https://david-dm.org/Style-it-Themes/travis-ci-inspired-dark-extended?type=dev">
     <img src="https://img.shields.io/david/dev/style-it-themes/travis-ci-inspired-dark-extended.svg?label=devDependencies&style=for-the-badge" alt="devDependencies">
   </a>
 </p>
