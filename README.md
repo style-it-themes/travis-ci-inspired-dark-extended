@@ -4,7 +4,7 @@
 <br>
 <h2 align="center"><strong>Travis CI Inspired Dark Extended</strong></h2>
 <p align="center">
-  <a href="https://discord.gg/MhwZjV">
+  <a href="https://discord.gg/EpdGSfH">
     <img src="https://img.shields.io/badge/style--it--themes-discord%20channel-blue.svg?style=for-the-badge" alt="Style-it-themes Discord Channel">
   </a>
   <a href="https://github.com/style-it-themes/travis-ci-inspired-dark-extended/releases">
