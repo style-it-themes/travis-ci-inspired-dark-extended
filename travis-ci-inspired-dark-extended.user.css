@@ -33,12 +33,13 @@
   button:not(.no-button):not(.modal-close) {
     background: #222 !important;
   }
-  button.trigger-build-submit.button--blue, .button--blue {
+  button.trigger-build-submit.button--blue, .profile-aside button.button--blue {
     color: #fff !important;
     background-color: #3eaaaf !important;
   }
-  .button--blue:active, .button--blue:hover, button.button--blue:active,
-  button.button--blue:hover {
+  .profile-aside button.button--blue:active,
+  .profile-aside button.button--blue:hover,
+  .profile-aside button.button--blue:active, .button--blue:hover {
     background-color: #318589 !important;
   }
   .button--green {
@@ -633,6 +634,9 @@
   .action-button--cancel, .action-button--debug, .action-button--restart {
     border: 1px solid #444 !important;
   }
+  .jobs-item .repo-main-tools button, .no-button {
+    background: 0 0 !important;
+  }
   .action-button--cancel:active, .action-button--cancel:hover,
   .action-button--debug:active, .action-button--debug:hover,
   .action-button--restart:active, .action-button--restart:hover {
@@ -949,7 +953,7 @@
   }
   .flash .notice {
     color: #cdb62c !important;
-    background-color: #faf6db !important;
+    background-color: #321 !important;
   }
   .flash .notice circle, .flash .notice ellipse, .flash .notice line,
   .flash .notice path, .flash .notice polygon, .flash .notice polyline,
@@ -2824,9 +2828,13 @@
     background-color: transparent !important;
   }
   .token-actions button.copy-button {
-    border: .09em solid #81cfd2 !important;
+    border-color: #81cfd2 !important;
     box-shadow: 0 .15px 0 #3eaaaf !important;
     color: #3eaaaf !important;
+  }
+  .token-actions button.copy-button:hover {
+    border-color: #229191 !important;
+    color: #229191 !important;
   }
   .token-actions button.copy-button svg circle,
   .token-actions button.copy-button svg ellipse,
@@ -2839,9 +2847,13 @@
     stroke: #3eaaaf !important;
   }
   .token-actions button.show-token {
-    border: .09em solid #888 !important;
-    box-shadow: 0 .15px 0 #9d9d9d !important;
-    color: #9d9d9d !important;
+    border-color: #999 !important;
+    box-shadow: 0 .15px 0 #999 !important;
+    color: #999 !important;
+  }
+  .token-actions button.show-token:hover {
+    border-color: #888 !important;
+    color: #888 !important;
   }
   .top .cta {
     color: #39aa56 !important;
@@ -3839,7 +3851,7 @@
     border-left: 3px solid #39aa56 !important;
   }
   .request-item.highlighted.approved {
-    box-shadow: 0 0 3px 3px #deecdc;
+    box-shadow: 0 0 3px 3px #39aa56;
   }
   @media only screen and (min-width: 50.063em) {
     .log-notice {
@@ -3910,7 +3922,7 @@
     box-shadow: 0 0 5px 1px #db4545 !important;
   }
   .request-item.highlighted, .request-item.highlighted.pending {
-    box-shadow: 0 0 3px 3px #faf6db !important;
+    box-shadow: 0 0 3px 3px #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
     .request-item.rejected:hover {
@@ -3987,9 +3999,6 @@
   }
   .request-item a:active, .request-item a:focus, .request-item a:hover {
     text-decoration: underline !important;
-  }
-  .request-item:hover {
-    padding-left: .87em !important;
   }
   .request-item .request-icon {
     width: 18px !important;
