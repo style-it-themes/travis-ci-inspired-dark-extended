@@ -4645,8 +4645,8 @@
   code[class*=language-] ::selection, code[class*=language-]::selection,
   pre[class*=language-] ::selection, pre[class*=language-]::selection {
     text-shadow: none !important;
-    background: #b3d4fc !important;
-    color: #000 !important;
+    background: #303030 !important;
+    color: inherit !important;
   }
   pre.codedisplay[class*="language-"] {
     background-color: #111 !important;
@@ -5574,12 +5574,14 @@
   code[class*="language-"]::-moz-selection,
   code[class*="language-"] ::-moz-selection {
     text-shadow: none !important;
-    background: #333 !important;
+    background: #303030 !important;
+		color: inherit !important;
   }
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
-    background: #333 !important;
+    background: #303030 !important;
+		color: inherit !important;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
@@ -5947,12 +5949,14 @@
   code[class*="language-"]::-moz-selection,
   code[class*="language-"] ::-moz-selection {
     text-shadow: none !important;
-    background: #333 !important;
+    background: #303030 !important;
+    color: inherit !important;
   }
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
-    background: #333 !important;
+    background: #303030 !important;
+		color: inherit !important;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
@@ -5963,7 +5967,7 @@
     background: #111 !important;
   }
   .token.comment, .token.prolog, .token.doctype, .token.cdata {
-    color: slategray !important;
+    color: #999 !important;
   }
   .token.punctuation {
     color: #999 !important;
