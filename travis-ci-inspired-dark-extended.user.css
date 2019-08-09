@@ -4034,79 +4034,18 @@
       border-right: 1px solid #444 !important;
     }
   }
-  .caches-list {
-    padding: 0 !important;
-    margin: 0 !important;
-    list-style: none !important;
-  }
   .cache-item {
     border: 1px solid rgba(157, 157, 157, .2) !important;
-    margin-bottom: 5px !important;
-    font-size: 15px !important;
-    padding: 0 1em !important;
   }
   .cache-item:active, .cache-item:hover {
-    background-color: #f1f1f1 !important;
-  }
-  @media only screen and (min-width: 50.063em) {
-    .cache-item {
-      display: flex !important;
-      justify-content: space-between !important;
-      flex-flow: row nowrap !important;
-      align-items: center !important;
-      padding: .3em 0 !important;
-      white-space: nowrap !important;
-    }
-    .cache-item .row-item:first-of-type {
-      flex: 1 0 30% !important;
-      padding-left: 1em !important;
-      overflow: hidden !important;
-    }
-    .cache-item .row-item:nth-of-type(2), .cache-item .row-item:nth-of-type(3) {
-      flex: 1 0 30% !important;
-    }
-    .cache-item .row-item:last-of-type {
-      flex: 0 0 50px !important;
-      margin-right: 1em !important;
-    }
-    .cache-item .row-item:last-of-type a {
-      display: flex !important;
-      justify-content: center !important;
-    }
-  }
-  .delete-cache-button .icon-trash {
-    margin-left: 4px !important;
+    background-color: #303030 !important;
   }
   .delete-cache-button:active, .delete-cache-button:hover {
     color: #db4545 !important;
   }
-  .delete-cache-icon {
-    position: relative !important;
-    display: block !important;
-  }
-  .settings-input, .settings-section .switch div {
-    display: inline-block !important;
-  }
-  .missing-notice {
-    text-align: center !important;
-  }
-  .missing-notice .button {
-    font-size: 16px !important;
-  }
-  .page-title {
-    font-size: 36px !important;
-    font-weight: 200 !important;
-    line-height: 1 !important;
-    margin-bottom: .5em !important;
-  }
-  .page-notice {
-    font-size: 16px !important;
-  }
   .page-notice a {
-    color: inherit !important;
     text-decoration: none !important;
     border-bottom: 1px solid #9d9d9d !important;
-    padding-bottom: .1rem !important;
   }
   .page-notice a:active, .page-notice a:hover {
     color: #9d9d9d !important;
