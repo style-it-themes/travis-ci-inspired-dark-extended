@@ -24,14 +24,15 @@
     "ver": "^5.1.4"
   },
   "scripts": {
-    "clean": "npm run perfectionist && node tools/fix-perfectionist.js && npm run lint",
+    "clean": "npm run lintfix && npm run perfectionist && node tools/fix-perfectionist.js",
     "eslint": "eslint --quiet --color tools/*.js",
     "lint": "npm run eslint && npm run stylelint",
     "patch": "npx ver -p patch *.user.css",
     "minor": "npx ver -p minor *.user.css",
     "major": "npx ver -p major *.user.css",
     "perfectionist": "npx perfectionist travis-ci-inspired-dark-extended.user.css travis-ci-inspired-dark-extended.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "npx stylelint --quiet --color --fix -- travis-ci-inspired-dark-extended.user.css",
+    "stylelint": "npx stylelint --quiet --color -- travis-ci-inspired-dark-extended.user.css",
+    "lintfix": "npx stylelint --quiet --color --fix -- travis-ci-inspired-dark-extended.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "npx updates -cu && npm install"
   }
