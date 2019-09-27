@@ -5522,13 +5522,13 @@
   code[class*="language-"] ::-moz-selection {
     text-shadow: none !important;
     background: #303030 !important;
-		color: inherit !important;
+    color: inherit !important;
   }
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
     background: #303030 !important;
-		color: inherit !important;
+    color: inherit !important;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
@@ -5539,7 +5539,7 @@
     background: #111 !important;
   }
   .token.comment, .token.prolog, .token.doctype, .token.cdata {
-    color: slategray !important;
+    color: #708090 !important;
   }
   .token.punctuation {
     color: #999 !important;
@@ -5903,7 +5903,7 @@
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
     background: #303030 !important;
-		color: inherit !important;
+    color: inherit !important;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
@@ -6444,7 +6444,7 @@
     font-weight: 400;
   }
   body .gist .pl-mri, body .gist .pl-va, body .gist .pl-vpu {
-    color: teal;
+    color: #008080;
   }
   body .gist .gist-meta {
     background: #333;
@@ -7038,7 +7038,7 @@
   }
   .es-menu {
     border: 1px solid #dedede;
-    background: white;
+    background: #222;
   }
   .es-menu .tt-dataset {
     min-width: 400px;
@@ -7074,7 +7074,7 @@
     color: #afafaf;
   }
   .no-results-area p.error-text {
-    color: indianred;
+    color: #cd5c5c;
   }
   @-webkit-keyframes color {
     100%, 0% {
@@ -7335,14 +7335,14 @@
     color: rgba(255, 255, 255, .8);
   }
   .cpt-notification .close:hover {
-    color: white;
+    color: #eee;
   }
   .cpt-notification a:not(.close) {
-    color: white;
+    color: #eee;
     font-weight: 700;
   }
   .cpt-notification a:not(.close):hover {
-    color: white;
+    color: #eee;
     text-decoration: underline;
   }
   .cpt-notification.dotted {
@@ -7570,7 +7570,7 @@
     color: #217dbb !important;
   }
   .cpt-toggle .bubble {
-    background-color: white;
+    background-color: #181818;
   }
   .cpt-toggle .text {
     color: #b2b2b2;
@@ -7807,7 +7807,7 @@
   }
   .pau-preview {
     background-color: #3498db !important;
-    color: white !important;
+    color: #eee !important;
   }
   .flat-button,
   .layout-content.status .masthead-container .updates-dropdown-container .show-updates-dropdown {
@@ -8167,14 +8167,14 @@
     color: #fff !important;
   }
   .hero-button:hover {
-    color: white !important;
+    color: #eee !important;
     background-color: #318589 !important;
   }
   .landing-text {
     color: #666 !important;
   }
   .landing-text--white {
-    color: white !important;
+    color: #eee !important;
   }
   .title, .title--green, .title--teal, .title--red, .title--white {
     color: #727373 !important;
@@ -8189,18 +8189,18 @@
     color: #dd4242 !important;
   }
   .title--white {
-    color: white !important;
+    color: #eee !important;
   }
   .cta-title {
     color: #39a85b !important;
   }
   .cta-button {
-    color: white !important;
+    color: #eee !important;
     background-color: #4dad68 !important;
     background-image: url("https://enterprise.travis-ci.com/assets/landing/feature-img-contact-569d16a95c65a4e048599e7c0ad085e04b939954f0abed6c85b398fa8329fc68.svg") !important;
   }
   .cta-button:hover {
-    color: white !important;
+    color: #eee !important;
     background-color: #3d8a53 !important;
   }
   .stripe-button-el span {
