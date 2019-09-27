@@ -7,8 +7,10 @@ rules:
   at-rule-empty-line-before: null
   block-no-empty: null
   block-opening-brace-space-before: null
-  color-hex-case: null
-  color-named: null
+  color-hex-case: lower
+  color-hex-length: short
+  color-named: never
+  color-no-invalid-hex: true
   comment-empty-line-before: null
   comment-no-empty: null
   comment-whitespace-inside: null
