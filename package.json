@@ -3,8 +3,12 @@
   "title": "Travis CI Inspired Dark",
   "description": "An Inspired dark theme for Travis CI and related websites.",
   "version": "1.2.7",
+  "author": "Style-it themes",
   "repository": "style-it-themes/travis-ci-inspired-dark-extended",
   "homepage": "https://github.com/style-it-themes/travis-ci-inspired-dark-extended",
+  "bugs": {
+    "url": "https://github.com/style-it-themes/travis-ci-inspired-dark-extended/issues"
+  },
   "main": "travis-ci-inspired-dark-extended.user.css",
   "license": "MIT",
   "engines": {
