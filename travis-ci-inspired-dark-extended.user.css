@@ -1012,6 +1012,10 @@
     fill: none !important;
     stroke: #fff !important;
   }
+  /* switch is broken alignemnt it still sucks but blame upstream */
+  .form-elem .switch .switch-inner .off {
+    margin-left: -32%;
+  }
   input[type=password], input[type=text], input[type=email], input[type=number],
   input[type=search], select, textarea {
     border: 1px solid #444 !important;
@@ -2708,10 +2712,6 @@
   .profile-page .profile-aside section.no-divider {
     padding-bottom: 0 !important;
     border-bottom-width: 0 !important;
-  }
-  /* fix offset of icon in button and fix it to center */
-  .switch .off .icon-off, .switch .on .icon-on {
-    padding-bottom: .5em !important;
   }
   .profile-page .profile-aside h2 {
     color: #999 !important;
