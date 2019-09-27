@@ -116,7 +116,8 @@ You will need to ideally:
 * `npm run minor`: Creates a semantic minor release.
 * `npm run patch`: Creates a semantic patch release.
 * `npm run perfectionist`: Runs Perfectionist only. The CSS is not cleaned/fixed!
-* `npm run stylelint`: Run Stylelint on the CSS file.
+* `npm run stylelint`: Run stylelint on the CSS file.
+* `npm run lintfix`: Run stylelint with `--fix` on the CSS file.
 * `npm run test`: Same as `npm run lint`.
 * `npm run update`: Update development dependencies.
 
