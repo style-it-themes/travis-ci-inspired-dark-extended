@@ -63,8 +63,8 @@
   body, #left, .loading-page, .main, .wrapper {
     background-color: #222 !important;
   }
-  button:not(.no-button):not(.modal-close) {
-    background: #222 !important;
+  button:not(.no-button):not(.modal-close):not(.bg-blue-400) {
+    background: #222;
   }
   button.trigger-build-submit.button--blue, .profile-aside button.button--blue {
     color: #fff !important;
@@ -82,8 +82,16 @@
   .button--green:active, .button--green:hover {
     background-color: #2c8443 !important;
   }
-  .button {
+  .button:not(.bg-blue-400) {
     background-color: #444;
+  }
+  .missing-notice button.button--blue {
+    color: #fff !important;
+    background-color: #3eaaaf !important;
+  }
+  .missing-notice button.button--blue:active,
+  .missing-notice button.button--blue:hover {
+    background-color: #318589 !important;
   }
   .button.active, .button:active, .button:focus, .button:hover {
     border-color: #555;
@@ -631,7 +639,7 @@
     content: "+" !important;
     color: #666 !important;
   }
-  .button:not(.ember-view) {
+  .button:not(.ember-view):not(.button--blue) {
     color: #fff !important;
     background-color: #444 !important;
   }
@@ -5319,6 +5327,51 @@
     color: #3eaaaf !important;
     font-weight: 900 !important;
     background-color: #555 !important;
+  }
+}
+@-moz-document regexp("https?://travis-ci.com/(plans)\.*") {
+  .text-grey-800 {
+    color: #ccc;
+  }
+  .text-blue-400 {
+    color: #3eaaaf;
+  }
+  .border-blue-400 {
+    border-color: #3eaaaf;
+  }
+  .bg-white {
+    background-color: #191919;
+  }
+  *, ::after, ::before {
+    border-color: #444;
+  }
+  button.bg-blue-400.text-white {
+    background-color: #3eaaaf !important;
+    color: #eee !important;
+  }
+  button.bg-blue-400.text-white:hover {
+    opacity: .9;
+  }
+  .pro svg path {
+    opacity: .5;
+  }
+  .pro svg path[fill="#3CA85B"] {
+    fill: #1bff82 !important;
+  }
+  .hover\:bg-grey-150:hover {
+    background-color: #333 !important;
+  }
+  .travis-form .travis-form__field .travis-form__label {
+    color: #aaa !important;
+  }
+  .text-blue-300 {
+    color: #3eaaaf;
+  }
+  .pro .bg-blue-300 {
+    background-color: #3eaaaf !important;
+  }
+  .pro .bg-grey-300 {
+    background-color: #aaa !important;
   }
 }
 @-moz-document domain("support.travis-ci.com"), regexp("https://travisci\\.zendesk\\.com/.*") {
