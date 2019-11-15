@@ -9,7 +9,40 @@
 @license      MIT
 ==/UserStyle== */
 @-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
-  /*! Type    : Main Travis CI org/com*/
+  /*! Type    : Main Travis CI org/com
+	 * begin travis-ci.com fixes */
+  .landing-pro .landing-hero-image img[src*="hero-header-310979f236c4d9e23f4f8d67445a46e8.png"] {
+    filter: invert(1) hue-rotate(180deg) brightness(500%) contrast(90%);
+  }
+  .landing-hero-text h1 {
+    color: #3eaaaf;
+  }
+  .billing hr {
+    border: .8px solid #444;
+  }
+  .billing .billing-plans {
+    background-color: #222;
+  }
+  .billing .billing-plans__box {
+    background-color: #333;
+    border: 1px solid #353535;
+  }
+  .billing .billing-plans__box:hover {
+    background: #013436;
+  }
+  .billing .billing-select-plan .highlight-plan {
+    color: #3eaaaf;
+    background: #013436;
+  }
+  .billing .billing-select-plan .switch.active .switch-inner span {
+    background-color: #999 !important;
+    color: #eee !important;
+  }
+  .billing .initial-billing-view .billing-trial-info {
+    border: 1px solid #555;
+    box-shadow: 0 0 5px 2px rgba(240, 240, 240, .15);
+  }
+  /* end travis-ci.com fixes */
   .row .row.collapse::after, .row .row.collapse::before, .row .row::after,
   .row .row::before, .row::after, .row::before {
     content: " " !important;
