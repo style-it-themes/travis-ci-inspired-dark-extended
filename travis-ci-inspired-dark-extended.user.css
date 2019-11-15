@@ -55,7 +55,7 @@
     font-style: normal !important;
   }
   a, body, button, html {
-    color: #999 !important;
+    color: #bbb !important;
   }
   .helptext a, a, a:active, a:hover {
     text-decoration: none !important;
@@ -2580,19 +2580,18 @@
     background-position: 63% 87% !important;
   }
   .footer {
-    background-color: #181818 !important;
-    color: #666 !important;
-    box-shadow: 0 -2px 3px #333 !important;
+    background: #181818;
+    box-shadow: 0 -2px 3px #212121;
   }
   .footer a {
-    color: #666 !important;
+    color: #999 !important;
     text-decoration: none !important;
   }
-  .footer address, .footer ul {
-    color: #666 !important;
+  .footer a:hover, .footer-title, .footer address, .footer ul {
+    color: #999 !important;
   }
-  .footer-title {
-    color: #9d9d9d !important;
+  .footer a:active, .footer a:hover, .tile a:hover {
+    text-decoration: underline !important;
   }
   .status-circle.none {
     background: #39aa56 !important;
@@ -4121,6 +4120,9 @@
   .env-var-name, .ssh-key-name {
     color: #c0c0c0 !important;
   }
+  .success .message, .success .preamble {
+    color: #eee;
+  }
   .env-var-name::after, .ssh-key-name::after, .closeEnv::after,
   .detail-job-env::after {
     background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
@@ -4204,7 +4206,7 @@
     background-color: #282828 !important;
   }
   .subheading {
-    color: #aaa !important;
+    color: #bbb !important;
   }
   .travis-status.none .status-link, .travis-status.none .status-link:hover {
     border-color: #39aa56 !important;
@@ -4498,6 +4500,14 @@
     color: #9d9d9d !important;
     text-decoration: none !important;
     border-color: transparent !important;
+  }
+  .landing-pro .section--feature h1, .landing-pro .section--feature h2,
+  .landing-pro .section--feature h3, .landing-pro .section--feature h4,
+  .landing-pro .section--feature h5, .landing-pro .section--feature h6 {
+    color: #ddd;
+  }
+  .landing-pro .section--feature p {
+    color: #ccc !important;
   }
   .landing-pro .text-logo a, .text-small a {
     color: inherit !important;
@@ -4930,7 +4940,7 @@
   /*! Type    : Travis CI com website */
   main {
     background-color: #222 !important;
-    color: #999 !important;
+    color: #ccc !important;
   }
   body, #left, .loading-page, .main, .wrapper {
     background-color: #222 !important;
@@ -4974,8 +4984,10 @@
     border-left: 1px solid #444 !important;
   }
   nav a, p, .customers-header, .list-check-container,
-  .landing-pro .section--feature .list-check li {
-    color: #999 !important;
+  .landing-pro .section--feature .list-check li, .section-languages h1,
+  .section-languages h2, .section-languages h3, .section-languages h4,
+  .section-languages h5, .section-languages h6 {
+    color: #ccc !important;
   }
   .top, .topbar {
     background-color: #181818 !important;
@@ -5191,14 +5203,8 @@
   }
   .footer {
     background-color: #181818 !important;
-    color: #666 !important;
+    color: #999 !important;
     box-shadow: 0 -2px 3px #333 !important;
-  }
-  .footer-title {
-    color: #9d9d9d !important;
-  }
-  .footer address, .footer ul {
-    color: #666 !important;
   }
   .spacer {
     background-color: #555 !important;
@@ -5215,8 +5221,8 @@
     filter: invert(75%) hue-rotate(180deg) brightness(100%) !important;
   }
   .section-languages .section-languages-text-container a {
-    border-bottom: 1px solid #999 !important;
-    color: #999 !important;
+    border-bottom: 1px solid #ccc !important;
+    color: #ccc !important;
   }
   .plans-button--green {
     border: 1px solid #39aa56 !important;
@@ -5446,7 +5452,7 @@
     border-color: #666;
   }
   .footer {
-    border-top-color: #222 !important;
+    border-top-color: #212121 !important;
   }
   .upload-item:hover {
     background: #343434;
@@ -5497,17 +5503,9 @@
     color: #aaa;
   }
   .footer {
-    background-color: #222 !important;
-    color: #666 !important;
-    box-shadow: 0 -2px 3px #333 !important;
-  }
-  .footer a {
-    color: #888 !important;
-    text-decoration: none !important;
-  }
-  .footer a:hover {
-    color: #888 !important;
-    text-decoration: underline !important;
+    background-color: #181818 !important;
+    color: #999 !important;
+    box-shadow: 0 -2px 3px #212121 !important;
   }
 }
 @-moz-document domain("blog.travis-ci.com"), domain("about.travis-ci.com") {
@@ -5853,19 +5851,23 @@
   }
   .footer {
     background-color: #181818 !important;
-    color: #666 !important;
-    box-shadow: 0 -2px 3px #333 !important;
+    color: #999 !important;
+    box-shadow: 0 -2px 3px #212121 !important;
   }
   .footer a {
-    color: #666 !important;
+    color: #999 !important;
+    text-decoration: none !important;
   }
-  .footer a:hover, .footer a:active {
+  .footer a:hover, .footer address, .footer ul {
+    color: #999 !important;
+  }
+  .footer a:active, .footer a:hover, .tile a:hover {
     text-decoration: underline !important;
   }
   .footer-title {
     font-size: 15px !important;
     font-weight: 400 !important;
-    color: #9d9d9d !important;
+    color: #999 !important;
   }
   .highlight code, .highlight {
     background-color: #111 !important;
@@ -6218,9 +6220,13 @@
     background-color: #181818 !important;
   }
   .footer a {
-    color: #666 !important;
+    color: #999 !important;
+    text-decoration: none !important;
   }
-  .footer a:hover, .footer a:active {
+  .footer a:hover, .footer-title, .footer address, .footer ul {
+    color: #999 !important;
+  }
+  .footer a:active, .footer a:hover, .tile a:hover {
     text-decoration: underline !important;
   }
   .footer ul {
@@ -6667,7 +6673,9 @@
     color: #afafaf;
   }
   .color-secondary, a.no-link, .metric-name.color-primary {
-    color: #777 !important;
+    color: #bbb !important;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item.light {
   }
   p.blockquote {
     border-left: 5px solid #63c7a9;
@@ -7805,21 +7813,21 @@
     border-top: 2px solid #444 !important;
   }
   .updates-dropdown-container .updates-dropdown .updates-dropdown-nav a {
-    background-color: #666 !important;
-    border-right: 1px solid #444 !important;
-    border-left: 1px solid #444 !important;
-    border-bottom: 1px solid #777 !important;
+    background-color: #555;
+    border-right: 1px solid #444;
+    border-left: 1px solid #444;
+    border-bottom: 1px solid #444;
   }
   .updates-dropdown-container .updates-dropdown .updates-dropdown-nav a:last-of-type {
     border-right: none !important;
     color: #ccc !important;
   }
   .updates-dropdown-container .updates-dropdown .updates-dropdown-nav a.active {
-            box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-       -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
-         -o-box-shadow: 0 -1px 3px rgba(0, 0, 0, 0) inset !important;
-        -ms-box-shadow: 0 -1px 3px rgba(0, 0, 0,) inset !important;
+            box-shadow: 0 -1px 3px rgba(0, 0, 0, .2) inset !important;
+       -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, .2) inset !important;
+    -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, .2) inset !important;
+         -o-box-shadow: 0 -1px 3px rgba(0, 0, 0, .2) inset !important;
+        -ms-box-shadow: 0 -1px 3px rgba(0, 0, 0, .2) inset !important;
     background-color: #333 !important;
   }
   .updates-dropdown-container .updates-dropdown .updates-dropdown-section {
@@ -7885,7 +7893,7 @@
     border-color: #ccc !important;
   }
   .layout-content.status.status-index .unresolved-incidents .unresolved-incident .incident-title {
-    text-shadow: 0 1px 0 rgba(0, 0, 0,) !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .2) !important;
   }
   .color-primary, .color-primary:hover,
   .layout-content.status-index .status-day .update-title.impact-none a,
@@ -7983,6 +7991,27 @@
   }
   svg.day [fill="#EAEAEA"] {
     fill: #aaa;
+  }
+  .flat-button, .masthead .updates-dropdown-container .show-updates-dropdown,
+  .layout-content.status-full-history .show-filter.open {
+    background-color: #3eaaaf;
+  }
+  #uptime-tooltip .tooltip-box {
+    background-color: #111;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+    border: 1px solid rgba(0, 0, 0, .2);
+  }
+  #uptime-tooltip .tooltip-box {
+    border-color: #333;
+  }
+  #uptime-tooltip[style="display: none;"] {
+    display: block !important;
+  }
+  #uptime-tooltip .pointer-container .pointer-smaller {
+    border-bottom-color: #111;
+  }
+  #uptime-tooltip .pointer-container .pointer-larger {
+    border-bottom-color: #333;
   }
   [id*="uptime-percent-"], .availability-time-line-legend-day-count,
   .shared-partial.uptime-90-days-wrapper .legend .legend-item {
