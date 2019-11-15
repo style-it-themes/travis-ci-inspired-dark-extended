@@ -5342,6 +5342,14 @@
     background-color: #555 !important;
   }
 }
+@-moz-document regexp("https?://travis-ci.(com|org)/(help).*") {
+  .help-duo-image svg {
+    filter: invert(1) hue-rotate(180deg) brightness(70%) contrast(90%);
+  }
+  .sign-in-image svg {
+    opacity: .8;
+  }
+}
 @-moz-document regexp("https?://travis-ci.com/(plans)\.*") {
   .text-grey-800 {
     color: #ccc;
