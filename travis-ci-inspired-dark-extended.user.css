@@ -1053,10 +1053,6 @@
     fill: none !important;
     stroke: #fff !important;
   }
-  /* switch is broken alignemnt it still sucks but blame upstream */
-  .form-elem .switch .switch-inner .off {
-    margin-left: -32%;
-  }
   input[type=password], input[type=text], input[type=email], input[type=number],
   input[type=search], select, textarea {
     border: 1px solid #444 !important;
@@ -1478,7 +1474,7 @@
     color: #9d9d9d !important;
   }
   .ember-modal-dialog {
-    background-color: #333 !important;
+    background-color: #222 !important;
     border: 1px solid #444 !important;
   }
   .ember-modal-overlay.translucent {
@@ -2876,7 +2872,7 @@
     background-color: transparent !important;
   }
   .token-actions button.copy-button {
-    border-color: #81cfd2 !important;
+    border-color: #3eaaaf !important;
     box-shadow: 0 .15px 0 #3eaaaf !important;
     color: #3eaaaf !important;
   }
@@ -2892,7 +2888,17 @@
   .token-actions button.copy-button svg polyline,
   .token-actions button.copy-button svg rect {
     fill: none !important;
-    stroke: #3eaaaf !important;
+    stroke: #49c9cf !important;
+  }
+  .token-actions button.show-token svg circle,
+  .token-actions button.show-token svg ellipse,
+  .token-actions button.show-token svg line,
+  .token-actions button.show-token svg path,
+  .token-actions button.show-token svg polygon,
+  .token-actions button.show-token svg polyline,
+  .token-actions button.show-token svg rect {
+    fill: none !important;
+    stroke: #eee !important;
   }
   .token-actions button.show-token {
     border-color: #999 !important;
@@ -3970,7 +3976,7 @@
     box-shadow: 0 0 5px 1px #db4545 !important;
   }
   .request-item.highlighted, .request-item.highlighted.pending {
-    box-shadow: 0 0 3px 3px #cdb62c !important;
+    box-shadow: 0 0 3px 1px #cdb62c !important;
   }
   @media only screen and (min-width: 50.063em) {
     .request-item.rejected:hover {
@@ -4133,13 +4139,21 @@
   }
   .env-var-name::after, .ssh-key-name::after, .closeEnv::after,
   .detail-job-env::after {
-    background: linear-gradient(-90deg, #222 0, rgba(241, 241, 241, 0) 100%) !important;
-  }
-  .env-var-value, .ssh-key-value {
-    color: #eee !important;
+    background: linear-gradient(-90deg, #333 0, rgba(241, 241, 241, 0) 100%) !important;
   }
   .env-var-value input {
     color: #c0c0c0 !important;
+  }
+  .env-var-branch, .env-var-value, .ssh-key-value {
+    color: #ccc;
+  }
+  .env-var-value {
+    background-color: #181818;
+  }
+  .env-var-branch code {
+    color: #ccc;
+    border: 1px solid #555;
+    background-color: #181818;
   }
   #env-var-secrecy {
     box-shadow: 0 0 5px 3px #333 !important;
@@ -4166,6 +4180,9 @@
     color: #eee;
     border-color: #555;
     background-color: #111;
+  }
+  .settings-cron, .settings-envvar, .settings-sshkey {
+    background-color: #333;
   }
   .newly-created {
     animation: haze-fade 2s 3s both;
@@ -4324,10 +4341,6 @@
   }
   .landing .oss-testing, .top.landing-page {
     background-color: #222 !important;
-  }
-  .travis-pride .logo a:active, .travis-pride .logo a:hover {
-    transform: rotateY (180deg) !important;
-    background-image: url("https://cdn.travis-ci.org/images/logos/Tessa-pride.svg") !important;
   }
   .travis-comicsans * {
     font-family: "Comic Sans", "Comic Sans MS", sans-serif !important;
