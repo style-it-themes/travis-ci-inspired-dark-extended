@@ -446,7 +446,14 @@
   svg.repo-gh circle, svg.repo-gh ellipse, svg.repo-gh line, svg.repo-gh path,
   svg.repo-gh polygon, svg.repo-gh polyline, svg.repo-gh rect {
     fill: none !important;
-    stroke: #9d9d9d !important;
+    stroke: #ccc !important;
+  }
+  .action-button--restart svg.icon path {
+    fill: none !important;
+    stroke: #fff !important;
+  }
+  button:hover svg.icon path {
+    stroke: #44bdc2 !important;
   }
   svg.icon--l.passed circle, svg.icon--l.passed ellipse, svg.icon--l.passed line,
   svg.icon--l.passed path, svg.icon--l.passed polygon,
@@ -600,7 +607,7 @@
   .icon-help circle, .icon-help ellipse, .icon-help line, .icon-help path,
   .icon-help polygon, .icon-help polyline, .icon-help rect {
     fill: none !important;
-    stroke: #9d9d9d !important;
+    stroke: #eee !important;
   }
   .action-button--cancel:active circle, .action-button--cancel:active ellipse,
   .action-button--cancel:active line, .action-button--cancel:active path,
@@ -630,7 +637,7 @@
   .icon-help:hover path, .icon-help:hover polygon, .icon-help:hover polyline,
   .icon-help:hover rect {
     fill: none !important;
-    stroke: #3eaaaf !important;
+    stroke: #49c5cb !important;
   }
   .icon-help:active, .icon-help:hover {
     border-color: #3eaaaf !important;
