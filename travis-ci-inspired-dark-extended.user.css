@@ -5929,6 +5929,9 @@
 }
 @-moz-document domain("docs.travis-ci.com") {
   /*! Type    : Travis CI com - documentation website */
+  .index-intro img[src*="docs-desktop.svg"], .getting-started-image {
+    filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(70%);
+  }
   .index-intro, .index-main h2, .sidebar h2, .sidebar h3 {
     border-bottom: solid #333 2px !important;
   }
