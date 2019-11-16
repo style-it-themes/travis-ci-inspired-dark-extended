@@ -8,7 +8,10 @@
 @author       Style-it Themes the-j0k3r
 @license      MIT
 ==/UserStyle== */
-@-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
+@-moz-document regexp("^https://travis-ci\.(com|org).*$") {
+  /*! Type    : Main Travis CI org/com */
+  img.getting-started-image[src*="svg"] {
+    filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(70%);
   }
   .row .row.collapse::after, .row .row.collapse::before, .row .row::after,
   .row .row::before, .row::after, .row::before {
@@ -4953,7 +4956,7 @@
     }
   }
 }
-@-moz-document domain("travis-ci.com") {
+@-moz-document regexp("^https://travis-ci.(com|org).*$") {
   /*! Type    : Travis CI com website */
   main {
     background-color: #222 !important;
