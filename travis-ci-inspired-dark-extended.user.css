@@ -8184,6 +8184,24 @@
   #changelog-list {
     border-top: 1px solid #222 !important;
   }
+  .form__field {
+    border: 1px solid #333;
+  }
+  .form__field:focus {
+    border-color: #3eaaaf !important;
+  }
+  .form__button {
+    color: #fff;
+    background-color: #3eaaaf !important;
+    border-color: #3eaaaf !important;
+  }
+  .form__button:hover {
+    color: #fff;
+    background-color: #328c91 !important;
+  }
+  .newPost {
+    border-color: #444;
+  }
   .changelogItem {
     border-bottom: 1px solid #444 !important;
   }
@@ -8200,7 +8218,7 @@
   article, aside, details, figcaption, figure, footer, header, hgroup, main,
   menu, nav, section, summary {
     display: block !important;
-    color: #999 !important;
+    color: #aaa !important;
   }
   a {
     background-color: transparent !important;
@@ -8221,7 +8239,7 @@
     border: 1px solid #c0c0c0 !important;
   }
   html, body {
-    color: #666 !important;
+    color: #bbb !important;
   }
   h1.hasLogo a {
     color: #999 !important;
@@ -8316,13 +8334,13 @@
     background-color: #318589 !important;
   }
   .landing-text {
-    color: #666 !important;
+    color: #ccc !important;
   }
   .landing-text--white {
     color: #eee !important;
   }
-  .title, .title--green, .title--teal, .title--red, .title--white {
-    color: #727373 !important;
+  .title, .title--white {
+    color: #ccc !important;
   }
   .title--green {
     color: #39a85b !important;
