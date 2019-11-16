@@ -37,13 +37,13 @@
     background: #222;
   }
   button.trigger-build-submit.button--blue, .profile-aside button.button--blue {
-    color: #fff !important;
-    background-color: #3eaaaf !important;
+    color: #eee;
+    background-color: #318589;
   }
   .profile-aside button.button--blue:active,
   .profile-aside button.button--blue:hover,
   .profile-aside button.button--blue:active, .button--blue:hover {
-    background-color: #318589 !important;
+    background-color: #318589;
   }
   .button--green {
     color: #fff !important;
@@ -149,7 +149,7 @@
   .rows.passed .status-icon ellipse, .rows.passed .status-icon line,
   .rows.passed .status-icon path, .rows.passed .status-icon polygon,
   .rows.passed .status-icon polyline, .rows.passed .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .rows.errored .request-icon circle, .rows.errored .request-icon ellipse,
@@ -166,8 +166,8 @@
   .rows.failed .status-icon ellipse, .rows.failed .status-icon line,
   .rows.failed .status-icon path, .rows.failed .status-icon polygon,
   .rows.failed .status-icon polyline, .rows.failed .status-icon rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .rows.passed .background {
     background-color: #39aa56 !important;
@@ -203,8 +203,8 @@
   .rows.canceled .status-icon ellipse, .rows.canceled .status-icon line,
   .rows.canceled .status-icon path, .rows.canceled .status-icon polygon,
   .rows.canceled .status-icon polyline, .rows.canceled .status-icon rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .rows.booting .request-icon circle, .rows.booting .request-icon ellipse,
   .rows.booting .request-icon line, .rows.booting .request-icon path,
@@ -241,8 +241,8 @@
   .rows.started .status-icon ellipse, .rows.started .status-icon line,
   .rows.started .status-icon path, .rows.started .status-icon polygon,
   .rows.started .status-icon polyline, .rows.started .status-icon rect {
-    stroke: #edde3f !important;
-    fill: none !important;
+    stroke: #edde3f;
+    fill: none;
   }
   .rows.canceled .background {
     background-color: #9d9d9d !important;
@@ -312,7 +312,7 @@
   .row-li .status-icon.passed ellipse, .row-li .status-icon.passed line,
   .row-li .status-icon.passed path, .row-li .status-icon.passed polygon,
   .row-li .status-icon.passed polyline, .row-li .status-icon.passed rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .row-li .request-icon.errored circle, .row-li .request-icon.errored ellipse,
@@ -329,8 +329,8 @@
   .row-li .status-icon.failed ellipse, .row-li .status-icon.failed line,
   .row-li .status-icon.failed path, .row-li .status-icon.failed polygon,
   .row-li .status-icon.failed polyline, .row-li .status-icon.failed rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .row-li.canceled {
     background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px, #191919 10px, #191919 100%) no-repeat;
@@ -355,8 +355,8 @@
   .row-li .status-icon.canceled line, .row-li .status-icon.canceled path,
   .row-li .status-icon.canceled polygon, .row-li .status-icon.canceled polyline,
   .row-li .status-icon.canceled rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .row-li .request-icon.booting circle, .row-li .request-icon.booting ellipse,
   .row-li .request-icon.booting line, .row-li .request-icon.booting path,
@@ -393,8 +393,8 @@
   .row-li .status-icon.started ellipse, .row-li .status-icon.started line,
   .row-li .status-icon.started path, .row-li .status-icon.started polygon,
   .row-li .status-icon.started polyline, .row-li .status-icon.started rect {
-    stroke: #cdb62c !important;
-    fill: none !important;
+    stroke: #cdb62c;
+    fill: none;
   }
   .load-circle1 {
     background-color: #347389 !important;
@@ -412,14 +412,14 @@
   svg.icon--m path, svg.icon--m polygon, svg.icon--m polyline, svg.icon--m rect,
   svg.repo-gh circle, svg.repo-gh ellipse, svg.repo-gh line, svg.repo-gh path,
   svg.repo-gh polygon, svg.repo-gh polyline, svg.repo-gh rect {
-    fill: none !important;
-    stroke: #ccc !important;
+    fill: none;
+    stroke: #ccc;
   }
   .action-button--restart svg.icon path {
-    fill: none !important;
+    fill: none;
     stroke: #fff !important;
   }
-  button:not(.remove-log-button):hover svg.icon path {
+  button:not(.remove-log-button):not(.action-button--cancel):hover svg.icon path {
     stroke: #44bdc2 !important;
   }
   svg.icon--l.passed circle, svg.icon--l.passed ellipse, svg.icon--l.passed line,
@@ -433,8 +433,8 @@
   svg.passed.repo-gh circle, svg.passed.repo-gh ellipse, svg.passed.repo-gh line,
   svg.passed.repo-gh path, svg.passed.repo-gh polygon,
   svg.passed.repo-gh polyline, svg.passed.repo-gh rect {
-    fill: none !important;
-    stroke: #39aa56 !important;
+    fill: none;
+    stroke: #39aa56;
   }
   svg.errored.repo-gh circle, svg.errored.repo-gh ellipse,
   svg.errored.repo-gh line, svg.errored.repo-gh path,
@@ -460,8 +460,8 @@
   svg.icon.errored polyline, svg.icon.errored rect, svg.icon.failed circle,
   svg.icon.failed ellipse, svg.icon.failed line, svg.icon.failed path,
   svg.icon.failed polygon, svg.icon.failed polyline, svg.icon.failed rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   svg.canceled.repo-gh circle, svg.canceled.repo-gh ellipse,
   svg.canceled.repo-gh line, svg.canceled.repo-gh path,
@@ -476,8 +476,8 @@
   svg.icon--m.canceled rect, svg.icon.canceled circle, svg.icon.canceled ellipse,
   svg.icon.canceled line, svg.icon.canceled path, svg.icon.canceled polygon,
   svg.icon.canceled polyline, svg.icon.canceled rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   svg.booting.repo-gh circle, svg.booting.repo-gh ellipse,
   svg.booting.repo-gh line, svg.booting.repo-gh path,
@@ -542,38 +542,38 @@
   svg.started.repo-gh line, svg.started.repo-gh path,
   svg.started.repo-gh polygon, svg.started.repo-gh polyline,
   svg.started.repo-gh rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .icon-hover:active circle, .icon-hover:active ellipse, .icon-hover:active line,
   .icon-hover:active path, .icon-hover:active polygon,
   .icon-hover:active polyline, .icon-hover:active rect, .icon-hover:hover circle,
   .icon-hover:hover ellipse, .icon-hover:hover line, .icon-hover:hover path,
   .icon-hover:hover polygon, .icon-hover:hover polyline, .icon-hover:hover rect {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .icon.white circle, .icon.white ellipse, .icon.white line, .icon.white path,
   .icon.white polygon, .icon.white polyline, .icon.white rect {
-    fill: none !important;
+    fill: none;
     stroke: #fff !important;
   }
   .icon.green circle, .icon.green ellipse, .icon.green line, .icon.green path,
   .icon.green polygon, .icon.green polyline, .icon.green rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .icon.red circle, .icon.red ellipse, .icon.red line, .icon.red path,
   .icon.red polygon, .icon.red polyline, .icon.red rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .icon-help {
     border: 1px solid #bbb !important;
   }
   .icon-help circle, .icon-help ellipse, .icon-help line, .icon-help path,
   .icon-help polygon, .icon-help polyline, .icon-help rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .action-button--cancel:active circle, .action-button--cancel:active ellipse,
@@ -603,15 +603,15 @@
   .icon-help:hover circle, .icon-help:hover ellipse, .icon-help:hover line,
   .icon-help:hover path, .icon-help:hover polygon, .icon-help:hover polyline,
   .icon-help:hover rect {
-    fill: none !important;
-    stroke: #49c5cb !important;
+    fill: none;
+    stroke: #49c5cb;
   }
   .icon-help:active, .icon-help:hover {
     border-color: #49c5cb !important;
   }
   .icon--plus::after {
     content: "+" !important;
-    color: #666 !important;
+    color: #888 !important;
   }
   .button:not(.ember-view):not(.button--blue) {
     color: #fff !important;
@@ -623,8 +623,8 @@
     background-color: #666 !important;
   }
   .auth-button {
-    color: #fff !important;
-    background-color: #39aa56 !important;
+    color: #fff;
+    border: 1px solid #2eb459;
   }
   .auth-button .loading-indicator i, .auth-button .loading-indicator--white i {
     background-color: #fff !important;
@@ -655,7 +655,7 @@
     color: #fff !important;
   }
   .action-button--cancel, .action-button--debug, .action-button--restart {
-    border: 1px solid #444 !important;
+    border: 1px solid #444;
   }
   .jobs-item .repo-main-tools button, .no-button {
     background: 0 0 !important;
@@ -663,9 +663,9 @@
   .action-button--cancel:active, .action-button--cancel:hover,
   .action-button--debug:active, .action-button--debug:hover,
   .action-button--restart:active, .action-button--restart:hover {
-    border-color: #3eaaaf !important;
-    color: #3eaaaf !important;
-    text-decoration: none !important;
+    border-color: #3eaaaf;
+    color: #3eaaaf;
+    text-decoration: none;
   }
   .action-button--cancel:active circle, .action-button--cancel:active ellipse,
   .action-button--cancel:active line, .action-button--cancel:active path,
@@ -688,12 +688,15 @@
   .repo-main-tools.labelless .action-button--cancel:hover polygon,
   .repo-main-tools.labelless .action-button--cancel:hover polyline,
   .repo-main-tools.labelless .action-button--cancel:hover rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .action-button--cancel:active, .action-button--cancel:hover {
-    border-color: #db4545 !important;
-    color: #db4545 !important;
+    border-color: #db4545;
+    color: #db4545;
+  }
+  .action-button--cancel:hover path {
+    color: #db4545;
   }
   .repo-main-tools.labelless {
     display: inline-flex !important;
@@ -735,7 +738,7 @@
   .toggle-log-button--dark .icon line, .toggle-log-button--dark .icon path,
   .toggle-log-button--dark .icon polygon,
   .toggle-log-button--dark .icon polyline, .toggle-log-button--dark .icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .remove-log-button:active, .remove-log-button:hover {
@@ -771,8 +774,8 @@
   .option-button:hover .option-tofu polygon,
   .option-button:hover .option-tofu polyline,
   .option-button:hover .option-tofu rect {
-    fill: #3eaaaf !important;
-    stroke: none !important;
+    fill: #3eaaaf;
+    stroke: none;
   }
   .option-button:hover .option-arrow {
     border-color: #3eaaaf !important;
@@ -791,13 +794,13 @@
   .option-tofu .icon-tofu polygon, .option-tofu .icon-tofu polyline,
   .option-tofu .icon-tofu rect {
     fill: #ccc !important;
-    stroke: none !important;
+    stroke: none;
   }
   .option-arrow circle, .option-arrow ellipse, .option-arrow line,
   .option-arrow path, .option-arrow polygon, .option-arrow polyline,
   .option-arrow rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   @media only screen and (min-width: 50.063em) {
     .option-arrow {
@@ -834,8 +837,8 @@
   .dropup.is-open .dropup-tofu line, .dropup.is-open .dropup-tofu path,
   .dropup.is-open .dropup-tofu polygon, .dropup.is-open .dropup-tofu polyline,
   .dropup.is-open .dropup-tofu rect {
-    fill: #3eaaaf !important;
-    stroke: none !important;
+    fill: #3eaaaf;
+    stroke: none;
   }
   .dropup-tofu {
     width: 2.5em !important;
@@ -853,8 +856,8 @@
   .dropup-tofu .icon-tofu line, .dropup-tofu .icon-tofu path,
   .dropup-tofu .icon-tofu polygon, .dropup-tofu .icon-tofu polyline,
   .dropup-tofu .icon-tofu rect {
-    fill: #9d9d9d !important;
-    stroke: none !important;
+    fill: #9d9d9d;
+    stroke: none;
   }
   .dropup-tofu:active circle, .dropup-tofu:active ellipse,
   .dropup-tofu:active line, .dropup-tofu:active path,
@@ -863,8 +866,8 @@
   .dropup-tofu:hover ellipse, .dropup-tofu:hover line, .dropup-tofu:hover path,
   .dropup-tofu:hover polygon, .dropup-tofu:hover polyline,
   .dropup-tofu:hover rect {
-    fill: #3eaaaf !important;
-    stroke: none !important;
+    fill: #3eaaaf;
+    stroke: none;
   }
   .dropup-list {
     list-style: none !important;
@@ -889,7 +892,7 @@
   .dropup-list a:active, .dropup-list a:hover, .dropup-list button:active,
   .dropup-list button:hover {
     background: #3eaaaf !important;
-    color: #fff !important;
+    color: #fff;
   }
   .travistab-nav a.active, .travistab-nav a:active, .travistab-nav a:hover,
   .travistab-nav li.active a, .travistab-nav--secondary a.active,
@@ -914,7 +917,11 @@
   .dropup-list button:hover ellipse, .dropup-list button:hover line,
   .dropup-list button:hover path, .dropup-list button:hover polygon,
   .dropup-list button:hover polyline, .dropup-list button:hover rect {
-    fill: none !important;
+    fill: none;
+    stroke: #fff;
+  }
+  .dropup-tofu button:hover > svg > path,
+  ul.dropup-list > button:hover > svg > path {
     stroke: #fff !important;
   }
   @media only screen and (min-width: 50.063em) {
@@ -966,7 +973,7 @@
   .flash .success path, .flash .success polygon, .flash .success polyline,
   .flash .success rect {
     fill: #eee !important;
-    stroke: none !important;
+    stroke: none;
   }
   .flash .error {
     color: #fce8e2 !important;
@@ -976,7 +983,7 @@
   .flash .error path, .flash .error polygon, .flash .error polyline,
   .flash .error rect {
     fill: #db4545 !important;
-    stroke: none !important;
+    stroke: none;
   }
   .flash .notice {
     color: #cdb62c !important;
@@ -986,7 +993,7 @@
   .flash .notice path, .flash .notice polygon, .flash .notice polyline,
   .flash .notice rect {
     fill: #cdb62c !important;
-    stroke: none !important;
+    stroke: none;
   }
   .flash .notice .flash-message svg circle,
   .flash .notice .flash-message svg ellipse,
@@ -994,8 +1001,8 @@
   .flash .notice .flash-message svg polygon,
   .flash .notice .flash-message svg polyline,
   .flash .notice .flash-message svg rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .org-info > .account-avatar {
     border: 2px solid transparent !important;
@@ -1028,7 +1035,7 @@
   .switch [class^=icon-] line, .switch [class^=icon-] path,
   .switch [class^=icon-] polygon, .switch [class^=icon-] polyline,
   .switch [class^=icon-] rect {
-    fill: none !important;
+    fill: none;
     stroke: #fff !important;
   }
   input[type=password], input[type=text], input[type=email], input[type=number],
@@ -1065,6 +1072,13 @@
   .form--cron .select span {
     color: #8d8d8d !important;
   }
+  .form--cron .form-elem:first-of-type, .form--cron .form-elem:nth-of-type(2),
+  .form--cron .form-elem:nth-of-type(3) {
+    padding-right: 10px;
+  }
+  .form--cron .form-submit {
+    margin-top: -3px;
+  }
   .form-error .env-name, .form-error .ssh-value {
     border: 2px solid #db4545 !important;
   }
@@ -1094,8 +1108,8 @@
   .notice--yellow .icon-flag line, .notice--yellow .icon-flag path,
   .notice--yellow .icon-flag polygon, .notice--yellow .icon-flag polyline,
   .notice--yellow .icon-flag rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .notice--blue {
     background-color: #b6d6d9 !important;
@@ -1115,8 +1129,8 @@
   .notice--blue .icon-flag line, .notice--blue .icon-flag path,
   .notice--blue .icon-flag polygon, .notice--blue .icon-flag polyline,
   .notice--blue .icon-flag rect {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .notice--red {
     background-color: #600 !important;
@@ -1137,8 +1151,8 @@
   .notice--red .icon-flag line, .notice--red .icon-flag path,
   .notice--red .icon-flag polygon, .notice--red .icon-flag polyline,
   .notice--red .icon-flag rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .notice-banner--yellow {
     background: #261d08 !important;
@@ -1159,8 +1173,8 @@
   .notice-banner--yellow .icon-flag polygon,
   .notice-banner--yellow .icon-flag polyline,
   .notice-banner--yellow .icon-flag rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .notice-banner--yellow code {
     border: 1px solid #ddd !important;
@@ -1186,7 +1200,7 @@
   .notice-banner--green .icon-flag polygon,
   .notice-banner--green .icon-flag polyline,
   .notice-banner--green .icon-flag rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .notice-banner--green code {
@@ -1211,8 +1225,8 @@
   .notice-banner--red .icon-flag line, .notice-banner--red .icon-flag path,
   .notice-banner--red .icon-flag polygon,
   .notice-banner--red .icon-flag polyline, .notice-banner--red .icon-flag rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .notice-banner--red code {
     border: 1px solid #e37070 !important;
@@ -1247,7 +1261,7 @@
   .build-header .status-icon.passed polygon,
   .build-header .status-icon.passed polyline,
   .build-header .status-icon.passed rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .build-header .request-icon.errored circle,
@@ -1277,8 +1291,8 @@
   .build-header .status-icon.failed polygon,
   .build-header .status-icon.failed polyline,
   .build-header .status-icon.failed rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .build-header.canceled {
     background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px, #191919 10px, #191919 100%) no-repeat;
@@ -1310,8 +1324,8 @@
   .build-header .status-icon.canceled polygon,
   .build-header .status-icon.canceled polyline,
   .build-header .status-icon.canceled rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .build-header .request-icon.booting circle,
   .build-header .request-icon.booting ellipse,
@@ -1382,8 +1396,8 @@
   .build-header .status-icon.started polygon,
   .build-header .status-icon.started polyline,
   .build-header .status-icon.started rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-commit::after {
     background: linear-gradient(-90deg, #191919 20%, rgba(255, 255, 255, 0) 100%) !important;
@@ -1402,11 +1416,11 @@
   .yml-messages .yml-message .icon-info polygon,
   .yml-messages .yml-message .icon-info polyline,
   .yml-messages .yml-message .icon-info rect {
-    fill: #3eaaaf !important;
-    stroke: #3eaaaf !important;
+    fill: #3eaaaf;
+    stroke: #3eaaaf;
   }
   .yml-messages .yml-message .icon-info circle {
-    fill: none !important;
+    fill: none;
   }
   .yml-messages .yml-message .icon-warn {
     color: inherit !important;
@@ -1418,8 +1432,8 @@
   .yml-messages .yml-message .icon-warn polygon,
   .yml-messages .yml-message .icon-warn polyline,
   .yml-messages .yml-message .icon-warn rect {
-    fill: none !important;
-    stroke: #edde3f !important;
+    fill: none;
+    stroke: #edde3f;
   }
   .yml-messages .yml-message .icon-error circle,
   .yml-messages .yml-message .icon-error ellipse,
@@ -1428,8 +1442,8 @@
   .yml-messages .yml-message .icon-error polygon,
   .yml-messages .yml-message .icon-error polyline,
   .yml-messages .yml-message .icon-error rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .yml-messages .yml-message .message {
     padding-left: 10px !important;
@@ -1537,7 +1551,7 @@
   .build-tiles > .passed .status-icon polygon,
   .build-tiles > .passed .status-icon polyline,
   .build-tiles > .passed .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .build-tiles > .passed:hover {
@@ -1550,7 +1564,7 @@
   .build-tiles > .passed:hover .status-icon polygon,
   .build-tiles > .passed:hover .status-icon polyline,
   .build-tiles > .passed:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .failed {
@@ -1563,8 +1577,8 @@
   .build-tiles > .failed .status-icon polygon,
   .build-tiles > .failed .status-icon polyline,
   .build-tiles > .failed .status-icon rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .build-tiles > .failed:hover {
     background-color: #db4545 !important;
@@ -1576,7 +1590,7 @@
   .build-tiles > .failed:hover .status-icon polygon,
   .build-tiles > .failed:hover .status-icon polyline,
   .build-tiles > .failed:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .errored {
@@ -1589,8 +1603,8 @@
   .build-tiles > .errored .status-icon polygon,
   .build-tiles > .errored .status-icon polyline,
   .build-tiles > .errored .status-icon rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .build-tiles > .errored:hover {
     background-color: #db4545 !important;
@@ -1602,7 +1616,7 @@
   .build-tiles > .errored:hover .status-icon polygon,
   .build-tiles > .errored:hover .status-icon polyline,
   .build-tiles > .errored:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .canceled {
@@ -1615,8 +1629,8 @@
   .build-tiles > .canceled .status-icon polygon,
   .build-tiles > .canceled .status-icon polyline,
   .build-tiles > .canceled .status-icon rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .build-tiles > .canceled:hover {
     background-color: #9d9d9d !important;
@@ -1628,7 +1642,7 @@
   .build-tiles > .canceled:hover .status-icon polygon,
   .build-tiles > .canceled:hover .status-icon polyline,
   .build-tiles > .canceled:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .created {
@@ -1641,8 +1655,8 @@
   .build-tiles > .created .status-icon polygon,
   .build-tiles > .created .status-icon polyline,
   .build-tiles > .created .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-tiles > .created:hover {
     background-color: #cdb62c !important;
@@ -1654,7 +1668,7 @@
   .build-tiles > .created:hover .status-icon polygon,
   .build-tiles > .created:hover .status-icon polyline,
   .build-tiles > .created:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .started {
@@ -1667,8 +1681,8 @@
   .build-tiles > .started .status-icon polygon,
   .build-tiles > .started .status-icon polyline,
   .build-tiles > .started .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-tiles > .started:hover {
     background-color: #cdb62c !important;
@@ -1680,7 +1694,7 @@
   .build-tiles > .started:hover .status-icon polygon,
   .build-tiles > .started:hover .status-icon polyline,
   .build-tiles > .started:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .booting {
@@ -1693,8 +1707,8 @@
   .build-tiles > .booting .status-icon polygon,
   .build-tiles > .booting .status-icon polyline,
   .build-tiles > .booting .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-tiles > .booting:hover {
     background-color: #cdb62c !important;
@@ -1706,7 +1720,7 @@
   .build-tiles > .booting:hover .status-icon polygon,
   .build-tiles > .booting:hover .status-icon polyline,
   .build-tiles > .booting:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .queued {
@@ -1719,8 +1733,8 @@
   .build-tiles > .queued .status-icon polygon,
   .build-tiles > .queued .status-icon polyline,
   .build-tiles > .queued .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-tiles > .queued:hover {
     background-color: #cdb62c !important;
@@ -1732,7 +1746,7 @@
   .build-tiles > .queued:hover .status-icon polygon,
   .build-tiles > .queued:hover .status-icon polyline,
   .build-tiles > .queued:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .build-tiles > .received {
@@ -1745,8 +1759,8 @@
   .build-tiles > .received .status-icon polygon,
   .build-tiles > .received .status-icon polyline,
   .build-tiles > .received .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .build-tiles > .received:hover {
     background-color: #cdb62c !important;
@@ -1758,7 +1772,7 @@
   .build-tiles > .received:hover .status-icon polygon,
   .build-tiles > .received:hover .status-icon polyline,
   .build-tiles > .received:hover .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .request-icon circle, .request-icon ellipse, .request-icon line,
@@ -1766,8 +1780,8 @@
   .request-icon rect, .status-icon circle, .status-icon ellipse,
   .status-icon line, .status-icon path, .status-icon polygon,
   .status-icon polyline, .status-icon rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .badge {
     color: #ddd !important;
@@ -1794,7 +1808,7 @@
   .dash-star.is-starred polygon, .dash-star.is-starred polyline,
   .dash-star.is-starred rect {
     fill: #edde3f !important;
-    stroke: #cdb62c !important;
+    stroke: #cdb62c;
   }
   @media only screen and (min-width: 50.063em) {
     .dash-head {
@@ -1849,7 +1863,7 @@
   .dash-last.passed .status-icon line, .dash-last.passed .status-icon path,
   .dash-last.passed .status-icon polygon,
   .dash-last.passed .status-icon polyline, .dash-last.passed .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .dash-default.errored .request-icon circle,
@@ -1896,8 +1910,8 @@
   .dash-last.failed .status-icon line, .dash-last.failed .status-icon path,
   .dash-last.failed .status-icon polygon,
   .dash-last.failed .status-icon polyline, .dash-last.failed .status-icon rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .dash-default.passed .background, .dash-last.passed .background {
     background-color: #39aa56 !important;
@@ -1969,8 +1983,8 @@
   .dash-last.canceled .status-icon polygon,
   .dash-last.canceled .status-icon polyline,
   .dash-last.canceled .status-icon rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .dash-default.booting .request-icon circle,
   .dash-default.booting .request-icon ellipse,
@@ -2091,8 +2105,8 @@
   .enterprise-banner .icon line, .enterprise-banner .icon path,
   .enterprise-banner .icon polygon, .enterprise-banner .icon polyline,
   .enterprise-banner .icon rect {
-    stroke: #cdb62c !important;
-    fill: none !important;
+    stroke: #cdb62c;
+    fill: none;
   }
   .dash-default.canceled .background, .dash-last.canceled .background {
     background-color: #9d9d9d !important;
@@ -2260,8 +2274,8 @@
   .enterprise-banner.alert line, .enterprise-banner.alert path,
   .enterprise-banner.alert polygon, .enterprise-banner.alert polyline,
   .enterprise-banner.alert rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .enterprise-banner.alert a {
     color: #db4545 !important;
@@ -2603,6 +2617,9 @@
   .owner-tile.canceled {
     background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 10px, #191919 10px, #191919 100%) no-repeat;
   }
+  .owner-tile.errored, .owner-tile.failed {
+    background: linear-gradient(to right, #db4545 0, #db4545 10px, #191919 10px, #191919 100%) no-repeat;
+  }
   .tile.passed, .owner-tile.passed {
     background: linear-gradient(to right, #39aa56 0, #39aa56 8px, #191919 8px, #191919 100%) no-repeat;
   }
@@ -2622,7 +2639,7 @@
   .tile .status-icon.passed ellipse, .tile .status-icon.passed line,
   .tile .status-icon.passed path, .tile .status-icon.passed polygon,
   .tile .status-icon.passed polyline, .tile .status-icon.passed rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .tile .request-icon.errored circle, .tile .request-icon.errored ellipse,
@@ -2639,8 +2656,8 @@
   .tile .status-icon.failed ellipse, .tile .status-icon.failed line,
   .tile .status-icon.failed path, .tile .status-icon.failed polygon,
   .tile .status-icon.failed polyline, .tile .status-icon.failed rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .tile.canceled {
     background: linear-gradient(to right, #9d9d9d 0, #9d9d9d 8px, #191919 8px, #191919 100%) no-repeat !important;
@@ -2664,8 +2681,8 @@
   .tile .status-icon.canceled ellipse, .tile .status-icon.canceled line,
   .tile .status-icon.canceled path, .tile .status-icon.canceled polygon,
   .tile .status-icon.canceled polyline, .tile .status-icon.canceled rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .tile .request-icon.booting circle, .tile .request-icon.booting ellipse,
   .tile .request-icon.booting line, .tile .request-icon.booting path,
@@ -2702,8 +2719,8 @@
   .tile .status-icon.started ellipse, .tile .status-icon.started line,
   .tile .status-icon.started path, .tile .status-icon.started polygon,
   .tile .status-icon.started polyline, .tile .status-icon.started rect {
-    stroke: #cdb62c !important;
-    fill: none !important;
+    stroke: #cdb62c;
+    fill: none;
   }
   li:last-child .tile {
     margin-bottom: 0 !important;
@@ -2755,7 +2772,7 @@
   .profile-settings .icon-disabled polygon,
   .profile-settings .icon-disabled polyline,
   .profile-settings .icon-disabled rect {
-    fill: none !important;
+    fill: none;
     stroke: rgba(0, 0, 0, .2) !important;
   }
   .profile-repo.admin:hover {
@@ -2833,7 +2850,7 @@
     outline: 0 !important;
   }
   .travis-form .travis-form__field:not(.travis-form__field--without-frame) .travis-form__field-component {
-    box-shadow: inset 0 0 1px 1px #555 !important;
+    box-shadow: inset 0 0 1px 1px #555;
   }
   .travis-form .travis-form__field .travis-form__label {
     color: #aaa;
@@ -2871,7 +2888,7 @@
   .token-actions button.copy-button svg polygon,
   .token-actions button.copy-button svg polyline,
   .token-actions button.copy-button svg rect {
-    fill: none !important;
+    fill: none;
     stroke: #49c9cf !important;
   }
   .token-actions button.show-token svg circle,
@@ -2881,7 +2898,7 @@
   .token-actions button.show-token svg polygon,
   .token-actions button.show-token svg polyline,
   .token-actions button.show-token svg rect {
-    fill: none !important;
+    fill: none;
     stroke: #eee !important;
   }
   .token-actions button.show-token {
@@ -2924,8 +2941,8 @@
   .owner-header .owner-handle svg ellipse, .owner-header .owner-handle svg line,
   .owner-header .owner-handle svg path, .owner-header .owner-handle svg polygon,
   .owner-header .owner-handle svg polyline, .owner-header .owner-handle svg rect {
-    fill: rgba(207, 207, 207, .2) !important;
-    stroke: none !important;
+    fill: rgba(207, 207, 207, .5) !important;
+    stroke: none;
   }
   .owner-header img {
     background-color: #f1f1f1 !important;
@@ -2968,8 +2985,8 @@
   .icon-broadcast circle, .icon-broadcast ellipse, .icon-broadcast line,
   .icon-broadcast path, .icon-broadcast polygon, .icon-broadcast polyline,
   .icon-broadcast rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .icon-broadcast.is-open circle, .icon-broadcast.is-open ellipse,
   .icon-broadcast.is-open line, .icon-broadcast.is-open path,
@@ -2978,7 +2995,7 @@
   .icon-broadcast:hover ellipse, .icon-broadcast:hover line,
   .icon-broadcast:hover path, .icon-broadcast:hover polygon,
   .icon-broadcast:hover polyline, .icon-broadcast:hover rect {
-    fill: none !important;
+    fill: none;
     stroke: #666 !important;
   }
   .icon-broadcast.warning circle, .icon-broadcast.warning ellipse,
@@ -2992,8 +3009,8 @@
   .icon-broadcast.warning:hover line, .icon-broadcast.warning:hover path,
   .icon-broadcast.warning:hover polygon, .icon-broadcast.warning:hover polyline,
   .icon-broadcast.warning:hover rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .icon-broadcast.warning .count-wrapper {
     color: #db4545 !important;
@@ -3015,7 +3032,7 @@
   .icon-broadcast.announcement:hover polygon,
   .icon-broadcast.announcement:hover polyline,
   .icon-broadcast.announcement:hover rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .icon-broadcast.announcement .count-wrapper {
@@ -3061,8 +3078,8 @@
   }
   .repo-gh circle, .repo-gh ellipse, .repo-gh line, .repo-gh path,
   .repo-gh polygon, .repo-gh polyline, .repo-gh rect {
-    fill: rgba(207, 207, 207, .2) !important;
-    stroke: none !important;
+    fill: rgba(207, 207, 207, .5);
+    stroke: none;
   }
   .jobs-item.passed .request-icon.passed circle,
   .jobs-item.passed .request-icon.passed ellipse,
@@ -3092,7 +3109,7 @@
   .jobs-item.passed.passed .status-icon polygon,
   .jobs-item.passed.passed .status-icon polyline,
   .jobs-item.passed.passed .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   @media only screen and (min-width: 50.063em) {
@@ -3180,8 +3197,8 @@
   .jobs-item.failed.failed .status-icon polygon,
   .jobs-item.failed.failed .status-icon polyline,
   .jobs-item.failed.failed .status-icon rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .jobs-item.passed.passed .background {
     background-color: #39aa56 !important;
@@ -3260,8 +3277,8 @@
   .jobs-item.canceled.canceled .status-icon polygon,
   .jobs-item.canceled.canceled .status-icon polyline,
   .jobs-item.canceled.canceled .status-icon rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .jobs-item.errored.errored .background {
     background-color: #db4545 !important;
@@ -3440,8 +3457,8 @@
   .jobs-item.started.started .status-icon polygon,
   .jobs-item.started.started .status-icon polyline,
   .jobs-item.started.started .status-icon rect {
-    stroke: #cdb62c !important;
-    fill: none !important;
+    stroke: #cdb62c;
+    fill: none;
   }
   .jobs-item.canceled.canceled .background {
     background-color: #9d9d9d !important;
@@ -3520,8 +3537,8 @@
   .jobs-item.booting .status-icon.booting polygon,
   .jobs-item.booting .status-icon.booting polyline,
   .jobs-item.booting .status-icon.booting rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .jobs-item.booting.booting .color {
     color: #cdb62c !important;
@@ -3602,7 +3619,7 @@
   .stage .stage-header.passed h2 line, .stage .stage-header.passed h2 path,
   .stage .stage-header.passed h2 polygon,
   .stage .stage-header.passed h2 polyline, .stage .stage-header.passed h2 rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .stage .stage-header.errored h2, .stage .stage-header.failed h2 {
@@ -3616,8 +3633,8 @@
   .stage .stage-header.failed h2 line, .stage .stage-header.failed h2 path,
   .stage .stage-header.failed h2 polygon,
   .stage .stage-header.failed h2 polyline, .stage .stage-header.failed h2 rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .stage .stage-header.canceled h2 {
     color: #9d9d9d !important;
@@ -3628,8 +3645,8 @@
   .stage .stage-header.canceled h2 polygon,
   .stage .stage-header.canceled h2 polyline,
   .stage .stage-header.canceled h2 rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .stage aside {
     color: #666 !important;
@@ -3638,8 +3655,8 @@
   .job-os.unknown .icon line, .job-os.unknown .icon path,
   .job-os.unknown .icon polygon, .job-os.unknown .icon polyline,
   .job-os.unknown .icon rect {
-    fill: #9d9d9d !important;
-    stroke: none !important;
+    fill: #9d9d9d;
+    stroke: none;
   }
   @media only screen and (min-width: 50.063em) {
     .job-number {
@@ -3680,7 +3697,7 @@
   .log .log-tail .tail-label .icon-arrow polygon,
   .log .log-tail .tail-label .icon-arrow polyline,
   .log .log-tail .tail-label .icon-arrow rect {
-    fill: none !important;
+    fill: none;
     stroke: #fff !important;
   }
   .log .log-tail .tail-status {
@@ -3714,8 +3731,8 @@
   .toggle-log-button:hover ellipse, .toggle-log-button:hover line,
   .toggle-log-button:hover path, .toggle-log-button:hover polygon,
   .toggle-log-button:hover polyline, .toggle-log-button:hover rect {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .request-item.approved .request-icon.approved circle,
   .request-item.approved .request-icon.approved ellipse,
@@ -3745,7 +3762,7 @@
   .request-item.approved.approved .status-icon polygon,
   .request-item.approved.approved .status-icon polyline,
   .request-item.approved.approved .status-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #39aa56 !important;
   }
   .toggle-log-button--dark {
@@ -3870,8 +3887,8 @@
   .request-item.rejected.rejected .status-icon polygon,
   .request-item.rejected.rejected .status-icon polyline,
   .request-item.rejected.rejected .status-icon rect {
-    fill: none !important;
-    stroke: #db4545 !important;
+    fill: none;
+    stroke: #db4545;
   }
   .request-item.approved.approved .background {
     background-color: #39aa56 !important;
@@ -3938,8 +3955,8 @@
   .request-item.pending.pending .status-icon polygon,
   .request-item.pending.pending .status-icon polyline,
   .request-item.pending.pending .status-icon rect {
-    fill: none !important;
-    stroke: #cdb62c !important;
+    fill: none;
+    stroke: #cdb62c;
   }
   .request-item.rejected.rejected .background {
     background-color: #db4545 !important;
@@ -4002,8 +4019,8 @@
   .ssh-key-action button:hover line, .ssh-key-action button:hover path,
   .ssh-key-action button:hover polygon, .ssh-key-action button:hover polyline,
   .ssh-key-action button:hover rect {
-    stroke: #db4545 !important;
-    fill: none !important;
+    stroke: #db4545;
+    fill: none;
   }
   .request-item.pending.pending .background {
     background-color: #cdb62c !important;
@@ -4131,7 +4148,7 @@
   #env-var-secrecy p svg line, #env-var-secrecy p svg path,
   #env-var-secrecy p svg polygon, #env-var-secrecy p svg polyline,
   #env-var-secrecy p svg rect {
-    fill: none !important;
+    fill: none;
     stroke: #ccc !important;
   }
   #env-var-secrecy p a {
@@ -4299,7 +4316,7 @@
   .travis-pride .icon-broadcast:not(.warning):not(.announcement) polygon,
   .travis-pride .icon-broadcast:not(.warning):not(.announcement) polyline,
   .travis-pride .icon-broadcast:not(.warning):not(.announcement) rect {
-    fill: none !important;
+    fill: none;
     stroke: #fff !important;
   }
   .travis-pride .logo a {
@@ -4728,7 +4745,7 @@
     border-top-color: #444 !important;
   }
   .ember-power-select-trigger, .ember-basic-dropdown-content {
-    background-color: #222 !important;
+    background-color: #191919 !important;
   }
   .ember-power-select-dropdown {
     border-top: 1px solid #444 !important;
@@ -5015,17 +5032,8 @@
     background-color: #181818 !important;
     border-color: #444 !important;
   }
-  .auth-button {
-    color: #fff !important;
-    border: 1px solid #2eb459 !important;
-    background-color: #2eb459 !important;
-  }
-  .auth-button:hover {
-    filter: brightness(110%) !important;
-    color: #000 !important;
-  }
   .owner-info::after {
-    background: linear-gradient(-90deg, #191919 0, rgba(255, 255, 255, 0) 100%) !important;
+    background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
   }
   button {
     background: #222 !important;
@@ -5086,6 +5094,7 @@
     }
     .navigation-nested a:hover {
       background-color: #444 !important;
+      color: #3eaaaf !important;
     }
     .navigation-nested a.active:hover {
       background-color: #444 !important;
@@ -5111,8 +5120,8 @@
   .option-button:hover .option-tofu polygon,
   .option-button:hover .option-tofu polyline,
   .option-button:hover .option-tofu rect {
-    fill: #3eaaaf !important;
-    stroke: none !important;
+    fill: #3eaaaf;
+    stroke: none;
   }
   .option-button:hover .option-arrow {
     border-color: #3eaaaf !important;
@@ -5124,13 +5133,13 @@
   .option-tofu .icon-tofu polygon, .option-tofu .icon-tofu polyline,
   .option-tofu .icon-tofu rect {
     fill: #ccc !important;
-    stroke: none !important;
+    stroke: none;
   }
   .option-arrow circle, .option-arrow ellipse, .option-arrow line,
   .option-arrow path, .option-arrow polygon, .option-arrow polyline,
   .option-arrow rect {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   @media only screen and (min-width: 50.063em) {
     .option-arrow {
@@ -5269,7 +5278,7 @@
   }
   .plans-button--red {
     border: 1px solid #444 !important;
-    color: #aaa !important;
+    color: #eee !important;
     background: #9d9d9d !important;
   }
   .plans-button--red:active, .plans-button--red:hover {
@@ -5295,14 +5304,14 @@
   .list--plans .plan--important .plan-icon polygon,
   .list--plans .plan--important .plan-icon polyline,
   .list--plans .plan--important .plan-icon rect {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .list--plans .plan-icon circle, .list--plans .plan-icon ellipse,
   .list--plans .plan-icon line, .list--plans .plan-icon path,
   .list--plans .plan-icon polygon, .list--plans .plan-icon polyline,
   .list--plans .plan-icon rect {
-    fill: none !important;
+    fill: none;
     stroke: #999 !important;
   }
   .plans-label, .list--plans .list li {
@@ -5578,20 +5587,20 @@
   /*! Type    :  Blog/About Travis CI com */
   .topbar {
     font-size: 18px;
-    background-color: #181818 !important;
-    color: #f1f1f1 !important;
-  }
-  .logo a {
-    display: block !important;
-    width: 100px !important;
-    height: 55px !important;
-    background: url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-ed0ff98548d678f3a8d522928f04a9bc8a64d86d5c6537ba05c3c7c9a93578eb.svg") no-repeat 0 50% !important;
-  }
-  .logo a:hover {
-    background: #181818 url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-hover-d275d45f6fdc5b3b44b2e74aa360eba2b4e5f3b7126c11ccb15fe2a2c0011dc4.svg") no-repeat 50% !important;
+    background-color: #181818;
+    color: #ccc;
   }
   html {
-    background-color: #222 !important;
+    background-color: #222;
+  }
+  html, body {
+    color: #aaa;
+  }
+  .list-values li::before {
+    filter: brightness(300%) contrast(200%);
+  }
+  h1, h2 {
+    color: #ccc !important;
   }
   p > hover {
     color: #fd0101 !important;
@@ -5696,13 +5705,13 @@
   .square-button:focus .button-icon polygon,
   .square-button:focus .button-icon rect,
   .square-button:focus .button-icon ellipse {
-    fill: none !important;
+    fill: none;
     stroke: #deecdc !important;
   }
   .button-icon path, .button-icon polyline, .button-icon circle,
   .button-icon line, .button-icon polygon, .button-icon rect,
   .button-icon ellipse {
-    fill: none !important;
+    fill: none;
     stroke: #deecdc !important;
   }
   @media (min-width: 1280px) {
@@ -5742,8 +5751,8 @@
   .blog-nav a:active .nav-icon circle, .blog-nav a:active .nav-icon line,
   .blog-nav a:active .nav-icon polygon, .blog-nav a:active .nav-icon rect,
   .blog-nav a:active .nav-icon ellipse {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .blog-nav a.is-active .nav-icon--fill path,
   .blog-nav a.is-active .nav-icon--fill polyline,
@@ -5766,19 +5775,19 @@
   .blog-nav a:active .nav-icon--fill polygon,
   .blog-nav a:active .nav-icon--fill rect,
   .blog-nav a:active .nav-icon--fill ellipse {
-    fill: #3eaaaf !important;
-    stroke: none !important;
+    fill: #3eaaaf;
+    stroke: none;
   }
   .nav-icon path, .nav-icon polyline, .nav-icon circle, .nav-icon line,
   .nav-icon polygon, .nav-icon rect, .nav-icon ellipse {
-    fill: none !important;
-    stroke: #9d9d9d !important;
+    fill: none;
+    stroke: #9d9d9d;
   }
   .nav-icon--fill path, .nav-icon--fill polyline, .nav-icon--fill circle,
   .nav-icon--fill line, .nav-icon--fill polygon, .nav-icon--fill rect,
   .nav-icon--fill ellipse {
-    fill: #9d9d9d !important;
-    stroke: none !important;
+    fill: #9d9d9d;
+    stroke: none;
   }
   .article-main h2 {
     margin: 1em 0 .5em !important;
@@ -5825,14 +5834,14 @@
   .pagination a:active .pagination-icon polygon,
   .pagination a:active .pagination-icon rect,
   .pagination a:active .pagination-icon ellipse {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .pagination-icon path, .pagination-icon polyline, .pagination-icon circle,
   .pagination-icon line, .pagination-icon polygon, .pagination-icon rect,
   .pagination-icon ellipse {
-    fill: none !important;
-    stroke: #666 !important;
+    fill: none;
+    stroke: #666;
   }
   .feedback {
     background-color: #141414 !important;
@@ -5876,13 +5885,13 @@
   .related-list a:active polyline, .related-list a:active circle,
   .related-list a:active line, .related-list a:active polygon,
   .related-list a:active rect, .related-list a:active ellipse {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .related-icon path, .related-icon polyline, .related-icon circle,
   .related-icon line, .related-icon polygon, .related-icon rect,
   .related-icon ellipse {
-    fill: none !important;
+    fill: none;
     stroke: #666 !important;
   }
   .category-label {
@@ -5893,8 +5902,8 @@
   }
   .tag-icon path, .tag-icon polyline, .tag-icon circle, .tag-icon line,
   .tag-icon polygon, .tag-icon rect, .tag-icon ellipse {
-    fill: none !important;
-    stroke: #3eaaaf !important;
+    fill: none;
+    stroke: #3eaaaf;
   }
   .search input {
     background-image: url("https://blog.travis-ci.com/images/ui/icon-search.svg") !important;
