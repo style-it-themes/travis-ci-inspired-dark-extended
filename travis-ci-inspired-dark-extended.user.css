@@ -6167,7 +6167,7 @@
   }
   .button, .button--teal, .get-started-button {
     background-color: #696867 !important;
-    color: #fff !important;
+    color: #eee !important;
   }
   .button:hover, .button--teal:hover, .get-started-button:hover, .button:active,
   .button--teal:active, .get-started-button:active {
@@ -6295,10 +6295,11 @@
     text-decoration: underline !important;
   }
   .footer {
-    background-color: #181818 !important;
+    background: #181818;
+    box-shadow: 0 -1px 1px #555;
   }
   .footer a {
-    color: #999 !important;
+    color: #999;
     text-decoration: none !important;
   }
   .footer a:hover, .footer-title, .footer address, .footer ul {
@@ -6316,16 +6317,16 @@
     color: #9d9d9d !important;
   }
   .status-circle.none {
-    background: #39aa56 !important;
+    background: #39aa56;
   }
   .status-circle.degraded {
-    background: #cdb62c !important;
+    background: #cdb62c;
   }
   .status-circle.minor {
-    background: #d47e39 !important;
+    background: #d47e39;
   }
   .status-circle.major {
-    background: #db4545 !important;
+    background: #db4545;
   }
   [data-file] {
     position: relative !important;
@@ -6387,33 +6388,31 @@
     font-weight: 600 !important;
     color: #666 !important;
   }
+  .searchbox-input {
+    background: #181818;
+  }
   .searchbox .searchbox-input {
-    display: block !important;
-    width: 100% !important;
-    border: 1px solid #555 !important;
-    border-radius: 4px !important;
-    background-image: url("https://docs.travis-ci.com/images/ui/search.svg") !important;
-    background-repeat: no-repeat !important;
-    background-size: 1.4rem !important;
-    background-position: 98% 48% !important;
-    filter: brightness(75%) !important;
+    border: 1px solid #555;
+    background-image: url("https://docs.travis-ci.com/images/ui/search.svg");
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-position: 98% 48%;
+    filter: brightness(75%);
   }
   .searchbox .searchbox-input:focus {
-    border-color: #555 !important;
-    border-radius: 4px !important;
-    background-image: url("https://docs.travis-ci.com/images/ui/search.svg") !important;
-    background-color: #181818 !important;
-    color: #ccc !important;
-    background-repeat: no-repeat !important;
-    background-size: 1.4rem !important;
-    background-position: 98% 48% !important;
-    filter: brightness(80%) !important;
+    border-color: #3eaaaf;
+    background-image: url("https://docs.travis-ci.com/images/ui/search.svg");
+    color: #eee;
+    background-repeat: no-repeat;
+    background-size: 1.4rem;
+    background-position: 98% 48%;
+    filter: brightness(85%);
   }
   .sidebar {
-    background-color: #222 !important;
+    background-color: #242424;
   }
   .sidebar-notice {
-    border-top: 2px solid #333 !important;
+    border-top: 2px solid #333;
   }
   .sidebar-navigation.has-js h3::after {
     background-image: url("https://docs.travis-ci.com/images/ui/icon-arrowtabs.svg") !important;
