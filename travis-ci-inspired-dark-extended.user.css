@@ -85,6 +85,12 @@
   .button:not(.bg-blue-400) {
     background-color: #444;
   }
+  .missing-notice .page-graphic svg.snapshot-hide path[fill="#F1EFEF"] {
+    fill: #aaa;
+  }
+  .missing-notice .page-graphic svg path[fill="#FBF2EE"] {
+    fill: #a98d80;
+  }
   .missing-notice button.button--blue {
     color: #fff !important;
     background-color: #3eaaaf !important;
@@ -773,6 +779,9 @@
   }
   .search--sidebar .search-inner:hover {
     border: 1px solid #555 !important;
+  }
+  .search--sidebar .search-inner:focus input {
+    border: 1px solid #3eaaaf !important;
   }
   .search--sidebar .search-inner input, .search-inner {
     border: none !important;
@@ -2855,7 +2864,7 @@
     box-shadow: inset 0 0 1px 1px #555 !important;
   }
   .travis-form .travis-form__field .travis-form__label {
-    color: #999;
+    color: #aaa;
   }
   @media screen and (max-width: 860px) {
     .travis-form .travis-form__field.travis-form__field--error .travis-form__field-badge,
@@ -2866,7 +2875,7 @@
   .travis-form .travis-form__field .travis-form__field-component {
     border-radius: 4px;
     border: 1px solid transparent;
-    color: #666;
+    color: #aaa;
   }
   .travis-form .travis-form__field.travis-form__field--error .travis-form__field-component {
     box-shadow: inset 0 0 1px 1px #db4545 !important;
@@ -4540,6 +4549,7 @@
     border-color: transparent !important;
   }
   .h2--grey {
+    color: #aaa;
   }
   .h2--teal {
     color: #3eaaaf !important;
@@ -4553,7 +4563,7 @@
     border-bottom: 1px solid #9d9d9d !important;
   }
   .getting-started a:active, .getting-started a:hover {
-    color: #9d9d9d !important;
+    color: #ccc !important;
     text-decoration: none !important;
     border-color: transparent !important;
   }
@@ -4562,6 +4572,8 @@
     color: #fff !important;
   }
   .note {
+    color: #ccc !important;
+    background-color: #182030 !important;
   }
   .landing-pro .list--faq li {
     border: 1px solid rgba(157, 157, 157, .2) !important;
@@ -4758,7 +4770,7 @@
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15) !important;
   }
   .navigation-nested :hover {
-    background-color: #333 !important;
+    background-color: #242424 !important;
     border: none !important;
   }
   .navigation-nested .username {
@@ -5358,7 +5370,7 @@
     background-color: #333 !important;
   }
   .travis-form .travis-form__field .travis-form__label {
-    color: #aaa !important;
+    color: #aaa;
   }
   .text-blue-300 {
     color: #3eaaaf;
