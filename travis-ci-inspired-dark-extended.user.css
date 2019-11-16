@@ -4297,8 +4297,8 @@
   .travis-pride .navigation-anchor, .travis-pride .navigation-nested a {
     color: #fff !important;
   }
-  .travis-pride .top {
-    background: linear-gradient(to bottom, #e2453c 0, #e07e39 16%, #e5d667 32%, #51b95b 48%, #1e72b7 66%, #6f5ba7 86%) no-repeat !important;
+  .travis-pride .top, .travis-pride .topbar {
+    background: linear-gradient(to bottom, #e2453c 0, #e07e39 16%, #e5d667 32%, #51b95b 48%, #1e72b7 66%, #6f5ba7 86%) no-repeat;
   }
   .travis-pride .navigation-nested {
     background: linear-gradient(to top, #e2453c 0, #e07e39 16%, #e5d667 32%, #51b95b 48%, #1e72b7 66%, #6f5ba7 86%) no-repeat !important;
@@ -4306,6 +4306,10 @@
   .travis-pride .navigation-nested a:active,
   .travis-pride .navigation-nested a:hover {
     background-color: rgba(255, 255, 255, .3) !important;
+  }
+  .travis-pride .navigation-nested :hover {
+    background-color: rgba(36, 36, 36, .67) !important;
+    border: none !important;
   }
   .travis-pride .icon-broadcast:not(.warning):not(.announcement) circle,
   .travis-pride .icon-broadcast:not(.warning):not(.announcement) ellipse,
@@ -4324,6 +4328,10 @@
     background-position: center !important;
     background-color: transparent !important;
     transition: transform .2s ease !important;
+  }
+  .travis-pride .logo a:active, .travis-pride .logo a:hover {
+    transform: rotateY (180deg) !important;
+    background-image: url("https://cdn.travis-ci.org/images/logos/Tessa-pride.svg") !important;
   }
   .landing .oss-testing, .top.landing-page {
     background-color: #222 !important;
