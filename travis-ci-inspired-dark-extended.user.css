@@ -4990,15 +4990,6 @@
     background-color: #181818 !important;
     border-color: #444 !important;
   }
-  .logo a {
-    display: block !important;
-    text-indent: -9999px !important;
-    transition: background-color .2s ease !important;
-    background: url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-ed0ff98548d678f3a8d522928f04a9bc8a64d86d5c6537ba05c3c7c9a93578eb.svg") no-repeat 0 50% !important;
-  }
-  .logo a:hover {
-    background: #181818 url("https://enterprise.travis-ci.com/assets/svg/travis-ci-logo-hover-d275d45f6fdc5b3b44b2e74aa360eba2b4e5f3b7126c11ccb15fe2a2c0011dc4.svg") no-repeat 50% !important;
-  }
   .auth-button {
     color: #fff !important;
     border: 1px solid #2eb459 !important;
