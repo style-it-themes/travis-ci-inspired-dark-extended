@@ -55,7 +55,7 @@
     font-style: normal !important;
   }
   a, body, button, html {
-    color: #bbb !important;
+    color: #aaa;
   }
   .helptext a, a, a:active, a:hover {
     text-decoration: none !important;
@@ -602,7 +602,7 @@
     stroke: #db4545 !important;
   }
   .icon-help {
-    border: 1px solid #ccc !important;
+    border: 1px solid #bbb !important;
   }
   .icon-help circle, .icon-help ellipse, .icon-help line, .icon-help path,
   .icon-help polygon, .icon-help polyline, .icon-help rect {
@@ -640,7 +640,7 @@
     stroke: #49c5cb !important;
   }
   .icon-help:active, .icon-help:hover {
-    border-color: #3eaaaf !important;
+    border-color: #49c5cb !important;
   }
   .icon--plus::after {
     content: "+" !important;
@@ -6640,7 +6640,7 @@
   .layout-content.status.status-full-history .uptime-header .left-arrow::before,
   .layout-content.status.status-full-history .history-header .right-arrow::before,
   .layout-content.status.status-full-history .uptime-header .right-arrow::before {
-    color: #666 !important;
+    color: #aaa !important;
   }
   .history-nav.border-color {
     border-color: #444 !important;
@@ -6757,6 +6757,8 @@
     color: #bbb !important;
   }
   .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item.light {
+    color: #aaa !important;
+    opacity: .6;
   }
   p.blockquote {
     border-left: 5px solid #63c7a9;
