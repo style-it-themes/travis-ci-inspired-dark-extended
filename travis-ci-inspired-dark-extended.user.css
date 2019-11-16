@@ -323,16 +323,6 @@
   .rows .row-content a:active, .rows .row-content a:hover {
     border-bottom: 1px solid #666 !important;
   }
-  .row-li {
-    background: linear-gradient(to right, #444 0, #444 10px, #222 10px, #222 100%) no-repeat !important;
-    border: 1px solid #444 !important;
-  }
-  .row-li.passed {
-    background: linear-gradient(to right, #39aa56 0, #39aa56 10px, #222 10px, #222 100%) no-repeat !important;
-  }
-  .row-li.errored, .row-li.failed {
-    background: linear-gradient(to right, #db4545 0, #db4545 10px, #222 10px, #222 100%) no-repeat !important;
-  }
   .row-li .passed, .row-li .passed a {
     color: #39aa56 !important;
   }
@@ -3624,16 +3614,6 @@
   .section-title, .stage .stage-header .stage-duration {
     color: #9d9d9d !important;
   }
-  .stage .stage-header {
-    display: flex !important;
-    justify-content: space-between !important;
-  }
-  .job-number, .job-state {
-    display: inline-block !important;
-  }
-  .stage .stage-header h2 .icon {
-    margin-bottom: 3px !important;
-  }
   .stage .stage-header.passed h2 {
     color: #39aa56 !important;
   }
@@ -4069,11 +4049,6 @@
   .request-item a:active, .request-item a:focus, .request-item a:hover {
     text-decoration: underline !important;
   }
-  .request-item .request-icon {
-    width: 18px !important;
-    height: 19px !important;
-    margin-right: .1rem !important;
-  }
   .caches-header .small-title, .caches-header .stage .section-title,
   .caches-header .stage .stage-header .stage-duration,
   .stage .caches-header .section-title,
@@ -4122,12 +4097,7 @@
     border-color: transparent !important;
   }
   .page-graphic {
-    height: 180px !important;
-    width: 310px !important;
-    margin: 5.75rem auto 0 !important;
-    padding: 0 2em !important;
-    line-height: 0 !important;
-    border-bottom: 1px solid #dedcdb !important;
+    border-bottom: 1px solid #aaa !important;
   }
   .settings-section {
     border-bottom: 2px solid #444 !important;
@@ -4358,10 +4328,6 @@
   .landing .oss-testing, .top.landing-page {
     background-color: #222 !important;
   }
-  .travis-comicsans * {
-    font-family: "Comic Sans", "Comic Sans MS", sans-serif !important;
-    letter-spacing: -1.1px !important;
-  }
   .landing h1, .customers-header {
     color: #ccc !important;
   }
@@ -4566,11 +4532,8 @@
     border-color: transparent !important;
   }
   .h2--grey {
-    font-size: 45px !important;
-    color: #666 !important;
   }
   .h2--teal {
-    font-size: 45px !important;
     color: #3eaaaf !important;
   }
   .em--yellow {
@@ -4591,9 +4554,6 @@
     color: #fff !important;
   }
   .note {
-    font-style: italic !important;
-    color: #666 !important;
-    background-color: #b6d6d9 !important;
   }
   .landing-pro .list--faq li {
     border: 1px solid rgba(157, 157, 157, .2) !important;
