@@ -106,20 +106,6 @@
   .deployment-version {
     border: 1px solid #9d9d9d !important;
   }
-  @media only screen and (min-width: 50.063em) {
-    .navigation-nested {
-      background-color: #181818 !important;
-    }
-    .navigation-nested a:hover {
-      background-color: #444 !important;
-    }
-    .navigation-nested a.active:hover {
-      background-color: #444 !important;
-    }
-    .fade-out::after {
-      background: linear-gradient(-90deg, #191919 30%, rgba(255, 255, 255, 0) 100%) !important;
-    }
-  }
   .rows {
     border-radius: 2px;
     border: 1px solid #444;
@@ -340,12 +326,12 @@
     background: linear-gradient(to right, #edde3f 0, #edde3f 10px, #191919 10px, #191919 100%) no-repeat;
   }
   .row-li .canceled, .row-li .canceled a {
-    color: #9d9d9d !important;
+    color: #9d9d9d;
   }
   .row-li .booting, .row-li .booting a, .row-li .created, .row-li .created a,
   .row-li .queued, .row-li .queued a, .row-li .received, .row-li .received a,
   .row-li .started, .row-li .started a {
-    color: #cdb62c !important;
+    color: #cdb62c;
   }
   .row-li .request-icon.canceled circle, .row-li .request-icon.canceled ellipse,
   .row-li .request-icon.canceled line, .row-li .request-icon.canceled path,
@@ -414,13 +400,6 @@
   svg.repo-gh polygon, svg.repo-gh polyline, svg.repo-gh rect {
     fill: none;
     stroke: #ccc;
-  }
-  .action-button--restart svg.icon path {
-    fill: none;
-    stroke: #fff !important;
-  }
-  button:not(.remove-log-button):not(.action-button--cancel):hover svg.icon path {
-    stroke: #44bdc2 !important;
   }
   svg.icon--l.passed circle, svg.icon--l.passed ellipse, svg.icon--l.passed line,
   svg.icon--l.passed path, svg.icon--l.passed polygon,
@@ -556,7 +535,7 @@
   .icon.white circle, .icon.white ellipse, .icon.white line, .icon.white path,
   .icon.white polygon, .icon.white polyline, .icon.white rect {
     fill: none;
-    stroke: #fff !important;
+    stroke: #eee;
   }
   .icon.green circle, .icon.green ellipse, .icon.green line, .icon.green path,
   .icon.green polygon, .icon.green polyline, .icon.green rect {
@@ -569,12 +548,12 @@
     stroke: #db4545;
   }
   .icon-help {
-    border: 1px solid #bbb !important;
+    border: 1px solid #bbb;
   }
   .icon-help circle, .icon-help ellipse, .icon-help line, .icon-help path,
   .icon-help polygon, .icon-help polyline, .icon-help rect {
     fill: none;
-    stroke: #eee !important;
+    stroke: #eee;
   }
   .action-button--cancel:active circle, .action-button--cancel:active ellipse,
   .action-button--cancel:active line, .action-button--cancel:active path,
@@ -607,7 +586,7 @@
     stroke: #49c5cb;
   }
   .icon-help:active, .icon-help:hover {
-    border-color: #49c5cb !important;
+    border-color: #49c5cb;
   }
   .icon--plus::after {
     content: "+" !important;
@@ -762,11 +741,11 @@
     background: #111 !important;
   }
   .option-button:hover .option-display {
-    color: #3eaaaf !important;
-    border-color: #3eaaaf !important;
+    color: #3eaaaf;
+    border-color: #3eaaaf;
   }
   .option-button:hover .option-tofu {
-    border-color: #3eaaaf !important;
+    border-color: #3eaaaf;
   }
   .option-button:hover .option-tofu circle,
   .option-button:hover .option-tofu ellipse,
@@ -778,13 +757,13 @@
     stroke: none;
   }
   .option-button:hover .option-arrow {
-    border-color: #3eaaaf !important;
-    border-bottom: none !important;
-    border-top: 1px solid #3eaaaf !important;
+    border-color: #3eaaaf;
+    border-bottom: none;
+    border-top: 1px solid #3eaaaf;
   }
   .option-display {
-    border: 1px solid #444 !important;
-    color: #eee !important;
+    border: 1px solid #444;
+    color: #eee;
   }
   .option-tofu {
     border-left: 1px solid #444 !important;
@@ -793,7 +772,7 @@
   .option-tofu .icon-tofu line, .option-tofu .icon-tofu path,
   .option-tofu .icon-tofu polygon, .option-tofu .icon-tofu polyline,
   .option-tofu .icon-tofu rect {
-    fill: #ccc !important;
+    fill: #ccc;
     stroke: none;
   }
   .option-arrow circle, .option-arrow ellipse, .option-arrow line,
@@ -840,23 +819,11 @@
     fill: #3eaaaf;
     stroke: none;
   }
-  .dropup-tofu {
-    width: 2.5em !important;
-    height: 2em !important;
-    border: none !important;
-    padding: 0 !important;
-    cursor: pointer !important;
-    display: none !important;
-  }
-  .dropup-tofu .icon-tofu {
-    width: 1.9em !important;
-    vertical-align: middle !important;
-  }
   .dropup-tofu .icon-tofu circle, .dropup-tofu .icon-tofu ellipse,
   .dropup-tofu .icon-tofu line, .dropup-tofu .icon-tofu path,
   .dropup-tofu .icon-tofu polygon, .dropup-tofu .icon-tofu polyline,
   .dropup-tofu .icon-tofu rect {
-    fill: #9d9d9d;
+    fill: #ccc;
     stroke: none;
   }
   .dropup-tofu:active circle, .dropup-tofu:active ellipse,
@@ -1543,6 +1510,13 @@
   }
   .loading-indicator i:nth-child(2), .loading-indicator--white i:nth-child(2) {
     animation-delay: .3s !important;
+  }
+  .build-tiles li {
+    background-color: #292929 !important;
+    border-right: 1px solid #444 !important;
+  }
+  .build-tiles li:last-of-type {
+    border-right: none !important;
   }
   .build-tiles > .passed .status-icon circle,
   .build-tiles > .passed .status-icon ellipse,
@@ -2917,7 +2891,7 @@
     border-top: 2px solid rgba(157, 157, 157, .2) !important;
   }
   .topbar, .topbar a {
-    color: #c0c0c0 !important;
+    color: #c0c0c0;
   }
   .top .cta p::after {
     background: rgba(157, 157, 157, .1) !important;
@@ -4292,6 +4266,61 @@
     text-decoration: none !important;
     border-color: transparent !important;
   }
+  @media only screen and (min-width: 50.063em) {
+    .navigation-nested {
+      background-color: #181818;
+      border: 1px solid #333;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15);
+    }
+    .navigation-nested a svg.icon path {
+      stroke: #ccc;
+    }
+    .navigation-nested a.active:hover svg circle,
+    .navigation-nested a.active:hover svg ellipse,
+    .navigation-nested a.active:hover svg line,
+    .navigation-nested a.active:hover svg path,
+    .navigation-nested a.active:hover svg polygon,
+    .navigation-nested a.active:hover svg polyline,
+    .navigation-nested a.active:hover svg rect,
+    .navigation-nested a:hover svg circle,
+    .navigation-nested a:hover svg ellipse, .navigation-nested a:hover svg line,
+    .navigation-nested a:hover svg path, .navigation-nested a:hover svg polygon,
+    .navigation-nested a:hover svg polyline, .navigation-nested a:hover svg rect {
+      fill: none;
+      stroke: #3eaaaf;
+    }
+    .navigation-nested a li.active:hover, .navigation-nested a li:hover {
+      background-color: #242424;
+    }
+    .navigation-nested a:hover {
+      color: #3eaaaf;
+    }
+    .navigation-nested a.active:hover {
+      background-color: #242424;
+    }
+    .navigation-nested a.active:hover a {
+      color: #3eaaaf;
+    }
+    .fade-out::after {
+      background: linear-gradient(-90deg, #191919 30%, rgba(255, 255, 255, 0) 100%);
+    }
+  }
+  .navigation-nested .username {
+    color: #aaa;
+    background: #282828;
+  }
+  .navigation-nested .username :hover {
+    background: transparent !important;
+  }
+  .username span::after {
+    border-color: #999 !important;
+    background: transparent !important;
+  }
+  @media only screen and (min-width: 50.063em) {
+    .navigation-nested .nav-nested {
+      background-color: #282828;
+    }
+  }
   .travis-pride .navigation-anchor, .travis-pride .navigation-nested a {
     color: #fff !important;
   }
@@ -4651,7 +4680,7 @@
     mix-blend-mode: exclusion !important;
   }
 }
-@-moz-document domain("travis-ci.org"), domain("travis-ci.com") {
+@-moz-document regexp("^https://travis-ci.(com|org).*$") {
   /*! Type    : Shared code - Travis CI org/com - Builder*/
   .codedisplay {
     white-space: pre-wrap !important;
@@ -4786,31 +4815,6 @@
   #left {
     border-right: 2px solid #444 !important;
   }
-  .navigation-nested {
-    background-color: #111 !important;
-    border: 1px solid #444 !important;
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .15) !important;
-  }
-  .navigation-nested :hover {
-    background-color: #242424 !important;
-    border: none !important;
-  }
-  .navigation-nested .username {
-    color: #999 !important;
-    background: #222 !important;
-  }
-  .navigation-nested .username :hover {
-    background: transparent !important;
-  }
-  .username span::after {
-    border-color: #999 !important;
-    background: transparent !important;
-  }
-  @media only screen and (min-width: 50.063em) {
-    .navigation-nested .nav-nested {
-      background-color: #282828 !important;
-    }
-  }
   .profile-page nav.travistab-nav {
     border-bottom: 2px #444 solid !important;
   }
@@ -4921,43 +4925,6 @@
   .job-matrix-name-separator {
     border-top: 1px #444 solid !important;
   }
-  .build-tiles li {
-    background-color: #292929 !important;
-    border-right: 1px solid #444 !important;
-  }
-  .build-tiles li:last-of-type {
-    border-right: none !important;
-  }
-  .build-tiles li .status-icon {
-    background-color: transparent !important;
-  }
-  .build-tiles li .build-tile-number {
-    color: #eee !important;
-  }
-  .build-tiles > .passed {
-    background-color: #164322 !important;
-  }
-  .build-tiles > .passed:hover {
-    background-color: #39aa56 !important;
-  }
-  .build-tiles > .failed {
-    background-color: #431414 !important;
-  }
-  .build-tiles > .failed:hover {
-    background-color: #db4545 !important;
-  }
-  .build-tiles > .errored {
-    background-color: #431414 !important;
-  }
-  .build-tiles > .errored:hover {
-    background-color: #db4545 !important;
-  }
-  .build-tiles > .canceled {
-    background-color: #292929 !important;
-  }
-  .build-tiles > .canceled:hover {
-    background-color: #9d9d9d !important;
-  }
   @media only screen and (min-width: 50.063em) {
     .my-build .dash-head.passed {
       border-right: 3px solid #39aa56 !important;
@@ -5008,7 +4975,7 @@
     }
   }
   .topbar, .topbar a {
-    color: #c0c0c0 !important;
+    color: #c0c0c0;
   }
   .top .cta p {
     position: relative !important;
@@ -5026,7 +4993,7 @@
   .landing-pro .section--feature .list-check li, .section-languages h1,
   .section-languages h2, .section-languages h3, .section-languages h4,
   .section-languages h5, .section-languages h6 {
-    color: #ccc !important;
+    color: #ccc;
   }
   .top, .topbar {
     background-color: #181818 !important;
@@ -5087,59 +5054,6 @@
     .pr-row .two-line:first-of-type {
       border-right: 1px solid #444 !important;
     }
-  }
-  @media only screen and (min-width: 50.063em) {
-    .navigation-nested {
-      background-color: #181818 !important;
-    }
-    .navigation-nested a:hover {
-      background-color: #444 !important;
-      color: #3eaaaf !important;
-    }
-    .navigation-nested a.active:hover {
-      background-color: #444 !important;
-    }
-    .fade-out::after {
-      background: linear-gradient(-90deg, #191919 30%, rgba(255, 255, 255, 0) 100%);
-    }
-  }
-  .option-display {
-    border: 1px solid #444 !important;
-    color: #eee !important;
-  }
-  .option-button:hover .option-display {
-    color: #3eaaaf !important;
-    border-color: #3eaaaf !important;
-  }
-  .option-button:hover .option-tofu {
-    border-color: #3eaaaf !important;
-  }
-  .option-button:hover .option-tofu circle,
-  .option-button:hover .option-tofu ellipse,
-  .option-button:hover .option-tofu line, .option-button:hover .option-tofu path,
-  .option-button:hover .option-tofu polygon,
-  .option-button:hover .option-tofu polyline,
-  .option-button:hover .option-tofu rect {
-    fill: #3eaaaf;
-    stroke: none;
-  }
-  .option-button:hover .option-arrow {
-    border-color: #3eaaaf !important;
-    border-bottom: none !important;
-    border-top: 1px solid #3eaaaf !important;
-  }
-  .option-tofu .icon-tofu circle, .option-tofu .icon-tofu ellipse,
-  .option-tofu .icon-tofu line, .option-tofu .icon-tofu path,
-  .option-tofu .icon-tofu polygon, .option-tofu .icon-tofu polyline,
-  .option-tofu .icon-tofu rect {
-    fill: #ccc !important;
-    stroke: none;
-  }
-  .option-arrow circle, .option-arrow ellipse, .option-arrow line,
-  .option-arrow path, .option-arrow polygon, .option-arrow polyline,
-  .option-arrow rect {
-    fill: none;
-    stroke: #9d9d9d;
   }
   @media only screen and (min-width: 50.063em) {
     .option-arrow {
