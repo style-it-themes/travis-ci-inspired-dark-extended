@@ -6587,10 +6587,23 @@
     filter: invert(100%) hue-rotate(180deg) brightness(115%) !important;
   }
   .highcharts-background {
-    fill: #181818 !important;
+    fill: #111;
   }
   .highcharts-label-box.highcharts-tooltip-box {
-    fill: #999 !important;
+    fill: #333;
+  }
+  .highcharts-label text[style*="color:#333333;cursor:default;fill:#333333;"] {
+    fill: #ccc !important;
+    color: #ccc !important;
+  }
+  .highcharts-tick[fill="none"][stroke="#ccd6eb"] {
+    stroke: #768192 !important;
+  }
+  .highcharts-grid-line {
+    opacity: .5;
+  }
+  .highcharts-axis-line[fill="none"][stroke="#CCE1FF"] {
+    stroke: #768192;
   }
   body {
     background-color: #222 !important;
