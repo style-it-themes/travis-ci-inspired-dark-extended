@@ -4195,12 +4195,15 @@
     border-color: #39aa56 !important;
     color: #39aa56 !important;
   }
-  .help-page .help-page__top a {
-    border-color: #444 !important;
-  }
   .help-page .help-page__top a:hover {
-    color: #aaa !important;
-    border-color: #aaa !important;
+    color: #aaa;
+    border-color: #aaa;
+  }
+  .travis-status.minor .status-link {
+    border-color: #d47e39;
+  }
+  .help-page .help-page__top a {
+    border-bottom: 1px solid #666;
   }
   .help-duo .help-duo-text .header-main {
     color: #aaa;
