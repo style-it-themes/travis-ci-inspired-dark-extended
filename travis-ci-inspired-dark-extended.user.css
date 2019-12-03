@@ -5545,6 +5545,7 @@
     background: none !important;
     text-shadow: none !important;
   }
+  pre.highlight::-moz-selection, pre.highlight ::-moz-selection,
   pre[class*="language-"]::-moz-selection,
   pre[class*="language-"] ::-moz-selection,
   code[class*="language-"]::-moz-selection,
@@ -5553,6 +5554,7 @@
     background: #303030 !important;
     color: inherit !important;
   }
+  pre.highlight::selection, pre.highlight ::selection,
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
@@ -5929,6 +5931,7 @@
     background: none !important;
     text-shadow: none !important;
   }
+  pre.highlight::-moz-selection, pre.highlight ::-moz-selection,
   pre[class*="language-"]::-moz-selection,
   pre[class*="language-"] ::-moz-selection,
   code[class*="language-"]::-moz-selection,
@@ -5937,6 +5940,7 @@
     background: #303030 !important;
     color: inherit !important;
   }
+  pre.highlight::selection, pre.highlight ::selection,
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
     text-shadow: none !important;
