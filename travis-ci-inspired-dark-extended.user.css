@@ -5514,7 +5514,7 @@
     color: #aaa;
   }
   .list-values li::before {
-    filter: brightness(300%) contrast(200%);
+    filter: invert(1) hue-rotate(180deg) brightness(300%) contrast(200%);
   }
   h1, h2 {
     color: #ccc;
