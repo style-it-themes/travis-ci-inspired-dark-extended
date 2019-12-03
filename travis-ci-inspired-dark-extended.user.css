@@ -5777,7 +5777,6 @@
     border-bottom: 1px solid transparent !important;
   }
   .feedback img {
-    width: 130px !important;
     filter: grayscale(100%) brightness(100%) !important;
     mix-blend-mode: lighten !important;
   }
@@ -6006,28 +6005,17 @@
   }
   a {
     color: #999 !important;
-    text-decoration: underline !important;
   }
   a:hover {
     color: #3eaaaf !important;
   }
   p {
-    font-size: 15px !important;
-    color: #999 !important;
-    line-height: 1.5em !important;
-  }
-  .sidebar .sidebar-notice p {
-    font-size: 13px !important;
   }
   .list-language a, .list--blank a, .list--links a, .toc ul a, .toc-list a,
   .index-main ul a, .sidebar ul a {
     text-decoration: none !important;
   }
   p a {
-    text-decoration: none !important;
-    border-bottom: 1px solid #bfc0c1 !important;
-    padding-bottom: .1em !important;
-    transition: color 200ms ease, border 200ms ease !important;
   }
   p a:hover, p a:active {
     color: #ccc !important;
@@ -6225,11 +6213,6 @@
   .footer a:active, .footer a:hover, .tile a:hover {
     text-decoration: underline !important;
   }
-  .footer ul {
-    padding: 0 !important;
-    margin: 0 !important;
-    list-style: none !important;
-  }
   .footer-title {
     color: #9d9d9d !important;
   }
@@ -6245,23 +6228,9 @@
   .status-circle.major {
     background: #db4545;
   }
-  [data-file] {
-    position: relative !important;
-    padding-top: 1.9em !important;
-  }
   [data-file]::before {
-    content: attr(data-file) !important;
-    position: absolute !important;
-    top: 1.1em !important;
-    left: 0 !important;
-    z-index: 5 !important;
     background: #444 !important;
-    width: 100% !important;
     color: #eee !important;
-    padding-left: 1em !important;
-    font-size: 14px !important;
-    border-top-left-radius: 2px !important;
-    border-top-right-radius: 2px !important;
   }
   pre.code-toolbar > .toolbar {
     opacity: 1 !important;
@@ -6320,10 +6289,6 @@
     border-color: #3eaaaf;
     background-image: url("https://docs.travis-ci.com/images/ui/search.svg");
     color: #eee;
-    background-repeat: no-repeat;
-    background-size: 1.4rem;
-    background-position: 98% 48%;
-    filter: brightness(85%);
   }
   .sidebar {
     background-color: #242424;
