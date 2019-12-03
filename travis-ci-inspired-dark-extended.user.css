@@ -5507,8 +5507,14 @@
     background-color: #181818;
     color: #ccc;
   }
+  h2.h2--green {
+    color: #39aa56;
+  }
   html {
     background-color: #222;
+  }
+  .team-flags .flag-divider {
+    color: #777;
   }
   html, body {
     color: #aaa;
@@ -5758,7 +5764,7 @@
   .pagination-icon line, .pagination-icon polygon, .pagination-icon rect,
   .pagination-icon ellipse {
     fill: none;
-    stroke: #666;
+    stroke: #9d9d9d;
   }
   .feedback {
     background-color: #141414;
@@ -6211,14 +6217,17 @@
     color: #999;
     text-decoration: none !important;
   }
-  .footer a:hover, .footer-title, .footer address, .footer ul {
+  .footer a:hover {
+    color: #3eaaaf;
+  }
+  .footer-title, .footer address, .footer ul {
     color: #999 !important;
   }
   .footer a:active, .footer a:hover, .tile a:hover {
     text-decoration: underline !important;
   }
   .footer-title {
-    color: #9d9d9d !important;
+    color: #aaa !important;
   }
   .status-circle.none {
     background: #39aa56;
