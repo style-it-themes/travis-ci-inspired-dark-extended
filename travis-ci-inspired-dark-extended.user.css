@@ -5517,7 +5517,7 @@
     filter: brightness(300%) contrast(200%);
   }
   h1, h2 {
-    color: #ccc !important;
+    color: #ccc;
   }
   p > hover {
     color: #fd0101 !important;
@@ -5623,13 +5623,13 @@
   .square-button:focus .button-icon rect,
   .square-button:focus .button-icon ellipse {
     fill: none;
-    stroke: #deecdc !important;
+    stroke: #deecdc;
   }
   .button-icon path, .button-icon polyline, .button-icon circle,
   .button-icon line, .button-icon polygon, .button-icon rect,
   .button-icon ellipse {
     fill: none;
-    stroke: #deecdc !important;
+    stroke: #deecdc;
   }
   @media (min-width: 1280px) {
     .layout-main {
@@ -5761,24 +5761,25 @@
     stroke: #666;
   }
   .feedback {
-    background-color: #141414 !important;
+    background-color: #141414;
   }
   .feedback a {
-    text-decoration: none !important;
-    color: #3eaaaf !important;
-    border-bottom: 1px solid #3eaaaf !important;
+    text-decoration: none;
+    color: #3eaaaf;
+    border-bottom: 1px solid #3eaaaf;
   }
   .feedback a:focus {
     border-bottom: 1px dotted #3eaaaf !important;
   }
   .feedback a:active, .feedback a:hover {
-    text-decoration: none !important;
-    color: #3eaaaf !important;
-    border-bottom: 1px solid transparent !important;
+    text-decoration: none;
+    color: #3eaaaf;
+    border-bottom: 1px solid transparent;
   }
   .feedback img {
-    filter: grayscale(100%) brightness(100%) !important;
-    mix-blend-mode: lighten !important;
+    filter: grayscale(1) brightness(60%);
+    mix-blend-mode: lighten;
+  }
   }
   .related-posts .layout-inner {
     border-bottom: 2px solid #444 !important;
@@ -5792,7 +5793,7 @@
   }
   .related-list a:hover h4, .related-list a:hover .related-more,
   .related-list a:active h4, .related-list a:active .related-more {
-    color: #3eaaaf !important;
+    color: #3eaaaf;
   }
   .related-list a:hover path, .related-list a:hover polyline,
   .related-list a:hover circle, .related-list a:hover line,
@@ -5808,7 +5809,7 @@
   .related-icon line, .related-icon polygon, .related-icon rect,
   .related-icon ellipse {
     fill: none;
-    stroke: #666 !important;
+    stroke: #999;
   }
   .category-label {
     font-weight: 700 !important;
@@ -5909,10 +5910,10 @@
   }
   .list-language, .list--blank, .list--links, .toc ul, .toc-list, .index-main ul,
   .sidebar ul {
-    color: #666 !important;
+    color: #666;
   }
   body {
-    background: #222 !important;
+    background: #202020 !important;
     color: #999 !important;
   }
   code[class*="language-"], pre[class*="language-"] {
@@ -6004,18 +6005,21 @@
     text-decoration: none !important;
   }
   a {
-    color: #999 !important;
+    color: #999;
   }
   a:hover {
     color: #3eaaaf !important;
   }
   p {
+    color: #999;
   }
   .list-language a, .list--blank a, .list--links a, .toc ul a, .toc-list a,
   .index-main ul a, .sidebar ul a {
-    text-decoration: none !important;
+    text-decoration: none;
   }
   p a {
+    text-decoration: none;
+    border-bottom: 1px solid #999;
   }
   p a:hover, p a:active {
     color: #ccc !important;
@@ -6023,17 +6027,17 @@
     border-color: transparent !important;
   }
   code, pre {
-    border: 1px solid #666 !important;
-    color: #ccc !important;
-    background: #111 !important;
+    border: 1px solid #444;
+    color: #ccc;
+    background: #111;
   }
   pre code {
     border: none !important;
   }
   blockquote {
-    background-color: rgba(122, 122, 122, .3) !important;
-    color: #ccc !important;
-    overflow: auto !important;
+    background-color: #052223;
+    color: #ccc;
+    overflow: auto;
   }
   blockquote strong {
     text-transform: uppercase !important;
