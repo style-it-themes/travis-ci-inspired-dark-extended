@@ -2347,6 +2347,9 @@
   .ansi .bg-white {
     background-color: #eee !important;
   }
+  .bg-white {
+    background-color: #191919;
+  }
   .content-page {
     padding: 70px 0 !important;
     text-align: center !important;
