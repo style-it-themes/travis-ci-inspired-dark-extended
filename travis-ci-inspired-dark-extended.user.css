@@ -5,7 +5,7 @@
 @version      1.3.1
 @updateURL    https://raw.githubusercontent.com/style-it-themes/travis-ci-inspired-dark-extended/master/travis-ci-inspired-dark-extended.user.css
 @description  A Travis CI and associated websites dark theme. -The definitive Travis CI dark theme.
-@author       Style-it Themes the-j0k3r
+@author       Style-it Themes: the-j0k3r
 @license      MIT
 ==/UserStyle== */
 @-moz-document regexp("^https://travis-ci\.(com|org).*$") {
@@ -24,8 +24,8 @@
   address, body, html {
     font-style: normal !important;
   }
-  a, body, button, html, .travistab {
-    color: #aaa;
+  a, body, button, html, .travistab, .text-grey-800 {
+    color: #ccc;
   }
   .helptext a, a, a:active, a:hover {
     text-decoration: none !important;
@@ -33,8 +33,8 @@
   body, #left, .loading-page, .main, .wrapper {
     background-color: #222 !important;
   }
-  button:not(.no-button):not(.modal-close):not(.bg-blue-400) {
-    background: #222;
+	.hover\:bg-grey-150:hover {
+    background-color: #282828;
   }
   button.trigger-build-submit.button--blue, .profile-aside button.button--blue {
     color: #eee;
@@ -1376,6 +1376,10 @@
     border-radius: 2px !important;
     border: 1px solid #444 !important;
   }
+	.yml-messages .header .icon-info path {
+		stroke: #39aa56;
+		stroke-width: 2;
+	}
   .yml-messages .yml-message .icon-info circle,
   .yml-messages .yml-message .icon-info ellipse,
   .yml-messages .yml-message .icon-info line,
@@ -1432,6 +1436,9 @@
   }
   .avatar .pseudo-avatar::after, .avatar--small .pseudo-avatar::after {
     color: #9d9d9d !important;
+  }
+	.avatar__provider-icon {
+	  fill: #9d9d9d;
   }
   .ember-modal-dialog {
     background-color: #222 !important;
@@ -1838,7 +1845,7 @@
   .dash-last.passed .status-icon polygon,
   .dash-last.passed .status-icon polyline, .dash-last.passed .status-icon rect {
     fill: none;
-    stroke: #39aa56 !important;
+    stroke: #39aa56;
   }
   .dash-default.errored .request-icon circle,
   .dash-default.errored .request-icon ellipse,
@@ -1917,7 +1924,7 @@
   }
   .dash-default.canceled .color a:active, .dash-default.canceled .color a:hover,
   .dash-last.canceled .color a:active, .dash-last.canceled .color a:hover {
-    border-bottom: 1px solid #9d9d9d !important;
+    border-bottom: 1px solid #9d9d9d;
   }
   .dash-default.booting .color a:active, .dash-default.booting .color a:hover,
   .dash-default.created .color a:active, .dash-default.created .color a:hover,
@@ -1929,7 +1936,7 @@
   .dash-last.queued .color a:active, .dash-last.queued .color a:hover,
   .dash-last.received .color a:active, .dash-last.received .color a:hover,
   .dash-last.started .color a:active, .dash-last.started .color a:hover {
-    border-bottom: 1px solid #cdb62c !important;
+    border-bottom: 1px solid #cdb62c;
   }
   .dash-default.canceled .request-icon circle,
   .dash-default.canceled .request-icon ellipse,
@@ -3663,6 +3670,12 @@
       border-right: 1px solid #444 !important;
     }
   }
+	.caches-list .row-branch::after {
+	  background: linear-gradient(-90deg,#222 0,rgba(255,255,255,0) 100%);
+  }
+  .cache-item:active .row-branch::after, .cache-item:hover .row-branch::after {
+	  background: linear-gradient(-90deg,#303030 0,rgba(241,241,241,0) 100%);
+  }
   .log .log-tail .tail-label {
     color: #f1f1f1 !important;
     background-color: #9d9d9d !important;
@@ -4192,21 +4205,21 @@
     background-color: #282828 !important;
   }
   .subheading {
-    color: #bbb !important;
+    color: #ccc;
   }
   .travis-status.none .status-link, .travis-status.none .status-link:hover {
     border-color: #39aa56 !important;
     color: #39aa56 !important;
   }
   .help-page .help-page__top a:hover {
-    color: #aaa;
-    border-color: #aaa;
+    color: #ccc;
+    border-color: #ccc;
   }
   .travis-status.minor .status-link {
     border-color: #d47e39;
   }
   .help-page .help-page__top a {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #777;
   }
   .help-duo .help-duo-text .header-main {
     color: #aaa;
@@ -4272,6 +4285,9 @@
     text-decoration: none !important;
     border-color: transparent !important;
   }
+.navigation-nested__header.username .username__text::after {
+	background: linear-gradient(-90deg,#282828 20%,rgba(255,255,255,0) 100%);
+}
   @media only screen and (min-width: 50.063em) {
     .navigation-nested {
       background-color: #181818;
@@ -4310,6 +4326,10 @@
     .fade-out::after {
       background: linear-gradient(-90deg, #191919 30%, rgba(255, 255, 255, 0) 100%);
     }
+  }
+	.navigation-nested .topbar-menu-item:hover {
+	  color: #3eaaaf;
+	  background-color: #202020;
   }
   .navigation-nested .username {
     color: #aaa;
@@ -4811,6 +4831,7 @@
   }
   .ember-power-select-dropdown.ember-basic-dropdown--transitioned-in {
     border-color: rgba(62, 170, 175, .7) !important;
+		transform: translate(4px,2px);
   }
   .ember-power-select-search-input {
     box-shadow: inset 0 0 1px 1px #444;
@@ -4833,6 +4854,9 @@
   .profile-repo.non-admin {
     color: #888 !important;
   }
+	.topbar, .topbar a:not(.auth-button) {
+    color: #aaa
+	}
   #github-apps-invitation {
     box-shadow: 0 0 15px 1px #333 !important;
     border: 1px solid #555 !important;
@@ -5009,7 +5033,7 @@
     background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%) !important;
   }
   button {
-    background: #222 !important;
+    background: #222;
   }
   .button {
     color: #fff !important;
@@ -5138,8 +5162,17 @@
   .section-languages.section--white.section--center,
   .section-quotes.section--white.section--center,
   .landing-hero-section.section--grey, .landing {
-    background: #222 !important;
+    background: #222;
   }
+	.landing-hero-text p, .section-start-building .get-started,
+	.landing-pro .section-branch-pr .build-steps,
+	.landing-pro .section-opensource p {
+		color: #aaa;
+	}
+	/* bitbucket logo */
+	g[data-name="Layer 2"] path[d*="M116.87"] {
+		filter: brightness(150%)
+	}
   .section-start-building.section--grey.section--center {
     background: #292929 !important;
   }
@@ -5271,7 +5304,7 @@
     opacity: .8;
   }
 }
-@-moz-document regexp("https?://travis-ci.com/(plans)\.*") {
+@-moz-document regexp("https?://travis-ci\.com/(plans).*") {
   .text-grey-800 {
     color: #ccc;
   }
@@ -5283,6 +5316,9 @@
   }
   .bg-white {
     background-color: #191919;
+  }
+	#pardot-iframe {
+	  filter: invert(1) hue-rotate(180deg);
   }
   *, ::after, ::before {
     border-color: #444;
