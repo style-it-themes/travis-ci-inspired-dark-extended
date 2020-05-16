@@ -1367,7 +1367,7 @@
     stroke: #cdb62c;
   }
   .build-commit::after {
-    background: linear-gradient(-90deg, #191919 20%, rgba(255, 255, 255, 0) 100%) !important;
+    background: linear-gradient(-90deg, #191919 20%, rgba(255, 255, 255, 0) 100%);
   }
   .fade-commit-message::after {
     background: linear-gradient(360deg, #222 5%, rgba(255, 255, 255, 0) 100%);
@@ -5148,7 +5148,7 @@
     background: linear-gradient(to right, #db4545 0, #db4545 10px, #191919 10px, #191919 100%) no-repeat;
   }
   .build-commit::after {
-    background: linear-gradient(-90deg, #191919 20%, rgba(255, 255, 255, 0) 100%);
+    background: none;
   }
   @media only screen and (min-width: 50.063em) {
     .commit-description::after {
