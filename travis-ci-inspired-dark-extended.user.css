@@ -2711,7 +2711,7 @@
   }
   @media only screen and (min-width: 50.063em) {
     .tile h2::after {
-      background: linear-gradient(-90deg, #191919 0, rgba(255, 255, 255, 0) 100%) !important;
+      background: none;
     }
   }
   .sidebar-list ul {
