@@ -33,7 +33,7 @@
   body, #left, .loading-page, .main, .wrapper {
     background-color: #222 !important;
   }
-	.hover\:bg-grey-150:hover {
+  .hover\:bg-grey-150:hover {
     background-color: #282828;
   }
   button.trigger-build-submit.button--blue, .profile-aside button.button--blue {
@@ -1376,10 +1376,10 @@
     border-radius: 2px !important;
     border: 1px solid #444 !important;
   }
-	.yml-messages .header .icon-info path {
-		stroke: #39aa56;
-		stroke-width: 2;
-	}
+  .yml-messages .header .icon-info path {
+    stroke: #39aa56;
+    stroke-width: 2;
+  }
   .yml-messages .yml-message .icon-info circle,
   .yml-messages .yml-message .icon-info ellipse,
   .yml-messages .yml-message .icon-info line,
@@ -1437,8 +1437,8 @@
   .avatar .pseudo-avatar::after, .avatar--small .pseudo-avatar::after {
     color: #9d9d9d !important;
   }
-	.avatar__provider-icon {
-	  fill: #9d9d9d;
+  .avatar__provider-icon {
+    fill: #9d9d9d;
   }
   .ember-modal-dialog {
     background-color: #222 !important;
@@ -3670,11 +3670,11 @@
       border-right: 1px solid #444 !important;
     }
   }
-	.caches-list .row-branch::after {
-	  background: linear-gradient(-90deg,#222 0,rgba(255,255,255,0) 100%);
+  .caches-list .row-branch::after {
+    background: linear-gradient(-90deg, #222 0, rgba(255, 255, 255, 0) 100%);
   }
   .cache-item:active .row-branch::after, .cache-item:hover .row-branch::after {
-	  background: linear-gradient(-90deg,#303030 0,rgba(241,241,241,0) 100%);
+    background: linear-gradient(-90deg, #303030 0, rgba(241, 241, 241, 0) 100%);
   }
   .log .log-tail .tail-label {
     color: #f1f1f1 !important;
@@ -4285,9 +4285,9 @@
     text-decoration: none !important;
     border-color: transparent !important;
   }
-.navigation-nested__header.username .username__text::after {
-	background: linear-gradient(-90deg,#282828 20%,rgba(255,255,255,0) 100%);
-}
+  .navigation-nested__header.username .username__text::after {
+    background: linear-gradient(-90deg, #282828 20%, rgba(255, 255, 255, 0) 100%);
+  }
   @media only screen and (min-width: 50.063em) {
     .navigation-nested {
       background-color: #181818;
@@ -4327,9 +4327,9 @@
       background: linear-gradient(-90deg, #191919 30%, rgba(255, 255, 255, 0) 100%);
     }
   }
-	.navigation-nested .topbar-menu-item:hover {
-	  color: #3eaaaf;
-	  background-color: #202020;
+  .navigation-nested .topbar-menu-item:hover {
+    color: #3eaaaf;
+    background-color: #202020;
   }
   .navigation-nested .username {
     color: #aaa;
@@ -4383,7 +4383,7 @@
     transition: transform .2s ease !important;
   }
   .travis-pride .logo a:active, .travis-pride .logo a:hover {
-    transform: rotateY (180deg) !important;
+    transform: rotatey (180deg) !important;
     background-image: url("https://cdn.travis-ci.org/images/logos/Tessa-pride.svg") !important;
   }
   .landing .oss-testing, .top.landing-page {
@@ -4831,7 +4831,7 @@
   }
   .ember-power-select-dropdown.ember-basic-dropdown--transitioned-in {
     border-color: rgba(62, 170, 175, .7) !important;
-		transform: translate(4px,2px);
+    transform: translate(4px, 2px);
   }
   .ember-power-select-search-input {
     box-shadow: inset 0 0 1px 1px #444;
@@ -4854,9 +4854,9 @@
   .profile-repo.non-admin {
     color: #888 !important;
   }
-	.topbar, .topbar a:not(.auth-button) {
-    color: #aaa
-	}
+  .topbar, .topbar a:not(.auth-button) {
+    color: #aaa;
+  }
   #github-apps-invitation {
     box-shadow: 0 0 15px 1px #333 !important;
     border: 1px solid #555 !important;
@@ -5152,7 +5152,7 @@
   }
   @media only screen and (min-width: 50.063em) {
     .commit-description::after {
-      background: linear-gradient(360deg, #191919 5%, rgba(255, 255, 255, 0) 100%);
+      background: none;
     }
   }
   .section--feature.section--white,
@@ -5164,15 +5164,15 @@
   .landing-hero-section.section--grey, .landing {
     background: #222;
   }
-	.landing-hero-text p, .section-start-building .get-started,
-	.landing-pro .section-branch-pr .build-steps,
-	.landing-pro .section-opensource p {
-		color: #aaa;
-	}
-	/* bitbucket logo */
-	g[data-name="Layer 2"] path[d*="M116.87"] {
-		filter: brightness(150%)
-	}
+  .landing-hero-text p, .section-start-building .get-started,
+  .landing-pro .section-branch-pr .build-steps,
+  .landing-pro .section-opensource p {
+    color: #aaa;
+  }
+  /* bitbucket logo */
+  g[data-name="Layer 2"] path[d*="M116.87"] {
+    filter: brightness(150%);
+  }
   .section-start-building.section--grey.section--center {
     background: #292929 !important;
   }
@@ -5317,8 +5317,8 @@
   .bg-white {
     background-color: #191919;
   }
-	#pardot-iframe {
-	  filter: invert(1) hue-rotate(180deg);
+  #pardot-iframe {
+    filter: invert(1) hue-rotate(180deg);
   }
   *, ::after, ::before {
     border-color: #444;
