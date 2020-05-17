@@ -112,14 +112,17 @@ You will need to ideally:
 * `npm run clean`: Runs the Perfectionist script, cleans up after it and fixes some CSS via Stylelint.
 * `npm run eslint`: Lint the JavaScript code in the `tools` directory.
 * `npm run lint`: Run ESlint & Stylelint scripts.
-* `npm run major`: Creates a semantic major release.
-* `npm run minor`: Creates a semantic minor release.
-* `npm run patch`: Creates a semantic patch release.
 * `npm run perfectionist`: Runs Perfectionist only. The CSS is not cleaned/fixed!
 * `npm run stylelint`: Run stylelint on the CSS file.
 * `npm run lintfix`: Run stylelint with `--fix` on the CSS file.
 * `npm run test`: Same as `npm run lint`.
 * `npm run update`: Update development dependencies.
+
+### Release Scripts (Not for pull requests)
+
+* `npm run major`: Creates a semantic major release. 
+* `npm run minor`: Creates a semantic minor release.
+* `npm run patch`: Creates a semantic patch release.
 
 ## Screens
 
