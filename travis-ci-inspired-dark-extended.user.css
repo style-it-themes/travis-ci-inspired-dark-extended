@@ -1420,9 +1420,9 @@
     stroke: #db4545;
   }
   .yml-messages .yml-message .message {
-    padding-left: 10px !important;
-    border-left: 1px solid #444 !important;
-    margin-left: 5px !important;
+    padding-left: 10px;
+    border-left: 1px solid #444;
+    margin-left: 5px;
   }
   .yml-messages .yml-message code {
     background-color: #111 !important;
@@ -5599,9 +5599,9 @@
   pre.highlight::selection, pre.highlight ::selection,
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    text-shadow: none !important;
-    background: #303030 !important;
-    color: inherit !important;
+    text-shadow: none;
+    background: #303030;
+    color: inherit;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
@@ -5936,7 +5936,7 @@
     filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(70%);
   }
   .index-intro, .index-main h2, .sidebar h2, .sidebar h3 {
-    border-bottom: solid #333 2px !important;
+    border-bottom: 2px solid #333;
   }
   .main h1 a, .index-intro h1 a, .main h3 a, .sidebar h2 a, .sidebar h3 a,
   .main h2 a {
@@ -5952,7 +5952,7 @@
     border-color: transparent !important;
   }
   .main h1, .index-intro h1 {
-    color: #999 !important;
+    color: #aaa;
   }
   .main h3, .sidebar h2, .sidebar h3 {
     color: #3eaaaf !important;
@@ -5978,16 +5978,16 @@
   pre[class*="language-"] ::-moz-selection,
   code[class*="language-"]::-moz-selection,
   code[class*="language-"] ::-moz-selection {
-    text-shadow: none !important;
-    background: #303030 !important;
-    color: inherit !important;
+    text-shadow: none;
+    background: #303030;
+    color: inherit;
   }
   pre.highlight::selection, pre.highlight ::selection,
   pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
   code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    text-shadow: none !important;
-    background: #303030 !important;
-    color: inherit !important;
+    text-shadow: none;
+    background: #303030;
+    color: inherit;
   }
   @media print {
     code[class*="language-"], pre[class*="language-"] {
