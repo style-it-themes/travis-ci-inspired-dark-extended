@@ -5359,19 +5359,13 @@
   .container-divider {
     border-top: 1px solid #666;
   }
-  .logo a {
-    width: 150px !important;
-    background-image: url("https://theme.zdassets.com/theme_assets/2067478/09b1d53f159b3b00fac07a74319f94bedb09915b.svg") !important;
-    stroke: #eee !important;
+  body {
+    background-color: #222;
+    color: #ccc;
+  }
+  .logo a img {
+    background-image: url("https://theme.zdassets.com/theme_assets/2067478/09c1d53f159b3b00fac07a74319f94bedb09915b.svg") !important;
     filter: brightness(130%) !important;
-  }
-  .logo img {
-    max-height: 50px !important;
-    height: 50px !important;
-  }
-  .logo a:hover {
-    background-color: transparent !important;
-    background-image: url("https://theme.zdassets.com/theme_assets/2067478/09b1d53f159b3b00fac07a74319f94bedb09915b.svg") !important;
   }
   .nav-wrapper a {
     color: #0072ef !important;
@@ -5420,8 +5414,16 @@
   textarea:focus {
     border: 1px solid #0072ef !important;
   }
+  .article-body code, .article-body pre, textarea {
+    background: #111;
+    border: 1px solid #444;
+  }
   .nesty-input {
     border: 1px solid #555 !important;
+  }
+  .article-votes, .article-relatives, .comment-overview, .comment,
+  .article-list-item {
+    border-color: #555;
   }
   .nesty-input {
     background-color: #333 !important;
@@ -5450,8 +5452,9 @@
   input {
     background: #181818;
   }
-  .flash p, .footnotes {
-    color: #aaa !important;
+  .flash p, .footnotes, .meta-data, .article-comment-count, .comment-callout,
+  .article-list-item a, .breadcrumbs li {
+    color: #ccc;
   }
   .footnotes .question + .question + p {
     color: #999 !important;
@@ -5495,7 +5498,7 @@
     color: #aaa !important;
   }
   .upload-dropzone span {
-    color: #d1d1d1;
+    color: #ddd;
   }
   .upload-dropzone span a, .assistance a, .footnotes a, .flash p a {
     color: #0072ef !important;
