@@ -5997,9 +5997,7 @@
   :not(pre) > code[class*="language-"], pre[class*="language-"] {
     background: #111 !important;
   }
-  .token.comment, .token.prolog, .token.doctype, .token.cdata {
-    color: #999 !important;
-  }
+  .token.comment, .token.prolog, .token.doctype, .token.cdata,
   .token.punctuation {
     color: #999 !important;
   }
