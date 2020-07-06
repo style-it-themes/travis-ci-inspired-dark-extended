@@ -5555,12 +5555,12 @@
     color: #777;
   }
   html, body {
-    color: #aaa;
+    color: #bbb;
   }
   .list-values li::before {
     filter: invert(1) hue-rotate(180deg) brightness(300%) contrast(200%);
   }
-  h1, h2 {
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     color: #ccc;
   }
   p > hover {
