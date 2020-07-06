@@ -8416,3 +8416,10 @@
     opacity: .7 !important;
   }
 }
+@-moz-document domain("api.travis-ci.org") {
+  /* style raw log view */
+  body {
+    background: #222;
+    color: #eee;
+  }
+}
