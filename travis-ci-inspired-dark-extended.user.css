@@ -21,6 +21,9 @@
   body, button, html {
     font-family: "Source Sans Pro", Helvetica, sans-serif !important;
   }
+  body, html {
+    background-color: #282828;
+  }
   address, body, html {
     font-style: normal !important;
   }
