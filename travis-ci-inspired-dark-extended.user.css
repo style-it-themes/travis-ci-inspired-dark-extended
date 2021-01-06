@@ -5117,6 +5117,13 @@
     color: #f1f1f1 !important;
     background-color: #9d9d9d !important;
   }
+  .download-log-button, .remove-log-button, .toggle-log-button--dark {
+    border: 1px solid #666 !important;
+    color: #eee !important;
+  }
+  .download-log-button:active, .download-log-button:hover {
+    background-color: #666 !important;
+  }
   .rows .row-label a:active, .rows .row-label a:hover {
     border-bottom: 1px solid #9d9d9d !important;
   }
