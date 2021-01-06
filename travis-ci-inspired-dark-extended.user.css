@@ -5066,6 +5066,9 @@
       background-color: #282828 !important;
     }
   }
+  .branch-row .row-commiter::after {
+    background: linear-gradient(-90deg, #191919 20%, #fff0 100%);
+  }
   @media only screen and (min-width: 50.063em) {
     .job-number {
       border-right: 1px solid #444 !important;
