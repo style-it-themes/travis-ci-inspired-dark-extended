@@ -826,7 +826,7 @@
   .dropup-tofu .icon-tofu line, .dropup-tofu .icon-tofu path,
   .dropup-tofu .icon-tofu polygon, .dropup-tofu .icon-tofu polyline,
   .dropup-tofu .icon-tofu rect {
-    fill: #ddd;
+    fill: #ccc;
     stroke: none;
   }
   .dropup-tofu:active circle, .dropup-tofu:active ellipse,
